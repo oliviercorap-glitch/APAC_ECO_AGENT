@@ -1,340 +1,490 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
-IMPACT: CRITICAL
-COUNTRY: Japan
-INDICATOR: PMI
-HEADLINE: Japan Manufacturing PMI surges to 54.9, a four-year high
-READING: The S&P Global Japan Manufacturing PMI hit 54.9 in April 2026, up sharply from 51.6 in March and well above the 51.2 forecast. This marks the fourth consecutive month of expansion and the fastest growth since January 2022, driven by strong output and new orders.
-SUPPLY_CHAIN_IMPACT: This signals robust industrial health in Japan, a key market for TLD's GSE manufacturing and sourcing. The expansion suggests strong domestic demand and potential for increased capex from Japanese industrial customers, which could benefit TLD's sales in the region.
-FINANCE_FX_IMPACT: Strong manufacturing growth may support the yen, reducing translation losses for TLD's Japanese entity when reporting in EUR. However, a stronger yen could also increase the cost base for any yen-denominated inputs.
-ACTION: Engage with TLD Japan entity to assess if the PMI surge is translating into concrete GSE procurement inquiries; monitor yen movement for FX hedging opportunities this week.
+IMPACT: WATCH
+COUNTRY: Indonesia
+INDICATOR: FX
+HEADLINE: Indonesia's long-term investment draw intact despite currency jitters
+READING: The new SBF chairman asserts Indonesia's structural appeal remains strong despite recent market volatility and rupiah weakness. This signals confidence in the country's long-term fundamentals but acknowledges near-term FX pressure.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact from this sentiment statement alone.
+FINANCE_FX_IMPACT: The rupiah's fragility increases FX translation risk for any TLD entity revenues or costs denominated in IDR. Customer financing costs in Indonesia may rise if the central bank hikes rates to defend the currency.
+ACTION: Monitor rupiah trajectory and BI policy response this week; no immediate action required.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 2
 IMPACT: IMPORTANT
-COUNTRY: Japan
-INDICATOR: FDI
-HEADLINE: Japanese FDI reaches record JPY 32.6 trillion in 2025
-READING: According to JETRO, Japan's inward FDI stock hit JPY 32.6 trillion (USD 204 billion) in 2025, the third consecutive year of growth. This is driven by geopolitical risks and protectionist US trade policies, making Japan a more attractive investment destination.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact for TLD's regional operations, but the trend signals Japan's increasing openness to foreign investment and its role as a stable manufacturing hub. This could create opportunities for TLD to deepen its local partnerships or sourcing.
-FINANCE_FX_IMPACT: Sustained FDI inflows support the yen's stability, which is positive for TLD's Japanese entity's EUR-denominated reporting. It also signals a stable regulatory environment for foreign-owned entities like TLD.
-ACTION: Monitor JETRO data for sector-specific FDI trends that could indicate new customer segments for GSE in Japan.
+COUNTRY: Taiwan
+INDICATOR: FX
+HEADLINE: New Taiwan dollar weakens past NT$32 per USD, first time in 3+ years
+READING: The TWD breached the NT$32/USD threshold, a key psychological level, driven by a strong US dollar and global monetary tightening. This represents a significant depreciation move.
+SUPPLY_CHAIN_IMPACT: A weaker TWD makes Taiwan-sourced components cheaper for TLD's global supply chain if purchased in USD or EUR. However, it also signals potential input cost inflation for Taiwan-based suppliers.
+FINANCE_FX_IMPACT: TWD depreciation against EUR will negatively impact translation of any Taiwan entity revenues or profits into EUR. For TLD's Taiwan operations, local currency costs become cheaper in EUR terms.
+ACTION: Review TWD exposure in TLD's Taiwan entity; assess if hedging adjustments are needed for the next reporting period.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 3
-IMPACT: IMPORTANT
-COUNTRY: South Korea
-INDICATOR: PMI
-HEADLINE: South Korea Manufacturing PMI hits 17-month high at 51.2
-READING: The S&P Global South Korea Manufacturing PMI rose to 51.2 in January 2026 from 50.1 in December, reaching its highest since August 2024. The improvement was driven by stronger new orders and exports, though a weaker won kept cost pressures elevated.
-SUPPLY_CHAIN_IMPACT: The PMI expansion signals improving industrial activity in South Korea, a key manufacturing and export hub. This could translate into higher demand for GSE from Korean airports and logistics firms, and also indicates a healthy supplier base for TLD's component sourcing.
-FINANCE_FX_IMPACT: The weaker won mentioned in the article is a headwind for TLD's Korean entity when reporting in EUR, as local currency revenues translate to fewer euros. Elevated cost pressures may also squeeze margins for Korean operations.
-ACTION: Review TLD Korea's FX exposure and consider hedging strategies if the won continues to weaken. Assess if the PMI uptick is leading to concrete sales leads.
+IMPACT: INFO
+COUNTRY: Japan
+INDICATOR: OTHER
+HEADLINE: Mixue's slow Japan expansion shows challenges for budget brands
+READING: This article about a Chinese bubble tea brand's struggles in Japan is a micro-level business story with no direct macroeconomic or regulatory signal for TLD.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: No direct finance or FX impact.
+ACTION: No action required.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 4
-IMPACT: IMPORTANT
-COUNTRY: South Korea
+IMPACT: CRITICAL
+COUNTRY: Japan
 INDICATOR: PMI
-HEADLINE: South Korea April PMI shows input price inflation surge
-READING: The S&P Global South Korea Manufacturing PMI for April 2026 shows input price and output charge inflation surging to their highest levels. This indicates significant cost pressures in the Korean manufacturing sector, driven by raw material costs and currency weakness.
-SUPPLY_CHAIN_IMPACT: Rising input costs in South Korea could increase the cost of any components TLD sources from Korean suppliers. This may require renegotiation of supply contracts or a search for alternative sourcing options in the region.
-FINANCE_FX_IMPACT: The inflation surge may prompt the Bank of Korea to hike rates sooner than expected, increasing financing costs for TLD's Korean entity and for customers financing GSE purchases. The weaker won exacerbates the cost pressure.
-ACTION: Initiate a review of TLD's Korean supply chain contracts to assess exposure to input cost inflation. Prepare for potential BoK rate hikes by stress-testing TLD Korea's financing costs.
+HEADLINE: ALERT: Japan Manufacturing PMI hits near 4-year high at 52.8
+READING: The S&P Global Japan Manufacturing PMI surged to 52.8 in February 2026 from 51.5, marking the strongest expansion since May 2022. This is driven by firm domestic and external demand, with output and new orders both extending uptrends. This reading is above the 52 threshold, flagging a critical expansion signal.
+SUPPLY_CHAIN_IMPACT: Strong Japanese manufacturing expansion signals robust industrial activity and potential capex appetite among TLD's Japanese suppliers and customers. It may also indicate tightening supply chains for components sourced from Japan.
+FINANCE_FX_IMPACT: A strong manufacturing PMI supports the yen, potentially reversing recent weakness. This would increase the EUR cost of TLD's Japanese entity operations and any yen-denominated liabilities.
+ACTION: Alert CFO APAC to the strong PMI reading; prepare for potential yen appreciation and its impact on regional entity reporting.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 5
 IMPACT: IMPORTANT
-COUNTRY: South Korea
-INDICATOR: MONETARY
-HEADLINE: Bank of Korea holds rate at 2.50% but signals future hikes
-READING: The Bank of Korea held its benchmark interest rate steady at 2.50% in its latest decision, but with two dissenters calling for a 25 bps hike. The central bank raised its 2026 GDP growth forecast to 2.6% and its CPI forecast, signaling that rate hikes are nearing.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact, but the signal of future rate hikes indicates a tightening monetary environment. This could slow down economic activity and capex in South Korea over the next 6-12 months, potentially dampening demand for GSE.
-FINANCE_FX_IMPACT: The prospect of rate hikes will increase financing costs for TLD's Korean entity and for customers using debt to finance GSE leases or purchases. This is a headwind for TLD's sales and profitability in South Korea.
-ACTION: Model the impact of a 25-50 bps rate hike on TLD Korea's financing costs and customer financing offers. Discuss with the treasury team about locking in current rates for any upcoming debt refinancing.
+COUNTRY: Japan
+INDICATOR: PMI
+HEADLINE: Japan Manufacturing PMI shows output growth accelerates in April
+READING: The S&P Global Japan Manufacturing PMI for April 2026 indicates output growth accelerated as sales rose at the fastest rate since a recent period. This confirms the ongoing expansion in the sector.
+SUPPLY_CHAIN_IMPACT: Continued expansion in Japanese manufacturing suggests sustained demand for industrial inputs and potential for supply chain tightness. TLD should monitor lead times for Japanese-sourced components.
+FINANCE_FX_IMPACT: Continued strong PMI data reinforces the case for yen strength, which would negatively impact TLD's EUR-reported results from Japan.
+ACTION: Update the regional FX risk assessment for Japan; consider forward hedging if yen appreciation trend continues.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 6
-IMPACT: CRITICAL
-COUNTRY: India
+IMPACT: IMPORTANT
+COUNTRY: Japan
 INDICATOR: PMI
-HEADLINE: India Manufacturing PMI rises to 56.9 in February, a four-month high
-READING: The India Manufacturing PMI rose to 56.9 in February 2026 from 55.4 in January, marking a four-month high. This indicates very strong expansion in the manufacturing sector, driven by robust domestic demand and new orders.
-SUPPLY_CHAIN_IMPACT: India's strong manufacturing PMI signals a vibrant industrial economy and a key market for TLD's GSE. The "China+1" trend continues to benefit India, making it an increasingly important hub for TLD's regional supply chain and customer base.
-FINANCE_FX_IMPACT: Strong economic growth supports the Indian rupee, which is positive for TLD's Indian entity's EUR-denominated reporting. However, the RBI may need to keep rates higher to manage inflation, keeping financing costs elevated.
-ACTION: Prioritize India as a growth market for TLD GSE sales. Engage with the India team to capitalize on the strong industrial sentiment and explore opportunities for local assembly or sourcing.
+HEADLINE: Japan manufacturing output rises markedly but cost pressures intensify
+READING: The May 2026 PMI report shows strong increases in production and sales, but input costs and selling prices rose at some of the steepest rates on record. Substantial supply chain disruption is noted, with firms engaging in stock building.
+SUPPLY_CHAIN_IMPACT: Record cost inflation and supply chain disruption in Japan directly impact TLD's procurement costs for Japanese components. Stock building by Japanese firms may lead to longer lead times and higher prices for TLD.
+FINANCE_FX_IMPACT: Rising input costs in Japan may lead to higher selling prices for TLD's Japanese suppliers, increasing TLD's procurement costs in JPY. This strengthens the case for yen appreciation.
+ACTION: Engage with key Japanese suppliers to assess cost pass-through and lead time impacts; review inventory buffer levels for Japanese-sourced parts.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 7
-IMPACT: IMPORTANT
-COUNTRY: India
+IMPACT: WATCH
+COUNTRY: Japan
 INDICATOR: PMI
-HEADLINE: India Manufacturing PMI eases to 54.2 in June, still in expansion
-READING: India's Manufacturing PMI fell to 54.2 in June 2026 from 55.0 in May, and down from 58.4 a year ago. While still firmly in expansion territory, the deceleration suggests a moderation in the pace of industrial growth.
-SUPPLY_CHAIN_IMPACT: The moderation in PMI growth does not signal a contraction but indicates that the rapid expansion seen in 2025 is cooling. This is a watch signal for TLD's India operations, as it may precede a slowdown in capex by industrial customers.
-FINANCE_FX_IMPACT: A cooling economy could reduce pressure on the RBI to hike rates, which would be positive for financing costs. However, it may also lead to a slightly weaker rupee.
-ACTION: Monitor the PMI trend in India over the next 2-3 months. If it falls below 52, reassess the growth outlook for TLD India. For now, maintain current sales targets.
+HEADLINE: Japan Manufacturing PMI revised upward to 51.6 in March
+READING: The March 2026 PMI was revised higher to 51.6 from a preliminary 51.4, though it eased from the near 4-year high in February. The reading remains above 50, indicating continued expansion.
+SUPPLY_CHAIN_IMPACT: The upward revision confirms the manufacturing expansion trend, supporting the view of a healthy industrial base in Japan.
+FINANCE_FX_IMPACT: The data supports a stable to stronger yen, consistent with the broader trend.
+ACTION: No new action beyond monitoring the ongoing yen trend.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 8
-IMPACT: IMPORTANT
-COUNTRY: India
-INDICATOR: FDI
-HEADLINE: India hits record $94.5 billion gross FDI in FY26, but net FDI is low
-READING: India recorded a record gross FDI inflow of $94.5 billion in FY26. However, net FDI was only $7.7 billion, as a large portion of inflows were round-tripping or reinvested earnings, and foreign portfolio investment (FPI) outflows were significant, leading to a net negative foreign investment of -$11.7 billion in March 2026.
-SUPPLY_CHAIN_IMPACT: The high gross FDI confirms India's attractiveness as a manufacturing destination under "China+1". However, the low net FDI and FPI outflows signal underlying investor nervousness about the regulatory or tax environment, which could complicate TLD's long-term investment plans.
-FINANCE_FX_IMPACT: The FPI outflows put downward pressure on the rupee, increasing FX risk for TLD's Indian entity. The volatile investment flows also increase the country risk premium, which could affect intercompany funding costs.
-ACTION: Review TLD India's capital structure and repatriation strategy. Assess the risk of further rupee depreciation and consider hedging a larger portion of INR exposure.
+IMPACT: INFO
+COUNTRY: Japan
+INDICATOR: OTHER
+HEADLINE: Japan Manufacturing PMI data release noted
+READING: This is a generic data release notice with no new analytical content beyond what is covered in other signals.
+SUPPLY_CHAIN_IMPACT: No new information.
+FINANCE_FX_IMPACT: No new information.
+ACTION: No action required.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 9
-IMPACT: CRITICAL
-COUNTRY: Indonesia
-INDICATOR: PMI
-HEADLINE: Indonesia Manufacturing PMI rises to near 2-year high at 53.8
-READING: Indonesia's S&P Global Manufacturing PMI rose to 53.8 in February 2026 from 52.6, marking the seventh straight month of expansion and the fastest pace since March 2024. The improvement was driven by stronger domestic demand and new orders.
-SUPPLY_CHAIN_IMPACT: This signals strong industrial health in Indonesia, a key Southeast Asian economy. It suggests growing demand for industrial equipment and logistics, which could translate into GSE sales for TLD, especially at major airports like Jakarta and Bali.
-FINANCE_FX_IMPACT: Strong manufacturing growth supports the rupiah, which is positive for TLD's Indonesian entity's EUR-denominated reporting. However, the central bank may need to keep rates elevated to manage inflation.
-ACTION: Engage with TLD Indonesia to assess if the PMI surge is leading to increased GSE inquiries from airport operators and ground handlers. Monitor rupiah stability.
+IMPACT: IMPORTANT
+COUNTRY: Japan
+INDICATOR: FDI
+HEADLINE: Japan targets 150 trillion yen in FDI by 2030
+READING: The Japanese government has raised its foreign direct investment target to 150 trillion yen (1.05 trillion USD) by 2030 to revitalize the economy. This signals a strong policy push to attract foreign capital.
+SUPPLY_CHAIN_IMPACT: This policy could create incentives for foreign manufacturers to establish or expand operations in Japan, potentially increasing competition for local talent and resources. It may also open up new partnership or JV opportunities for TLD.
+FINANCE_FX_IMPACT: Increased FDI inflows would support the yen over the medium to long term, reinforcing the currency appreciation trend.
+ACTION: Monitor for specific incentives or deregulation measures that could facilitate a TLD expansion or partnership in Japan.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 10
 IMPACT: IMPORTANT
-COUNTRY: Indonesia
+COUNTRY: South Korea
 INDICATOR: PMI
-HEADLINE: Indonesia March PMI shows renewed falls in output and new orders
-READING: The S&P Global Indonesia Manufacturing PMI for March 2026 indicates renewed falls in output and new orders, a reversal from the strong February reading. This suggests the manufacturing recovery may be uneven and fragile.
-SUPPLY_CHAIN_IMPACT: The volatility in Indonesia's PMI is a watch signal for TLD's supply chain. It indicates that the industrial recovery is not yet firmly established, which could lead to uneven demand for GSE and potential disruptions in local supplier performance.
-FINANCE_FX_IMPACT: The weak March PMI could weaken the rupiah, increasing FX risk for TLD Indonesia. It also reduces the likelihood of near-term rate hikes, which is neutral for financing costs.
-ACTION: Monitor the next 2-3 months of Indonesia PMI data to confirm the trend. Do not increase inventory or extend credit terms to Indonesian customers based on a single strong month.
+HEADLINE: South Korea Manufacturing PMI eases to 52.1 in June, softest in 4 months
+READING: The S&P Global South Korea Manufacturing PMI fell to 52.1 in June 2026 from 54.8 in May. Output and new orders grew at their weakest pace of 2026 due to higher raw material costs, supply shortages, and the Middle East conflict impact. The reading remains above 52, but the deceleration is notable.
+SUPPLY_CHAIN_IMPACT: Slowing manufacturing growth in South Korea, a key industrial hub, signals potential softening in demand for industrial inputs. Supply shortages and higher raw material costs are directly relevant to TLD's supply chain.
+FINANCE_FX_IMPACT: Slower growth may reduce pressure on the Bank of Korea to hike rates, potentially stabilizing the KRW. This could reduce FX translation risk for TLD's Korean entity.
+ACTION: Assess the impact of South Korean supply shortages on TLD's component sourcing; review inventory levels for Korean-sourced parts.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 11
-IMPACT: IMPORTANT
-COUNTRY: Indonesia
-INDICATOR: PMI
-HEADLINE: Indonesia May PMI shows second-steepest rise in cost burdens on record
-READING: The S&P Global Indonesia Manufacturing PMI for May 2026 shows the second-steepest increase in operating expenses since the series began in 2011. Production volumes fell for the third month running, even as new orders increased, indicating severe cost-push pressures.
-SUPPLY_CHAIN_IMPACT: Surging input costs in Indonesia are a major concern for TLD's supply chain. Any components sourced from Indonesia will become more expensive, and local manufacturing partners may face margin pressure, potentially affecting delivery timelines.
-FINANCE_FX_IMPACT: The cost surge and falling production are negative for the rupiah, increasing FX risk. The Bank Indonesia may be forced to hike rates to combat inflation, raising financing costs for TLD Indonesia.
-ACTION: Immediately review all Indonesian supplier contracts for price escalation clauses. Assess the feasibility of shifting sourcing to other ASEAN countries if cost pressures persist.
+IMPACT: WATCH
+COUNTRY: South Korea
+INDICATOR: MONETARY
+HEADLINE: Bank of Korea holds rate at 2.50% in April
+READING: The Bank of Korea held its benchmark interest rate steady at 2.50% in April 2026, as expected. This follows a period of rate stability.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: A stable policy rate provides predictable financing costs for TLD's South Korean entity and for customers financing GSE purchases in Korea. It also supports KRW stability.
+ACTION: No immediate action; continue to monitor BOK forward guidance.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 12
-IMPACT: CRITICAL
-COUNTRY: Indonesia
+IMPACT: IMPORTANT
+COUNTRY: South Korea
 INDICATOR: MONETARY
-HEADLINE: Indonesia hikes rates in surprise off-cycle move to 5.50%
-READING: Bank Indonesia unexpectedly raised its benchmark interest rate by 25 bps to 5.50% on June 9, 2026, in a rare off-cycle move to stabilize the rupiah after it hit a succession of record lows. This is the first off-cycle hike in eight years.
-SUPPLY_CHAIN_IMPACT: The rate hike is a response to currency weakness, not domestic overheating. It signals a challenging macroeconomic environment in Indonesia, which could dampen business confidence and delay capex decisions by airport operators and ground handlers.
-FINANCE_FX_IMPACT: This is a direct and immediate increase in financing costs for TLD's Indonesian entity. The 25 bps hike will increase the cost of any rupiah-denominated debt. The move also signals that further hikes are possible if the rupiah remains under pressure.
-ACTION: Immediately assess the impact of the 25 bps hike on TLD Indonesia's interest expense. Review all rupiah-denominated loans and consider swapping to USD or EUR if feasible. Prepare for potential further hikes.
+HEADLINE: Bank of Korea signals interest rate hikes are near
+READING: The Bank of Korea held its policy rate at 2.50% but with two dissenters calling for a 25bp hike. Higher GDP and CPI forecasts for 2026 and 2027 reinforce the view that rate hikes could persist into 2027. This is a hawkish signal.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: Imminent rate hikes will increase financing costs for TLD's South Korean entity and for local customers financing GSE leases or purchases. This could dampen demand for capital equipment in Korea.
+ACTION: Prepare for higher KRW financing costs; review the cost of local currency debt and consider locking in current rates if possible.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 13
 IMPACT: IMPORTANT
-COUNTRY: Indonesia
-INDICATOR: FX
-HEADLINE: Foreign inflows into SRBI help stabilize rupiah, says BI Governor
-READING: Bank Indonesia Governor Perry Warjiyo stated that rising foreign investment in Bank Indonesia's securities (SRBI) is helping to stabilize the rupiah. This suggests that the central bank is using capital inflow management tools to support the currency.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact, but a stable rupiah is positive for TLD's Indonesian operations as it reduces FX volatility and supports business planning.
-FINANCE_FX_IMPACT: The stabilization of the rupiah through SRBI inflows is a positive signal for TLD Indonesia's FX exposure. It may reduce the need for further aggressive rate hikes, which would be beneficial for financing costs.
-ACTION: Continue to monitor the rupiah's performance against the USD and EUR. If the rupiah stabilizes above IDR 16,500/USD, consider reducing hedge ratios.
+COUNTRY: South Korea
+INDICATOR: MONETARY
+HEADLINE: BOK's new chief reveals hawkish posture on inflation and FX risks
+READING: The new Bank of Korea governor has signaled a hawkish stance, with the board focusing on inflation control. The BOK kept rates unchanged in May but the tone suggests future hikes are likely to combat price pressures and FX weakness.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: Hawkish BOK posture supports the KRW but implies higher future interest rates. This increases the cost of local currency financing for TLD's Korean operations and customers.
+ACTION: Factor in a 25-50bp rate hike in South Korea over the next 6 months into TLD's regional financing plan.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 14
 IMPACT: IMPORTANT
-COUNTRY: Thailand
+COUNTRY: India
 INDICATOR: PMI
-HEADLINE: Thailand Manufacturing PMI at 10-month low of 52.6
-READING: Thailand's S&P Global Manufacturing PMI edged down to 52.6 in May 2026 from 52.7, marking its lowest reading since July 2025. While still in expansion, output grew at its slowest pace in twelve months due to greater client hesitation.
-SUPPLY_CHAIN_IMPACT: The softening PMI suggests a deceleration in Thailand's industrial activity. This could lead to reduced demand for GSE from Thai airports and logistics firms, and may indicate a cautious outlook for TLD's Thai entity.
-FINANCE_FX_IMPACT: The slowing economy supports the Bank of Thailand's dovish stance, keeping rates low at 1%. This is positive for financing costs for TLD Thailand, but the weak baht remains a headwind for EUR-denominated reporting.
-ACTION: Monitor the PMI trend in Thailand. If it falls below 50, reassess sales forecasts for TLD Thailand. For now, the low interest rate environment is a tailwind for customer financing.
+HEADLINE: India Manufacturing PMI shows demand resilience with elevated cost inflation
+READING: The HSBC India Manufacturing PMI for June 2026 indicates demand resilience underpinning sector growth, but cost inflation remains elevated. The PMI reading is above 50, signaling expansion.
+SUPPLY_CHAIN_IMPACT: Strong Indian manufacturing demand is positive for TLD's potential customer base and sourcing options. However, elevated cost inflation may increase input prices for any Indian-sourced components.
+FINANCE_FX_IMPACT: Strong growth and elevated inflation support the INR and increase the likelihood of the RBI maintaining or hiking rates. This keeps financing costs high for TLD's Indian entity and customers.
+ACTION: Monitor RBI policy meeting for rate decisions; assess INR exposure in TLD's Indian operations.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 15
 IMPACT: IMPORTANT
-COUNTRY: Thailand
-INDICATOR: MONETARY
-HEADLINE: Bank of Thailand defends low 1% rate policy to boost economy
-READING: The Bank of Thailand has kept its benchmark interest rate at 1%, defying pressure to raise rates. Governor Vitai Ratanakorn argues the baht's slide is driven by global markets, not US rate gaps, and backs stronger exports and a higher growth rate of 2.3%.
-SUPPLY_CHAIN_IMPACT: The low rate policy supports domestic demand and investment, which is positive for TLD's Thai operations. It encourages capex by airport operators and ground handlers, potentially boosting GSE demand.
-FINANCE_FX_IMPACT: The 1% rate is highly favorable for TLD Thailand's financing costs and for customers financing GSE purchases. However, the weak baht is a significant headwind for EUR-denominated reporting, as revenues translate to fewer euros.
-ACTION: Leverage the low interest rate environment in Thailand to offer competitive financing terms to GSE customers. However, actively hedge THB exposure to mitigate the translation impact on TLD's regional P&L.
+COUNTRY: India
+INDICATOR: FDI
+HEADLINE: ALERT: India's outward FDI commitments fall 49% month-on-month in May
+READING: India's outward FDI commitments dropped 49.02% month-on-month to USD 4.49 billion in May 2026, primarily due to reduced equity outflows. This is a significant swing exceeding the 15% threshold.
+SUPPLY_CHAIN_IMPACT: A sharp drop in outward FDI suggests Indian companies are pulling back on international expansion, which could reduce demand for TLD's GSE in overseas markets where Indian firms operate. It may also signal domestic economic caution.
+FINANCE_FX_IMPACT: Reduced capital outflows are supportive for the INR in the near term, reducing depreciation pressure.
+ACTION: Assess if any TLD customers in India or other markets are Indian multinationals that may be scaling back international investment.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 16
-IMPACT: IMPORTANT
-COUNTRY: Vietnam
-INDICATOR: PMI
-HEADLINE: Vietnam Manufacturing PMI rises to 52.8 in May, highest since February
-READING: The S&P Global Vietnam Manufacturing PMI rose to 52.8 in May 2026, up from 50.5 in April, reaching its highest since February. This was driven by a return to growth in new orders and output, signaling a solid recovery in the manufacturing sector.
-SUPPLY_CHAIN_IMPACT: Vietnam's strong PMI confirms its position as a key beneficiary of "China+1" supply chain diversification. This is a positive signal for TLD's sourcing and potential manufacturing footprint in Vietnam, as the industrial ecosystem strengthens.
-FINANCE_FX_IMPACT: Strong manufacturing growth supports the Vietnamese dong, which is positive for TLD's Vietnamese entity's EUR-denominated reporting. It also attracts FDI, which further supports the currency.
-ACTION: Accelerate discussions with the TLD supply chain team about expanding sourcing or assembly operations in Vietnam to capitalize on the favorable industrial momentum.
+IMPACT: WATCH
+COUNTRY: India
+INDICATOR: FDI
+HEADLINE: India FDI inflows expected to surge in 2026
+READING: This is a forward-looking article from December 2025 predicting robust FDI inflows into India in 2026, supported by strong macroeconomic fundamentals and big-ticket investment announcements. This is a positive sentiment indicator.
+SUPPLY_CHAIN_IMPACT: Increased FDI inflows into India could lead to new manufacturing facilities and industrial activity, potentially creating new customers or suppliers for TLD.
+FINANCE_FX_IMPACT: Higher FDI inflows would support the INR and improve the overall financing environment in India.
+ACTION: Monitor actual FDI data releases to validate this forecast; if confirmed, explore opportunities in India's expanding industrial base.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 17
-IMPACT: IMPORTANT
-COUNTRY: Vietnam
+IMPACT: CRITICAL
+COUNTRY: Indonesia
 INDICATOR: PMI
-HEADLINE: Vietnam Manufacturing PMI holds at 51.8 in June, firm growth
-READING: The S&P Global Vietnam Manufacturing PMI posted 51.8 in June 2026, indicating sustained growth in output and new orders. However, supply-chain pressures and employment weakness persisted, suggesting the recovery is not without challenges.
-SUPPLY_CHAIN_IMPACT: The PMI remains in expansion, confirming Vietnam's industrial resilience. However, the persistent supply-chain pressures are a watch signal for TLD's sourcing operations in Vietnam, as they could lead to delivery delays or cost increases.
-FINANCE_FX_IMPACT: The stable PMI supports the dong and the positive FDI narrative. The employment weakness is a minor concern but does not immediately impact TLD's financing conditions.
-ACTION: Continue to monitor Vietnam's supply chain bottlenecks. Engage with local logistics partners to ensure TLD's component flows are not disrupted. Maintain current sales forecasts for Vietnam.
+HEADLINE: ALERT: Indonesia Manufacturing PMI plunges to 46.9 in June, below 48 threshold
+READING: The Indonesia Manufacturing PMI fell to 46.9 in June 2026, a one-year low, indicating contraction. This is driven by rising inflation, a widening current account deficit, a sudden trade deficit, and a fragile rupiah. The reading is below the 48 threshold, flagging a critical contraction signal.
+SUPPLY_CHAIN_IMPACT: A contracting manufacturing sector in Indonesia signals weakening industrial activity and reduced capex appetite among local firms. This is a negative signal for TLD's potential customer base in Indonesia.
+FINANCE_FX_IMPACT: The PMI contraction, combined with inflation and trade deficit pressures, will likely keep the rupiah under severe pressure. This increases FX translation risk and may force BI to hike rates further, raising financing costs.
+ACTION: Alert CFO APAC to the critical PMI contraction in Indonesia; review TLD's exposure to the Indonesian market and prepare for potential demand weakness and higher financing costs.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 18
-IMPACT: CRITICAL
-COUNTRY: Vietnam
-INDICATOR: FDI
-HEADLINE: Vietnam FDI disbursed hits record $13.03 billion in H1 2026
-READING: FDI disbursed in Vietnam increased 11.2% year-on-year to USD 13.03 billion in January-June 2026, the highest level for the first six months in at least 18 years. Total registered FDI in Q1 surged 42.9% to USD 15.2 billion, with a 2.4-fold increase in registered capital for new projects.
-SUPPLY_CHAIN_IMPACT: This is a strong confirmation of Vietnam's role as a premier "China+1" destination. The surge in FDI, especially in manufacturing, will strengthen the local industrial ecosystem, making Vietnam an increasingly attractive location for TLD to expand its sourcing or assembly operations.
-FINANCE_FX_IMPACT: Record FDI inflows are strongly supportive of the Vietnamese dong, reducing FX risk for TLD's Vietnamese entity. The stable currency and strong economic fundamentals also lower the country risk premium for intercompany funding.
-ACTION: Present a business case to the CFO for expanding TLD's manufacturing or assembly footprint in Vietnam, citing the record FDI and strong PMI as key supporting factors.
+IMPACT: WATCH
+COUNTRY: Indonesia
+INDICATOR: PMI
+HEADLINE: Indonesia Manufacturing PMI shows potential gradual recovery
+READING: A separate analysis suggests the PMI reading indicates potential for gradual recovery following softness in April, driven by domestic market improvement post-Lebaran. This provides a slightly more optimistic counterpoint to the headline contraction.
+SUPPLY_CHAIN_IMPACT: A potential recovery, even if gradual, could stabilize the demand outlook for industrial goods in Indonesia.
+FINANCE_FX_IMPACT: Any recovery in manufacturing would support the rupiah and reduce pressure for further rate hikes.
+ACTION: Monitor the next PMI release to confirm if the recovery trend materializes.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 19
-IMPACT: WATCH
-COUNTRY: Vietnam
-INDICATOR: OTHER
-HEADLINE: Four wildcards stand between Vietnam and its 11.9% H2 growth target
-READING: Vietnam has set an ambitious 11.9% H2 growth target, but faces four wildcards: global demand slowdown, Middle East conflict disruptions, domestic regulatory bottlenecks, and skilled labor shortages. Achieving this target is uncertain.
-SUPPLY_CHAIN_IMPACT: The wildcards highlight risks to Vietnam's growth trajectory. A failure to meet the target could slow the pace of industrial expansion and reduce demand for GSE. The skilled labor shortage is a specific risk for any manufacturing expansion TLD might consider.
-FINANCE_FX_IMPACT: If Vietnam fails to meet its growth target, the dong could come under pressure, increasing FX risk. However, the strong FDI pipeline provides a buffer.
-ACTION: Do not base investment decisions on the 11.9% growth target alone. Monitor the identified wildcards and adjust TLD's Vietnam strategy if growth disappoints.
+IMPACT: IMPORTANT
+COUNTRY: Indonesia
+INDICATOR: MONETARY
+HEADLINE: Bank Indonesia surprises with rate hike, investors respond positively
+READING: Bank Indonesia surprised markets with a rate hike, and investors responded positively with increased inflows. This indicates the central bank is prioritizing currency stability over growth.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: The rate hike increases financing costs for TLD's Indonesian entity and local customers. However, it may stabilize the rupiah, reducing FX translation risk. The positive investor response suggests the move was credible.
+ACTION: Assess the impact of the rate hike on TLD's Indonesian customer financing costs; update the regional financing plan to reflect higher IDR rates.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 20
 IMPACT: IMPORTANT
-COUNTRY: Philippines
-INDICATOR: PMI
-HEADLINE: Philippine Manufacturing PMI returns to growth at 50.8 in May
-READING: The S&P Global Philippines Manufacturing PMI rose to 50.8 in May 2026 from 48.3 in April, signaling a return to expansion. New orders increased after a sharp decline in April, supported by improved client demand, though export demand remained weak.
-SUPPLY_CHAIN_IMPACT: The return to growth is a positive signal for the Philippines, a market where TLD has commercial exposure. It suggests that the manufacturing sector is recovering from disruptions, which could lead to increased demand for GSE from local airports and logistics firms.
-FINANCE_FX_IMPACT: The recovery in manufacturing supports the Philippine peso, which is positive for TLD's Philippine entity's EUR-denominated reporting. However, the weak export demand is a concern and may limit the peso's upside.
-ACTION: Engage with TLD Philippines to assess if the PMI recovery is translating into concrete sales leads. Monitor the peso for any strengthening trend.
+COUNTRY: Indonesia
+INDICATOR: MONETARY
+HEADLINE: Bank Indonesia raises benchmark rate by 25bps to 5.50% to save rupiah
+READING: Bank Indonesia raised its benchmark interest rate by 25 basis points to 5.50% on June 9, 2026, along with 7 stabilization steps. This is a direct response to continued rupiah weakness.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: The 25bp rate hike increases the cost of local currency financing in Indonesia. This directly impacts TLD's Indonesian entity's borrowing costs and makes customer financing for GSE purchases more expensive.
+ACTION: Update TLD's Indonesian entity's cost of capital calculation; communicate the increased financing cost to the sales team for customer pricing discussions.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 21
-IMPACT: IMPORTANT
-COUNTRY: Philippines
+IMPACT: INFO
+COUNTRY: Thailand
 INDICATOR: PMI
-HEADLINE: Philippine Manufacturing conditions improve further in June
-READING: Manufacturing conditions in the Philippines continued to improve in June 2026, building on the tentative recovery observed in May. The sector is regaining footing following disruptions linked to the Middle East conflict, according to the S&P Global PMI survey.
-SUPPLY_CHAIN_IMPACT: The sustained improvement in the Philippines PMI is a positive signal for TLD's supply chain and customer base in the country. It indicates a stabilizing industrial environment, which supports TLD's sales and operations.
-FINANCE_FX_IMPACT: The continued recovery supports the peso and reduces the likelihood of further monetary tightening by the BSP, which is positive for financing costs.
-ACTION: Maintain current sales forecasts for the Philippines. The recovery is still tentative, so avoid aggressive inventory build-up.
+HEADLINE: Thailand Manufacturing PMI data release noted
+READING: This is a generic data release notice with no specific PMI reading provided in the excerpt.
+SUPPLY_CHAIN_IMPACT: No actionable information.
+FINANCE_FX_IMPACT: No actionable information.
+ACTION: No action required.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 22
-IMPACT: WATCH
-COUNTRY: Philippines
+IMPACT: IMPORTANT
+COUNTRY: Thailand
 INDICATOR: FDI
-HEADLINE: Philippines FDI net inflows fall 31% in February, then recover in March
-READING: Philippines FDI net inflows fell 31% to $590 million in February 2026, but recovered to $611 million in March, up 26% year-on-year. The volatility is attributed to global headwinds and a domestic graft scandal.
-SUPPLY_CHAIN_IMPACT: The volatile FDI data is a watch signal for the Philippines. It suggests investor confidence is fragile, which could slow down infrastructure development and airport expansion projects that drive GSE demand.
-FINANCE_FX_IMPACT: The FDI volatility puts pressure on the Philippine peso, increasing FX risk for TLD's Philippine entity. The graft scandal adds to the country risk premium.
-ACTION: Monitor the FDI trend and the resolution of the graft scandal. Do not increase exposure to the Philippines without a clear improvement in investor sentiment.
+HEADLINE: Thailand FDI increased to 90,989.66 THB million in Q1 2026
+READING: Foreign Direct Investment in Thailand increased significantly in the first quarter of 2026, reaching 90,989.66 THB million. This is a strong inflow signal.
+SUPPLY_CHAIN_IMPACT: Strong FDI inflows into Thailand, particularly in digital and electronics sectors, signal a growing industrial base. This could create new opportunities for TLD as a supplier of GSE to new manufacturing facilities.
+FINANCE_FX_IMPACT: Strong FDI inflows support the Thai baht, reducing depreciation pressure and potentially lowering the cost of local currency financing.
+ACTION: Monitor the sectors attracting FDI in Thailand for potential GSE demand from new industrial projects.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 23
-IMPACT: WATCH
-COUNTRY: Philippines
-INDICATOR: COMPLIANCE
-HEADLINE: Graft scandal seen to chill investments in Philippines until 2026
-READING: A ongoing corruption scandal in the Philippines is threatening to further erode the country's appeal to foreign investment. BMI, a Fitch Group unit, notes that this weakness could persist, though a weaker peso could provide a moderating effect.
-SUPPLY_CHAIN_IMPACT: The graft scandal is a negative signal for the Philippines' business environment. It could delay government approvals for infrastructure projects and create an uncertain regulatory climate, which is a headwind for TLD's operations.
-FINANCE_FX_IMPACT: The scandal increases the country risk premium, which could raise the cost of intercompany funding for TLD Philippines. The weaker peso is a double-edged sword: it helps exports but hurts EUR-denominated reporting.
-ACTION: Factor the increased country risk into TLD Philippines' cost of capital. Monitor the political situation closely and avoid any large, unhedged investments in the country.
+IMPACT: IMPORTANT
+COUNTRY: Thailand
+INDICATOR: FDI
+HEADLINE: Thailand attracts 153.56 billion baht in foreign investment in first 5 months of 2026
+READING: Thailand pulled in 153.56 billion baht of foreign investment in the first five months of 2026, up 73% year-on-year. This is a very strong growth rate.
+SUPPLY_CHAIN_IMPACT: The 73% surge in FDI confirms Thailand's attractiveness as a manufacturing and investment hub. This supports the "China+1" trend and could lead to increased demand for industrial equipment and services.
+FINANCE_FX_IMPACT: The strong FDI inflow is highly supportive for the Thai baht, reducing FX risk for TLD's Thai entity.
+ACTION: Engage with the Thailand Board of Investment (BOI) to understand the specific projects driving FDI and assess potential GSE requirements.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 24
 IMPACT: IMPORTANT
-COUNTRY: Hong Kong
-INDICATOR: GDP
-HEADLINE: HSBC upgrades Hong Kong GDP growth forecast to 3.8% for 2026
-READING: HSBC Global Investment Research now expects Hong Kong's GDP to grow by 3.8% in 2026 and 3.0% in 2027, an upgrade from previous forecasts. This is driven by a recovery in services and trade.
-SUPPLY_CHAIN_IMPACT: Hong Kong's strong GDP growth is a positive signal for TLD's regional finance hub and its commercial exposure in the city. It suggests a healthy business environment and potential demand for GSE from Hong Kong International Airport.
-FINANCE_FX_IMPACT: Strong growth supports the Hong Kong dollar, which is pegged to the USD, providing stability for TLD's Hong Kong entity. The positive outlook also supports the city's role as a regional financing center.
-ACTION: No immediate action required. The upgraded forecast supports TLD's existing plans for its Hong Kong regional office.
+COUNTRY: Thailand
+INDICATOR: FDI
+HEADLINE: Thailand draws over 1 trillion baht in Q1 investment, led by digital and AI
+READING: Thailand's investment pledges soared to about 31 billion USD in Q1 2026, led by digital (data centers) and electronics projects. This is a massive surge in investment commitments.
+SUPPLY_CHAIN_IMPACT: The massive investment in digital and electronics infrastructure, particularly data centers, will require significant construction and logistics support. This could drive demand for GSE from construction and logistics companies serving these projects.
+FINANCE_FX_IMPACT: The scale of investment pledges is a strong positive signal for the Thai economy and the baht.
+ACTION: Identify key data center and electronics projects in Thailand; assess if TLD can position its GSE for the construction and logistics phases of these projects.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 25
 IMPACT: IMPORTANT
-COUNTRY: Taiwan
-INDICATOR: PMI
-HEADLINE: Taiwan Manufacturing PMI surges to 57.2 in January, fastest in years
-READING: The seasonally adjusted Taiwan manufacturing PMI increased by 1.9 percentage points to 57.2 in January 2026, indicating the fastest expansion in factory activity in years. This is driven by strong demand for semiconductors and electronics.
-SUPPLY_CHAIN_IMPACT: Taiwan's very strong PMI signals a booming industrial sector, which is a key market for TLD's GSE. The electronics and semiconductor industries are major users of logistics and ground handling services, driving demand for GSE.
-FINANCE_FX_IMPACT: The strong economy supports the Taiwan dollar, which is positive for TLD's Taiwanese entity's EUR-denominated reporting. It also suggests a healthy credit environment for customer financing.
-ACTION: Engage with TLD Taiwan to capitalize on the strong industrial sentiment. Target GSE sales to logistics firms serving the semiconductor and electronics sectors.
+COUNTRY: Thailand
+INDICATOR: FDI
+HEADLINE: Foreign investment in Thailand surges in Q1, led by digital and electronics
+READING: Thailand's investment pledges soared to about 31 billion USD in the first quarter of 2026, confirming the strong FDI trend.
+SUPPLY_CHAIN_IMPACT: Consistent with other signals, this confirms Thailand's emergence as a major investment destination, particularly in high-tech sectors.
+FINANCE_FX_IMPACT: Supports a stable to strong THB.
+ACTION: No new action beyond the coordinated response to the Thailand FDI signals.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 26
 IMPACT: IMPORTANT
-COUNTRY: Taiwan
+COUNTRY: Vietnam
 INDICATOR: PMI
-HEADLINE: Taiwan March PMI shows softer increases in output and new orders
-READING: The S&P Global Taiwan Manufacturing PMI for March 2026 indicates softer increases in output and new orders compared to the very strong January reading. This suggests the pace of expansion is moderating from a very high base.
-SUPPLY_CHAIN_IMPACT: The moderation in PMI growth is not a concern, as the index remains well above 50. It indicates that Taiwan's industrial sector is still expanding, just at a more sustainable pace. This is neutral for TLD's supply chain.
-FINANCE_FX_IMPACT: The moderation is unlikely to trigger any major currency or monetary policy shifts. The Taiwan dollar should remain stable.
-ACTION: No immediate action. Continue to monitor Taiwan's PMI for any signs of a sharper slowdown.
+HEADLINE: Vietnam Manufacturing PMI surges to 52.8 in May, highest since February
+READING: Vietnam's Manufacturing PMI surged to 52.8 in May 2026, up from 50.5 in April. This is the highest reading since February 2026, indicating strong expansion. The reading is above the 52 threshold.
+SUPPLY_CHAIN_IMPACT: Strong manufacturing expansion in Vietnam, a key "China+1" destination, signals robust industrial activity. This is positive for TLD's potential customer base and sourcing options in Vietnam.
+FINANCE_FX_IMPACT: Strong PMI data supports the Vietnamese dong and reduces pressure for monetary tightening, keeping financing conditions stable.
+ACTION: Review TLD's Vietnam market strategy; the strong PMI suggests a favorable environment for GSE sales and operations.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 27
 IMPACT: WATCH
-COUNTRY: Taiwan
-INDICATOR: FDI
-HEADLINE: Taiwan FDI hits $1.12 billion in May, with record high in March
-READING: Foreign Direct Investment in Taiwan increased to $1.12 billion in May 2026, with an all-time high of $5.02 billion recorded in March 2026. This indicates strong investor confidence in Taiwan's economy.
-SUPPLY_CHAIN_IMPACT: Strong FDI inflows confirm Taiwan's attractiveness as a manufacturing and technology hub. This supports the local industrial ecosystem, which is positive for TLD's sourcing and customer base.
-FINANCE_FX_IMPACT: Strong FDI inflows support the Taiwan dollar, reducing FX risk for TLD's Taiwanese entity. It also signals a stable and attractive investment climate.
-ACTION: No immediate action. The strong FDI data supports TLD's existing operations in Taiwan.
+COUNTRY: Vietnam
+INDICATOR: PMI
+HEADLINE: Vietnam Manufacturing PMI shows faster increases in output and new orders in January
+READING: The January 2026 PMI report indicates faster increases in output, new orders, and employment, setting a positive tone for the year.
+SUPPLY_CHAIN_IMPACT: Early-year strength in Vietnam's manufacturing sector is a positive indicator for the full year.
+FINANCE_FX_IMPACT: Supports a stable VND.
+ACTION: No immediate action.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 28
-IMPACT: WATCH
-COUNTRY: South Asia
-INDICATOR: GDP
-HEADLINE: World Bank forecasts South Asia GDP growth of 6.2% in 2026
-READING: The World Bank's Global Economic Prospects report forecasts South Asia GDP growth of 6.2% in 2026, down from an estimated 7.1% in 2025. The region remains the fastest-growing in the world, but the pace is moderating.
-SUPPLY_CHAIN_IMPACT: The strong but moderating growth in South Asia, led by India, is a positive backdrop for TLD's operations in the region. It suggests continued demand for GSE, but at a potentially slower pace than in 2025.
-FINANCE_FX_IMPACT: The regional growth outlook supports currencies in South Asia, but the moderation may lead to some depreciation pressure. The overall environment is stable for TLD's financing operations.
-ACTION: Factor the moderating growth outlook into TLD's regional sales forecasts for South Asia. Do not expect a repeat of 2025's rapid growth.
+IMPACT: IMPORTANT
+COUNTRY: Vietnam
+INDICATOR: PMI
+HEADLINE: Vietnam Manufacturing PMI reaches 54.2 in March, an 18-month high
+READING: Vietnam's manufacturing PMI hit 54.2 in March 2026, an 18-month high, driven by new electronics and apparel FDI coming online in Bắc Ninh and other industrial parks. This is well above the 52 threshold.
+SUPPLY_CHAIN_IMPACT: The very strong PMI, driven by new FDI in electronics and apparel, confirms Vietnam's role as a major manufacturing hub. This creates a strong market for TLD's GSE.
+FINANCE_FX_IMPACT: The strong economic data supports the VND and a stable financing environment.
+ACTION: Use this data point to reinforce the case for any planned investment or expansion in Vietnam.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 29
-IMPACT: INFO
-COUNTRY: Malaysia
+IMPACT: IMPORTANT
+COUNTRY: Vietnam
 INDICATOR: PMI
-HEADLINE: Malaysia Manufacturing PMI inches up to 50.2 in January
-READING: Malaysia's Manufacturing PMI inched up to 50.2 in January 2026 from 50.1 in December, marking a third straight month of expansion. The improvement was supported by increased production and rising orders, though hiring remained subdued.
-SUPPLY_CHAIN_IMPACT: The PMI is barely above the 50 threshold, indicating very marginal expansion. This is a neutral signal for TLD's supply chain in Malaysia, suggesting no significant change in industrial activity.
-FINANCE_FX_IMPACT: The weak PMI does not support the Malaysian ringgit, which may remain under pressure. The subdued hiring suggests a cautious business environment.
-ACTION: No immediate action. Monitor Malaysia's PMI for any signs of a return to contraction, which would be a negative signal for TLD's operations.
+HEADLINE: Vietnam Manufacturing PMI shows new orders and purchasing activity return to growth in May
+READING: The May 2026 PMI report confirms a marked rise in new orders and purchasing activity, consistent with the headline PMI of 52.8.
+SUPPLY_CHAIN_IMPACT: Confirms the positive demand environment in Vietnam's manufacturing sector.
+FINANCE_FX_IMPACT: No new information.
+ACTION: No new action.
 ===SIGNAL_END===
 ===SIGNAL_START===
 SIGNAL_ID: 30
+IMPACT: WATCH
+COUNTRY: Regional
+INDICATOR: SUPPLY_CHAIN
+HEADLINE: 2026 China Plus One strategy compares Vietnam, India, and Mexico
+READING: This article provides a comparative analysis of the "China+1" strategy, highlighting Vietnam, India, and Mexico as key alternatives. This is a strategic sourcing and manufacturing trend.
+SUPPLY_CHAIN_IMPACT: The "China+1" trend directly impacts TLD's supply chain strategy. Vietnam and India are key markets for TLD's APAC operations. This analysis helps inform sourcing and manufacturing footprint decisions.
+FINANCE_FX_IMPACT: No direct FX impact.
+ACTION: Review the comparative analysis to inform TLD's own "China+1" sourcing and manufacturing strategy for the APAC region.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 31
+IMPACT: WATCH
+COUNTRY: Philippines
+INDICATOR: PMI
+HEADLINE: Philippines Manufacturing PMI shows output rose solidly in May
+READING: The May 2026 PMI report indicates output rose solidly amid a renewed rise in new orders. The PMI reading is above 50, signaling expansion.
+SUPPLY_CHAIN_IMPACT: Solid manufacturing growth in the Philippines is a positive signal for the industrial sector.
+FINANCE_FX_IMPACT: Supports a stable PHP.
+ACTION: No immediate action.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 32
+IMPACT: WATCH
+COUNTRY: Philippines
+INDICATOR: PMI
+HEADLINE: Philippines Manufacturing PMI edges up to 50.9 in June, second month of expansion
+READING: The S&P Global Philippines Manufacturing PMI edged up to 50.9 in June 2026 from 50.8 in May, marking a second consecutive month of expansion. Employment stabilized after prior reductions.
+SUPPLY_CHAIN_IMPACT: The continued, albeit modest, expansion is a mildly positive signal for the Philippine industrial sector.
+FINANCE_FX_IMPACT: No significant FX or financing impact from this modest reading.
+ACTION: No action required.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 33
+IMPACT: IMPORTANT
+COUNTRY: Philippines
+INDICATOR: PMI
+HEADLINE: Philippine manufacturing PMI shrinks for first time in 5 months in April
+READING: Philippine factory activity contracted in April 2026 for the first time in five months, with a sharp decline in new orders. This was a negative signal at the time.
+SUPPLY_CHAIN_IMPACT: The contraction in April signaled a temporary weakness in Philippine industrial demand.
+FINANCE_FX_IMPACT: The contraction may have contributed to PHP weakness at the time.
+ACTION: The subsequent recovery in May and June suggests this was a temporary dip; no action required now.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 34
+IMPACT: IMPORTANT
+COUNTRY: Philippines
+INDICATOR: FDI
+HEADLINE: ALERT: Philippines FDI net inflows fall 31% in February
+READING: Net FDI inflows into the Philippines fell by 30.99% year-on-year to $590 million in February 2026. This is a significant decline exceeding the 15% threshold.
+SUPPLY_CHAIN_IMPACT: A sharp drop in FDI signals reduced foreign investor confidence and potential slowdown in new industrial projects, which could dampen future demand for GSE.
+FINANCE_FX_IMPACT: Lower FDI inflows reduce support for the Philippine peso, increasing depreciation pressure and potentially leading to higher local interest rates.
+ACTION: Monitor subsequent FDI data to see if this is a trend; assess the impact on TLD's Philippine market outlook.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 35
+IMPACT: WATCH
+COUNTRY: Philippines
+INDICATOR: OTHER
+HEADLINE: Philippines foreign reserves surged to 16-month high in January
+READING: The Philippines' foreign exchange reserves hit $112.5 billion at the end of January 2026, a 16-month high, buoyed by gold holdings valuation and offshore bond sale proceeds.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: Strong foreign reserves provide a buffer against currency volatility and support the PHP. This is a positive signal for the country's external position.
+ACTION: No immediate action; this is a positive background factor.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 36
+IMPACT: IMPORTANT
+COUNTRY: Philippines
+INDICATOR: FX
+HEADLINE: Philippine peso hits new record low vs. USD; central bank won't intervene
+READING: The Philippine peso hit a new record low against the US dollar in January 2026, and the central bank indicated it would not intervene. This signals a weak currency environment.
+SUPPLY_CHAIN_IMPACT: A weak PHP makes Philippine exports cheaper but increases the cost of imported components for any local manufacturing.
+FINANCE_FX_IMPACT: A record low PHP increases FX translation risk for TLD's Philippine entity revenues and costs. The lack of intervention suggests further weakness is possible.
+ACTION: Review PHP exposure in TLD's Philippine entity; consider hedging strategies to mitigate further depreciation risk.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 37
+IMPACT: WATCH
+COUNTRY: Hong Kong
+INDICATOR: GDP
+HEADLINE: HSBC upgrades Hong Kong GDP growth forecast to 3.8% in 2026
+READING: HSBC Global Investment Research now expects Hong Kong GDP growth of 3.8% in 2026 and 3.0% in 2027, an upgrade from previous forecasts.
+SUPPLY_CHAIN_IMPACT: Stronger GDP growth in Hong Kong is a positive signal for the overall business environment and could support demand for logistics and airport services.
+FINANCE_FX_IMPACT: Stronger growth supports the Hong Kong dollar peg and the stability of the financial system.
+ACTION: No immediate action; this is a positive background factor for TLD's Hong Kong entity.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 38
+IMPACT: WATCH
+COUNTRY: Hong Kong
+INDICATOR: GDP
+HEADLINE: Hong Kong GDP growth expected to exceed 3% in 2026
+READING: Hong Kong's economy is expected to enter a critical phase of stable growth and structural adjustment in 2026, with GDP growth exceeding 3%.
+SUPPLY_CHAIN_IMPACT: Consistent with the HSBC upgrade, this confirms a positive growth outlook for Hong Kong.
+FINANCE_FX_IMPACT: Supports the stability of the HKD peg.
+ACTION: No action required.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 39
+IMPACT: WATCH
+COUNTRY: Hong Kong
+INDICATOR: FX
+HEADLINE: The US Fed and the cost of the Hong Kong dollar peg
+READING: This article discusses the implications of US Federal Reserve policy for the Hong Kong dollar peg. The peg forces HK to follow US monetary policy.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: The HKD peg means Hong Kong interest rates will follow the US Fed. If the Fed continues to hike, Hong Kong financing costs will rise in lockstep, impacting TLD's Hong Kong entity and any HKD-denominated financing.
+ACTION: Monitor US Fed policy as a direct input to Hong Kong financing costs.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 40
+IMPACT: WATCH
+COUNTRY: Hong Kong
+INDICATOR: FX
+HEADLINE: Academic paper discusses re-pegging the Hong Kong Dollar
+READING: This is an academic paper discussing the existential risk logic behind the HKD peg and the possibility of re-pegging. This is a theoretical discussion, not a policy signal.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: Any discussion of re-pegging is a tail risk for HKD stability, but there is no current policy action.
+ACTION: No action required; monitor for any official commentary on the peg.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 41
+IMPACT: WATCH
+COUNTRY: Hong Kong
+INDICATOR: MONETARY
+HEADLINE: HKMA Base Rate Decision for June 2026
+READING: This is a data release notice for the HKMA base rate decision. The HKMA adjusts its base rate in line with the US Fed due to the currency peg.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: The HKMA base rate directly impacts HKD financing costs. Any change will affect TLD's Hong Kong entity.
+ACTION: Monitor the HKMA decision and its implications for HKD interest rates.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 42
+IMPACT: CRITICAL
+COUNTRY: Taiwan
+INDICATOR: PMI
+HEADLINE: ALERT: Taiwan manufacturing PMI jumps to 60.3 in April, strongest since 2021
+READING: Taiwan's manufacturing PMI rose to 60.3 in April 2026, marking the seventh consecutive month of expansion and the strongest pace since September 2021. This is driven by AI and semiconductor demand. This reading is well above the 52 threshold.
+SUPPLY_CHAIN_IMPACT: The extremely strong PMI signals a booming manufacturing sector in Taiwan, particularly in high-tech. This could lead to tight supply chains for electronic components and increased competition for resources.
+FINANCE_FX_IMPACT: The very strong PMI supports the TWD and may increase pressure on the central bank to tighten monetary policy, raising financing costs.
+ACTION: Alert CFO APAC to the critical PMI reading in Taiwan; assess the impact on TLD's supply chain for electronic components sourced from Taiwan.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 43
+IMPACT: IMPORTANT
+COUNTRY: Taiwan
+INDICATOR: PMI
+HEADLINE: Taiwan Manufacturing PMI eases to 55.2 in June, still strong expansion
+READING: The S&P Global Taiwan Manufacturing PMI eased to 55.2 in June 2026 from 56.1 in May, but still indicates strong expansion. The reading remains well above the 52 threshold.
+SUPPLY_CHAIN_IMPACT: Continued strong expansion in Taiwan's manufacturing sector confirms the robust industrial activity and potential supply chain tightness.
+FINANCE_FX_IMPACT: The strong PMI continues to support the TWD and the case for potential monetary tightening.
+ACTION: No new action beyond the ongoing monitoring of Taiwan's manufacturing sector.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 44
+IMPACT: WATCH
+COUNTRY: Taiwan
+INDICATOR: FDI
+HEADLINE: Taiwan FDI data shows net outflows
+READING: CEIC data shows Taiwan's direct investment abroad expanded by 10.0 USD bn in March 2026, indicating significant capital outflows from Taiwan.
+SUPPLY_CHAIN_IMPACT: Taiwanese companies investing abroad, particularly in Southeast Asia, could be part of the "China+1" trend and may create new demand for GSE in their overseas facilities.
+FINANCE_FX_IMPACT: Capital outflows from Taiwan could put downward pressure on the TWD, partially offsetting the positive impact from the strong PMI.
+ACTION: Monitor the direction of Taiwanese outward FDI to identify potential new customer bases in Southeast Asia.
+===SIGNAL_END===
+===SIGNAL_START===
+SIGNAL_ID: 45
 IMPACT: INFO
 COUNTRY: Bhutan
-INDICATOR: GDP
-HEADLINE: Bhutan's GDP projected to grow 6.5% in 2026, outpacing South Asia
-READING: According to the UN World Economic Situation and Prospects 2026 report, Bhutan's GDP is projected to grow by 6.5% in 2026, higher than the South Asian average of 5.6%. This is driven by hydropower and tourism.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact for TLD. Bhutan is a very small market with no significant GSE demand or manufacturing footprint.
-FINANCE_FX_IMPACT: No direct financing or FX impact for TLD's regional operations.
-ACTION: No action required. This is background context only.
-===SIGNAL_END===
-===SUMMARY_START===
-EXECUTIVE_SUMMARY: The Asia-Pacific region (ex-China) presents a mixed but broadly positive economic picture for TLD Group in mid-2026. Japan's manufacturing sector is booming with a PMI of 54.9, its highest in over four years, signaling strong industrial demand. India remains a powerhouse with a PMI of 56.9 in February, though growth is moderating to 54.2 by June, and record FDI inflows are tempered by low net investment and portfolio outflows. Vietnam is a standout, with record FDI disbursement of $13 billion in H1 and a PMI consistently above 50, cementing its role as a key "China+1" destination. However, Indonesia faces significant headwinds: a surprise 25 bps rate hike to 5.50% to combat a sinking rupiah and record-high cost burdens in manufacturing. South Korea's PMI is expanding but faces surging input cost inflation and the prospect of rate hikes. Thailand and the Philippines show tentative recovery, while Taiwan's industrial sector is very strong. The net impact on TLD APAC is a favorable demand environment in Japan, India, Vietnam, and Taiwan, offset by rising financing costs and FX risks in Indonesia and South Korea. Priority actions include hedging FX exposure in Indonesia and South Korea, expanding the Vietnam footprint, and leveraging Thailand's low interest rates for customer financing.
-COMPETITIVENESS_OUTLOOK: The regional cost base is under upward pressure from rising input costs in Indonesia and South Korea, and a weaker yen and won are making Japanese and Korean exports more competitive but hurting TLD's EUR-denominated reporting. Vietnam and India remain the most competitive manufacturing destinations due to strong FDI inflows and stable currencies, making them attractive for TLD's supply chain expansion over the next 30-90 days.
-FINANCING_OUTLOOK: Financing conditions are diverging sharply across the region. Indonesia's surprise rate hike to 5.50% signals a tightening bias, while Thailand's 1% rate offers a cheap financing haven. South Korea is on the cusp of rate hikes, while India and Vietnam are expected to remain stable. TLD should prioritize locking in low-cost financing in Thailand and prepare for higher costs in Indonesia and South Korea over the next 90-180 days.
-WATCH_1: Indonesia PMI and rupiah: If the PMI falls below 50 or the rupiah breaches IDR 17,000/USD, expect further rate hikes and increased FX risk.
-WATCH_2: Bank of Korea rate decision: A 25 bps hike at the next meeting would signal the start of a tightening cycle, impacting TLD Korea's financing costs.
-WATCH_3: India net FDI and FPI flows: A continued decline in net foreign investment could trigger a sharp rupee depreciation and increase country risk.
-MAIN_RISK: A sustained period of currency weakness and rising interest rates in Indonesia and South Korea, driven by global inflation and US rate differentials, could significantly increase TLD's financing costs and FX translation losses in two of its key APAC markets.
-MAIN_OPPORTUNITY: Vietnam's record FDI inflows and strong manufacturing PMI present a clear opportunity for TLD to expand its supply chain and assembly operations in the country, capitalizing on the "China+1" trend and a stable currency environment.
-===SUMMARY_END===
+INDICATOR: FDI
+HEADLINE: Bhutan's FDI landscape
