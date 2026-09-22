@@ -2,105 +2,21 @@
 SIGNAL_ID: 1
 IMPACT: WATCH
 COUNTRY: Regional
-INDICATOR: TRADE
-HEADLINE: Lamy warns EU faces rebalance-or-protectionist fork on China trade
-READING: Former WTO Director-General Pascal Lamy frames the EU's China policy as a binary choice between negotiated rebalancing and a protectionist turn, noting Chinese authorities' limited interest in addressing structural imbalances. The commentary signals elevated risk of EU tariff or trade-defence measures on Chinese goods, with potential secondary spillover onto transshipment and assembly hubs in ASEAN.
-SUPPLY_CHAIN_IMPACT: If the EU moves toward protectionism, Chinese components routed through Vietnam, Thailand, Malaysia, or Indonesia for final assembly could face tighter rules-of-origin scrutiny, complicating TLD's regional sourcing and any China+1 supplier qualification already underway.
-FINANCE_FX_IMPACT: Trade-defence escalation typically strengthens the USD and EUR against Asian currencies, raising translation costs on TLD's EUR-reported regional entity results and increasing hedging costs for THB, IDR, and PHP exposures.
-ACTION: CFO APAC to request a rules-of-origin exposure mapping for TLD components transiting ASEAN assembly partners within two weeks, ahead of any EU trade-defence announcement.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 2
-IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: PMI
-HEADLINE: APAC PMIs mixed — India, Indonesia above 50; Japan, Korea subdued
-READING: India and Indonesia manufacturing PMIs remain consistently above 50 on domestic demand and export diversification, while Vietnam and Thailand hover near the 50 line with electronics and auto-linked softness. Japan and South Korea stay subdued on weak external demand and China-linked exposure, with Taiwan recovering. No country has breached the 48 or 52 threshold on a first-time basis this month.
-SUPPLY_CHAIN_IMPACT: India and Indonesia expansion supports supplier and customer capex appetite in those markets, while Vietnam and Thailand softness near 50 argues against near-term capacity expansion there. Japan and Korea weakness may slow component lead times and pricing pressure from those suppliers.
-FINANCE_FX_IMPACT: Mixed PMIs imply no uniform regional rate path, keeping financing conditions divergent — accommodative in India and Indonesia, tighter in Japan and Korea — which affects lease pricing and customer credit assessment by market.
-ACTION: Regional finance team to refresh country-level customer credit scoring using latest PMI prints by end of week, flagging Vietnam and Thailand accounts for closer monitoring.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 3
-IMPACT: IMPORTANT
-COUNTRY: Regional
-INDICATOR: FDI
-HEADLINE: China+1 FDI keeps flowing into Vietnam, Indonesia, Thailand, Malaysia, India
-READING: China+1 diversification continues to channel manufacturing FDI into Vietnam, Indonesia, Thailand, Malaysia, India, and the Philippines, led by electronics, EV, and semiconductor supply chains. Japanese, South Korean, and Taiwanese firms remain major investors, while Singapore and Hong Kong serve as regional holding and treasury hubs. The trend is favorable and improving.
-SUPPLY_CHAIN_IMPACT: New factory buildouts in these markets expand the addressable customer base for TLD GSE leasing and create potential local sourcing or assembly options outside China, though it also adds multi-country complexity to TLD's regional supply chain and inventory positioning.
-FINANCE_FX_IMPACT: Rising FDI inflows support local currency stability in recipient markets, modestly reducing FX translation risk on TLD's regional entity results, and improve counterparty credit quality for customers financing GSE purchases.
-ACTION: CFO APAC to commission a China+1 footprint review identifying the top three markets for potential TLD inventory or service hub expansion, with findings due within 30 days.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 4
-IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: FX
-HEADLINE: Firm USD keeps JPY, KRW, THB, PHP, IDR under periodic pressure
-READING: The USD has remained relatively firm on rate differentials and safe-haven flows, keeping most APAC currencies under periodic pressure, while SGD and AUD have been comparatively resilient. JPY structural weakness and intermittent KRW and THB volatility are the notable features, with INR also in focus. No single currency has breached the 3% 30-day move threshold in this brief.
-SUPPLY_CHAIN_IMPACT: Weak JPY and KRW improve the cost competitiveness of Japanese and Korean component suppliers, potentially lowering input costs for TLD sourcing from those markets, while THB and PHP weakness raises local cost bases for TLD entities operating there.
-FINANCE_FX_IMPACT: USD strength raises the local-currency cost of USD- or EUR-denominated GSE lease payments for customers in Japan, Korea, Thailand, the Philippines, and Indonesia, increasing delinquency risk and hedging costs for TLD's regional entities.
-ACTION: Treasury to run a 30-day rolling FX exposure report on JPY, KRW, THB, PHP, and IDR positions and confirm hedge ratios are current by end of week.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 5
-IMPACT: IMPORTANT
-COUNTRY: Regional
-INDICATOR: MONETARY
-HEADLINE: APAC central banks easing; BOJ the outlier normalizing with modest hikes
-READING: Bank Indonesia, Bank of Thailand, and Bangko Sentral ng Pilipinas have begun or signaled rate cuts, the Reserve Bank of India remains cautiously accommodative, and the Bank of Japan is the outlier normalizing policy with modest hikes. The Fed's path remains a key external driver of regional conditions. No single decision in this brief exceeds the 50bps threshold.
-SUPPLY_CHAIN_IMPACT: Easing in Indonesia, Thailand, and the Philippines lowers working capital and inventory financing costs for TLD's regional operations and suppliers in those markets, while BOJ normalization gradually raises the cost of Japanese-sourced components and services.
-FINANCE_FX_IMPACT: Rate cuts in Indonesia, Thailand, and the Philippines reduce financing costs for TLD regional entities and for customers financing GSE leases, a demand tailwind; BOJ hikes raise JPY funding costs and could strengthen the yen, affecting TLD's Japan entity cost base.
-ACTION: Regional finance team to reprice GSE lease offerings in Indonesia, Thailand, and the Philippines to reflect lower funding costs within two weeks, and review JPY funding exposure in Japan.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 6
-IMPACT: IMPORTANT
-COUNTRY: Regional
-INDICATOR: TRADE
-HEADLINE: RCEP and CPTPP deepening ease cross-border trade and rules-of-origin costs
-READING: RCEP is deepening intra-regional trade and rules-of-origin integration across ASEAN, Japan, South Korea, Australia, and New Zealand, while CPTPP continues to expand with UK accession and interest from other economies. Bilateral deals including India–EFTA, EU–ASEAN negotiations, and Australia–EU talks are progressing. The trend is favorable and improving.
-SUPPLY_CHAIN_IMPACT: RCEP rules-of-origin integration can lower customs costs and simplify component sourcing across TLD's ASEAN, Japan, Korea, Australia, and New Zealand footprint, reducing landed cost on cross-border equipment and parts flows.
-FINANCE_FX_IMPACT: Improved trade facilitation reduces customs and logistics cash-cycle friction, modestly improving working capital efficiency for TLD's regional entities and lowering trade-finance costs.
-ACTION: CFO APAC to instruct customs and trade compliance to confirm RCEP preferential treatment is being claimed on all eligible intra-regional shipments within 30 days.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 7
-IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: COMPLIANCE
-HEADLINE: Tightening ESG, data localization, and investment-screening rules across APAC
-READING: Regional regulatory trends include tightening ESG and supply-chain due diligence rules in Australia, Japan, and Singapore, evolving data localization and transfer regimes, and continued investment-screening scrutiny in Australia, Japan, and India. Singapore and Hong Kong remain attractive for treasury and leasing structures. The trend is neutral and stable.
-SUPPLY_CHAIN_IMPACT: New supply-chain due diligence rules in Australia, Japan, and Singapore will require TLD to document supplier ESG and provenance data, adding compliance overhead to regional sourcing and potentially disqualifying non-compliant suppliers.
-FINANCE_FX_IMPACT: Data localization and transfer restrictions may constrain TLD's ability to centralize treasury data in Singapore or Hong Kong, potentially raising compliance and IT costs for regional entity reporting.
-ACTION: Regional finance team to complete a data-transfer and ESG due-diligence gap assessment for Australia, Japan, and Singapore entities within 45 days.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 8
-IMPACT: CRITICAL
-COUNTRY: Regional
 INDICATOR: OTHER
-HEADLINE: ALERT — Six-month APAC risk outlook deteriorates on trade, FX, and China spillover
-READING: Principal risks over the next six months include renewed US–China trade escalation and potential US tariff spillover onto ASEAN and India, USD strength-driven EM currency stress, a sharper-than-expected China slowdown transmitting through regional supply chains, and elevated geopolitical tensions including Taiwan. The brief rates the outlook unfavorable and deteriorating, a material shift from the neutral-to-favorable readings elsewhere in this pack.
-SUPPLY_CHAIN_IMPACT: Tariff spillover onto ASEAN and India could raise landed costs on TLD components and equipment routed through those markets, while a sharper China slowdown would depress regional industrial demand and supplier reliability across TLD's APAC footprint.
-FINANCE_FX_IMPACT: USD strength-driven EM currency stress would raise hedging costs and customer delinquency risk across TLD's regional lease book, while geopolitical escalation could widen sovereign risk premia and tighten intercompany funding conditions.
-ACTION: CFO APAC to convene a regional risk review within 48 hours to stress-test FX, tariff, and China-spillover scenarios against the APAC lease book and supply chain, with mitigation actions assigned.
+HEADLINE: Saudi exit from China-led mBridge signals slow de-dollarisation, limited near-term APAC FX impact
+READING: Saudi Arabia has withdrawn from the China-led mBridge cross-border CBDC settlement project, which analysts characterise as a political signal rather than a material threat to the initiative. The project links central banks in China, Hong Kong, Thailand, and the UAE for multi-currency digital settlement, and the departure underscores the difficulty of building alternatives to USD-clearing infrastructure. No quantitative FX, rate, or trade data points were disclosed in the excerpt.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact. Any long-run shift toward non-USD settlement rails could eventually simplify cross-border component payments between TLD's APAC entities and suppliers, but no operational change is warranted now.
+FINANCE_FX_IMPACT: No immediate FX or financing impact. mBridge participation by Hong Kong and Thailand keeps a low-probability, long-dated option for reduced USD intermediation costs in regional treasury flows; USD remains the dominant settlement currency for TLD APAC contracts and intercompany funding.
+ACTION: No action required this week; add mBridge membership changes to the quarterly treasury review agenda and monitor whether Thailand or Hong Kong adjust their participation.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: The APAC ex-China picture is bifurcated: structural fundamentals are favorable, with China+1 FDI flowing into Vietnam, Indonesia, Thailand, Malaysia, India, and the Philippines, RCEP and CPTPP deepening trade integration, and most central banks easing or holding. Against this, the six-month risk outlook is rated unfavorable and deteriorating on renewed US–China trade escalation, potential US tariff spillover onto ASEAN and India, USD strength-driven EM currency stress, and China slowdown transmission. Manufacturing PMIs are mixed, with India and Indonesia above 50, Vietnam and Thailand near the line, and Japan and Korea subdued, but no country has breached the 48 or 52 threshold this month. FX is stable overall, with JPY, KRW, THB, PHP, and IDR under periodic pressure but no 3% 30-day breach, and no single rate decision exceeds 50bps. Net impact on TLD APAC is modestly positive on demand and financing costs but carries elevated tail risk from trade and FX shocks. Priority actions are the 48-hour regional risk review, a China+1 footprint review, and refreshed FX hedging and customer credit scoring.
-COMPETITIVENESS_OUTLOOK: Regional cost competitiveness is broadly stable to improving, supported by China+1 FDI inflows, RCEP rules-of-origin savings, and rate cuts in Indonesia, Thailand, and the Philippines. Japan and Korea remain the weak spots on subdued external demand and BOJ normalization, while Vietnam and Thailand sit near the 50 PMI line with electronics and auto-linked softness. Over the next 30–90 days, expect continued divergence rather than a uniform regional shift.
-FINANCING_OUTLOOK: Regional financing conditions are easing in Indonesia, Thailand, the Philippines, and cautiously in India, lowering funding costs for TLD entities and GSE lease customers in those markets. Japan is the outlier, with BOJ normalization gradually raising JPY funding costs. USD firmness and EM currency stress are the key risks that could reverse this benign trend over the next 90–180 days.
-WATCH_1: US–China trade escalation and any US tariff action targeting ASEAN or India — monitor for any announced tariff rate or scope change.
-WATCH_2: JPY, KRW, THB, PHP, and IDR 30-day moves vs USD/EUR — flag any breach of 3%.
-WATCH_3: APAC manufacturing PMIs, particularly Vietnam and Thailand — flag any first-time breach below 48 or above 52 in 3+ months.
-MAIN_RISK: Renewed US–China trade escalation with tariff spillover onto ASEAN and India, compounded by USD-driven EM currency stress, is the single biggest economic risk to TLD's APAC operations.
-MAIN_OPPORTUNITY: China+1 FDI inflows into Vietnam, Indonesia, Thailand, Malaysia, India, and the Philippines expand TLD's addressable customer base and create options for regional sourcing and service hub expansion outside China.
+EXECUTIVE_SUMMARY: Today's single article carries no hard macroeconomic data — no PMI, FX, rate, FDI, or trade figures — and concerns Saudi Arabia's exit from the China-led mBridge CBDC settlement project, which analysts read as a political rather than material development. For TLD APAC, the practical read-through is negligible: USD remains the settlement and funding anchor across Hong Kong, Singapore, Thailand, the Philippines, Japan, South Korea, and Australia, and no threshold breaches were triggered. The signal is relevant only as a slow-burn indicator of de-dollarisation sentiment that could, over years, affect cross-border settlement architecture in the region. No changes to hedging, funding, or supply chain plans are warranted on the basis of this item. Regional finance should continue standard monitoring of FX and rate exposures.
+COMPETITIVENESS_OUTLOOK: No change to TLD's regional cost-base or competitiveness outlook over the next 30-90 days, as the article contains no cost, labour, or currency inputs. Competitive positioning across APAC manufacturing and leasing markets remains driven by factors outside this signal.
+FINANCING_OUTLOOK: Regional financing and credit conditions are unchanged by this item; USD-denominated funding and local-currency lease financing assumptions should remain as previously budgeted for the next 90-180 days. No sovereign risk premium or intercompany funding adjustment is indicated.
+WATCH_1: Any formal change in mBridge membership or settlement-currency policy by Hong Kong or Thailand, with a threshold of any announced participation change or new bilateral local-currency settlement agreement.
+WATCH_2: USD index (DXY) moves, flagging any 30-day move greater than 3% as it would affect TLD APAC translation and hedging costs.
+WATCH_3: APAC policy rate decisions, flagging any single-decision move greater than 50bps in covered markets (Thailand, Philippines, South Korea, Australia) as a financing-cost trigger.
+MAIN_RISK: Gradual erosion of USD-based settlement norms could raise long-term treasury complexity and hedging costs for TLD's APAC entities, though no near-term exposure exists.
+MAIN_OPPORTUNITY: Early visibility into regional CBDC and local-currency settlement developments positions TLD to capture lower cross-border transaction costs if mBridge or similar rails mature in Hong Kong or Thailand.
 ===SUMMARY_END===
