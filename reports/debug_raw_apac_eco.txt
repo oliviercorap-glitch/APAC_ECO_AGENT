@@ -1,22 +1,34 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
 IMPACT: WATCH
+COUNTRY: Indonesia
+INDICATOR: MONETARY
+HEADLINE: Bank Indonesia holds benchmark rate at 5.75%, extending pause
+READING: Bank Indonesia kept its seven-day reverse repurchase rate unchanged at 5.75% on 23 September 2026, in line with consensus expectations. The hold signals a stabilisation stance after the prior easing cycle, with the central bank balancing rupiah stability against domestic growth support. No rate change means no threshold breach (0bps move, well under the 50bps trigger).
+SUPPLY_CHAIN_IMPACT: A stable rate environment supports predictable financing costs for Indonesian suppliers and any local manufacturing or assembly partners in TLD's regional sourcing base. No immediate shift in Indonesia's relative manufacturing cost competitiveness versus Vietnam or Thailand.
+FINANCE_FX_IMPACT: TLD's Indonesian entity and customers face unchanged IDR financing costs, with the 5.75% benchmark anchoring lease and equipment financing pricing. Rupiah stability at current levels limits translation risk on IDR-denominated results reported in EUR, though any future BI easing would cheapen customer financing.
+ACTION: No immediate action required; maintain current IDR hedging posture and monitor BI's next meeting for any pivot toward cuts that would lower customer financing costs.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 2
+IMPACT: WATCH
 COUNTRY: Regional
-INDICATOR: OTHER
-HEADLINE: Saudi exit from China-led mBridge signals slow de-dollarisation, limited near-term APAC FX impact
-READING: Saudi Arabia has withdrawn from the China-led mBridge cross-border CBDC settlement project, which analysts characterise as a political signal rather than a material threat to the initiative. The project links central banks in China, Hong Kong, Thailand, and the UAE for multi-currency digital settlement, and the departure underscores the difficulty of building alternatives to USD-clearing infrastructure. No quantitative FX, rate, or trade data points were disclosed in the excerpt.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact. Any long-run shift toward non-USD settlement rails could eventually simplify cross-border component payments between TLD's APAC entities and suppliers, but no operational change is warranted now.
-FINANCE_FX_IMPACT: No immediate FX or financing impact. mBridge participation by Hong Kong and Thailand keeps a low-probability, long-dated option for reduced USD intermediation costs in regional treasury flows; USD remains the dominant settlement currency for TLD APAC contracts and intercompany funding.
-ACTION: No action required this week; add mBridge membership changes to the quarterly treasury review agenda and monitor whether Thailand or Hong Kong adjust their participation.
+INDICATOR: TRADE
+HEADLINE: China adds two fentanyl precursors to export control list pre-summit
+READING: China tightened export controls on two additional fentanyl precursor chemicals days ahead of a Xi-Trump meeting, following US pressure for more aggressive action. The move is a targeted regulatory tightening rather than a broad trade measure, but it signals China's willingness to use export controls as diplomatic leverage. This is a Mainland China-origin policy action with regional spillover implications for trade flows and compliance.
+SUPPLY_CHAIN_IMPACT: While the controlled chemicals are not GSE components, the precedent of expanding Chinese export control lists raises the risk that future controls could touch industrial inputs relevant to TLD's regional supply chain. APAC ex-China entities sourcing any chemical or dual-use inputs transiting China should review exposure; the broader signal reinforces the case for China+1 sourcing diversification into Vietnam, Thailand, and India.
+FINANCE_FX_IMPACT: No direct FX or financing impact, but escalating US-China trade friction around export controls could increase regional currency volatility, particularly for trade-exposed currencies like KRW, TWD-adjacent flows, and SGD. Treasury should watch for any retaliatory measures that could widen country risk premia across the region.
+ACTION: Regional compliance and procurement teams should confirm no TLD APAC inputs fall under expanding Chinese export control lists, and treasury should monitor for retaliatory trade measures over the coming week around the summit.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: Today's single article carries no hard macroeconomic data — no PMI, FX, rate, FDI, or trade figures — and concerns Saudi Arabia's exit from the China-led mBridge CBDC settlement project, which analysts read as a political rather than material development. For TLD APAC, the practical read-through is negligible: USD remains the settlement and funding anchor across Hong Kong, Singapore, Thailand, the Philippines, Japan, South Korea, and Australia, and no threshold breaches were triggered. The signal is relevant only as a slow-burn indicator of de-dollarisation sentiment that could, over years, affect cross-border settlement architecture in the region. No changes to hedging, funding, or supply chain plans are warranted on the basis of this item. Regional finance should continue standard monitoring of FX and rate exposures.
-COMPETITIVENESS_OUTLOOK: No change to TLD's regional cost-base or competitiveness outlook over the next 30-90 days, as the article contains no cost, labour, or currency inputs. Competitive positioning across APAC manufacturing and leasing markets remains driven by factors outside this signal.
-FINANCING_OUTLOOK: Regional financing and credit conditions are unchanged by this item; USD-denominated funding and local-currency lease financing assumptions should remain as previously budgeted for the next 90-180 days. No sovereign risk premium or intercompany funding adjustment is indicated.
-WATCH_1: Any formal change in mBridge membership or settlement-currency policy by Hong Kong or Thailand, with a threshold of any announced participation change or new bilateral local-currency settlement agreement.
-WATCH_2: USD index (DXY) moves, flagging any 30-day move greater than 3% as it would affect TLD APAC translation and hedging costs.
-WATCH_3: APAC policy rate decisions, flagging any single-decision move greater than 50bps in covered markets (Thailand, Philippines, South Korea, Australia) as a financing-cost trigger.
-MAIN_RISK: Gradual erosion of USD-based settlement norms could raise long-term treasury complexity and hedging costs for TLD's APAC entities, though no near-term exposure exists.
-MAIN_OPPORTUNITY: Early visibility into regional CBDC and local-currency settlement developments positions TLD to capture lower cross-border transaction costs if mBridge or similar rails mature in Hong Kong or Thailand.
+EXECUTIVE_SUMMARY: APAC ex-China macro signals today are limited and low-volatility, with Bank Indonesia holding its benchmark rate at 5.75% and China expanding fentanyl precursor export controls ahead of a Xi-Trump summit. Neither development breaches TLD's critical thresholds — no rate move, no FX move above 3%, no PMI or FDI trigger. The Indonesian hold keeps IDR financing costs and translation exposure stable for TLD's Indonesian operations and customer base. The Chinese export control action is a Mainland China policy with indirect regional spillover, reinforcing China+1 supply chain diversification logic rather than posing immediate operational risk. Net impact on TLD APAC operations is neutral to marginally cautionary, with trade-friction volatility the main item to watch. Priority action is a routine compliance check on sourcing exposure and continued FX monitoring around the summit.
+COMPETITIVENESS_OUTLOOK: Regional cost-base competitiveness is broadly stable over the next 30-90 days, with Indonesia's unchanged policy rate preserving predictable input and financing costs. The main competitive dynamic remains the gradual shift of manufacturing toward Vietnam, Thailand, and India under China+1, which TLD should continue to factor into sourcing decisions.
+FINANCING_OUTLOOK: Regional financing conditions are steady, with Indonesia's 5.75% benchmark unchanged and no signs of near-term tightening across covered markets. Customer financing for GSE leases in Indonesia remains at current pricing, with potential downside if BI pivots to cuts in coming quarters.
+WATCH_1: Bank Indonesia policy rate — watch for any cut or hike exceeding 50bps at the next meeting, which would trigger a CRITICAL flag.
+WATCH_2: Regional FX versus EUR/USD — monitor IDR, KRW, THB, and PHP for any 30-day move exceeding 3%, particularly around the Xi-Trump summit.
+WATCH_3: Chinese export control list expansions — track any additions touching industrial or dual-use inputs relevant to TLD's APAC supply chain.
+MAIN_RISK: Escalating US-China trade friction around export controls could spill into broader regional currency volatility and supply chain disruption affecting TLD's APAC operations.
+MAIN_OPPORTUNITY: Continued China+1 diversification into Southeast Asia and India opens new sourcing and customer-base opportunities for TLD's regional footprint.
 ===SUMMARY_END===
