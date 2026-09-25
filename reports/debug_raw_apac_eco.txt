@@ -1,58 +1,34 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
 IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: MONETARY
-HEADLINE: US Treasury yields post sharpest surge since 'liberation day' tariff shock
-READING: US Treasury yields have risen by the most since the April tariff announcement episode, signaling a repricing of global risk-free rates and tightening global financial conditions. The article body is inaccessible due to a security verification block, so the magnitude in basis points cannot be confirmed from this source. The driver appears to be a combination of tariff-related inflation expectations and fiscal supply concerns.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact, though a sustained rise in USD funding costs can indirectly raise working capital costs for TLD's regional suppliers and logistics partners that borrow in USD.
-FINANCE_FX_IMPACT: Higher US Treasury yields typically strengthen the USD against APAC currencies, raising TLD's USD-denominated input costs and increasing the local-currency cost of USD-linked lease financing for customers in Hong Kong, Singapore, Thailand, the Philippines, and Australia. TLD regional entities reporting in EUR may see translation headwinds if APAC currencies weaken against the euro.
-ACTION: CFO APAC treasury should confirm the exact yield move in basis points within 48 hours and stress-test the regional entity cash flows against a 50-75bps further rise in USD funding costs over the next 30 days.
+COUNTRY: Japan
+INDICATOR: FX
+HEADLINE: US pressure over weak yen raises intervention risk for JPY
+READING: Japanese officials confirmed that US President Trump raised concern over the weak yen during a summit with PM Takaichi, signalling elevated political scrutiny of JPY weakness. Katayama declined to comment on whether rising global government bond yields were discussed, leaving ambiguity over the policy response. The yen's weakness is being framed as a bilateral irritant rather than a purely domestic monetary matter.
+SUPPLY_CHAIN_IMPACT: A persistently weak yen lowers the USD/EUR cost of Japanese-sourced components and services, marginally improving the relative competitiveness of Japanese suppliers in TLD's regional sourcing mix. However, intervention-driven sharp yen appreciation would reverse this quickly, creating pricing uncertainty for any yen-denominated procurement or service contracts.
+FINANCE_FX_IMPACT: TLD's Japan entity results translated into EUR benefit from a weak yen, but the risk of coordinated intervention or verbal escalation introduces two-way volatility. Any JPY move beyond 3% versus EUR or USD in 30 days would materially shift translation exposure and should be hedged. Japanese customer financing conditions remain cheap in local terms, supporting lease economics but complicating cross-border funding comparisons.
+ACTION: CFO APAC should review JPY translation exposure and hedge ratios for the Japan entity this week, and set a monitoring trigger at 3% JPY move versus EUR or USD in 30 days.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 2
-IMPACT: IMPORTANT
-COUNTRY: Taiwan
-INDICATOR: OTHER
-HEADLINE: Taiwan industrial production index hits record, up over 23% year-on-year
-READING: Taiwan's industrial production index set a new all-time high last month, rising more than 23% year-on-year, driven overwhelmingly by AI-related semiconductor and electronics manufacturing. This is one of the strongest industrial expansions recorded in Taiwan in decades and signals exceptional capex momentum in the island's tech manufacturing base.
-SUPPLY_CHAIN_IMPACT: Taiwan's electronics and precision components ecosystem is a key upstream source for control systems, sensors, and electronic subassemblies used in GSE manufacturing; a 23% production surge implies tight capacity and potential longer lead times or price pressure on Taiwan-sourced components. TLD should assess whether any critical electronic inputs are single-sourced from Taiwan and whether capacity constraints could delay regional production schedules.
-FINANCE_FX_IMPACT: Strong industrial output supports the New Taiwan Dollar and reduces Taiwan sovereign risk premium, which is favorable for any TWD-denominated financing or intercompany lending. However, a stronger TWD raises the cost of Taiwan-sourced components for TLD entities purchasing in EUR or USD.
-ACTION: Regional procurement lead should map Taiwan-sourced component exposure and confirm lead times and pricing with suppliers within the next two weeks, flagging any input cost increases above 5%.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 3
-IMPACT: IMPORTANT
-COUNTRY: Taiwan
-INDICATOR: GDP
-HEADLINE: ADB raises Taiwan 2026 GDP growth forecast to 11% on AI boom
-READING: The Asian Development Bank has revised Taiwan's 2026 GDP growth forecast up to 11%, which would be the strongest expansion in decades, driven by global AI demand and semiconductor exports. This represents a dramatic upward revision and places Taiwan among the fastest-growing economies in the APAC region.
-SUPPLY_CHAIN_IMPACT: An 11% GDP growth economy with an AI-driven manufacturing boom implies rising domestic labour costs, tightening industrial capacity, and increased competition for skilled technical labour in Taiwan. TLD should anticipate upward pressure on Taiwan-sourced component pricing and potential difficulty securing priority allocation from Taiwanese suppliers as domestic demand absorbs capacity.
-FINANCE_FX_IMPACT: Exceptional growth supports TWD appreciation and lowers Taiwan country risk premium, benefiting TLD's cost of funds for any Taiwan-linked exposure. However, TWD appreciation against EUR would raise the euro-denominated cost of Taiwan-sourced inputs and any TWD-denominated operating expenses.
-ACTION: CFO APAC should incorporate a 3-5% TWD appreciation scenario into the FY2027 regional budget and review any Taiwan supplier contracts for FX pass-through clauses within 30 days.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 4
-IMPACT: IMPORTANT
+IMPACT: INFO
 COUNTRY: Regional
 INDICATOR: TRADE
-HEADLINE: US-China tariff truce extended ahead of Xi-Trump summit
-READING: The US and China extended their tariff truce immediately before an elaborate Xi-Trump summit, with analysts reading the diplomatic signals as positive for near-term trade stability. The extension averts a near-term escalation of tariffs that would have disrupted cross-border supply chains across Asia. Details of the extension duration and scope are not fully specified in the excerpt.
-SUPPLY_CHAIN_IMPACT: A continued tariff truce reduces the risk of sudden cost spikes on any US-China cross-border component flows and supports the stability of "China+1" diversification timelines into Vietnam, Thailand, Indonesia, and India. TLD's regional supply chain planning can proceed on the assumption of no near-term tariff escalation, though the truce is temporary and reversal risk remains.
-FINANCE_FX_IMPACT: Reduced trade tension supports APAC currency stability against both USD and EUR, lowering FX hedging costs for TLD regional entities and reducing the risk premium embedded in regional customer financing. A stable trade environment also supports customer capex confidence, which is favorable for GSE lease origination volumes.
-ACTION: CFO APAC should maintain current FX hedge ratios but prepare a contingency plan for a tariff truce reversal, including pre-identified alternative sourcing routes, to be activated within 72 hours of any breakdown announcement.
+HEADLINE: EU pushes UK toward higher tariffs on Chinese cars
+READING: The EU is urging the UK to raise tariffs on Chinese vehicles to prevent the UK becoming a backdoor for "made in Europe" circumvention. This reflects a broader tightening of trade defence measures across European and allied markets. The article carries no direct APAC data points but signals escalating tariff fragmentation relevant to cross-border equipment and component flows.
+SUPPLY_CHAIN_IMPACT: TLD's APAC supply chain could face indirect effects if tariff circumvention rules tighten on components or equipment transiting third countries, raising customs complexity for cross-border flows into Europe. No direct impact on APAC manufacturing footprint outside China is evident from this article alone.
+FINANCE_FX_IMPACT: No direct FX or financing impact for TLD's APAC entities. Indirectly, tighter tariff regimes could raise landed costs on any Europe-bound equipment or components, affecting transfer pricing and intercompany cost allocation.
+ACTION: No immediate action required; regional finance should monitor whether similar tariff-defence measures extend to GSE or capital equipment categories in APAC trade lanes.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: The APAC ex-China region presents a bifurcated picture today, with Taiwan delivering exceptional industrial and GDP data while global financial conditions tighten on the back of a sharp US Treasury yield surge. Taiwan's industrial production rose over 23% year-on-year to a record high and the ADB raised its 2026 GDP growth forecast to 11%, both driven by AI-related manufacturing demand. Meanwhile, the US-China tariff truce extension provides welcome near-term trade stability, though the underlying truce remains temporary. The US Treasury yield surge poses the most immediate risk to TLD's regional financing costs and FX exposure, particularly for USD-linked customer lease financing. Net impact on TLD APAC operations is moderately positive on demand fundamentals but negative on financing costs and input pricing from Taiwan. Priority actions are confirming the exact Treasury yield move, mapping Taiwan component exposure, and stress-testing regional cash flows against higher USD funding costs.
-COMPETITIVENESS_OUTLOOK: TLD's regional cost base faces upward pressure from Taiwan-sourced electronic components as that market's industrial capacity tightens amid the AI boom, while the tariff truce extension keeps broader supply chain costs stable. Regional manufacturing competitiveness remains solid, but Taiwan input cost inflation of 3-5% should be anticipated over the next 30-90 days.
-FINANCING_OUTLOOK: Regional financing conditions are set to tighten over the next 90-180 days if US Treasury yields continue rising, with USD-linked lease financing costs for TLD customers in Hong Kong, Singapore, Thailand, the Philippines, and Australia likely to increase by 25-75bps. APAC central banks may face pressure to hold rates higher for longer to defend currencies, delaying any easing cycle and keeping TLD's regional entity borrowing costs elevated.
-WATCH_1: US 10-year Treasury yield — flag as CRITICAL if the 30-day move exceeds 50bps, as this would materially raise TLD's regional USD funding costs.
-WATCH_2: Taiwan industrial production and TWD/EUR exchange rate — flag as CRITICAL if TWD appreciates more than 3% against EUR in 30 days, raising component sourcing costs.
-WATCH_3: US-China tariff truce status — flag as CRITICAL if the truce breaks down or expires without renewal, requiring immediate supply chain contingency activation.
-MAIN_RISK: A sustained surge in US Treasury yields that strengthens the USD and raises both TLD's regional financing costs and the local-currency cost of USD-linked customer lease financing across APAC.
-MAIN_OPPORTUNITY: Taiwan's AI-driven 11% GDP growth and record industrial production create a high-capex environment that could expand TLD's addressable customer base for GSE leasing among Taiwanese manufacturers and logistics operators.
+EXECUTIVE_SUMMARY: The APAC ex-China signal set today is thin, dominated by FX politics in Japan and trade-defence escalation in Europe. The yen remains the key live exposure: US political pressure over JPY weakness raises the probability of intervention or accelerated policy normalisation, creating two-way translation risk for TLD's Japan entity. The EU-UK tariff discussion is a background trade-fragmentation signal with no direct APAC data points but potential indirect customs and landed-cost implications. No PMI, FDI, rate-decision, or sovereign-rating thresholds were breached in today's inputs. Net impact on TLD APAC operations is limited but warrants active JPY hedging review and continued monitoring of tariff spillover into capital equipment categories.
+COMPETITIVENESS_OUTLOOK: Regional cost-base competitiveness is broadly stable over the next 30-90 days, with a weak yen temporarily favouring Japanese sourcing but at risk of sharp reversal on intervention. No material labour or manufacturing cost shifts were signalled today.
+FINANCING_OUTLOOK: Regional financing conditions are unchanged by today's signals; Japanese local financing remains cheap, but JPY volatility could raise hedging costs and complicate cross-border intercompany funding over the next 90-180 days.
+WATCH_1: JPY move versus EUR or USD — flag CRITICAL if it exceeds 3% in 30 days, particularly on intervention headlines.
+WATCH_2: Japanese government bond yields and any BOJ policy signal — flag CRITICAL on a rate move greater than 50bps in a single decision.
+WATCH_3: EU-UK and broader tariff-defence scope — monitor whether measures extend to GSE or capital equipment, which would affect APAC-Europe trade lanes.
+MAIN_RISK: A sharp yen appreciation driven by US pressure or intervention would reverse Japan entity translation gains and raise hedging and pricing uncertainty.
+MAIN_OPPORTUNITY: Continued yen weakness offers a window to lock in favourable JPY-denominated sourcing or service contracts before any policy reversal.
 ===SUMMARY_END===
