@@ -1,25 +1,25 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
 IMPACT: IMPORTANT
-COUNTRY: India
-INDICATOR: MONETARY
-HEADLINE: India FX swaps drain US$20bn liquidity, tightening rupee funding conditions
-READING: The Reserve Bank of India has absorbed close to US$20 billion of surplus banking-system liquidity through dollar-rupee swap operations, using the instrument as a primary liquidity management tool. This signals the RBI is actively managing rupee liquidity and defending external stability rather than easing domestic conditions. The scale of the drain is material relative to India's surplus liquidity pool and implies tighter short-term rupee funding.
-SUPPLY_CHAIN_IMPACT: Tighter domestic liquidity in India raises working-capital costs for Indian suppliers and any local manufacturing or assembly partners in TLD's South Asia sourcing base, potentially slowing order fulfilment and increasing supplier financing demands. No direct impact on TLD's own manufacturing footprint outside China, but Indian component or service suppliers may pass through higher funding costs.
-FINANCE_FX_IMPACT: TLD's India-related receivables and any INR-denominated customer lease payments face a higher local funding cost environment, and tighter liquidity can pressure the rupee, affecting translation of Indian results into EUR. Customer financing for GSE purchases in India becomes more expensive if local bank funding costs rise in tandem.
-ACTION: Regional treasury should quantify TLD's INR exposure and Indian customer financing pipeline within 5 business days, and stress-test rupee sensitivity at a 3% depreciation versus EUR to size translation risk.
+COUNTRY: Thailand
+INDICATOR: OTHER
+HEADLINE: Thai August factory output up 4.44% YoY, beats forecast on electronics
+READING: Thai manufacturing production rose 4.44% year on year in August 2026, exceeding consensus expectations, driven primarily by higher electronics output and supported by government stimulus measures. This marks a clear acceleration in Thai industrial activity and suggests firmer domestic capex appetite and export-sector momentum heading into Q4.
+SUPPLY_CHAIN_IMPACT: Stronger Thai electronics and industrial production signals a healthier regional supplier and customer base outside China, supporting TLD's Thailand entity and any local component or fabrication sourcing. Rising output may tighten local labour and logistics capacity, modestly increasing input costs for TLD's Thai operations.
+FINANCE_FX_IMPACT: Improved industrial momentum is mildly supportive of THB stability and reduces near-term downside risk to Thai customer credit quality, easing lease/purchase financing default risk for TLD's Thai book. No direct FX threshold breach indicated, but a firmer THB would raise the EUR-translated cost base of the Thai entity.
+ACTION: Regional finance team to confirm whether Thai customer payment behaviour and lease pipeline are tracking the output upturn, and refresh THB exposure assumptions for Q4 reporting within the week.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 2
-IMPACT: IMPORTANT
+IMPACT: WATCH
 COUNTRY: Regional
-INDICATOR: MONETARY
-HEADLINE: China signals fresh stimulus package as slowdown threatens growth target
-READING: Chinese authorities have indicated they will roll out a package of practical and effective additional policies to support growth and stabilise the housing market, as the slowdown threatens the official growth target. This is a demand-side and confidence signal from the region's largest economy, with spillover into commodity, trade, and capital flows across APAC. The stimulus bias implies easier financial conditions regionally and potential currency and rate spillovers.
-SUPPLY_CHAIN_IMPACT: Additional Chinese stimulus supports regional industrial demand and could sustain input prices and component availability for TLD's non-China APAC supply chain, particularly for metals, electronics, and fabricated parts sourced regionally. It may also slow the pace of China+1 relocation decisions if Chinese domestic demand recovers, altering the relative attractiveness of Vietnam, India, and Indonesia sourcing.
-FINANCE_FX_IMPACT: Easier Chinese monetary conditions typically weaken the renminbi and can drag other Asian currencies, affecting TLD's EUR translation of APAC entity results and the relative cost base across the region. Regional risk sentiment improvement could lower sovereign spreads and marginally reduce TLD's intercompany funding costs in APAC.
-ACTION: CFO APAC should monitor the size and composition of the announced package over the next 2 weeks and reassess regional FX hedging ratios if renminbi weakness spills into other APAC currencies.
+INDICATOR: TRADE
+HEADLINE: China excludes US soybeans from tariff cuts, targets 725mt grain by 2030
+READING: China has pledged to boost domestic grain supply with a 2030 production target of 725 million tonnes while excluding US soybeans from tariff reductions, signalling continued agricultural self-sufficiency and selective trade retaliation. This reinforces a broader pattern of China decoupling in strategic commodities, with knock-on effects for global agricultural trade flows and commodity pricing.
+SUPPLY_CHAIN_IMPACT: Indirect for TLD — no direct GSE component linkage, but continued China trade selectivity raises the risk of further tariff or export-control escalation that could disrupt cross-border component flows through APAC hubs. Regional suppliers in Southeast Asia may see incremental demand as buyers diversify away from China-linked agricultural and industrial inputs.
+FINANCE_FX_IMPACT: Escalating China-US trade friction is a medium-term risk to regional currency stability, particularly for trade-exposed ASEAN currencies, and could widen sovereign risk premia. No immediate FX or financing threshold breach, but treasury should monitor for secondary tariff announcements affecting APAC transshipment.
+ACTION: CFO APAC to keep this on the watch list and flag any follow-on tariff or export-control measures affecting APAC component routing at the next weekly finance review.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
@@ -27,32 +27,20 @@ SIGNAL_ID: 3
 IMPACT: IMPORTANT
 COUNTRY: Regional
 INDICATOR: MONETARY
-HEADLINE: China cuts key policy rate and adds mortgage subsidy to boost real economy
-READING: China has cut a key interest rate and introduced a mortgage subsidy aimed at reviving the real economy and property sector. This is a direct easing move that lowers the regional benchmark cost of money and reinforces a broad Asian monetary easing bias. The combination of rate cut plus fiscal-style subsidy indicates policy urgency.
-SUPPLY_CHAIN_IMPACT: Lower Chinese funding costs reduce the cost of capital for Chinese-linked suppliers and logistics providers operating across APAC, indirectly easing input cost pressure for TLD's regional supply chain. Sustained Chinese easing may also moderate the pace of manufacturing relocation to Southeast Asia, affecting where TLD's regional supplier base concentrates.
-FINANCE_FX_IMPACT: The rate cut reinforces downward pressure on the renminbi and can pull other APAC currencies lower, affecting TLD's EUR-reported regional results and the cost of local-currency borrowing for TLD entities in Singapore, Thailand, and the Philippines. Cheaper regional funding conditions are a mild tailwind for customer GSE lease financing costs across APAC.
-ACTION: Regional finance should update the APAC FX and interest-rate sensitivity model within one week to reflect the new Chinese policy rate, and review whether any local borrowing facilities should be repriced or refinanced.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 4
-IMPACT: IMPORTANT
-COUNTRY: Regional
-INDICATOR: TRADE
-HEADLINE: US and China slash tariffs on US$30bn of basic goods, rare earths excluded
-READING: The US and China have agreed to waive tariffs on a lengthy US$30 billion list of basic goods including linen and other items, while leaving rare earths off the record and unresolved. This is a meaningful de-escalation in the bilateral tariff regime covering a quantifiable US$30 billion of trade, though the rare earths carve-out preserves a key strategic pressure point. The deal lowers landed costs on a defined basket of goods flowing through regional supply chains.
-SUPPLY_CHAIN_IMPACT: Reduced tariffs on US$30 billion of basic goods lowers input and component costs for APAC manufacturers that import or re-export these items, potentially improving margins for TLD's regional suppliers and reducing landed cost on any covered components. The rare earths exclusion keeps risk elevated for electronics and motor components dependent on rare earth inputs, which matters for GSE electrical and drive systems sourced regionally.
-FINANCE_FX_IMPACT: Trade de-escalation is generally supportive of APAC currencies versus the dollar and reduces the risk premium embedded in regional trade financing, a mild positive for TLD's regional entity funding costs. Lower tariff costs free up working capital across the regional customer base, marginally improving customer financing capacity for GSE purchases.
-ACTION: Regional finance should confirm within one week whether any TLD cross-border component flows fall under the US$30 billion tariff-waived list, and quantify rare earth input exposure in the regional supply chain.
+HEADLINE: China cuts pledged supplemental lending rate, adds mortgage subsidy
+READING: Beijing has cut the interest rate on its pledged supplemental lending facility and introduced a mortgage subsidy to stimulate the real economy, extending monetary easing to support domestic demand and property. While Mainland China is out of scope for direct TLD signals, the easing has regional spillover implications for trade, commodity demand, and cross-border financing conditions.
+SUPPLY_CHAIN_IMPACT: Cheaper Chinese credit and stimulus could support Chinese industrial demand and, indirectly, regional component pricing and availability, potentially easing input cost pressure for TLD's APAC supply chain. Conversely, stronger Chinese export competitiveness from a weaker yuan could pressure ASEAN manufacturers competing in the same export segments.
+FINANCE_FX_IMPACT: China easing typically weakens the yuan and can drag on regional currencies, particularly those with close trade links, affecting TLD's EUR-translated results across APAC entities. Lower Chinese rates may also pull regional funding costs modestly lower, a mild tailwind for TLD customer financing in rate-sensitive markets.
+ACTION: Treasury to assess CNY-linked spillover on APAC currency exposures and confirm no material translation impact on Q3/Q4 EUR reporting within the week.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: The APAC ex-China picture this week is dominated by monetary easing and trade de-escalation originating in China, with India moving in the opposite direction through a US$20 billion liquidity drain via dollar-rupee swaps. China has cut a key policy rate, added a mortgage subsidy, and signalled a further stimulus package, reinforcing a regional easing bias that weakens the renminbi and pressures other APAC currencies against the dollar. The US-China tariff waiver on a US$30 billion basket of basic goods lowers landed costs for regional supply chains, though the rare earths exclusion preserves a strategic risk for electronics and motor components. For TLD APAC, the net effect is mildly supportive on customer financing conditions and input costs, but negative on EUR translation of regional results if APAC currencies weaken further. India's tighter liquidity is the main offsetting risk, raising local funding costs and rupee sensitivity for TLD's South Asia exposure. Priority actions are to refresh the APAC FX and rate sensitivity model, quantify INR exposure, and confirm tariff-waived component coverage.
-COMPETITIVENESS_OUTLOOK: Regional cost competitiveness is broadly stable to slightly improved over the next 30-90 days as Chinese easing lowers the regional cost of capital and the tariff waiver reduces landed input costs on covered goods. India's liquidity tightening modestly raises local funding and supplier costs, trimming its relative competitiveness edge within TLD's South Asia footprint. Rare earth input risk remains the key unresolved cost variable for regional component sourcing.
-FINANCING_OUTLOOK: Regional financing conditions should ease modestly over the next 90-180 days, led by China's rate cut and stimulus bias, which typically pulls APAC funding costs and sovereign spreads lower. Customer financing for GSE leases and purchases across Southeast Asia and Oceania should benefit from cheaper local rates, while India is the exception with tighter rupee liquidity and higher short-term funding costs. TLD's intercompany funding in APAC faces a mild tailwind outside India.
-WATCH_1: INR versus EUR and USD — flag as CRITICAL if the rupee moves more than 3% in 30 days given the US$20 billion liquidity drain.
-WATCH_2: China policy rate and stimulus package size — flag as CRITICAL if any single policy rate move exceeds 50bps in one decision.
-WATCH_3: APAC currencies versus EUR collectively, particularly SGD, THB, and PHP — flag if any moves more than 3% in 30 days on renminbi spillover.
-MAIN_RISK: A sharper-than-expected renminbi depreciation spilling into broad APAC currency weakness, inflating EUR translation losses on TLD's regional entity results and raising local funding costs.
-MAIN_OPPORTUNITY: Cheaper regional financing from Chinese easing plus the US$30 billion tariff waiver lowers TLD's APAC cost base and improves customer financing capacity for GSE leases across Southeast Asia and Oceania.
+EXECUTIVE_SUMMARY: APAC ex-China macro signals this week are net mildly positive, led by Thai August factory output rising 4.44% year on year and beating forecast on electronics and government stimulus, pointing to firmer regional industrial demand. China's exclusion of US soybeans from tariff cuts and its 725 million tonne 2030 grain target reinforce strategic decoupling and trade-friction risk, while Beijing's cut to the pledged supplemental lending rate and new mortgage subsidy extend monetary easing with regional spillover. No CRITICAL threshold breaches were recorded — no PMI below 48 or above 52, no FX move above 3%, no policy rate move above 50bps, and no FDI swing above 15%. Net impact on TLD APAC operations is modestly supportive on demand and customer credit quality, with manageable FX translation and supply-chain complexity risk. Priority actions are to validate Thai customer payment and pipeline trends, monitor China trade retaliation for APAC routing effects, and refresh currency exposure assumptions for Q4 reporting.
+COMPETITIVENESS_OUTLOOK: Regional cost base is broadly stable over the next 30-90 days, with Thai industrial strength potentially tightening local labour and logistics capacity and modestly raising input costs. ASEAN manufacturers face incremental export competition from a weaker yuan, but electronics-led demand supports TLD's regional customer base.
+FINANCING_OUTLOOK: Regional financing conditions are neutral to slightly easier over the next 90-180 days, with China easing pulling some regional funding costs lower and Thai industrial momentum supporting customer credit quality. No sovereign rating or capital control stress is evident, keeping TLD entity and customer financing costs stable.
+WATCH_1: Thai manufacturing output and PMI — flag CRITICAL if PMI falls below 48 or rises above 52 for the first time in 3+ months.
+WATCH_2: APAC currency moves versus EUR and USD — flag CRITICAL on any 30-day move exceeding 3%, particularly THB, KRW, and JPY.
+WATCH_3: China trade retaliation and tariff announcements affecting APAC component routing — flag CRITICAL on any new export control or tariff measure touching regional transshipment.
+MAIN_RISK: Escalating China-US trade friction and selective tariff measures could disrupt APAC cross-border component flows and pressure regional currencies.
+MAIN_OPPORTUNITY: Firming Thai and regional electronics-led industrial output supports TLD customer capex appetite and lease financing demand across Southeast Asia.
 ===SUMMARY_END===
