@@ -1,46 +1,298 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
 IMPACT: IMPORTANT
-COUNTRY: Thailand
-INDICATOR: OTHER
-HEADLINE: Thai August factory output up 4.44% YoY, beats forecast on electronics
-READING: Thai manufacturing production rose 4.44% year on year in August 2026, exceeding consensus expectations, driven primarily by higher electronics output and supported by government stimulus measures. This marks a clear acceleration in Thai industrial activity and suggests firmer domestic capex appetite and export-sector momentum heading into Q4.
-SUPPLY_CHAIN_IMPACT: Stronger Thai electronics and industrial production signals a healthier regional supplier and customer base outside China, supporting TLD's Thailand entity and any local component or fabrication sourcing. Rising output may tighten local labour and logistics capacity, modestly increasing input costs for TLD's Thai operations.
-FINANCE_FX_IMPACT: Improved industrial momentum is mildly supportive of THB stability and reduces near-term downside risk to Thai customer credit quality, easing lease/purchase financing default risk for TLD's Thai book. No direct FX threshold breach indicated, but a firmer THB would raise the EUR-translated cost base of the Thai entity.
-ACTION: Regional finance team to confirm whether Thai customer payment behaviour and lease pipeline are tracking the output upturn, and refresh THB exposure assumptions for Q4 reporting within the week.
+COUNTRY: Indonesia
+INDICATOR: TRADE
+HEADLINE: Indonesia August trade surplus hits US$3.55bn, largest in nearly a year
+READING: Indonesia posted its biggest monthly trade surplus in almost twelve months at US$3.55 billion in August, driven by sustained commodity export receipts and moderating import growth. This follows a cumulative surplus of US$3.58 billion in H1 2026 and a brief US$0.45 billion deficit in June, indicating a volatile but externally resilient trade position.
+SUPPLY_CHAIN_IMPACT: A stronger external position supports IDR stability, which reduces imported component cost volatility for any TLD sourcing or assembly activity in Indonesia. No immediate change to TLD's regional manufacturing footprint, but a stable rupiah improves predictability for local supplier contracts.
+FINANCE_FX_IMPACT: The surplus underpins Bank Indonesia's capacity to defend the rupiah, lowering the risk of sharp IDR depreciation that would inflate TLD Indonesia's EUR-reported cost base. Improved external balances also support sovereign credit metrics, keeping Indonesia's risk premium contained for intercompany funding.
+ACTION: Treasury should confirm current IDR hedge ratios for TLD Indonesia remain adequate given the supportive external position; no immediate adjustment required, review at next monthly FX committee.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 2
 IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: TRADE
-HEADLINE: China excludes US soybeans from tariff cuts, targets 725mt grain by 2030
-READING: China has pledged to boost domestic grain supply with a 2030 production target of 725 million tonnes while excluding US soybeans from tariff reductions, signalling continued agricultural self-sufficiency and selective trade retaliation. This reinforces a broader pattern of China decoupling in strategic commodities, with knock-on effects for global agricultural trade flows and commodity pricing.
-SUPPLY_CHAIN_IMPACT: Indirect for TLD — no direct GSE component linkage, but continued China trade selectivity raises the risk of further tariff or export-control escalation that could disrupt cross-border component flows through APAC hubs. Regional suppliers in Southeast Asia may see incremental demand as buyers diversify away from China-linked agricultural and industrial inputs.
-FINANCE_FX_IMPACT: Escalating China-US trade friction is a medium-term risk to regional currency stability, particularly for trade-exposed ASEAN currencies, and could widen sovereign risk premia. No immediate FX or financing threshold breach, but treasury should monitor for secondary tariff announcements affecting APAC transshipment.
-ACTION: CFO APAC to keep this on the watch list and flag any follow-on tariff or export-control measures affecting APAC component routing at the next weekly finance review.
+COUNTRY: Japan
+INDICATOR: PMI
+HEADLINE: Japan manufacturing PMI surges to 45-month high on output and new orders
+READING: Japan's manufacturing PMI reached a 45-month high, signalling a broad-based industrial expansion driven by stronger output and new order growth. The surge contrasts with a simultaneous services slowdown, pointing to an uneven recovery led by the export-oriented manufacturing sector.
+SUPPLY_CHAIN_IMPACT: A strengthening Japanese manufacturing sector improves the reliability and pricing environment for Japanese-sourced components and sub-assemblies used in TLD equipment. Higher Japanese industrial activity may also tighten domestic capacity, potentially lengthening lead times for specialised inputs.
+FINANCE_FX_IMPACT: Stronger manufacturing activity supports the case for further Bank of Japan policy normalisation, which could strengthen the yen and raise JPY-denominated financing costs for TLD Japan. A firmer yen would reduce the cost of EUR-denominated imports into Japan but raise translation costs for JPY revenues reported in EUR.
+ACTION: Regional finance should monitor BoJ policy signals and JPY funding costs weekly; assess whether TLD Japan's local borrowing mix should be adjusted if yen appreciation accelerates.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 3
 IMPACT: IMPORTANT
-COUNTRY: Regional
+COUNTRY: Japan
+INDICATOR: FDI
+HEADLINE: Japan raises FDI target 20% to ¥150 trillion by mid-2030s
+READING: Japan's government lifted its foreign direct investment target by 20% to as high as ¥150 trillion (approximately US$1.05 trillion) by the mid-2030s, nearly triple current levels. The move signals an aggressive policy push to attract overseas capital through improved investment climate measures.
+SUPPLY_CHAIN_IMPACT: A more open Japanese investment regime could facilitate expanded TLD manufacturing, assembly, or service operations in Japan, or JV structures with local partners. It may also ease market entry for TLD's regional supply chain partners seeking Japanese distribution.
+FINANCE_FX_IMPACT: Increased inbound FDI supports yen demand and long-term capital account strength, marginally reducing JPY depreciation risk. For TLD Japan, a more investment-friendly regime could improve access to local co-financing or partnership capital for fleet expansion.
+ACTION: CFO APAC should task corporate development to review Japan investment incentives and any new SEZ or tax measures relevant to TLD's potential Japanese footprint expansion within the next quarter.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 4
+IMPACT: IMPORTANT
+COUNTRY: South Korea
 INDICATOR: MONETARY
-HEADLINE: China cuts pledged supplemental lending rate, adds mortgage subsidy
-READING: Beijing has cut the interest rate on its pledged supplemental lending facility and introduced a mortgage subsidy to stimulate the real economy, extending monetary easing to support domestic demand and property. While Mainland China is out of scope for direct TLD signals, the easing has regional spillover implications for trade, commodity demand, and cross-border financing conditions.
-SUPPLY_CHAIN_IMPACT: Cheaper Chinese credit and stimulus could support Chinese industrial demand and, indirectly, regional component pricing and availability, potentially easing input cost pressure for TLD's APAC supply chain. Conversely, stronger Chinese export competitiveness from a weaker yuan could pressure ASEAN manufacturers competing in the same export segments.
-FINANCE_FX_IMPACT: China easing typically weakens the yuan and can drag on regional currencies, particularly those with close trade links, affecting TLD's EUR-translated results across APAC entities. Lower Chinese rates may also pull regional funding costs modestly lower, a mild tailwind for TLD customer financing in rate-sensitive markets.
-ACTION: Treasury to assess CNY-linked spillover on APAC currency exposures and confirm no material translation impact on Q3/Q4 EUR reporting within the week.
+HEADLINE: Bank of Korea hikes 25bps to 2.75%, first increase in three and a half years
+READING: The Bank of Korea raised its Base Rate by 25 basis points to 2.75% on 16 July 2026, its first increase in three and a half years, on stronger activity, above-target inflation, and persistent financial-stability risks. The unanimous decision signals a hawkish pivot and highlights policy divergence across Asia.
+SUPPLY_CHAIN_IMPACT: Higher Korean rates raise the cost of capital for Korean suppliers and logistics partners, potentially feeding into component pricing and lead times for TLD's Korean-sourced inputs. No direct change to TLD's manufacturing footprint, but Korean supplier working-capital stress should be monitored.
+FINANCE_FX_IMPACT: The 25bps hike is below the 50bps CRITICAL threshold but raises KRW financing costs for TLD Korea and its customers financing GSE purchases. A hawkish BoK supports the won, reducing KRW depreciation risk on EUR-reported results but increasing local borrowing costs.
+ACTION: Regional finance should reprice TLD Korea's local credit facilities and customer lease rates to reflect the higher base rate, and update the 90-day KRW funding forecast within one week.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 5
+IMPACT: WATCH
+COUNTRY: India
+INDICATOR: PMI
+HEADLINE: India manufacturing PMI cools to 52.8 in August from 53.5 in July
+READING: The HSBC India Manufacturing PMI eased to 52.8 in August from 53.5 in July, still comfortably in expansion territory but signalling a third consecutive month of moderation. India remains the strongest manufacturing performer in Asia despite the slowdown, with real GDP growing 7.8% in Q1 FY2026-27.
+SUPPLY_CHAIN_IMPACT: Continued Indian manufacturing expansion above 52 supports India's role as a China+1 sourcing destination, with potential for TLD to deepen local supplier relationships. The moderation in momentum warrants monitoring but does not yet threaten India's supply chain competitiveness.
+FINANCE_FX_IMPACT: Robust Indian growth and a still-expansionary PMI support the rupee and reduce INR depreciation risk on TLD India's EUR-reported results. Strong domestic demand may keep the RBI cautious on rate cuts, sustaining moderate local financing costs.
+ACTION: Regional finance should maintain current INR hedging posture and monitor the PMI trajectory monthly; a drop below 52 would warrant reassessing India sourcing assumptions.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 6
+IMPACT: IMPORTANT
+COUNTRY: India
+INDICATOR: GDP
+HEADLINE: India Q1 FY2026-27 GDP grows 7.8%, investment up 11.9%
+READING: India's real GDP grew 7.8% in Q1 FY2026-27, with real GVA up 8.2%, investment rising 11.9%, household consumption up 7.1%, and exports up 12.0%. July industrial production rose 6.7%, confirming broad-based momentum across manufacturing and services.
+SUPPLY_CHAIN_IMPACT: Strong investment growth of 11.9% signals rising domestic capex appetite, supporting demand for capital goods and positioning India as an increasingly attractive China+1 manufacturing and sourcing base. TLD should evaluate whether Indian supplier capacity can absorb incremental volume.
+FINANCE_FX_IMPACT: Robust growth supports the rupee and Indian sovereign credit metrics, lowering country risk premium for TLD India's intercompany funding. Strong domestic demand may delay RBI easing, keeping INR financing costs moderately elevated.
+ACTION: CFO APAC should factor India's 7.8% GDP growth into the regional demand and capex forecast, and review whether TLD India's local financing capacity is sufficient for anticipated volume growth within the next quarter.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 7
+IMPACT: WATCH
+COUNTRY: Indonesia
+INDICATOR: PMI
+HEADLINE: Indonesia PMI eases to 51.43 in Q2, still expansionary but slowing
+READING: Bank Indonesia's Prompt Manufacturing Index remained in expansion at 51.43 in Q2 2026, down from 52.03 in Q1, indicating broadly stable but decelerating production conditions. Manufacturing remained the largest GDP contributor at 19.8% of total output.
+SUPPLY_CHAIN_IMPACT: Continued expansion above 50 supports Indonesia's role as a China+1 sourcing and assembly location, though the deceleration warrants monitoring. TLD should watch whether Indonesian supplier capacity and cost competitiveness hold as momentum softens.
+FINANCE_FX_IMPACT: A still-expansionary manufacturing sector supports IDR stability and moderate local financing conditions. The slowing trend may encourage Bank Indonesia to maintain or ease policy, potentially lowering local financing costs for TLD Indonesia over the medium term.
+ACTION: Regional finance should monitor Indonesia's PMI monthly; a drop below 50 would signal contraction risk and warrant reassessing Indonesian sourcing and local financing assumptions.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 8
+IMPACT: IMPORTANT
+COUNTRY: Indonesia
+INDICATOR: FDI
+HEADLINE: Indonesia records US$8.5bn foreign capital inflows in Q2 2026
+READING: Bank Indonesia recorded US$8.5 billion in foreign capital inflows into domestic financial markets in Q2 2026, driven primarily by government securities and Bank Indonesia Rupiah Securities. A further US$1.8 billion net portfolio inflow was recorded in Q3 through 14 August.
+SUPPLY_CHAIN_IMPACT: Strong portfolio inflows support IDR stability, reducing imported input cost volatility for any TLD Indonesian sourcing or assembly activity. No direct change to TLD's manufacturing footprint, but a stable rupiah improves supplier contract predictability.
+FINANCE_FX_IMPACT: Robust inflows lower IDR depreciation risk on TLD Indonesia's EUR-reported results and support sovereign credit metrics, keeping Indonesia's risk premium contained for intercompany funding. Sustained inflows also improve local liquidity conditions for customer GSE financing.
+ACTION: Treasury should confirm IDR hedge ratios remain appropriate given supportive capital flows; no immediate adjustment required, review at next monthly FX committee.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 9
+IMPACT: WATCH
+COUNTRY: Indonesia
+INDICATOR: MONETARY
+HEADLINE: Bank Indonesia holds BI Rate at 5.75% amid global volatility
+READING: Bank Indonesia kept its benchmark rate at 5.75% in August 2026, holding steady amid global market volatility and a brief June trade deficit of US$0.45 billion. The decision reflects a cautious stance balancing rupiah stability against domestic growth support.
+SUPPLY_CHAIN_IMPACT: A stable policy rate provides predictable financing conditions for Indonesian suppliers and logistics partners, supporting supply chain cost stability. No direct impact on TLD's manufacturing footprint.
+FINANCE_FX_IMPACT: The hold keeps IDR financing costs stable for TLD Indonesia and its customers financing GSE purchases. A steady rate with supportive capital inflows reduces the risk of sharp IDR depreciation on EUR-reported results.
+ACTION: Regional finance should maintain current IDR funding and hedging positions; monitor Bank Indonesia guidance for any shift toward easing that could lower customer financing costs.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 10
+IMPACT: WATCH
+COUNTRY: Thailand
+INDICATOR: PMI
+HEADLINE: Thailand manufacturing PMI rises to 53.6 in June, 3-month high
+READING: Thailand's S&P Global Manufacturing PMI rose to 53.6 in June 2026 from a ten-month low of 52.6 in May, the highest reading since March. Production growth reached its fastest pace since December 2025 on robust demand conditions.
+SUPPLY_CHAIN_IMPACT: Thailand's accelerating manufacturing momentum strengthens its position as a China+1 sourcing and assembly destination, with potential for expanded TLD supplier relationships. Rising production may tighten local capacity and labour availability, warranting monitoring of lead times.
+FINANCE_FX_IMPACT: Strong manufacturing activity supports the baht and Thai sovereign credit metrics, reducing THB depreciation risk on TLD Thailand's EUR-reported results. Robust demand may keep the Bank of Thailand cautious on aggressive easing, sustaining moderate local financing costs.
+ACTION: Regional finance should monitor Thailand's PMI trajectory and Bank of Thailand policy signals monthly; assess whether TLD Thailand's local financing capacity aligns with anticipated volume growth.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 11
+IMPACT: WATCH
+COUNTRY: Regional
+INDICATOR: PMI
+HEADLINE: Asia manufacturing momentum diverges: India leads, Thailand gains, Indonesia slips
+READING: Asia's manufacturing landscape is diverging in 2026, with India remaining the strongest performer despite slowing, Thailand gaining momentum, China stabilising, and Indonesia slipping back toward contraction. The divergence reflects uneven domestic demand and export conditions across the region.
+SUPPLY_CHAIN_IMPACT: Divergent manufacturing momentum across Asia complicates TLD's regional sourcing strategy, favouring Thailand and India for expansion while Indonesia requires caution. TLD should reassess supplier concentration and consider rebalancing toward higher-momentum markets.
+FINANCE_FX_IMPACT: Divergent PMI trends imply divergent currency and rate trajectories across the region, increasing FX hedging complexity for TLD's multi-currency APAC exposure. Treasury should review currency-specific hedge ratios in light of these diverging fundamentals.
+ACTION: CFO APAC should commission a regional sourcing and FX exposure review within two weeks to rebalance toward higher-momentum markets and adjust currency hedge ratios accordingly.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 12
+IMPACT: WATCH
+COUNTRY: Thailand
+INDICATOR: MONETARY
+HEADLINE: Thailand private investment projected to slow temporarily in Q2 2026
+READING: The Bank of Thailand's Monetary Policy Report Q1/2026 projects private investment to slow temporarily in Q2 2026, with tourism receipts forecast to rise to 1.45 trillion baht in 2026 and 1.57 trillion baht in 2027. Foreign tourist arrivals are projected at 33.0 million in 2026.
+SUPPLY_CHAIN_IMPACT: A temporary slowdown in Thai private investment may soften domestic capex appetite, potentially moderating demand for capital equipment including GSE. TLD should monitor whether Thai customer capex plans are deferred.
+FINANCE_FX_IMPACT: Slower private investment may encourage the Bank of Thailand to maintain accommodative policy, keeping THB financing costs low for TLD Thailand and its customers. Tourism recovery supports the baht and external balance, reducing depreciation risk.
+ACTION: Regional finance should monitor Thai private investment and Bank of Thailand policy signals monthly; assess whether customer financing demand softens in line with the projected investment slowdown.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 13
+IMPACT: WATCH
+COUNTRY: Vietnam
+INDICATOR: PMI
+HEADLINE: Vietnam manufacturing growth weakens as costs surge in April
+READING: Vietnam's manufacturing growth weakened in April as input costs surged, signalling margin pressure across the sector. The slowdown reflects rising cost pressures that could erode Vietnam's cost competitiveness as a China+1 destination.
+SUPPLY_CHAIN_IMPACT: Rising costs in Vietnam may reduce its relative cost advantage for TLD sourcing and assembly, potentially shifting some volume toward Thailand or India. TLD should monitor Vietnamese supplier pricing and consider diversifying sourcing to mitigate cost inflation.
+FINANCE_FX_IMPACT: Cost-push inflation in Vietnam may keep the State Bank of Vietnam cautious on easing, sustaining moderate VND financing costs for TLD Vietnam. Rising costs could pressure the dong if competitiveness erodes, increasing FX translation risk on EUR-reported results.
+ACTION: Regional finance should review Vietnam sourcing cost assumptions and VND hedge ratios within two weeks, and assess whether alternative sourcing markets offer better cost stability.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 14
+IMPACT: WATCH
+COUNTRY: Philippines
+INDICATOR: PMI
+HEADLINE: Philippines manufacturing PMI rises to 50.7 in August from 50.1
+READING: The Philippines' S&P Global Manufacturing PMI rose to 50.7 in August 2026 from 50.1 in May, a modest gain that keeps the sector just above the 50.0 no-change threshold. The reading signals marginal expansion with limited momentum.
+SUPPLY_CHAIN_IMPACT: Marginal Philippine manufacturing expansion offers limited near-term sourcing opportunity for TLD, though the market remains a viable secondary China+1 option. TLD should monitor whether momentum builds before committing incremental sourcing volume.
+FINANCE_FX_IMPACT: A barely-expansionary PMI offers little support for the peso, keeping PHP depreciation risk on TLD Philippines' EUR-reported results. Moderate local financing costs are likely to persist given subdued growth.
+ACTION: Regional finance should monitor Philippine PMI monthly; a drop below 50 would signal contraction and warrant reassessing local sourcing and financing assumptions.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 15
+IMPACT: WATCH
+COUNTRY: Philippines
+INDICATOR: OTHER
+HEADLINE: Philippines government debt slips to 17.5 trillion pesos in August
+READING: The Philippine government's outstanding debt slipped to 17.5 trillion pesos at end-August, a 95-billion-peso drop from the prior period, supported by foreign investment inflows improving the international investment position. The decline signals modest fiscal consolidation.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: A modest reduction in government debt supports Philippine sovereign credit metrics and reduces country risk premium for TLD Philippines' intercompany funding. Improved external position from foreign investment inflows marginally supports the peso.
+ACTION: Treasury should note the improving Philippine fiscal position in its country risk assessment; no immediate action required.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 16
+IMPACT: WATCH
+COUNTRY: Taiwan
+INDICATOR: PMI
+HEADLINE: Taiwan manufacturing PMI tracks semiconductor cycle, expansion above 50
+READING: Taiwan's manufacturing PMI and electronics and optical sector PMI reflect the current semiconductor cycle, with readings above 50 indicating expansion. The index is closely correlated with global electronics demand and semiconductor capital spending.
+SUPPLY_CHAIN_IMPACT: Taiwan's semiconductor-driven manufacturing cycle affects global electronics component availability and pricing, indirectly influencing TLD's equipment electronics supply chain. A strong cycle supports component availability but may tighten capacity for specialised electronics inputs.
+FINANCE_FX_IMPACT: A strong semiconductor cycle supports the New Taiwan Dollar and Taiwanese sovereign credit metrics, reducing TWD depreciation risk on TLD Taiwan's EUR-reported results. Robust electronics exports support local liquidity and moderate financing costs.
+ACTION: Regional finance should monitor Taiwan's PMI and semiconductor cycle monthly as a leading indicator for electronics component costs and TWD exposure.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 17
+IMPACT: INFO
+COUNTRY: Taiwan
+INDICATOR: REFORM
+HEADLINE: Taiwan maintains open remittance regime, no capital controls on approved investment
+READING: The 2026 Taiwan Investment Climate Statement confirms no restrictions on remittances deriving from approved direct investment, with the New Taiwan Dollar fluctuating under a managed float system. Taiwanese banks offer up to 15 foreign currency denominations with market-based exchange rates.
+SUPPLY_CHAIN_IMPACT: An open remittance regime facilitates TLD Taiwan's cross-border component and equipment flows without capital control friction. No change to TLD's manufacturing footprint, but the stable regime supports operational predictability.
+FINANCE_FX_IMPACT: The absence of capital controls and repatriation restrictions reduces treasury risk for TLD Taiwan, allowing efficient cash repatriation and intercompany funding. Market-based FX pricing supports competitive hedging costs.
+ACTION: Treasury should confirm TLD Taiwan's repatriation and hedging procedures remain aligned with the open regime; no immediate action required.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 18
+IMPACT: WATCH
+COUNTRY: South Asia
+INDICATOR: OTHER
+HEADLINE: South Asia fiscal reforms target revenue gains in Bangladesh and Sri Lanka
+READING: The World Bank's Global Economic Prospects notes Bangladesh's reform-driven revenue collection increase is projected to offset higher expenditure following a new government, while Sri Lanka shows strong revenue performance. Public debt-to-GDP ratios remain a focus across the region.
+SUPPLY_CHAIN_IMPACT: Improved fiscal positions in Bangladesh and Sri Lanka could gradually enhance their attractiveness as secondary sourcing markets, though near-term supply chain relevance for TLD remains limited. TLD should monitor reform progress for future sourcing diversification.
+FINANCE_FX_IMPACT: Fiscal consolidation in Bangladesh and Sri Lanka supports sovereign credit metrics and reduces country risk premiums, marginally improving financing conditions for any TLD exposure in these markets. Currency stability risk remains elevated relative to primary-tier APAC markets.
+ACTION: Treasury should note improving South Asian fiscal metrics in country risk assessments; no immediate action required given limited TLD exposure.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 19
+IMPACT: INFO
+COUNTRY: Bhutan
+INDICATOR: FDI
+HEADLINE: Bhutan targets US$5.9bn FDI by 2029, approves US$800m in projects
+READING: Bhutan aims to raise FDI to US$5.9 billion by 2029 and approved 14 new projects in 2025 worth over US$800 million, including Tata Power's US$753 million investment. The push signals a gradual opening of Bhutan's investment regime.
+SUPPLY_CHAIN_IMPACT: Bhutan's small market and limited industrial base offer minimal near-term supply chain relevance for TLD. No direct impact on TLD's regional manufacturing or sourcing footprint.
+FINANCE_FX_IMPACT: Bhutan's FDI push has negligible impact on TLD's regional financing or FX exposure given the market's small size and limited convertibility. No treasury action required.
+ACTION: No action required; monitor only as background context on South Asian investment liberalisation.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 20
+IMPACT: WATCH
+COUNTRY: Singapore
+INDICATOR: PMI
+HEADLINE: Singapore manufacturing PMI rises to 51.3 in June from 51.0
+READING: Singapore's SIPMM Manufacturing PMI rose to 51.3 in June 2026 from 51.0 in May, moving further above the 50.0 no-change threshold and signalling faster improvement in manufacturing operating conditions. The electronics sector also showed improvement.
+SUPPLY_CHAIN_IMPACT: Singapore's continued manufacturing expansion supports its role as a regional logistics, distribution, and high-value component hub for TLD's APAC supply chain. Improving electronics conditions support component availability for TLD equipment.
+FINANCE_FX_IMPACT: A stable, expansionary Singapore manufacturing sector supports SGD strength and Singapore's AAA credit profile, keeping local financing costs low for TLD Singapore. SGD appreciation would modestly raise the cost of EUR-denominated imports but reduce translation costs for SGD revenues reported in EUR.
+ACTION: Regional finance should maintain current SGD hedging posture; monitor Singapore PMI and MAS policy signals monthly for any shift in local financing conditions.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 21
+IMPACT: IMPORTANT
+COUNTRY: Australia
+INDICATOR: MONETARY
+HEADLINE: RBA hikes 25bps to 4.60%, highest cash rate in almost 15 years
+READING: The Reserve Bank of Australia raised its official cash rate target by 25 basis points to 4.60% on 28 September 2026, the highest level in almost 15 years, citing stubborn inflation. It was the first hike in five months, signalling a renewed hawkish stance.
+SUPPLY_CHAIN_IMPACT: Higher Australian rates raise the cost of capital for Australian suppliers and logistics partners, potentially feeding into component and service pricing for TLD Australia. No direct change to TLD's manufacturing footprint, but Australian supplier working-capital stress should be monitored.
+FINANCE_FX_IMPACT: The 25bps hike is below the 50bps CRITICAL threshold but raises AUD financing costs for TLD Australia and its customers financing GSE purchases. A hawkish RBA supports the Australian dollar, reducing AUD depreciation risk on EUR-reported results but increasing local borrowing costs.
+ACTION: Regional finance should reprice TLD Australia's local credit facilities and customer lease rates to reflect the higher cash rate, and update the 90-day AUD funding forecast within one week.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 22
+IMPACT: WATCH
+COUNTRY: New Zealand
+INDICATOR: MONETARY
+HEADLINE: New Zealand rate outlook mixed as RBNZ easing cycle nears end
+READING: ANZ, Westpac, and BNZ forecast at least one OCR increase within 2026 as the economy recovers, with Opes Partners expecting the OCR to reach 3.0%. This follows the RBNZ's earlier 50bps cut, which was larger than expected, as inflation was expected to reach 3.0% in Q3.
+SUPPLY_CHAIN_IMPACT: New Zealand's small industrial base offers minimal direct supply chain relevance for TLD, though a recovering economy may support modest local demand. No direct impact on TLD's regional manufacturing or sourcing footprint.
+FINANCE_FX_IMPACT: A potential shift from easing to tightening in New Zealand would raise NZD financing costs for any TLD exposure and support the NZD. The mixed outlook increases uncertainty for NZD hedging decisions.
+ACTION: Regional finance should monitor RBNZ policy signals quarterly; no immediate action required given limited TLD New Zealand exposure.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 23
+IMPACT: IMPORTANT
+COUNTRY: Japan
+INDICATOR: FX
+HEADLINE: US-Japan currency intervention reshapes yen, rates, and dollar outlook
+READING: A US-Japan currency intervention in August 2026 has reshaped the outlook for the yen, interest rates, and the dollar, according to Goldman Sachs analysis. The intervention signals official concern over yen weakness and introduces two-sided FX risk for JPY exposures.
+SUPPLY_CHAIN_IMPACT: A potential yen appreciation following intervention would raise the cost of Japanese-sourced components and sub-assemblies for TLD equipment, pressuring input costs. TLD should monitor Japanese supplier pricing for signs of yen-driven cost increases.
+FINANCE_FX_IMPACT: Intervention introduces significant two-sided JPY risk for TLD Japan, affecting both EUR-reported translation and local financing costs. A firmer yen reduces EUR import costs into Japan but raises translation costs for JPY revenues; hedging strategy should be reviewed.
+ACTION: Treasury should review TLD Japan's JPY hedge ratios and consider adjusting positions within one week given elevated intervention-driven volatility.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 24
+IMPACT: WATCH
+COUNTRY: Japan
+INDICATOR: FX
+HEADLINE: Weak yen persists after US intervention, matters to investors
+READING: Morgan Stanley analysis indicates the Japanese yen weakened after US intervention in 2026, with the weak yen remaining a key consideration for investors. The persistent weakness reflects underlying rate differentials and capital flow dynamics.
+SUPPLY_CHAIN_IMPACT: A persistently weak yen lowers the cost of Japanese-sourced components and sub-assemblies for TLD equipment, improving input cost competitiveness. TLD should consider whether to increase Japanese sourcing volume while the yen remains weak.
+FINANCE_FX_IMPACT: A weak yen raises the cost of EUR-denominated imports into Japan and reduces translation costs for JPY revenues reported in EUR, benefiting TLD Japan's reported results. Local JPY financing costs remain low, supporting customer GSE financing conditions.
+ACTION: Regional finance should assess whether current JPY hedge ratios appropriately capture the weak-yen benefit, and review Japanese sourcing volume opportunities within two weeks.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: APAC ex-China macro signals this week are net mildly positive, led by Thai August factory output rising 4.44% year on year and beating forecast on electronics and government stimulus, pointing to firmer regional industrial demand. China's exclusion of US soybeans from tariff cuts and its 725 million tonne 2030 grain target reinforce strategic decoupling and trade-friction risk, while Beijing's cut to the pledged supplemental lending rate and new mortgage subsidy extend monetary easing with regional spillover. No CRITICAL threshold breaches were recorded — no PMI below 48 or above 52, no FX move above 3%, no policy rate move above 50bps, and no FDI swing above 15%. Net impact on TLD APAC operations is modestly supportive on demand and customer credit quality, with manageable FX translation and supply-chain complexity risk. Priority actions are to validate Thai customer payment and pipeline trends, monitor China trade retaliation for APAC routing effects, and refresh currency exposure assumptions for Q4 reporting.
-COMPETITIVENESS_OUTLOOK: Regional cost base is broadly stable over the next 30-90 days, with Thai industrial strength potentially tightening local labour and logistics capacity and modestly raising input costs. ASEAN manufacturers face incremental export competition from a weaker yuan, but electronics-led demand supports TLD's regional customer base.
-FINANCING_OUTLOOK: Regional financing conditions are neutral to slightly easier over the next 90-180 days, with China easing pulling some regional funding costs lower and Thai industrial momentum supporting customer credit quality. No sovereign rating or capital control stress is evident, keeping TLD entity and customer financing costs stable.
-WATCH_1: Thai manufacturing output and PMI — flag CRITICAL if PMI falls below 48 or rises above 52 for the first time in 3+ months.
-WATCH_2: APAC currency moves versus EUR and USD — flag CRITICAL on any 30-day move exceeding 3%, particularly THB, KRW, and JPY.
-WATCH_3: China trade retaliation and tariff announcements affecting APAC component routing — flag CRITICAL on any new export control or tariff measure touching regional transshipment.
-MAIN_RISK: Escalating China-US trade friction and selective tariff measures could disrupt APAC cross-border component flows and pressure regional currencies.
-MAIN_OPPORTUNITY: Firming Thai and regional electronics-led industrial output supports TLD customer capex appetite and lease financing demand across Southeast Asia.
+EXECUTIVE_SUMMARY: APAC ex-China macroeconomic conditions are broadly expansionary but increasingly divergent, with India leading at 7.8% GDP growth and a 52.8 PMI, Thailand accelerating to 53.6, Japan's manufacturing PMI at a 45-month high, and Singapore steady at 51.3, while Indonesia (51.43) and the Philippines (50.7) show only marginal expansion and Vietnam faces cost-driven slowdown. Monetary policy is turning more restrictive in several markets, with the Bank of Korea hiking 25bps to 2.75%, the RBA raising 25bps to a 15-year high of 4.60%, and the Bank of Japan normalisation risk rising, while Bank Indonesia holds at 5.75% and New Zealand's easing cycle nears its end. FX conditions are dominated by US-Japan intervention and persistent yen weakness, introducing two-sided JPY risk, while Indonesia's US$8.5bn Q2 portfolio inflows and US$3.55bn August trade surplus support the rupiah. Net impact on TLD APAC operations is moderately positive for demand but negative for financing costs, with higher local rates in Korea and Australia raising customer GSE financing costs and TLD entity borrowing expenses. Priority actions are to reprice Korean and Australian credit facilities and customer lease rates, review JPY hedge ratios given intervention-driven volatility, and reassess regional sourcing toward higher-momentum markets like Thailand and India.
+COMPETITIVENESS_OUTLOOK: Over the next 30-90 days, TLD's regional cost base faces upward pressure from rising Korean and Australian financing costs and Vietnamese input cost inflation, while Japanese sourcing costs remain favourable on yen weakness. Thailand and India offer the strongest relative competitiveness for sourcing and customer demand, whereas Indonesia and the Philippines offer limited near-term momentum. Net regional competitiveness is stable to slightly positive, contingent on managing FX and rate-driven cost increases.
+FINANCING_OUTLOOK: Regional financing conditions are tightening modestly over the next 90-180 days, with Korea at 2.75% and Australia at 4.60% and further hikes possible, raising both TLD entity borrowing costs and customer GSE lease financing costs in those markets. Indonesia (5.75%) and Thailand remain relatively accommodative, supporting customer financing demand, while Japan's normalisation path and yen intervention introduce uncertainty for JPY funding. Treasury should prioritise repricing Korean and Australian facilities and reviewing JPY hedge ratios.
+WATCH_1: Japan manufacturing PMI and BoJ policy signals — monitor for sustained readings above 52 and any policy rate move exceeding 25bps, given normalisation risk and yen intervention volatility.
+WATCH_2: Bank of Korea and RBA policy trajectory — monitor for any further rate move exceeding 50bps in a single decision, which would trigger CRITICAL impact and require immediate repricing of local facilities.
+WATCH_3: Indonesia PMI and rupiah stability — monitor for a drop below 50 (contraction) or IDR move exceeding 3% versus USD in 30 days, given the market's marginal expansion and reliance on portfolio inflows.
+MAIN_RISK: The biggest economic risk for TLD's APAC operations is the combination of rising local financing costs in Korea and Australia and intervention-driven JPY volatility, which could simultaneously raise customer GSE financing costs and complicate TLD's multi-currency hedging and translation exposure.
+MAIN_OPPORTUNITY: The biggest economic opportunity is the persistent weak yen, which lowers Japanese sourcing costs for TLD equipment, combined with strong Indian and Thai manufacturing momentum offering expanded China+1 sourcing and customer-base opportunities.
 ===SUMMARY_END===
