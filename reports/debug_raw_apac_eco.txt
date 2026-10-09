@@ -1,13 +1,13 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
-IMPACT: CRITICAL
-COUNTRY: India
-INDICATOR: PMI
-HEADLINE: ALERT: India manufacturing PMI jumps to 55.1, seven-month high, breaching 52 threshold
-READING: The HSBC India Manufacturing PMI rose 2.3 index points to 55.1 in September 2026 from 52.8 in August, marking a seven-month high and a clear breach of the 52 expansion threshold. The surge reflects strong domestic demand and new order growth, reversing the weak patch earlier in 2026 when the index touched a five-year low in August per separate reporting. The sharp rebound signals accelerating industrial momentum in TLD's largest South Asian market.
-SUPPLY_CHAIN_IMPACT: India's manufacturing expansion supports TLD's supplier and customer base in South Asia, with stronger factory activity likely driving capex appetite for GSE and industrial equipment. Any India-based component sourcing or assembly operations benefit from improved order books and capacity utilisation. The China+1 diversification trend continues to favour India as a manufacturing relocation destination, potentially expanding TLD's addressable customer pool.
-FINANCE_FX_IMPACT: Strong PMI data reduces near-term INR depreciation risk and may attract portfolio inflows, supporting the currency. TLD's India entity should see improved customer financing conditions as domestic demand strengthens, though the RBI may delay rate cuts if growth remains robust, keeping borrowing costs elevated in the near term.
-ACTION: CFO APAC should review India entity's Q4 sales pipeline and customer credit exposure given the demand upswing, and assess whether inventory or lease origination capacity needs to be scaled up within the next two weeks.
+IMPACT: INFO
+COUNTRY: Regional
+INDICATOR: FX
+HEADLINE: PBoC rebuts yuan manipulation claims as EU trade talks open
+READING: The People's Bank of China issued an official position paper rejecting claims that an undervalued yuan is artificially boosting Chinese exports, timed to coincide with the start of EU-China trade negotiations. The rebuttal signals Beijing's sensitivity to external pressure on currency policy and suggests the yuan will remain a politically charged variable in EU-Asia trade discussions.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact for TLD's ex-China APAC footprint, though any EU-China trade escalation could indirectly reshape component sourcing flows into Vietnam, Thailand, and Malaysia where TLD sources or manufactures.
+FINANCE_FX_IMPACT: A stable or modestly stronger yuan reduces competitive pressure on other Asian currencies and limits the risk of a regional competitive devaluation cycle that would erode TLD's EUR-reported regional entity results.
+ACTION: Monitor EU-China trade negotiation outcomes over the next two weeks for any spillover into regional tariff or currency dynamics; no immediate action required.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
@@ -15,116 +15,140 @@ SIGNAL_ID: 2
 IMPACT: WATCH
 COUNTRY: India
 INDICATOR: PMI
-HEADLINE: India manufacturing PMI hit five-year low in August before September rebound
-READING: A Business Standard report from August 2026 noted India's manufacturing activity slowed to its weakest pace in nearly five years, even as factories continued to expand. This provides context for the sharp September rebound to 55.1, indicating significant month-to-month volatility in India's industrial cycle. The August weakness was likely driven by seasonal factors, export softness, or inventory destocking.
-SUPPLY_CHAIN_IMPACT: The August trough and September rebound suggest volatility in order patterns that could complicate TLD's India supply chain planning and inventory management. Suppliers may have adjusted capacity downward in August, potentially creating short-term bottlenecks as demand recovers. TLD should monitor whether the rebound is sustained or a one-month anomaly.
-FINANCE_FX_IMPACT: The volatility in manufacturing data may cause short-term INR fluctuations as markets reassess growth trajectory. TLD's India entity should maintain flexible hedging arrangements to manage currency risk during periods of data-driven volatility.
-ACTION: Regional finance team should track October PMI data due early November to confirm whether the September rebound is sustained, and stress-test India cash flow forecasts against a scenario of renewed slowdown.
+HEADLINE: India PMI 54.7 in April 2026, second-slowest growth in four years
+READING: The HSBC India Manufacturing PMI rose marginally to 54.7 in April 2026 from 53.9 in March, remaining comfortably in expansion territory but marking the second-weakest pace in nearly four years. High input costs are the primary drag, compressing margins even as output continues to grow.
+SUPPLY_CHAIN_IMPACT: India remains an expanding manufacturing base and a viable China+1 sourcing alternative, but rising input costs could raise component prices for any India-sourced parts in TLD's regional supply chain. Sustained sub-55 readings may slow the pace of new supplier capacity build-out.
+FINANCE_FX_IMPACT: Continued expansion supports customer capex appetite for GSE leasing in India, though input cost inflation could pressure lessee margins and increase credit risk on new lease originations.
+ACTION: Track India PMI monthly; if it falls below 52, reassess India customer credit exposure and pipeline conversion assumptions within one week.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 3
-IMPACT: CRITICAL
-COUNTRY: Philippines
-INDICATOR: PMI
-HEADLINE: ALERT: Philippines manufacturing PMI rises to 54.9 in August, fourth consecutive month above 52
-READING: The Philippine manufacturing PMI climbed to 54.9 in August 2026 from 51.8 in July, marking the fourth consecutive month of expansion and a clear breach of the 52 threshold. The sustained improvement reflects strengthening domestic demand and improved business confidence in the Philippines. This is the strongest reading in recent months and signals robust industrial momentum.
-SUPPLY_CHAIN_IMPACT: The Philippines' manufacturing expansion supports TLD's customer base in the market, with stronger factory activity likely translating into increased demand for GSE and industrial equipment. Any local sourcing or assembly operations benefit from improved supplier reliability and capacity. The sustained expansion may also attract further FDI into Philippine manufacturing, expanding TLD's potential customer pool.
-FINANCE_FX_IMPACT: Strong PMI data supports PHP stability and may attract foreign investment inflows, reducing currency risk for TLD's Philippine entity. Improved economic conditions could lead the BSP to maintain or raise rates, affecting customer financing costs for GSE leases and purchases. TLD should monitor whether the BSP adjusts monetary policy in response to sustained growth.
-ACTION: CFO APAC should assess Philippine entity's Q4 revenue forecast against the stronger PMI trend and evaluate whether customer financing terms need adjustment given potential rate changes.
+IMPACT: IMPORTANT
+COUNTRY: India
+INDICATOR: GDP
+HEADLINE: India manufacturing share of GDP to double to 20% by FY2030
+READING: India's manufacturing share of GDP is projected to rise from 13% in FY2025 to 20% by FY2030, with manufacturing GVA growth of 7.72% in Q1 and 9.13% in Q2 of FY2025-26. Real GDP growth is estimated at 6.5% for FY2025-26, confirming India as the fastest-growing major economy in the region.
+SUPPLY_CHAIN_IMPACT: Accelerating industrialisation strengthens India's position as a China+1 manufacturing hub, creating potential new sourcing options and a growing industrial customer base for TLD's GSE products and leasing services outside mainland China.
+FINANCE_FX_IMPACT: Strong GDP growth supports INR-denominated revenue growth for TLD's India exposure and underpins customer financing capacity, though rapid expansion may tighten domestic credit conditions over time.
+ACTION: Commission a 90-day review of India as a priority growth market for TLD leasing and sales, including local financing partner options and INR hedging strategy.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 4
-IMPACT: IMPORTANT
+IMPACT: WATCH
 COUNTRY: Indonesia
-INDICATOR: FX
-HEADLINE: Indonesia lowers FX purchase threshold to USD25,000 to stabilise Rupiah
-READING: Bank Indonesia lowered the threshold for cash purchases of foreign exchange against the Rupiah without underlying transactions to USD25,000 per person per month, effective June 2026. This policy aims to support Rupiah stability and deepen domestic financial markets by discouraging speculative FX transactions. The move signals ongoing concern about capital outflows and currency pressure.
-SUPPLY_CHAIN_IMPACT: The FX policy change may affect TLD's Indonesia entity's ability to convert local currency earnings or procure foreign components, potentially adding administrative burden to cross-border transactions. Suppliers paid in foreign currency may face delays or increased compliance requirements. TLD should review its Indonesia supply chain payment processes for compliance with the new threshold.
-FINANCE_FX_IMPACT: The lower threshold restricts large FX cash purchases, which could increase transaction costs and administrative complexity for TLD's Indonesia entity when repatriating funds or paying foreign suppliers. This measure is designed to reduce IDR volatility, potentially stabilising TLD's translation exposure but at the cost of reduced operational flexibility. TLD should assess whether the policy affects its intercompany funding or dividend repatriation plans.
-ACTION: Regional treasury should review Indonesia entity's FX transaction procedures to ensure compliance with the USD25,000 threshold and assess any impact on intercompany funding or repatriation schedules within the next week.
+INDICATOR: PMI
+HEADLINE: Indonesia manufacturing PMI plummets in March 2026 on Middle East conflict
+READING: Indonesia's manufacturing PMI fell sharply in March 2026, driven by weakening demand and supply disruptions linked to the Middle East conflict. The decline reflects external shock transmission rather than domestic structural weakness, but the magnitude warrants close monitoring.
+SUPPLY_CHAIN_IMPACT: Supply disruptions in Indonesia could affect any locally sourced components or logistics routes in TLD's regional footprint, and weakening industrial demand may reduce near-term customer capex appetite for GSE.
+FINANCE_FX_IMPACT: A weakening Indonesian industrial outlook combined with IDR vulnerability raises credit risk on existing IDR-denominated leases and could slow new financing approvals for Indonesian customers.
+ACTION: Obtain the exact March 2026 Indonesia PMI reading within 48 hours; if below 48, escalate to a full credit review of Indonesian lease exposure.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 5
 IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: TRADE
-HEADLINE: China central bank rejects currency manipulation claims as EU trade talks begin
-READING: China's central bank pushed back against currency manipulation allegations as EU trade negotiations commenced, highlighting ongoing trade tensions between major economies. The dispute centres on allegations that China artificially suppresses the yuan to gain export advantages, a claim Beijing denies. These tensions could affect broader Asian trade dynamics and currency markets.
-SUPPLY_CHAIN_IMPACT: Escalating EU-China trade tensions could accelerate supply chain diversification away from China into Southeast Asia and India, potentially benefiting TLD's regional manufacturing footprint outside Mainland China. However, increased trade friction may also disrupt component flows and raise costs for TLD's regional supply chain if tariffs expand. TLD should monitor whether the dispute leads to new tariffs or export controls affecting cross-border equipment flows.
-FINANCE_FX_IMPACT: Currency manipulation accusations and trade tensions typically increase FX volatility across Asian currencies, particularly for export-oriented economies like Thailand, Vietnam, and South Korea. TLD's regional entities may face higher hedging costs and translation volatility if the dispute escalates. The EUR/USD and EUR/Asia crosses could see increased volatility during the negotiation period.
-ACTION: CFO APAC should monitor EU-China trade talks for any tariff or export control announcements that could affect TLD's regional supply chain or FX exposure, with a specific focus on component sourcing from China into APAC entities.
+COUNTRY: Thailand
+INDICATOR: FDI
+HEADLINE: Thailand FDI net inflows at USD 10.1bn in 2024, trend unclear
+READING: Thailand recorded FDI net inflows of USD 10.1 billion in 2024 according to World Bank data, with the 2026 Investment Climate Statement confirming continued openness to foreign equity participation in banking and financial services. The data provides a baseline but does not yet show a clear acceleration or deterioration trend.
+SUPPLY_CHAIN_IMPACT: Stable FDI inflows support Thailand's manufacturing ecosystem and its role as an automotive and industrial components hub, relevant to TLD's regional sourcing and any Thailand-based assembly or service operations.
+FINANCE_FX_IMPACT: Continued FDI inflows support THB stability and reduce country risk premium, keeping financing costs for TLD's Thailand entity and Thai customers relatively contained.
+ACTION: Monitor Thailand FDI quarterly data for any YoY swing exceeding 15%; request updated BoT foreign exchange and capital flow data at next regional treasury review.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 6
 IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: MONETARY
-HEADLINE: France not facing debt crisis despite rising yields, analysts say
-READING: Analysts are urging calm amid surging French borrowing costs, though they cite ongoing risk from political gridlock and rising yields. France is not currently facing a debt crisis, but the situation warrants monitoring as European sovereign risk premiums widen. This matters for TLD as a European-headquartered group with EUR-denominated reporting.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact for TLD's APAC operations, though rising European sovereign yields could indirectly affect the group's overall cost of capital and investment capacity in the region.
-FINANCE_FX_IMPACT: Rising French yields and European sovereign risk concerns could weaken EUR against Asian currencies, affecting TLD's translation of APAC entity results into EUR. Higher European borrowing costs could also increase TLD Group's overall cost of capital, potentially affecting intercompany funding rates for APAC entities. TLD's treasury should monitor EUR/USD and EUR/Asia crosses for translation impact.
-ACTION: Regional treasury should monitor EUR/USD and EUR/Asia FX rates for translation impact on APAC entity results, and assess whether intercompany funding costs need adjustment if European yields continue rising.
+COUNTRY: Vietnam
+INDICATOR: PMI
+HEADLINE: Vietnam PMI 53.8 in November 2025 with USD 20.5bn trade surplus
+READING: Vietnam's manufacturing PMI reached 53.8 in November 2025, comfortably above the 52 expansion threshold, accompanied by a trade surplus of USD 20.5 billion. The combination of strong manufacturing momentum and a large external surplus signals robust export competitiveness.
+SUPPLY_CHAIN_IMPACT: Vietnam's sustained manufacturing expansion reinforces its role as the primary China+1 beneficiary in Southeast Asia, supporting TLD's regional sourcing diversification and creating a growing industrial customer base for GSE.
+FINANCE_FX_IMPACT: A large trade surplus supports VND stability and reduces depreciation risk, limiting negative translation impact on TLD's Vietnam entity results reported in EUR and keeping local financing conditions favourable.
+ACTION: Maintain Vietnam as a priority China+1 sourcing and sales market; review VND hedging ratios at next monthly treasury meeting given the supportive external position.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 7
-IMPACT: WATCH
-COUNTRY: United Kingdom
-INDICATOR: OTHER
-HEADLINE: UK card defaults rise for longest period in 17 years, BOE reports
-READING: UK card defaults have risen for the longest period in 17 years, with Bank of England data suggesting households are taking on more debt just to get by. This signals consumer stress in a major developed economy, which could have broader implications for global credit conditions and risk sentiment. While the UK is outside APAC, it serves as a leading indicator for consumer credit stress in other developed markets.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact for TLD's APAC operations. However, rising consumer credit stress in developed markets could signal broader economic slowdown affecting global demand for equipment and leasing services.
-FINANCE_FX_IMPACT: UK consumer credit stress could weigh on GBP and broader risk sentiment, potentially affecting global financing conditions and credit availability for TLD's customers. If the trend spreads to other developed markets, it could tighten credit conditions for GSE leasing and equipment financing in APAC markets with exposure to global credit markets.
-ACTION: CFO APAC should monitor whether similar consumer credit stress indicators emerge in APAC markets, particularly Australia and South Korea, as a leading indicator of potential customer financing difficulties.
+IMPACT: IMPORTANT
+COUNTRY: Vietnam
+INDICATOR: SUPPLY_CHAIN
+HEADLINE: Vietnam China+1 gains constrained by rare earth dependence on China
+READING: Vietnam has benefited significantly from foreign firms de-risking away from China, but remains dependent on Chinese critical rare earth inputs, limiting the extent to which it can offer a fully independent supply chain alternative. Vietnam's industrial policy is evolving to address this dependency but no near-term resolution is apparent.
+SUPPLY_CHAIN_IMPACT: TLD's China+1 sourcing strategy into Vietnam carries residual exposure to Chinese rare earth and critical input supply chains, meaning Vietnam-sourced components are not fully insulated from China-related trade disruption or export controls.
+FINANCE_FX_IMPACT: No direct FX or financing impact, though any rare earth export control escalation could raise input costs for Vietnam-based suppliers and indirectly increase component pricing for TLD.
+ACTION: Map TLD's Vietnam-sourced component exposure to Chinese rare earth inputs within 30 days and identify alternative supplier options to reduce single-origin dependency.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 8
 IMPACT: WATCH
-COUNTRY: Bhutan
+COUNTRY: Philippines
 INDICATOR: FDI
-HEADLINE: Bhutan targets USD5.9bn FDI by 2029, approves USD800m in new projects
-READING: Bhutan aims to raise FDI to USD5.9 billion by 2029, with 14 new projects approved in 2025 worth over USD800 million, including Tata Power's USD750 million investment in hydropower. The country has improved access to foreign exchange, streamlined regulatory procedures, and removed lock-in periods for foreign investors. These reforms signal a significant opening of Bhutan's economy to foreign investment.
-SUPPLY_CHAIN_IMPACT: Bhutan's FDI liberalisation could create new opportunities for TLD in a frontier market, though the country's small size and limited industrial base mean near-term impact is minimal. The removal of lock-in periods and improved FX access could facilitate future market entry or equipment leasing opportunities if Bhutan's infrastructure and industrial sectors develop.
-FINANCE_FX_IMPACT: Bhutan's improved FX access and FDI reforms could reduce country risk premiums over time, though the BTN remains pegged to the INR. TLD's exposure to Bhutan is currently minimal, but the reforms warrant monitoring for potential future market entry or partnership opportunities.
-ACTION: Regional finance team should note Bhutan's FDI liberalisation as a long-term watch item, with no immediate action required given the market's small size and TLD's limited current exposure.
+HEADLINE: Philippines FDI flows higher in November 2025 but trail prior year
+READING: Philippine foreign direct investment flows increased in November 2025 on a month-on-month basis but remained below the prior year's level, indicating continued but decelerating foreign capital commitment. The mixed signal suggests investor caution despite regional China+1 momentum.
+SUPPLY_CHAIN_IMPACT: Slower FDI momentum may limit the pace of new industrial capacity build-out in the Philippines, reducing the near-term depth of the local supplier base relevant to TLD's regional sourcing footprint.
+FINANCE_FX_IMPACT: Weaker FDI inflows can pressure the PHP and widen country risk spreads, potentially raising financing costs for TLD's Philippines entity and for local customers seeking GSE lease financing.
+ACTION: Obtain exact November 2025 Philippine FDI figures and YoY percentage change within one week; if the YoY decline exceeds 15%, flag as CRITICAL and review PHP exposure.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 9
 IMPACT: WATCH
-COUNTRY: Laos
-INDICATOR: FDI
-HEADLINE: Laos FDI reaches USD1.405bn in 2025, LDC graduation set for November 2026
-READING: Laos reported direct investment flows of USD1.405 billion in 2025, with the government welcoming both domestic and foreign investment to maintain high growth rates. The country is scheduled to graduate from Least Developed Country status in November 2026, which will affect its access to preferential trade terms and development financing. The pace of foreign investment has increased over the last several years.
-SUPPLY_CHAIN_IMPACT: Laos' LDC graduation in November 2026 will remove preferential trade access, potentially affecting its attractiveness as a low-cost manufacturing location for supply chain diversification. TLD should monitor whether this shifts manufacturing investment toward other Southeast Asian markets like Vietnam or Cambodia. Any existing or planned Laos sourcing relationships may face cost increases post-graduation.
-FINANCE_FX_IMPACT: LDC graduation may reduce Laos' access to concessional financing and development aid, potentially increasing country risk and affecting the LAK currency. TLD's exposure to Laos is likely minimal, but the graduation could affect regional supply chain dynamics and competitor cost structures in Southeast Asia.
-ACTION: Regional finance team should monitor Laos' post-graduation trade and investment environment for any impact on regional supply chain competitiveness, with no immediate action required.
+COUNTRY: Malaysia
+INDICATOR: PMI
+HEADLINE: Malaysia manufacturing PMI release signals ongoing sector assessment
+READING: S&P Global published its Malaysia Manufacturing PMI for August 2026 with data collected 12-24 August, indicating continued monitoring of Malaysian manufacturing conditions. The excerpt does not disclose the headline reading, limiting the analytical value of this data point.
+SUPPLY_CHAIN_IMPACT: Malaysia is a significant electronics and industrial components hub in TLD's regional supply chain; the PMI direction will indicate whether Malaysian supplier capacity and pricing conditions are improving or deteriorating.
+FINANCE_FX_IMPACT: Malaysian manufacturing conditions influence MYR stability and local credit conditions, affecting financing costs for TLD's Malaysia-related exposure and customer lease affordability.
+ACTION: Retrieve the exact August 2026 Malaysia PMI headline figure within 48 hours and compare against the 52 expansion threshold; escalate if below 48.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 10
-IMPACT: IMPORTANT
-COUNTRY: Oceania
-INDICATOR: TRADE
-HEADLINE: US tariffs hit Pacific island growth; Fiji downgraded by FATF for AML deficiencies
-READING: Fiji has revised its 2026 growth projections downward due to the indirect impact of US tariffs on its major trading partners, while US tariffs and stable global growth will shape economic growth across the Pacific. Fiji was grey-listed by the Financial Action Task Force for AML/CFT deficiencies in 2026, which will have significant implications for its financial sector and international transactions. These developments affect the broader Oceania region's economic outlook.
-SUPPLY_CHAIN_IMPACT: US tariffs affecting Pacific island trading partners could disrupt supply chains and increase costs for goods flowing through the region, potentially affecting TLD's Oceania operations if equipment or components transit through affected routes. Fiji's FATF grey-listing may increase compliance requirements for financial transactions involving Fijian entities, adding administrative burden to any TLD operations or customer financing in the market.
-FINANCE_FX_IMPACT: Fiji's FATF grey-listing will increase due diligence requirements for financial transactions, potentially slowing customer financing and increasing compliance costs for TLD's Oceania entity. The growth downgrade and tariff impact may weaken the FJD and increase country risk premiums, affecting TLD's exposure in the Pacific island market. Regional financing conditions may tighten as banks increase AML/CFT scrutiny.
-ACTION: CFO APAC should review TLD's Oceania entity's exposure to Fijian customers and counterparties, ensuring enhanced due diligence procedures are in place for AML/CFT compliance within the next two weeks, and assess any tariff-related cost impact on regional equipment flows.
+IMPACT: CRITICAL
+COUNTRY: Regional
+INDICATOR: FX
+HEADLINE: ALERT — INR at record low, IDR below 1998 crisis level, KRW 17-year low
+READING: Asian currencies reversed expected 2026 appreciation and depreciated sharply, with the Indian Rupee hitting a record low, the Indonesian Rupiah falling below its 1998 Asian financial crisis level, and the Korean Won touching a 17-year low. The primary driver cited is the US-Iran conflict, which has triggered broad risk-off flows out of Asian currencies.
+SUPPLY_CHAIN_IMPACT: Sharp currency depreciation across India, Indonesia, and South Korea raises the local-currency cost of imported components and equipment, potentially disrupting TLD's regional supply chain pricing and increasing the cost of any EUR or USD-denominated inputs sourced into these markets.
+FINANCE_FX_IMPACT: TLD's regional entity results in India, Indonesia, and South Korea will suffer significant negative EUR translation impact; IDR below 1998 crisis levels signals severe stress that raises customer credit risk and could impair lease receivables in Indonesia and India.
+ACTION: Convene an emergency treasury review within 48 hours to quantify EUR translation losses across INR, IDR, and KRW exposures, assess lease receivable credit risk in Indonesia and India, and evaluate emergency hedging or repricing actions.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 11
+IMPACT: INFO
+COUNTRY: Regional
+INDICATOR: OTHER
+HEADLINE: Generic economy and circular economy references, no actionable macro signal
+READING: Two articles provided generic definitions of "economy" and "circular economy" with no country-specific data, policy changes, or financial market information relevant to TLD's APAC operations. These are reference encyclopaedia entries with no analytical value for regional finance.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: No direct FX or financing impact.
+ACTION: No action required; exclude from regional monitoring.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 12
+IMPACT: INFO
+COUNTRY: Regional
+INDICATOR: OTHER
+HEADLINE: China PMI and yuan policy articles out of scope for ex-China brief
+READING: Articles covering China's official NBS manufacturing PMI (forecast 50.3 from 50.1) and PBoC yuan policy statements relate to mainland China, which is explicitly excluded from this brief's scope. They are noted only for their potential indirect spillover into regional currency and trade dynamics.
+SUPPLY_CHAIN_IMPACT: China PMI direction indirectly affects regional China+1 sourcing momentum; a stronger China PMI could slow relocation flows to Vietnam, India, and Indonesia, while a weaker reading would accelerate them.
+FINANCE_FX_IMPACT: PBoC yuan policy stance influences broader Asian currency dynamics and competitive positioning, with indirect implications for TLD's regional FX exposure.
+ACTION: No direct action; defer China-specific analysis to the separate mainland China brief.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: The APAC ex-China region shows a bifurcated picture with strong manufacturing momentum in India (PMI 55.1, seven-month high) and the Philippines (PMI 54.9, fourth consecutive month of expansion), both breaching the 52 expansion threshold and signalling robust industrial demand. However, Indonesia's FX policy tightening (USD25,000 threshold on FX purchases) and Fiji's FATF grey-listing introduce regulatory and compliance complexity for regional treasury operations. US tariffs continue to reshape Pacific island economies, with Fiji revising growth downward, while EU-China trade tensions add uncertainty to regional supply chain dynamics. For TLD, the net impact is positive on the demand side, with India and Philippines manufacturing strength supporting customer capex appetite, but financing and compliance costs are rising in Indonesia and Oceania. Priority actions include reviewing India and Philippines sales pipelines for upside, ensuring Indonesia FX compliance, and enhancing AML/CFT due diligence for Fijian counterparties.
-COMPETITIVENESS_OUTLOOK: India and the Philippines are emerging as the region's strongest manufacturing competitiveness stories, with PMI readings well above 52 supporting industrial capex and potentially attracting further China+1 supply chain relocation. Indonesia's FX controls and Fiji's FATF grey-listing add operational friction and compliance costs in those markets, slightly eroding their relative competitiveness. Overall, the region's manufacturing cost base remains stable to improving, with labour cost advantages in South and Southeast Asia continuing to attract investment.
-FINANCING_OUTLOOK: Regional financing conditions are mixed, with strong PMI data in India and the Philippines likely keeping central banks cautious on rate cuts, maintaining current borrowing costs for TLD entities and customers. Indonesia's FX controls may increase transaction costs and reduce operational flexibility for cross-border funding. Fiji's FATF grey-listing will tighten financial sector compliance and may increase country risk premiums, while European sovereign yield concerns could raise TLD Group's overall cost of capital and affect intercompany funding rates.
-WATCH_1: India manufacturing PMI for October 2026, due early November — confirm whether the September rebound to 55.1 is sustained or a one-month anomaly; a drop below 52 would signal renewed weakness.
-WATCH_2: Indonesia Rupiah (IDR) exchange rate vs USD — monitor for depreciation exceeding 3% in 30 days following the FX purchase threshold tightening, which would trigger a CRITICAL FX signal.
-WATCH_3: Fiji FATF grey-listing impact on regional banking — monitor whether other Pacific island nations face similar AML/CFT scrutiny or if correspondent banking relationships in the region are disrupted.
-MAIN_RISK: Rising compliance and financing costs in Indonesia and Oceania, combined with potential EU-China trade escalation, could increase TLD's regional operating costs and disrupt cross-border equipment flows.
-MAIN_OPPORTUNITY: Strong manufacturing PMI in India (55.1) and the Philippines (54.9) signals robust customer capex appetite, creating a window to expand GSE leasing and equipment sales in these high-growth South and Southeast Asian markets.
+EXECUTIVE_SUMMARY: The APAC ex-China region faces a sharply deteriorating currency environment, with the Indian Rupee at a record low, the Indonesian Rupiah below 1998 crisis levels, and the Korean Won at a 17-year low, all driven by US-Iran conflict-induced risk-off flows — this is the dominant signal of the period and constitutes a CRITICAL threshold breach across multiple currencies. Manufacturing momentum remains positive but uneven: India PMI at 54.7 (second-slowest in four years), Vietnam at 53.8 with a USD 20.5bn trade surplus, while Indonesia's PMI plummeted in March 2026 on Middle East conflict spillover. India's structural trajectory is strongly positive, with manufacturing GDP share projected to double to 20% by FY2030 and GVA growth accelerating to 9.13% in Q2 FY2025-26. Thailand FDI stands at USD 10.1bn (2024) and Philippine FDI is recovering but trailing prior year, both warranting closer quantification. The net impact on TLD APAC operations is negative on the FX translation and credit risk side, partially offset by continued manufacturing expansion in India and Vietnam supporting medium-term customer capex.
+COMPETITIVENESS_OUTLOOK: Regional cost competitiveness is shifting rapidly as currency depreciation makes India, Indonesia, and South Korea more cost-competitive for export manufacturing but simultaneously raises the local-currency cost of imported EUR and USD-denominated equipment and components. Vietnam and India remain the strongest China+1 beneficiaries, though Vietnam's rare earth dependency on China introduces residual supply chain risk. Over the next 30-90 days, TLD's regional cost base will face upward pressure from imported input costs in depreciating-currency markets.
+FINANCING_OUTLOOK: Regional financing conditions are tightening materially as currency stress raises sovereign risk premiums and local central banks face pressure to defend currencies through rate hikes, increasing financing costs for TLD's regional entities and customers. IDR stress below 1998 crisis levels is particularly concerning for lease receivable quality in Indonesia, and INR record lows raise similar concerns in India. Over the next 90-180 days, expect elevated hedging costs, wider credit spreads on local-currency lease originations, and potential capital flow management measures in the most stressed markets.
+WATCH_1: IDR/USD and INR/USD exchange rates — any further depreciation exceeding 3% in 30 days from current levels triggers immediate escalation and emergency hedging review.
+WATCH_2: Indonesia and India manufacturing PMI — any reading below 48 confirms demand contraction and requires immediate credit exposure review across both markets.
+WATCH_3: Philippine FDI YoY change — if the decline exceeds 15%, flag as CRITICAL and reassess PHP exposure and local financing partner arrangements.
+MAIN_RISK: Simultaneous multi-currency depreciation across India, Indonesia, and South Korea driven by US-Iran conflict risk-off flows, creating combined EUR translation losses and elevated lease receivable credit risk across TLD's largest APAC markets.
+MAIN_OPPORTUNITY: India's accelerating manufacturing expansion — GDP share rising from 13% to 20% by FY2030 with 9.13% GVA growth — positions it as the region's premier China+1 growth market for TLD's GSE leasing and sales expansion.
 ===SUMMARY_END===
