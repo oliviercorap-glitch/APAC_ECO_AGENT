@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APAC Economic Watch (ex-China) — October 22, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f172a;--ink-2:#334155;--ink-3:#64748b;--ink-4:#94a3b8;
+  --surface:#fff;--surface-1:#f8fafc;--border:#e2e8f0;
+  --radius:8px;--radius-lg:12px;
+}
+body{font-family:'Inter',-apple-system,sans-serif;background:#f0f2f5;
+      color:var(--ink);line-height:1.6;padding:32px 16px 64px}
+.wrapper{max-width:960px;margin:0 auto}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);border-radius:var(--radius-lg) var(--radius-lg) 0 0;padding:28px 36px 24px}
+.masthead-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;
+                   text-transform:uppercase;color:#64748b;margin-bottom:8px}
+.masthead-title{font-size:22px;font-weight:600;letter-spacing:-.02em;color:#fff;margin-bottom:4px}
+.masthead-subtitle{font-size:13px;color:#475569;margin-bottom:12px}
+.masthead-meta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.meta-item{font-size:13px;color:#94a3b8;display:flex;align-items:center;gap:6px}
+.meta-item strong{color:#e2e8f0;font-weight:500}
+.masthead-counters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;
+                    padding-top:16px;border-top:1px solid #1e293b}
+.counter-pill{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;letter-spacing:.02em}
+
+/* CARD BODY */
+.card-body{background:var(--surface);border:1px solid var(--border);border-top:none;
+            border-radius:0 0 var(--radius-lg) var(--radius-lg);padding:36px}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:20px;
+                 padding-bottom:12px;border-bottom:1px solid var(--border)}
+.section-header h2{font-size:13px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:var(--ink-3)}
+.section-divider{margin:36px 0;border:none;border-top:1px solid var(--border)}
+
+/* EXEC SUMMARY */
+.exec-panel{background:var(--ink);border-radius:var(--radius-lg);padding:24px 28px;
+             margin-bottom:24px;color:#e2e8f0;font-size:15px;line-height:1.75}
+.exec-panel-label{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;
+                   text-transform:uppercase;color:#475569;margin-bottom:10px}
+.exec-panel p{margin:0}
+
+/* OUTLOOK PANELS */
+.outlook-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.outlook-card{border-radius:var(--radius);padding:16px 18px;border:1px solid}
+.outlook-card.margins{background:#f0fdf4;border-color:#bbf7d0}
+.outlook-card.demand{background:#eff6ff;border-color:#bfdbfe}
+.outlook-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;
+                margin-bottom:8px}
+.outlook-card.margins .outlook-label{color:#166534}
+.outlook-card.demand .outlook-label{color:#1e40af}
+.outlook-text{font-size:13px;line-height:1.6}
+.outlook-card.margins .outlook-text{color:#14532d}
+.outlook-card.demand .outlook-text{color:#1e3a8a}
+.outlook-text p{margin:0}
+
+/* SIGNAL CARDS */
+.signal-card{border:1px solid var(--border);border-radius:var(--radius-lg);
+              margin-bottom:16px;overflow:hidden;transition:box-shadow .15s}
+.signal-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.signal-card-header{padding:14px 20px;background:var(--surface-1);
+                     display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.signal-badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;
+               white-space:nowrap;letter-spacing:.03em;margin-top:2px;flex-shrink:0}
+.indicator-tag{font-size:11px;font-weight:500;color:var(--ink-3);
+                background:#f1f5f9;padding:3px 8px;border-radius:6px;
+                white-space:nowrap;margin-top:2px;flex-shrink:0}
+.country-tag{font-size:11px;font-weight:600;color:#1e40af;
+             background:#eff6ff;padding:3px 8px;border-radius:6px;
+             white-space:nowrap;margin-top:2px;flex-shrink:0}
+.signal-headline{font-size:15px;font-weight:600;color:var(--ink);line-height:1.4;flex:1}
+.signal-headline p{margin:0}
+.signal-body{padding:20px;display:grid;gap:14px}
+.signal-section-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                        letter-spacing:.1em;color:var(--ink-4);margin-bottom:4px}
+.signal-section-text{font-size:14px;color:var(--ink-2);line-height:1.65}
+.signal-section-text p{margin:0}
+.signal-action .signal-section-text{color:var(--ink);font-weight:500}
+.signal-source{padding-top:10px;border-top:1px dashed var(--border);font-size:12px;
+                color:var(--ink-4);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.source-label{font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+               font-size:10px;color:var(--ink-4);margin-right:4px}
+.signal-source a{color:#2563eb;text-decoration:none;font-weight:500}
+.signal-source a:hover{text-decoration:underline}
+.source-name{color:var(--ink-4)}
+
+/* WATCH / RISK / OPP */
+.watch-panel{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-lg);
+              padding:18px 22px;margin-bottom:12px}
+.watch-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:#92400e;margin-bottom:10px}
+.watch-panel ol{padding-left:20px;display:grid;gap:6px}
+.watch-panel li{font-size:14px;color:#78350f;line-height:1.5}
+.watch-panel li p{margin:0}
+.risk-panel{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius-lg);
+             padding:16px 22px;margin-bottom:12px}
+.risk-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                   letter-spacing:.08em;color:#991b1b;margin-bottom:6px}
+.risk-panel-text{font-size:14px;color:#7f1d1d;font-weight:500;line-height:1.6}
+.risk-panel-text p{margin:0}
+.opp-panel{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-lg);
+            padding:16px 22px}
+.opp-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                  letter-spacing:.08em;color:#166534;margin-bottom:6px}
+.opp-panel-text{font-size:14px;color:#14532d;font-weight:500;line-height:1.6}
+.opp-panel-text p{margin:0}
+
+/* SOURCES */
+.sources-panel{background:var(--surface-1);border:1px solid var(--border);
+                border-radius:var(--radius);padding:14px 18px;margin-top:32px}
+.sources-panel-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                       letter-spacing:.1em;color:var(--ink-4);margin-bottom:8px}
+.sources-panel ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 0;
+                   column-gap:24px;columns:2}
+.sources-panel li{font-size:12px;color:var(--ink-3);break-inside:avoid}
+.sources-panel li::before{content:"·";margin-right:6px;color:var(--ink-4)}
+
+/* FOOTER */
+.page-footer{text-align:center;font-size:11px;color:var(--ink-4);margin-top:24px;
+              font-family:'IBM Plex Mono',monospace;letter-spacing:.04em}
+
+@media(max-width:640px){
+  body{padding:12px 8px 48px}
+  .masthead,.card-body{padding:20px 16px}
+  .outlook-grid{grid-template-columns:1fr}
+  .sources-panel ul{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<div class="masthead">
+  <div class="masthead-eyebrow">TLD Group · Alvest · CFO APAC Intelligence</div>
+  <div class="masthead-title">APAC Economic Watch (ex-Mainland China)</div>
+  <div class="masthead-subtitle">Manufacturing PMI · FDI &amp; supply chain · FX &amp; financing · Trade &amp; reform · Compliance</div>
+  <div class="masthead-meta">
+    <div class="meta-item"><span>Date</span><strong>October 22, 2026</strong></div>
+    <div class="meta-item"><span>Generated</span><strong>10:41</strong></div>
+    <div class="meta-item"><span>Articles analyzed</span><strong>13</strong></div>
+    <div class="meta-item"><span>Signals</span><strong>10</strong></div>
+  </div>
+  <div class="masthead-counters"><span class="counter-pill" style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">2 Important</span><span class="counter-pill" style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">5 Watch</span><span class="counter-pill" style="background:#f9fafb;color:#374151;border:1px solid #e5e7eb;">3 Info</span></div>
+</div>
+
+<div class="card-body">
+
+  
+
+  <div class="exec-panel"><div class="exec-panel-label">Executive summary</div>The APAC ex-China picture is one of uneven momentum: Japan's manufacturing PMI at 54.1 remains expansionary but is decelerating below forecast, while South Korea's back-to-back rate hike to 3.00% signals confidence in AI-led growth but raises local financing costs. The Philippines is losing FDI ground to regional rivals, and Singapore's dollar is strengthening as a carry-funding currency, adding FX translation pressure on the regional hub. Trade normalization between China and Australia is a mild positive, while EU-China 'kill switch' rhetoric introduces tariff-escalation uncertainty for cross-border component flows. Vietnam's 2025 investment law reforms improve legal certainty for China+1 expansion. Priority actions are treasury review of SGD and KRW hedging, scenario-planning for EU-China tariff escalation, and refreshing Philippine country-risk assumptions.</div>
+
+  <div class="outlook-grid">
+    <div class="outlook-card margins">
+      <div class="outlook-label">🌏 Regional competitiveness outlook (30-90 days)</div>
+      <div class="outlook-text">Regional manufacturing competitiveness remains broadly intact, with Japan and Korea sustaining expansion despite moderating momentum, while the Philippines loses relative ground on FDI. Vietnam's legal reforms strengthen its China+1 appeal, and easing China-Australia trade reduces friction for Australian operations. Net cost-base pressure comes mainly from SGD and KRW strength raising EUR-translated costs.</div>
+    </div>
+    <div class="outlook-card demand">
+      <div class="outlook-label">🏦 Financing / credit outlook (90-180 days)</div>
+      <div class="outlook-text">Korean tightening to 3.00% raises local financing costs for TLD's Korean entity and customers, while Japanese manufacturing strength supports BOJ normalization expectations and higher JPY funding costs. SGD strength and carry flows could amplify volatility if risk sentiment reverses. Philippine FDI weakness modestly raises country-risk premium, but Vietnam's reforms lower it.</div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Signals</h2></div>
+  
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">🌍 FDI</span>
+    <span class="country-tag">Philippines</span>
+    <h3 class="signal-headline">Philippines FDI inflows slipping as regional rivals capture tech projects</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Foreign direct investment into the Philippines is decelerating as Vietnam, Indonesia and other Southeast Asian peers win technology and manufacturing projects, pressuring Manila's investment promotion pipeline. The slowdown underscores uneven investment momentum across ASEAN and signals a relative deterioration in the Philippines' attractiveness for capex-heavy projects.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Weaker FDI momentum in the Philippines reduces the likelihood of new industrial/manufacturing entrants that would become GSE customers or suppliers, and may slow development of local industrial clusters relevant to TLD's Philippine sourcing or service footprint.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Lower FDI inflows pressure the PHP and the country's external position, raising country risk premium modestly and potentially increasing hedging and intercompany funding costs for the Philippine entity.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance should refresh PHP exposure and country-risk assumptions for the Philippine entity this week and monitor BSP response; confirm no material change to local customer creditworthiness.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.businesstimes.com.sg/international/asean/philippines-fdi-slowdown-exposes-uneven-investment-prospects-across-s-e-asia" target="_blank" rel="noopener">Philippines’ FDI slowdown exposes uneven investment prospects across S-E Asia</a><span class="source-name"> — The Business Times (Singapore)</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">Singapore</span>
+    <h3 class="signal-headline">SGD strengthens as low-volatility carry-funding currency versus yen</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Cheap funding costs and low currency volatility are boosting the Singapore dollar's appeal as a carry-funding currency against the yen, per analyst commentary. This implies gradual SGD appreciation pressure versus JPY and potentially versus other regional currencies.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact, though a stronger SGD raises the cost base of TLD's Singapore regional hub in EUR-translated terms and for any SGD-denominated services or procurement.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">SGD strength versus JPY and regional peers affects translation of Singapore entity results into EUR and the cost of SGD-denominated financing; carry flows could amplify SGD volatility if risk sentiment shifts.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury should review SGD/JPY and SGD/EUR hedging ratios for the Singapore entity within the week and stress-test for a sharp carry-unwind reversal.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.businesstimes.com.sg/international/global/singapore-dollar-gains-yen-carry-funder-analysts" target="_blank" rel="noopener">Singapore dollar gains on yen as carry funder: analysts</a><span class="source-name"> — The Business Times (Singapore)</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🌐 TRADE</span>
+    <span class="country-tag">Australia</span>
+    <h3 class="signal-headline">China resumes Australian canola purchases as tariffs ease, ties normalize</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">China is snapping up Australian canola as improved bilateral relations and lower tariffs fuel demand, marking further normalization in China-Australia trade. The shift signals easing trade friction between the two economies after prior tariff disputes.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Normalizing China-Australia trade reduces customs and tariff friction on cross-border flows touching Australia, modestly easing any component or equipment movements between Australian operations and Chinese suppliers or customers.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Improved Australian export demand supports the AUD and Australia's external position, a mild positive for the Australian entity's EUR-translated results and local customer confidence.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Monitor AUD trajectory and any further tariff normalization announcements; no immediate action required beyond routine FX tracking.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.businesstimes.com.sg/international/china-snaps-australian-canola-improved-ties-lower-tariffs-fuel-demand" target="_blank" rel="noopener">China snaps up Australian canola as improved ties, lower tariffs fuel demand</a><span class="source-name"> — The Business Times (Singapore)</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🌐 TRADE</span>
+    <span class="country-tag">Regional</span>
+    <h3 class="signal-headline">Germany seeks to avoid China trade war despite EU 'kill switch' threat</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">German Chancellor Merz signaled Berlin wants to avoid a trade war with China even as the EU retains a so-called 'kill switch' mechanism over subsidies and overcapacity concerns. The tension between EU escalation tools and German restraint creates uncertainty over future EU-China trade measures.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Potential EU-China tariff escalation could disrupt cross-border component and equipment flows between European TLD entities and Asian suppliers, adding customs cost and lead-time risk to the regional supply chain.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Trade-war risk is a EUR and regional-currency volatility driver; escalation would raise hedging costs and complicate intercompany pricing across TLD's APAC entities.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC should scenario-plan for EU-China tariff escalation within two weeks, mapping exposure of cross-border component flows and identifying alternative sourcing or routing options.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.scmp.com/economy/global-economy/article/3371671/germany-wants-avoid-china-trade-war-despite-kill-switch-merz" target="_blank" rel="noopener">Germany wants to avoid China trade war despite EU ‘kill switch’: MerzGerman chancellor says Beijing must address bloc’s concerns over subsidies and ov</a><span class="source-name"> — South China Morning Post — Economy (HK)</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Japan</span>
+    <h3 class="signal-headline">Japan Manufacturing PMI 54.1 in September, still expansionary but easing</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Japan's September Manufacturing PMI came in at 54.1 versus a 55.2 forecast and 54.9 prior, remaining comfortably above the 52 expansion threshold but decelerating. The reading confirms continued industrial expansion with moderating momentum.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Sustained Japanese manufacturing expansion supports industrial capex appetite and supplier health in Japan, a positive for TLD's Japanese customer base and any Japan-sourced components.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Solid manufacturing supports JPY fundamentals and BOJ normalization expectations, which could lift JPY financing costs and affect TLD's JPY-denominated exposures.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Monitor October PMI for confirmation of the deceleration trend; no immediate action, but flag if the reading falls below 52.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://forexfundamentals.com/economic-calendar/jp-pmi/2026-10-01" target="_blank" rel="noopener">Japan Manufacturing PMI September 2026: 54.1 vs 55.2 forecast</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">South Korea</span>
+    <h3 class="signal-headline">Bank of Korea delivers back-to-back hike to 3.00% on AI-led growth</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Bank of Korea raised its policy rate to 3.00%, a back-to-back increase, citing AI-driven growth momentum; the 3-month KORIBOR stands at 3.41% as of September 2026. The cumulative tightening signals the BOK's confidence in domestic demand and inflation control.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Higher Korean rates raise the cost of capital for Korean industrial customers and suppliers, potentially tempering capex appetite in a key manufacturing market for TLD.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Rising Korean rates support the KRW and raise local financing costs for TLD's Korean entity and for customers financing GSE purchases or leases; KRW strength versus USD averaged 1,423 in October 2025 context.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance should reassess Korean entity funding costs and customer lease pricing this week, and review KRW hedging given rate-driven currency support.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.ceicdata.com/en/indicator/korea/long-term-interest-rate" target="_blank" rel="noopener">South Korea Long Term Interest Rate, 2001 – 2026 | CEIC Data</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🔧 REFORM</span>
+    <span class="country-tag">Vietnam</span>
+    <h3 class="signal-headline">Vietnam's 2025 Investment and Enterprise Laws unify foreign investor framework</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Vietnam's 2026 Investment Climate Statement highlights the 2025 Law on Investment and 2025 Law on Enterprises, which provide a unified legal framework for domestic and foreign investors emphasizing equal treatment and protection. The reforms improve predictability for foreign-owned entities operating in Vietnam.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">A clearer, more equal-treatment investment regime supports Vietnam's role as a China+1 manufacturing destination, potentially expanding TLD's supplier and customer base and easing incorporation or JV structuring for local operations.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Improved legal certainty reduces country risk premium and supports VND stability, a mild positive for TLD's Vietnamese entity financing and repatriation planning.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Legal and finance teams should review the new law's implications for TLD's Vietnam entity structure and repatriation rules within 30 days.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.state.gov/wp-content/uploads/2026/09/701264_2026-Vietnam-Investment-Climate-Statement.pdf" target="_blank" rel="noopener">2026 Vietnam Investment Climate Statement</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<details style="margin-top:12px;">
+  <summary style="font-size:12px;color:#94a3b8;cursor:pointer;padding:8px 4px;
+                  user-select:none;list-style:none;">
+    <span style="font-size:10px;background:#f1f5f9;border:1px solid #e2e8f0;
+                 border-radius:20px;padding:2px 8px;color:#64748b;font-weight:600;">
+      + 3 background items
+    </span>
+    <span style="color:#94a3b8;margin-left:8px;">— no immediate action, click to expand</span>
+  </summary>
+  <ul style="list-style:none;padding:12px 16px;margin-top:8px;
+             background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;">
+    <li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.taipeitimes.com/News/biz/archives/2026/10/22/2003866384" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">Moody's upgrades TSMC credit rating on strong semiconductor fundamentals</a> <span style="color:#94a3b8;">[Taiwan]</span> <span style="color:#94a3b8;">— Taipei Times — Business</span></li><li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://unctad.org/system/files/non-official-document/wir_fs_tw_en.pdf" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">Taiwan FDI inward flows show continued strength in UNCTAD 2026 report</a> <span style="color:#94a3b8;">[Taiwan]</span> <span style="color:#94a3b8;">— Tavily Search</span></li><li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.state.gov/wp-content/uploads/2026/09/701264_2026-Vietnam-Investment-Climate-Statement.pdf" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">IMF October 2026 WEO tracks real GDP growth across South Asia</a> <span style="color:#94a3b8;">[South Asia]</span> <span style="color:#94a3b8;">— Tavily Search</span></li>
+  </ul>
+</details>
+
+  <hr class="section-divider">
+
+  <div class="section-header"><h2>To watch this week</h2></div><div class="watch-panel"><div class="watch-panel-label">Key indicators &amp; thresholds</div><ol><li>Japan Manufacturing PMI — flag CRITICAL if October reading falls below 52 (first breach in 3+ months).</li><li>SGD and KRW versus EUR/USD — flag CRITICAL on any move exceeding 3% in 30 days, particularly a carry-unwind reversal.</li><li>EU-China trade measures — flag CRITICAL if the EU activates the 'kill switch' or announces new tariffs on cross-border flows.</li></ol></div>
+
+  <div class="risk-panel"><div class="risk-panel-label">Main risk</div><div class="risk-panel-text">EU-China tariff escalation disrupting cross-border component and equipment flows and raising customs costs across TLD's APAC supply chain.</div></div>
+
+  <div class="opp-panel"><div class="opp-panel-label">Main opportunity</div><div class="opp-panel-text">Vietnam's 2025 investment law reforms and China+1 diversification offer a lower-friction path to expand TLD's regional sourcing and customer footprint.</div></div>
+
+  <div class="sources-panel">
+    <div class="sources-panel-label">Monitored sources (scraped + Tavily)</div>
+    <ul>
+      <li>Nikkei Asia</li><li>Reuters Asia Pacific</li><li>Bloomberg Asia</li><li>Financial Times — Asia-Pacific</li><li>Channel News Asia — Business</li><li>The Business Times (Singapore)</li><li>VnExpress International</li><li>Bangkok Post — Business</li><li>The Jakarta Post — Business</li><li>Inquirer Business (Philippines)</li><li>The Economic Times — India</li><li>The Korea Herald — Business</li><li>Taipei Times — Business</li><li>South China Morning Post — Economy (HK)</li><li>Australian Financial Review — Economy</li><li>RNZ Pacific</li><li>Trading Economics — Asia</li>
+      <li>Tavily Search (country-tiered queries, primary + secondary + Oceania)</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  APAC Economic Watch (ex-Mainland China) · TLD Group / Alvest · Powered by DeepSeek + Tavily · October 22, 2026
+</div>
+
+</div>
+</body>
+</html>
