@@ -1,190 +1,130 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
 IMPACT: IMPORTANT
-COUNTRY: Regional
+COUNTRY: Japan
 INDICATOR: MONETARY
-HEADLINE: Fed, ECB, BOJ set for hawkish rate pause; BOJ normalization looms
-READING: The US Federal Reserve, European Central Bank and Bank of Japan are all expected to hold rates at a hawkish pause, with the BOJ the outlier edging toward policy normalization. A coordinated pause keeps global funding costs elevated while the BOJ path adds upside risk to JPY funding and JGB yields.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact, though a stronger JPY raises the cost of Japan-sourced components and precision equipment in TLD's regional sourcing mix.
-FINANCE_FX_IMPACT: Higher-for-longer USD/EUR rates keep TLD's regional entity and customer financing costs elevated; BOJ normalization risks JPY appreciation, raising the EUR-reported cost base of Japanese operations and any yen-denominated leases.
-ACTION: Treasury to refresh the 90-day regional funding and FX hedge plan this week, stress-testing a 100bps BOJ move and JPY appreciation against EUR/USD.
+HEADLINE: Japan trend inflation at 3-year high strengthens BOJ hike case
+READING: Japan's trend inflation index rose at its fastest year-on-year pace since October 2023, reinforcing market expectations of a Bank of Japan policy rate increase. Sustained underlying price pressure removes a key obstacle to normalization, putting a live BOJ hike on the table at upcoming meetings.
+SUPPLY_CHAIN_IMPACT: Higher Japanese rates and a firmer yen raise the cost base for TLD's Japan entity and any yen-denominated supplier or service contracts; imported component costs from Japan could rise modestly for regional assembly if the yen strengthens.
+FINANCE_FX_IMPACT: A BOJ hike would lift JPY funding costs for TLD Japan and for Japanese customers financing GSE leases; yen appreciation versus EUR would create negative translation effects on TLD Japan results reported in EUR and reduce JPY-denominated asset competitiveness.
+ACTION: CFO APAC to model a 25-50bp BOJ hike scenario against TLD Japan's floating-rate exposure and JPY/EUR translation this week, and pre-hedge any near-term yen funding needs.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 2
-IMPACT: IMPORTANT
+IMPACT: WATCH
 COUNTRY: Japan
 INDICATOR: PMI
-HEADLINE: Japan manufacturing PMI slips to 53.3, 7-month low but still expanding
-READING: The flash S&P Global Japan Manufacturing PMI fell to 53.3 in October from 54.1 in September, remaining above the 50 expansion line but at a seven-month low. New orders rose at the weakest pace since March and export business softened, signaling cooling industrial momentum.
-SUPPLY_CHAIN_IMPACT: Still-expansionary Japanese manufacturing supports supplier output and capex appetite, but the decelerating new-order trend warns of softer demand for industrial equipment and components sourced from Japan.
-FINANCE_FX_IMPACT: No direct FX impact; a cooling Japan PMI reinforces the case for gradual rather than aggressive BOJ tightening, marginally easing JPY funding-cost risk.
-ACTION: Regional finance to monitor the November flash print; flag if it falls below 52 as a demand-cooling signal for Japanese customer capex.
+HEADLINE: Japan flash manufacturing PMI expands at 7-month slowest pace
+READING: Preliminary October data show Japanese manufacturing still in expansion but decelerating to its weakest pace in seven months, indicating softening industrial momentum. The reading remains above the 50 line, so no contraction threshold breach, but the deceleration trend is notable.
+SUPPLY_CHAIN_IMPACT: Slowing Japanese factory activity signals softer domestic capex appetite and potentially reduced order flow to Japanese industrial suppliers, marginally easing near-term sourcing pressure but flagging weaker customer demand in Japan.
+FINANCE_FX_IMPACT: No direct FX or financing impact; however, a weakening manufacturing cycle in Japan would reduce corporate credit demand and could soften the case for aggressive BOJ tightening, partially offsetting yen upside risk.
+ACTION: Regional finance to confirm the exact flash PMI level and monitor the November print; flag immediately if it drops below 50 for the first time in the cycle.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 3
 IMPACT: WATCH
 COUNTRY: Japan
-INDICATOR: FDI
-HEADLINE: Japan inward FDI rises to USD 57.6bn; outward flows steady near USD 46bn
-READING: UNCTAD data show Japan inward FDI climbing to roughly USD 57.6bn in the latest year from USD 50.5bn prior, while outward FDI held near USD 46bn. The rising inbound share (51% of the total) reflects improving openness to foreign capital.
-SUPPLY_CHAIN_IMPACT: Higher inward FDI supports industrial investment and JV formation in Japan, a potential avenue for TLD partnership or incorporation structures.
-FINANCE_FX_IMPACT: Stronger inbound FDI supports JPY stability and reduces country-risk premium, marginally lowering hedging costs for Japanese exposure.
-ACTION: No immediate action; monitor for foreign-ownership liberalization that could ease TLD's Japan structuring options.
+INDICATOR: FX
+HEADLINE: Yen intervention debate signals persistent JPY weakness risk
+READING: Commentary argues Japan needs more than FX intervention to address yen weakness, implying structural pressure on the currency despite official pushback. This points to continued JPY volatility and possible sharp intervention-driven moves.
+SUPPLY_CHAIN_IMPACT: A weak yen lowers the USD/EUR cost of Japanese-sourced components and services, a modest sourcing advantage for TLD's regional supply chain, but abrupt intervention-driven appreciation would reverse this quickly.
+FINANCE_FX_IMPACT: Yen weakness inflates the EUR value of TLD Japan's JPY revenues and assets on translation, a positive for reported results, but creates hedging uncertainty; intervention risk means FX moves could exceed 3% rapidly, warranting active hedging.
+ACTION: Treasury to review JPY hedge ratios and set a trigger to act if USD/JPY or EUR/JPY moves more than 3% within 30 days.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 4
-IMPACT: IMPORTANT
-COUNTRY: Vietnam
-INDICATOR: PMI
-HEADLINE: Vietnam PMI stays expansionary but export orders fall sharply
-READING: Vietnam's manufacturing PMI remained in expansion through mid-2026 (53.0 in December 2025, eighth straight month) but September 2026 showed growth slowing with the sharpest fall in new export business in five months. Domestic new orders rose solidly while export demand weakened.
-SUPPLY_CHAIN_IMPACT: Vietnam remains a core China+1 manufacturing base; slowing export orders signal softer external demand that could reduce component and equipment sourcing volumes, though domestic order strength cushions the impact.
-FINANCE_FX_IMPACT: Weaker exports pressure the VND and the trade position, raising mild depreciation risk that affects TLD's VND translation exposure.
-ACTION: Regional finance to track the October Vietnam PMI; flag if it drops below 50 as a first contraction signal for the China+1 base.
+IMPACT: WATCH
+COUNTRY: India
+INDICATOR: FDI
+HEADLINE: India FDI factsheet shows steady inflows; monitor YoY swing
+READING: The DPIIT June 2026 factsheet reports cumulative FDI equity inflows with individual line items in the low single-digit percentage changes year-on-year, indicating broadly stable rather than sharply swinging foreign investment. No 15% YoY swing is evident in the excerpt, so no critical threshold breach.
+SUPPLY_CHAIN_IMPACT: Stable FDI supports continued China+1 manufacturing build-out in India, sustaining potential new customer demand and supplier options for TLD outside China.
+FINANCE_FX_IMPACT: Steady capital inflows support INR stability and lower country risk premium, favorable for TLD India entity funding and local customer lease financing conditions.
+ACTION: Regional finance to pull the full DPIIT factsheet and compute the exact YoY FDI equity inflow change; escalate to CRITICAL if the swing exceeds 15%.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 5
-IMPACT: IMPORTANT
-COUNTRY: Vietnam
-INDICATOR: FDI
-HEADLINE: Vietnam registered FDI hits USD 18.24bn, up 32% YoY — BREACH
-READING: Total registered foreign investment reached USD 18.24bn as of late April 2026, up 32% year on year, with manufacturing and processing leading at USD 8.12bn in new capital. The surge confirms Vietnam as the primary China+1 beneficiary.
-SUPPLY_CHAIN_IMPACT: Strong manufacturing FDI inflows expand Vietnam's industrial base, creating new potential customers and sourcing options for TLD while intensifying competition for industrial land and skilled labor.
-FINANCE_FX_IMPACT: Robust FDI supports VND stability and the external position, reducing currency-risk premium for TLD's Vietnamese exposure.
-ACTION: Commercial and finance teams to map new manufacturing entrants in Vietnam for customer-base expansion within the next 30 days.
+IMPACT: INFO
+COUNTRY: India
+INDICATOR: OTHER
+HEADLINE: India pitches itself as top 2026 investment destination on strong fundamentals
+READING: Invest India highlights nominal GDP projected near US$3.91 trillion in FY2025-26 and healthy GST collections of Rs 1.78 lakh crore in March 2026, underscoring resilient domestic demand. This is promotional context rather than a new data release.
+SUPPLY_CHAIN_IMPACT: Strong Indian domestic demand and investment appetite reinforce India's role as a China+1 manufacturing and customer growth market for TLD's regional footprint.
+FINANCE_FX_IMPACT: Robust tax collections and growth support INR stability and sovereign credit quality, a mildly positive backdrop for TLD India financing costs.
+ACTION: No immediate action; retain as background for India market expansion business cases.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 6
-IMPACT: WATCH
-COUNTRY: Philippines
-INDICATOR: PMI
-HEADLINE: Philippines PMI climbs to 54.9 in August, fourth straight rise
-READING: The Philippines Manufacturing PMI rose to 54.9 in August from 51.8 in July, the fourth consecutive monthly gain and firmly above the 52 expansion threshold. The acceleration signals strengthening industrial momentum after a soft mid-year (50.7 in June).
-SUPPLY_CHAIN_IMPACT: Improving Philippine manufacturing supports local supplier and customer capex appetite, a modest positive for TLD's Philippine commercial footprint.
-FINANCE_FX_IMPACT: Stronger activity supports the PHP and reduces depreciation pressure, easing translation risk on Philippine entity results.
-ACTION: No immediate action; monitor whether the 54.9 level sustains into Q4 as a demand-strength confirmation.
+IMPACT: INFO
+COUNTRY: Bhutan
+INDICATOR: FDI
+HEADLINE: Bhutan targets Nu 3.5 billion FDI and 100 new industries
+READING: Bhutan's FY2026-27 programme targets Nu 3.5 billion in FDI, 25 new startups, and 100 new industries outside Thimphu and Chukha. The scale is small relative to TLD's core markets and represents an early-stage liberalization effort.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact given Bhutan's small industrial base and limited relevance to TLD sourcing.
+FINANCE_FX_IMPACT: Negligible FX or financing impact for TLD; the Ngultrum is pegged to the INR, so any effect transmits only indirectly via India.
+ACTION: No action required; monitor only as regional liberalization context.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 7
-IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: TRADE
-HEADLINE: CPTPP expansion advances; Thailand reassesses accession alongside EU deal
-READING: CPTPP members are beginning preparatory talks with three aspirant countries, and Thailand is reassessing joining the bloc alongside an EU trade deal. The UK accession and prospective new members broaden the agreement's tariff-elimination and rules-of-origin benefits.
-SUPPLY_CHAIN_IMPACT: Wider CPTPP membership could ease cross-border customs costs and component sourcing for TLD operations in member markets, particularly if Thailand joins.
-FINANCE_FX_IMPACT: No direct FX impact; trade-agreement deepening supports regional currency stability and reduces tariff-related cost uncertainty.
-ACTION: Trade-compliance team to assess CPTPP rules-of-origin benefits for TLD's regional component flows over the next quarter.
+IMPACT: INFO
+COUNTRY: Nepal
+INDICATOR: FDI
+HEADLINE: Nepal logs NPR 26.34 billion FDI commitments across 254 industries
+READING: Nepal's Department of Industry reports NPR 26.34 billion in FDI commitments in the six months since the new government formed, with NPR 22.33 billion to new industries. This reflects improving investment sentiment but from a very small base.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact; Nepal is not a material sourcing or manufacturing location for TLD.
+FINANCE_FX_IMPACT: Minimal FX or financing relevance for TLD given Nepal's small market and capital-account restrictions.
+ACTION: No action required; background context only.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 8
-IMPACT: CRITICAL
-COUNTRY: Japan
-INDICATOR: FX
-HEADLINE: ALERT — US-Japan joint yen intervention after 40-year low vs USD
-READING: In late July/early August 2026 the US Treasury and Japan's Ministry of Finance launched the first coordinated yen-buying intervention since 1998, after the yen hit a 40-year low against the dollar. The US-backed floor transformed the action into a formidable support level for the currency.
-SUPPLY_CHAIN_IMPACT: A stabilizing/strengthening yen raises the EUR cost of Japan-sourced components and equipment, adding cost pressure to TLD's Japanese sourcing.
-FINANCE_FX_IMPACT: Yen appreciation directly raises the EUR-reported cost base of TLD's Japanese entity and any JPY-denominated leases; the intervention caps further depreciation but introduces two-way volatility requiring active hedging.
-ACTION: Treasury to immediately review JPY hedge ratios and re-mark Japanese entity EUR translation exposure within 48 hours given the policy-driven FX regime shift.
+IMPACT: WATCH
+COUNTRY: Singapore
+INDICATOR: GDP
+HEADLINE: Singapore GDP forecast 1.7% in 2025 as global trade slows
+READING: Malaysia's Economic Outlook 2026 cites Singapore GDP growth forecast at 1.7% for 2025, supported by wholesale trade, manufacturing, finance, insurance, and transport, with easing expected in H2 2025 on slower global trade and tariff measures. This signals a modest regional growth deceleration.
+SUPPLY_CHAIN_IMPACT: Slower Singapore and regional trade growth implies softer industrial and logistics activity, a mild headwind to regional customer capex appetite and cross-border component flows through Singapore's trade hub.
+FINANCE_FX_IMPACT: Slower growth may prompt easier regional monetary conditions and a softer SGD, marginally reducing TLD Singapore entity funding costs but compressing regional revenue growth.
+ACTION: Regional finance to factor a 1.7% Singapore growth assumption into H2 forecasts and stress-test regional revenue sensitivity this week.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 9
 IMPACT: IMPORTANT
-COUNTRY: Regional
-INDICATOR: PMI
-HEADLINE: APAC PMIs diverge: India/Vietnam expand, Japan/Korea/Thailand contract
-READING: Regional PMIs are diverging, with India and Vietnam firmly in expansion (mid-50s), Indonesia and Taiwan near the 50 line, and Japan, South Korea and Thailand in mild contraction (high-40s to low-50s). The Philippines shows modest expansion.
-SUPPLY_CHAIN_IMPACT: Divergence means TLD's sourcing and customer base should tilt toward expanding markets (India, Vietnam, Philippines) while contraction in Japan, Korea and Thailand signals softer capex appetite there.
-FINANCE_FX_IMPACT: Contractionary markets face weaker currencies and softer credit demand, while expanding markets support local-currency stability.
-ACTION: Regional finance to rebalance customer-financing risk appetite toward India, Vietnam and the Philippines over the next 30 days.
+COUNTRY: New Zealand
+INDICATOR: MONETARY
+HEADLINE: RBNZ flags tighter domestic financial conditions on higher wholesale rates
+READING: The RBNZ September 2026 Monetary Policy Statement notes domestic financial conditions have tightened since May, with wholesale interest rates up and oil prices significantly influencing NZ wholesale rates in 2026. This is a meaningful tightening of financing conditions without a stated policy rate move in the excerpt.
+SUPPLY_CHAIN_IMPACT: Tighter NZ financial conditions raise the cost of capital for NZ customers and suppliers, potentially dampening equipment capex appetite in the Oceania market.
+FINANCE_FX_IMPACT: Higher NZ wholesale rates raise TLD New Zealand entity borrowing costs and customer lease financing costs; a firmer NZD from higher rates would aid EUR translation of NZ results.
+ACTION: CFO APAC to review TLD New Zealand floating-rate debt and customer lease pricing within the week, and confirm whether the RBNZ moved the OCR by more than 50bps.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 10
-IMPACT: IMPORTANT
+IMPACT: WATCH
 COUNTRY: Regional
 INDICATOR: SUPPLY_CHAIN
-HEADLINE: China+1 FDI channels into Vietnam, India, Indonesia, Thailand, Malaysia
-READING: China+1 diversification continues to direct manufacturing FDI into Vietnam, India, Indonesia, Thailand and Malaysia, led by electronics, EV and industrial equipment supply chains. Vietnam and India are the clearest beneficiaries, with Thailand and Malaysia capturing higher-value segments.
-SUPPLY_CHAIN_IMPACT: Expanding non-China manufacturing capacity creates new sourcing options and customer bases for TLD across the region, reducing single-country concentration risk.
-FINANCE_FX_IMPACT: Diversified FDI inflows support regional currency stability and lower country-risk premia across beneficiary markets.
-ACTION: Supply-chain and commercial teams to map new China+1 manufacturing clusters for sourcing and customer opportunities within the quarter.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 11
-IMPACT: IMPORTANT
-COUNTRY: Regional
-INDICATOR: FX
-HEADLINE: APAC currencies under depreciation pressure vs USD; INR grinds lower
-READING: Most APAC currencies face depreciation pressure against the USD driven by a strong dollar, higher-for-longer US rates and China growth concerns, with the yen, won, baht and peso weakening at various points and the Indian rupee declining steadily. The Singapore dollar is the notable exception.
-SUPPLY_CHAIN_IMPACT: Weaker local currencies improve export competitiveness of regional manufacturing bases, supporting industrial output and equipment demand in export-oriented markets.
-FINANCE_FX_IMPACT: Depreciation raises the EUR/USD cost of local-currency inputs and inflates the local-currency value of USD/EUR-denominated leases, increasing customer financing stress and translation volatility for TLD entities.
-ACTION: Treasury to review unhedged local-currency exposures (INR, THB, PHP, KRW) and tighten hedge discipline within the week.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 12
-IMPACT: IMPORTANT
-COUNTRY: Regional
-INDICATOR: MONETARY
-HEADLINE: APAC easing cycle underway; BOK, BI, BOT, BSP signal cuts, BOJ outlier
-READING: The regional policy cycle has largely peaked, with Bank of Korea, Bank Indonesia, Bank of Thailand and Bangko Sentral ng Pilipinas beginning or signaling easing, while the BOJ moves toward normalization and the RBI and MAS remain cautious. The net direction is toward monetary easing.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact; cheaper credit supports customer capex and equipment-financing appetite in easing markets.
-FINANCE_FX_IMPACT: Rate cuts lower financing costs for TLD regional entities and customers in Korea, Indonesia, Thailand and the Philippines, a demand tailwind for GSE lease/purchase financing.
-ACTION: Regional finance to reprice customer-financing offers in easing markets and lock in lower funding where cuts are confirmed.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 13
-IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: TRADE
-HEADLINE: RCEP fully in force; CPTPP and bilateral deals deepen regional trade
-READING: RCEP is now fully in force across members, deepening tariff elimination and rules-of-origin cumulation, while CPTPP expansion and bilateral momentum (India-EFTA, India-UK, ASEAN digital-economy and IPEF-adjacent pacts) broaden the trade architecture.
-SUPPLY_CHAIN_IMPACT: RCEP cumulation eases cross-border component sourcing and customs costs for TLD's regional manufacturing and distribution flows.
-FINANCE_FX_IMPACT: No direct FX impact; trade deepening supports regional currency stability and reduces tariff-related cost uncertainty.
-ACTION: Trade-compliance team to confirm RCEP rules-of-origin utilization across TLD's regional component flows this quarter.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 14
-IMPACT: WATCH
-COUNTRY: Regional
-INDICATOR: REFORM
-HEADLINE: Mixed reform: India PLI/GST easing, Indonesia local-content rules, Vietnam reforms
-READING: Key developments include India's production-linked incentives and GST/regulatory streamlining, Indonesia's downstreaming and local-content rules with some liberalization in the new investment framework, Vietnam's administrative and power-market reforms, and Thailand's EV and data-center incentives, alongside tighter rules elsewhere.
-SUPPLY_CHAIN_IMPACT: India's PLI and GST streamlining and Indonesia's partial liberalization could ease TLD's incorporation and sourcing footprint; local-content rules may add compliance complexity in Indonesia.
-FINANCE_FX_IMPACT: No direct FX impact; reform momentum supports country-risk premium stability in India and Indonesia.
-ACTION: Legal and finance to review Indonesia local-content rules and India PLI eligibility for TLD entities within the quarter.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 15
-IMPACT: IMPORTANT
-COUNTRY: Regional
-INDICATOR: OTHER
-HEADLINE: Six-month risks deteriorate: strong USD, China spillover, US tariffs, BOJ
-READING: Principal risks include a stronger-for-longer USD and renewed EM currency stress, China growth spillovers into ASEAN trade and commodity demand, US tariff escalation and trade-policy uncertainty, and BOJ normalization with JGB volatility spilling across markets.
-SUPPLY_CHAIN_IMPACT: US tariff escalation and China spillovers could disrupt export-oriented supply chains across ASEAN, adding complexity and cost to TLD's regional sourcing.
-FINANCE_FX_IMPACT: Renewed EM currency stress and JGB volatility raise regional funding costs and FX hedging costs, pressuring TLD entity margins.
-ACTION: Treasury and risk to run a 6-month scenario stress test on USD strength and tariff escalation within the week.
+HEADLINE: China+1 diversification accelerates as firms de-risk single-country supply chains
+READING: Commentary on Chinese New Year 2026 supply chain risk highlights growing adoption of China+1 strategies, maintaining China suppliers while diversifying into alternatives such as Mexico and Southeast Asia. This is a structural, multi-year shift rather than a single data release.
+SUPPLY_CHAIN_IMPACT: Accelerating China+1 diversification creates potential new sourcing and customer-base opportunities for TLD across Vietnam, India, Indonesia, and other Southeast Asian markets, while adding complexity to regional supply chain planning and inventory buffers.
+FINANCE_FX_IMPACT: Diversification shifts working capital and FX exposure toward multiple Asian currencies, increasing hedging complexity but reducing single-country concentration risk for TLD's regional treasury.
+ACTION: Regional finance to map TLD's current China-linked sourcing exposure and quantify the diversification opportunity across Southeast Asia and India over the next 90 days.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: APAC ex-China presents a divergent picture: India and Vietnam remain firmly expansionary (Vietnam PMI 53.0, FDI up 32% YoY to USD 18.24bn), the Philippines is accelerating (PMI 54.9), while Japan (PMI 53.3, a 7-month low), South Korea and Thailand sit in mild contraction. The dominant FX event is the unprecedented US-Japan joint yen intervention after a 40-year low, which caps yen depreciation but introduces two-way volatility and raises the EUR cost base of Japanese operations. Regional monetary policy has largely peaked with BOK, BI, BOT and BSP easing, lowering customer financing costs, while the BOJ normalizes as the outlier. China+1 FDI continues to favor Vietnam, India and Indonesia, expanding TLD's sourcing and customer options. Priority actions are immediate JPY hedge review, tighter local-currency hedge discipline, and rebalancing customer-financing appetite toward expanding markets.
-COMPETITIVENESS_OUTLOOK: Regional cost base is broadly stable to slightly favorable, with easing monetary policy and China+1 FDI supporting industrial activity, but yen appreciation and USD strength add cost and translation pressure in Japan and import-dependent markets over the next 30-90 days.
-FINANCING_OUTLOOK: Regional financing conditions are improving as BOK, BI, BOT and BSP ease, lowering customer and entity funding costs, though BOJ normalization and JGB volatility plus a stronger-for-longer USD keep hedging and cross-border funding costs elevated over 90-180 days.
-WATCH_1: Japan flash Manufacturing PMI — flag if it falls below 52, signaling demand cooling.
-WATCH_2: USD/JPY post-intervention level — flag any move beyond 3% in 30 days as a hedging trigger.
-WATCH_3: Vietnam PMI — flag if it drops below 50, the first contraction signal for the China+1 base.
-MAIN_RISK: A stronger-for-longer USD combined with BOJ normalization and US tariff escalation could trigger renewed EM currency stress and raise TLD's regional funding and hedging costs.
-MAIN_OPPORTUNITY: China+1 FDI momentum into Vietnam, India and the Philippines expands TLD's customer base and sourcing options while regional rate cuts lower customer financing costs.
+EXECUTIVE_SUMMARY: The APAC ex-China picture is one of softening but still-positive momentum, with Japan's manufacturing PMI decelerating to a seven-month low while trend inflation hits a three-year high, keeping a BOJ hike live. Japan's yen remains structurally weak with intervention risk, India shows stable FDI and strong fundamentals, and Singapore growth is forecast at a modest 1.7% amid slower global trade. New Zealand financial conditions have tightened on higher wholesale rates, raising regional financing costs, while China+1 diversification continues to reshape supply chains across Southeast Asia and India. Net impact on TLD APAC is a modest revenue headwind offset by sourcing and customer-base opportunities, with priority actions on JPY and NZD hedging and rate-exposure review.
+COMPETITIVENESS_OUTLOOK: Regional cost bases face mild upward pressure from higher Japanese and New Zealand rates and a firmer yen, while a weak yen and stable Indian fundamentals support sourcing competitiveness. Over 30-90 days, expect modest margin compression in Japan and Oceania offset by diversification-driven opportunity in South and Southeast Asia.
+FINANCING_OUTLOOK: Regional financing conditions are tightening at the margin, led by New Zealand wholesale rates and an anticipated BOJ hike, raising TLD entity and customer lease financing costs in those markets. India and Singapore remain comparatively stable, with INR supported by steady FDI inflows over the next 90-180 days.
+WATCH_1: Japan flash manufacturing PMI — flag CRITICAL if it falls below 50 for the first time in the cycle.
+WATCH_2: JPY and NZD moves versus EUR/USD — flag CRITICAL on any move exceeding 3% within 30 days.
+WATCH_3: India FDI equity inflows YoY — flag CRITICAL if the swing exceeds 15%.
+MAIN_RISK: A faster-than-expected BOJ tightening cycle combined with yen volatility could raise TLD Japan funding and translation costs sharply.
+MAIN_OPPORTUNITY: Accelerating China+1 diversification across India and Southeast Asia opens new sourcing and customer-base growth for TLD outside China.
 ===SUMMARY_END===

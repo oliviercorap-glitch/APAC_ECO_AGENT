@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APAC Economic Watch (ex-China) — October 27, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f172a;--ink-2:#334155;--ink-3:#64748b;--ink-4:#94a3b8;
+  --surface:#fff;--surface-1:#f8fafc;--border:#e2e8f0;
+  --radius:8px;--radius-lg:12px;
+}
+body{font-family:'Inter',-apple-system,sans-serif;background:#f0f2f5;
+      color:var(--ink);line-height:1.6;padding:32px 16px 64px}
+.wrapper{max-width:960px;margin:0 auto}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);border-radius:var(--radius-lg) var(--radius-lg) 0 0;padding:28px 36px 24px}
+.masthead-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;
+                   text-transform:uppercase;color:#64748b;margin-bottom:8px}
+.masthead-title{font-size:22px;font-weight:600;letter-spacing:-.02em;color:#fff;margin-bottom:4px}
+.masthead-subtitle{font-size:13px;color:#475569;margin-bottom:12px}
+.masthead-meta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.meta-item{font-size:13px;color:#94a3b8;display:flex;align-items:center;gap:6px}
+.meta-item strong{color:#e2e8f0;font-weight:500}
+.masthead-counters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;
+                    padding-top:16px;border-top:1px solid #1e293b}
+.counter-pill{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;letter-spacing:.02em}
+
+/* CARD BODY */
+.card-body{background:var(--surface);border:1px solid var(--border);border-top:none;
+            border-radius:0 0 var(--radius-lg) var(--radius-lg);padding:36px}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:20px;
+                 padding-bottom:12px;border-bottom:1px solid var(--border)}
+.section-header h2{font-size:13px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:var(--ink-3)}
+.section-divider{margin:36px 0;border:none;border-top:1px solid var(--border)}
+
+/* EXEC SUMMARY */
+.exec-panel{background:var(--ink);border-radius:var(--radius-lg);padding:24px 28px;
+             margin-bottom:24px;color:#e2e8f0;font-size:15px;line-height:1.75}
+.exec-panel-label{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;
+                   text-transform:uppercase;color:#475569;margin-bottom:10px}
+.exec-panel p{margin:0}
+
+/* OUTLOOK PANELS */
+.outlook-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.outlook-card{border-radius:var(--radius);padding:16px 18px;border:1px solid}
+.outlook-card.margins{background:#f0fdf4;border-color:#bbf7d0}
+.outlook-card.demand{background:#eff6ff;border-color:#bfdbfe}
+.outlook-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;
+                margin-bottom:8px}
+.outlook-card.margins .outlook-label{color:#166534}
+.outlook-card.demand .outlook-label{color:#1e40af}
+.outlook-text{font-size:13px;line-height:1.6}
+.outlook-card.margins .outlook-text{color:#14532d}
+.outlook-card.demand .outlook-text{color:#1e3a8a}
+.outlook-text p{margin:0}
+
+/* SIGNAL CARDS */
+.signal-card{border:1px solid var(--border);border-radius:var(--radius-lg);
+              margin-bottom:16px;overflow:hidden;transition:box-shadow .15s}
+.signal-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.signal-card-header{padding:14px 20px;background:var(--surface-1);
+                     display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.signal-badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;
+               white-space:nowrap;letter-spacing:.03em;margin-top:2px;flex-shrink:0}
+.indicator-tag{font-size:11px;font-weight:500;color:var(--ink-3);
+                background:#f1f5f9;padding:3px 8px;border-radius:6px;
+                white-space:nowrap;margin-top:2px;flex-shrink:0}
+.country-tag{font-size:11px;font-weight:600;color:#1e40af;
+             background:#eff6ff;padding:3px 8px;border-radius:6px;
+             white-space:nowrap;margin-top:2px;flex-shrink:0}
+.signal-headline{font-size:15px;font-weight:600;color:var(--ink);line-height:1.4;flex:1}
+.signal-headline p{margin:0}
+.signal-body{padding:20px;display:grid;gap:14px}
+.signal-section-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                        letter-spacing:.1em;color:var(--ink-4);margin-bottom:4px}
+.signal-section-text{font-size:14px;color:var(--ink-2);line-height:1.65}
+.signal-section-text p{margin:0}
+.signal-action .signal-section-text{color:var(--ink);font-weight:500}
+.signal-source{padding-top:10px;border-top:1px dashed var(--border);font-size:12px;
+                color:var(--ink-4);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.source-label{font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+               font-size:10px;color:var(--ink-4);margin-right:4px}
+.signal-source a{color:#2563eb;text-decoration:none;font-weight:500}
+.signal-source a:hover{text-decoration:underline}
+.source-name{color:var(--ink-4)}
+
+/* WATCH / RISK / OPP */
+.watch-panel{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-lg);
+              padding:18px 22px;margin-bottom:12px}
+.watch-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:#92400e;margin-bottom:10px}
+.watch-panel ol{padding-left:20px;display:grid;gap:6px}
+.watch-panel li{font-size:14px;color:#78350f;line-height:1.5}
+.watch-panel li p{margin:0}
+.risk-panel{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius-lg);
+             padding:16px 22px;margin-bottom:12px}
+.risk-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                   letter-spacing:.08em;color:#991b1b;margin-bottom:6px}
+.risk-panel-text{font-size:14px;color:#7f1d1d;font-weight:500;line-height:1.6}
+.risk-panel-text p{margin:0}
+.opp-panel{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-lg);
+            padding:16px 22px}
+.opp-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                  letter-spacing:.08em;color:#166534;margin-bottom:6px}
+.opp-panel-text{font-size:14px;color:#14532d;font-weight:500;line-height:1.6}
+.opp-panel-text p{margin:0}
+
+/* SOURCES */
+.sources-panel{background:var(--surface-1);border:1px solid var(--border);
+                border-radius:var(--radius);padding:14px 18px;margin-top:32px}
+.sources-panel-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                       letter-spacing:.1em;color:var(--ink-4);margin-bottom:8px}
+.sources-panel ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 0;
+                   column-gap:24px;columns:2}
+.sources-panel li{font-size:12px;color:var(--ink-3);break-inside:avoid}
+.sources-panel li::before{content:"·";margin-right:6px;color:var(--ink-4)}
+
+/* FOOTER */
+.page-footer{text-align:center;font-size:11px;color:var(--ink-4);margin-top:24px;
+              font-family:'IBM Plex Mono',monospace;letter-spacing:.04em}
+
+@media(max-width:640px){
+  body{padding:12px 8px 48px}
+  .masthead,.card-body{padding:20px 16px}
+  .outlook-grid{grid-template-columns:1fr}
+  .sources-panel ul{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<div class="masthead">
+  <div class="masthead-eyebrow">TLD Group · Alvest · CFO APAC Intelligence</div>
+  <div class="masthead-title">APAC Economic Watch (ex-Mainland China)</div>
+  <div class="masthead-subtitle">Manufacturing PMI · FDI &amp; supply chain · FX &amp; financing · Trade &amp; reform · Compliance</div>
+  <div class="masthead-meta">
+    <div class="meta-item"><span>Date</span><strong>October 27, 2026</strong></div>
+    <div class="meta-item"><span>Generated</span><strong>11:03</strong></div>
+    <div class="meta-item"><span>Articles analyzed</span><strong>11</strong></div>
+    <div class="meta-item"><span>Signals</span><strong>10</strong></div>
+  </div>
+  <div class="masthead-counters"><span class="counter-pill" style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">2 Important</span><span class="counter-pill" style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">5 Watch</span><span class="counter-pill" style="background:#f9fafb;color:#374151;border:1px solid #e5e7eb;">3 Info</span></div>
+</div>
+
+<div class="card-body">
+
+  
+
+  <div class="exec-panel"><div class="exec-panel-label">Executive summary</div>The APAC ex-China picture is one of softening but still-positive momentum, with Japan's manufacturing PMI decelerating to a seven-month low while trend inflation hits a three-year high, keeping a BOJ hike live. Japan's yen remains structurally weak with intervention risk, India shows stable FDI and strong fundamentals, and Singapore growth is forecast at a modest 1.7% amid slower global trade. New Zealand financial conditions have tightened on higher wholesale rates, raising regional financing costs, while China+1 diversification continues to reshape supply chains across Southeast Asia and India. Net impact on TLD APAC is a modest revenue headwind offset by sourcing and customer-base opportunities, with priority actions on JPY and NZD hedging and rate-exposure review.</div>
+
+  <div class="outlook-grid">
+    <div class="outlook-card margins">
+      <div class="outlook-label">🌏 Regional competitiveness outlook (30-90 days)</div>
+      <div class="outlook-text">Regional cost bases face mild upward pressure from higher Japanese and New Zealand rates and a firmer yen, while a weak yen and stable Indian fundamentals support sourcing competitiveness. Over 30-90 days, expect modest margin compression in Japan and Oceania offset by diversification-driven opportunity in South and Southeast Asia.</div>
+    </div>
+    <div class="outlook-card demand">
+      <div class="outlook-label">🏦 Financing / credit outlook (90-180 days)</div>
+      <div class="outlook-text">Regional financing conditions are tightening at the margin, led by New Zealand wholesale rates and an anticipated BOJ hike, raising TLD entity and customer lease financing costs in those markets. India and Singapore remain comparatively stable, with INR supported by steady FDI inflows over the next 90-180 days.</div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Signals</h2></div>
+  
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">Japan</span>
+    <h3 class="signal-headline">Japan trend inflation at 3-year high strengthens BOJ hike case</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Japan's trend inflation index rose at its fastest year-on-year pace since October 2023, reinforcing market expectations of a Bank of Japan policy rate increase. Sustained underlying price pressure removes a key obstacle to normalization, putting a live BOJ hike on the table at upcoming meetings.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Higher Japanese rates and a firmer yen raise the cost base for TLD's Japan entity and any yen-denominated supplier or service contracts; imported component costs from Japan could rise modestly for regional assembly if the yen strengthens.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">A BOJ hike would lift JPY funding costs for TLD Japan and for Japanese customers financing GSE leases; yen appreciation versus EUR would create negative translation effects on TLD Japan results reported in EUR and reduce JPY-denominated asset competitiveness.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to model a 25-50bp BOJ hike scenario against TLD Japan's floating-rate exposure and JPY/EUR translation this week, and pre-hedge any near-term yen funding needs.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.businesstimes.com.sg/international/japans-trend-inflation-index-hits-3-year-high-cements-case-boj-rate-hike" target="_blank" rel="noopener">Japan’s trend inflation index hits 3-year high, cements case for BOJ rate hike</a><span class="source-name"> — The Business Times (Singapore)</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Japan</span>
+    <h3 class="signal-headline">Japan flash manufacturing PMI expands at 7-month slowest pace</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Preliminary October data show Japanese manufacturing still in expansion but decelerating to its weakest pace in seven months, indicating softening industrial momentum. The reading remains above the 50 line, so no contraction threshold breach, but the deceleration trend is notable.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Slowing Japanese factory activity signals softer domestic capex appetite and potentially reduced order flow to Japanese industrial suppliers, marginally easing near-term sourcing pressure but flagging weaker customer demand in Japan.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">No direct FX or financing impact; however, a weakening manufacturing cycle in Japan would reduce corporate credit demand and could soften the case for aggressive BOJ tightening, partially offsetting yen upside risk.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to confirm the exact flash PMI level and monitor the November print; flag immediately if it drops below 50 for the first time in the cycle.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.facebook.com/TheContinentalPostOfficial/posts/just-in-october-23-2026-tokyo-japan-japans-manufacturing-activity-expanded-at-it/122145656649187541" target="_blank" rel="noopener">Just In: October 23, 2026 | Tokyo,... - The Continental Post | Facebook</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">Japan</span>
+    <h3 class="signal-headline">Yen intervention debate signals persistent JPY weakness risk</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Commentary argues Japan needs more than FX intervention to address yen weakness, implying structural pressure on the currency despite official pushback. This points to continued JPY volatility and possible sharp intervention-driven moves.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">A weak yen lowers the USD/EUR cost of Japanese-sourced components and services, a modest sourcing advantage for TLD's regional supply chain, but abrupt intervention-driven appreciation would reverse this quickly.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Yen weakness inflates the EUR value of TLD Japan's JPY revenues and assets on translation, a positive for reported results, but creates hedging uncertainty; intervention risk means FX moves could exceed 3% rapidly, warranting active hedging.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury to review JPY hedge ratios and set a trigger to act if USD/JPY or EUR/JPY moves more than 3% within 30 days.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.aei.org/economics/japan-needs-more-than-foreign-currency-intervention" target="_blank" rel="noopener">Japan Needs More Than Foreign Currency Intervention | American Enterprise Institute - AEI</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🌍 FDI</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">India FDI factsheet shows steady inflows; monitor YoY swing</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The DPIIT June 2026 factsheet reports cumulative FDI equity inflows with individual line items in the low single-digit percentage changes year-on-year, indicating broadly stable rather than sharply swinging foreign investment. No 15% YoY swing is evident in the excerpt, so no critical threshold breach.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Stable FDI supports continued China+1 manufacturing build-out in India, sustaining potential new customer demand and supplier options for TLD outside China.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Steady capital inflows support INR stability and lower country risk premium, favorable for TLD India entity funding and local customer lease financing conditions.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to pull the full DPIIT factsheet and compute the exact YoY FDI equity inflow change; escalate to CRITICAL if the swing exceeds 15%.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.investindia.gov.in/india-most-attractive-investment-destination" target="_blank" rel="noopener">Why India is The Most Attractive Investment Destination of 2026</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">📈 GDP</span>
+    <span class="country-tag">Singapore</span>
+    <h3 class="signal-headline">Singapore GDP forecast 1.7% in 2025 as global trade slows</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Malaysia's Economic Outlook 2026 cites Singapore GDP growth forecast at 1.7% for 2025, supported by wholesale trade, manufacturing, finance, insurance, and transport, with easing expected in H2 2025 on slower global trade and tariff measures. This signals a modest regional growth deceleration.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Slower Singapore and regional trade growth implies softer industrial and logistics activity, a mild headwind to regional customer capex appetite and cross-border component flows through Singapore's trade hub.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Slower growth may prompt easier regional monetary conditions and a softer SGD, marginally reducing TLD Singapore entity funding costs but compressing regional revenue growth.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to factor a 1.7% Singapore growth assumption into H2 forecasts and stress-test regional revenue sensitivity this week.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.investmalaysia.gov.my/media/ccvkuigo/ministry-of-finance-economic-outlook-2026.pdf" target="_blank" rel="noopener">Economic Outlook 2026 - Invest Malaysia</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">New Zealand</span>
+    <h3 class="signal-headline">RBNZ flags tighter domestic financial conditions on higher wholesale rates</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The RBNZ September 2026 Monetary Policy Statement notes domestic financial conditions have tightened since May, with wholesale interest rates up and oil prices significantly influencing NZ wholesale rates in 2026. This is a meaningful tightening of financing conditions without a stated policy rate move in the excerpt.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Tighter NZ financial conditions raise the cost of capital for NZ customers and suppliers, potentially dampening equipment capex appetite in the Oceania market.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Higher NZ wholesale rates raise TLD New Zealand entity borrowing costs and customer lease financing costs; a firmer NZD from higher rates would aid EUR translation of NZ results.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to review TLD New Zealand floating-rate debt and customer lease pricing within the week, and confirm whether the RBNZ moved the OCR by more than 50bps.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf" target="_blank" rel="noopener">Monetary Policy Statement Sep 2026</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🔗 SUPPLY_CHAIN</span>
+    <span class="country-tag">Regional</span>
+    <h3 class="signal-headline">China+1 diversification accelerates as firms de-risk single-country supply chains</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Commentary on Chinese New Year 2026 supply chain risk highlights growing adoption of China+1 strategies, maintaining China suppliers while diversifying into alternatives such as Mexico and Southeast Asia. This is a structural, multi-year shift rather than a single data release.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Accelerating China+1 diversification creates potential new sourcing and customer-base opportunities for TLD across Vietnam, India, Indonesia, and other Southeast Asian markets, while adding complexity to regional supply chain planning and inventory buffers.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Diversification shifts working capital and FX exposure toward multiple Asian currencies, increasing hedging complexity but reducing single-country concentration risk for TLD's regional treasury.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to map TLD's current China-linked sourcing exposure and quantify the diversification opportunity across Southeast Asia and India over the next 90 days.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.whyloyalty.com/blog/chinese-new-year-2026-supply-chain-impact" target="_blank" rel="noopener">Chinese New Year 2026: Supply Chain Impact &amp; What to Do</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<details style="margin-top:12px;">
+  <summary style="font-size:12px;color:#94a3b8;cursor:pointer;padding:8px 4px;
+                  user-select:none;list-style:none;">
+    <span style="font-size:10px;background:#f1f5f9;border:1px solid #e2e8f0;
+                 border-radius:20px;padding:2px 8px;color:#64748b;font-weight:600;">
+      + 3 background items
+    </span>
+    <span style="color:#94a3b8;margin-left:8px;">— no immediate action, click to expand</span>
+  </summary>
+  <ul style="list-style:none;padding:12px 16px;margin-top:8px;
+             background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;">
+    <li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.investindia.gov.in/india-most-attractive-investment-destination" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">India pitches itself as top 2026 investment destination on strong fundamentals</a> <span style="color:#94a3b8;">[India]</span> <span style="color:#94a3b8;">— Tavily Search</span></li><li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.instagram.com/reel/DdhGDTHJgXg" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">Bhutan targets Nu 3.5 billion FDI and 100 new industries</a> <span style="color:#94a3b8;">[Bhutan]</span> <span style="color:#94a3b8;">— Tavily Search</span></li><li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.instagram.com/p/DeL3Q5NDfCT" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">Nepal logs NPR 26.34 billion FDI commitments across 254 industries</a> <span style="color:#94a3b8;">[Nepal]</span> <span style="color:#94a3b8;">— Tavily Search</span></li>
+  </ul>
+</details>
+
+  <hr class="section-divider">
+
+  <div class="section-header"><h2>To watch this week</h2></div><div class="watch-panel"><div class="watch-panel-label">Key indicators &amp; thresholds</div><ol><li>Japan flash manufacturing PMI — flag CRITICAL if it falls below 50 for the first time in the cycle.</li><li>JPY and NZD moves versus EUR/USD — flag CRITICAL on any move exceeding 3% within 30 days.</li><li>India FDI equity inflows YoY — flag CRITICAL if the swing exceeds 15%.</li></ol></div>
+
+  <div class="risk-panel"><div class="risk-panel-label">Main risk</div><div class="risk-panel-text">A faster-than-expected BOJ tightening cycle combined with yen volatility could raise TLD Japan funding and translation costs sharply.</div></div>
+
+  <div class="opp-panel"><div class="opp-panel-label">Main opportunity</div><div class="opp-panel-text">Accelerating China+1 diversification across India and Southeast Asia opens new sourcing and customer-base growth for TLD outside China.</div></div>
+
+  <div class="sources-panel">
+    <div class="sources-panel-label">Monitored sources (scraped + Tavily)</div>
+    <ul>
+      <li>Nikkei Asia</li><li>Reuters Asia Pacific</li><li>Bloomberg Asia</li><li>Financial Times — Asia-Pacific</li><li>Channel News Asia — Business</li><li>The Business Times (Singapore)</li><li>VnExpress International</li><li>Bangkok Post — Business</li><li>The Jakarta Post — Business</li><li>Inquirer Business (Philippines)</li><li>The Economic Times — India</li><li>The Korea Herald — Business</li><li>Taipei Times — Business</li><li>South China Morning Post — Economy (HK)</li><li>Australian Financial Review — Economy</li><li>RNZ Pacific</li><li>Trading Economics — Asia</li>
+      <li>Tavily Search (country-tiered queries, primary + secondary + Oceania)</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  APAC Economic Watch (ex-Mainland China) · TLD Group / Alvest · Powered by DeepSeek + Tavily · October 27, 2026
+</div>
+
+</div>
+</body>
+</html>
