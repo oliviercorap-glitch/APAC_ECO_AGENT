@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APAC Economic Watch (ex-China) — October 29, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f172a;--ink-2:#334155;--ink-3:#64748b;--ink-4:#94a3b8;
+  --surface:#fff;--surface-1:#f8fafc;--border:#e2e8f0;
+  --radius:8px;--radius-lg:12px;
+}
+body{font-family:'Inter',-apple-system,sans-serif;background:#f0f2f5;
+      color:var(--ink);line-height:1.6;padding:32px 16px 64px}
+.wrapper{max-width:960px;margin:0 auto}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);border-radius:var(--radius-lg) var(--radius-lg) 0 0;padding:28px 36px 24px}
+.masthead-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;
+                   text-transform:uppercase;color:#64748b;margin-bottom:8px}
+.masthead-title{font-size:22px;font-weight:600;letter-spacing:-.02em;color:#fff;margin-bottom:4px}
+.masthead-subtitle{font-size:13px;color:#475569;margin-bottom:12px}
+.masthead-meta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.meta-item{font-size:13px;color:#94a3b8;display:flex;align-items:center;gap:6px}
+.meta-item strong{color:#e2e8f0;font-weight:500}
+.masthead-counters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;
+                    padding-top:16px;border-top:1px solid #1e293b}
+.counter-pill{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;letter-spacing:.02em}
+
+/* CARD BODY */
+.card-body{background:var(--surface);border:1px solid var(--border);border-top:none;
+            border-radius:0 0 var(--radius-lg) var(--radius-lg);padding:36px}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:20px;
+                 padding-bottom:12px;border-bottom:1px solid var(--border)}
+.section-header h2{font-size:13px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:var(--ink-3)}
+.section-divider{margin:36px 0;border:none;border-top:1px solid var(--border)}
+
+/* EXEC SUMMARY */
+.exec-panel{background:var(--ink);border-radius:var(--radius-lg);padding:24px 28px;
+             margin-bottom:24px;color:#e2e8f0;font-size:15px;line-height:1.75}
+.exec-panel-label{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;
+                   text-transform:uppercase;color:#475569;margin-bottom:10px}
+.exec-panel p{margin:0}
+
+/* OUTLOOK PANELS */
+.outlook-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.outlook-card{border-radius:var(--radius);padding:16px 18px;border:1px solid}
+.outlook-card.margins{background:#f0fdf4;border-color:#bbf7d0}
+.outlook-card.demand{background:#eff6ff;border-color:#bfdbfe}
+.outlook-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;
+                margin-bottom:8px}
+.outlook-card.margins .outlook-label{color:#166534}
+.outlook-card.demand .outlook-label{color:#1e40af}
+.outlook-text{font-size:13px;line-height:1.6}
+.outlook-card.margins .outlook-text{color:#14532d}
+.outlook-card.demand .outlook-text{color:#1e3a8a}
+.outlook-text p{margin:0}
+
+/* SIGNAL CARDS */
+.signal-card{border:1px solid var(--border);border-radius:var(--radius-lg);
+              margin-bottom:16px;overflow:hidden;transition:box-shadow .15s}
+.signal-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.signal-card-header{padding:14px 20px;background:var(--surface-1);
+                     display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.signal-badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;
+               white-space:nowrap;letter-spacing:.03em;margin-top:2px;flex-shrink:0}
+.indicator-tag{font-size:11px;font-weight:500;color:var(--ink-3);
+                background:#f1f5f9;padding:3px 8px;border-radius:6px;
+                white-space:nowrap;margin-top:2px;flex-shrink:0}
+.country-tag{font-size:11px;font-weight:600;color:#1e40af;
+             background:#eff6ff;padding:3px 8px;border-radius:6px;
+             white-space:nowrap;margin-top:2px;flex-shrink:0}
+.signal-headline{font-size:15px;font-weight:600;color:var(--ink);line-height:1.4;flex:1}
+.signal-headline p{margin:0}
+.signal-body{padding:20px;display:grid;gap:14px}
+.signal-section-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                        letter-spacing:.1em;color:var(--ink-4);margin-bottom:4px}
+.signal-section-text{font-size:14px;color:var(--ink-2);line-height:1.65}
+.signal-section-text p{margin:0}
+.signal-action .signal-section-text{color:var(--ink);font-weight:500}
+.signal-source{padding-top:10px;border-top:1px dashed var(--border);font-size:12px;
+                color:var(--ink-4);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.source-label{font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+               font-size:10px;color:var(--ink-4);margin-right:4px}
+.signal-source a{color:#2563eb;text-decoration:none;font-weight:500}
+.signal-source a:hover{text-decoration:underline}
+.source-name{color:var(--ink-4)}
+
+/* WATCH / RISK / OPP */
+.watch-panel{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-lg);
+              padding:18px 22px;margin-bottom:12px}
+.watch-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:#92400e;margin-bottom:10px}
+.watch-panel ol{padding-left:20px;display:grid;gap:6px}
+.watch-panel li{font-size:14px;color:#78350f;line-height:1.5}
+.watch-panel li p{margin:0}
+.risk-panel{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius-lg);
+             padding:16px 22px;margin-bottom:12px}
+.risk-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                   letter-spacing:.08em;color:#991b1b;margin-bottom:6px}
+.risk-panel-text{font-size:14px;color:#7f1d1d;font-weight:500;line-height:1.6}
+.risk-panel-text p{margin:0}
+.opp-panel{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-lg);
+            padding:16px 22px}
+.opp-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                  letter-spacing:.08em;color:#166534;margin-bottom:6px}
+.opp-panel-text{font-size:14px;color:#14532d;font-weight:500;line-height:1.6}
+.opp-panel-text p{margin:0}
+
+/* SOURCES */
+.sources-panel{background:var(--surface-1);border:1px solid var(--border);
+                border-radius:var(--radius);padding:14px 18px;margin-top:32px}
+.sources-panel-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                       letter-spacing:.1em;color:var(--ink-4);margin-bottom:8px}
+.sources-panel ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 0;
+                   column-gap:24px;columns:2}
+.sources-panel li{font-size:12px;color:var(--ink-3);break-inside:avoid}
+.sources-panel li::before{content:"·";margin-right:6px;color:var(--ink-4)}
+
+/* FOOTER */
+.page-footer{text-align:center;font-size:11px;color:var(--ink-4);margin-top:24px;
+              font-family:'IBM Plex Mono',monospace;letter-spacing:.04em}
+
+@media(max-width:640px){
+  body{padding:12px 8px 48px}
+  .masthead,.card-body{padding:20px 16px}
+  .outlook-grid{grid-template-columns:1fr}
+  .sources-panel ul{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<div class="masthead">
+  <div class="masthead-eyebrow">TLD Group · Alvest · CFO APAC Intelligence</div>
+  <div class="masthead-title">APAC Economic Watch (ex-Mainland China)</div>
+  <div class="masthead-subtitle">Manufacturing PMI · FDI &amp; supply chain · FX &amp; financing · Trade &amp; reform · Compliance</div>
+  <div class="masthead-meta">
+    <div class="meta-item"><span>Date</span><strong>October 29, 2026</strong></div>
+    <div class="meta-item"><span>Generated</span><strong>11:48</strong></div>
+    <div class="meta-item"><span>Articles analyzed</span><strong>4</strong></div>
+    <div class="meta-item"><span>Signals</span><strong>4</strong></div>
+  </div>
+  <div class="masthead-counters"><span class="counter-pill" style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">2 Watch</span><span class="counter-pill" style="background:#f9fafb;color:#374151;border:1px solid #e5e7eb;">2 Info</span></div>
+</div>
+
+<div class="card-body">
+
+  
+
+  <div class="exec-panel"><div class="exec-panel-label">Executive summary</div>Today's APAC ex-China flow is thin and dominated by Taiwan FX and inflation commentary plus Mainland China currency diplomacy with only indirect read-across to the region. Taiwan's NT dollar is softening on equity outflows, though the central bank insists reserves are adequate and no quantified move was disclosed, so no FX threshold is confirmed breached. Taiwan inflation remains contained but carries upside risk if energy subsidies lapse, a potential tightening trigger. The EU-China yuan appreciation push is out of primary scope but reinforces China+1 diversification incentives benefiting TLD's ASEAN and India footprint. No CRITICAL thresholds were breached today. Priority is confirming the actual NT dollar 30-day move and monitoring Taiwan subsidy policy.</div>
+
+  <div class="outlook-grid">
+    <div class="outlook-card margins">
+      <div class="outlook-label">🌏 Regional competitiveness outlook (30-90 days)</div>
+      <div class="outlook-text">Regional cost-base outlook is stable over the next 30-90 days; a softer NT dollar marginally improves Taiwan supplier competitiveness while broader APAC ex-China currencies show no confirmed stress. China+1 structural momentum continues to favor Vietnam, India, and Indonesia as sourcing and customer markets.</div>
+    </div>
+    <div class="outlook-card demand">
+      <div class="outlook-label">🏦 Financing / credit outlook (90-180 days)</div>
+      <div class="outlook-text">Regional financing conditions remain benign with no rate moves reported today; Taiwan carries a modest upside rate risk if energy subsidies are withdrawn. Customer financing for GSE purchases across APAC ex-China is expected to stay stable over 90-180 days absent external shocks.</div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Signals</h2></div>
+  
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">Taiwan</span>
+    <h3 class="signal-headline">NT dollar slides on equity outflows; central bank calls reserves adequate</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The NT dollar has weakened in tandem with stock market outflows, prompting the central bank governor to publicly reject claims of a cash shortage and affirm reserve adequacy. The move appears driven by portfolio/equity capital flows rather than fundamentals, but the official pushback signals sensitivity to depreciation pressure. No specific percentage move was disclosed in the excerpt, so the 3% threshold cannot be confirmed as breached.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">A weaker NT dollar modestly improves the cost competitiveness of Taiwan-based component and electronics suppliers feeding TLD's regional sourcing, but Taiwan is not a primary GSE manufacturing base for TLD, so direct supply chain impact is limited.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Depreciation raises the NT-dollar cost of EUR/USD-denominated GSE purchases and leases for Taiwan customers, potentially softening local demand for imported equipment; TLD's Taiwan entity results translate more favorably into EUR if revenue is NT-dollar denominated.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional treasury to confirm the 30-day NT dollar move versus EUR and USD and flag if it exceeds 3%; monitor equity outflow data weekly for acceleration.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.taipeitimes.com/News/biz/archives/2026/10/29/2003866783" target="_blank" rel="noopener">NT dollar’s drop tied to stocks: official2026-10-29RESERVES ADEQUATE:The central bank governor rejected claims that Taiwan was facing a cash shortage,</a><span class="source-name"> — Taipei Times — Business</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">Taiwan</span>
+    <h3 class="signal-headline">Taiwan central bank flags upside inflation risk if energy subsidies end</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The central bank states inflation remains under control but warns consumer prices could re-accelerate if energy subsidies are withdrawn. This creates a two-sided policy risk: subsidy removal would lift CPI and could force a tightening bias, while continued subsidies keep rates stable. No rate decision or bps figure was disclosed.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact; higher energy costs would feed indirectly into Taiwan supplier operating costs and pricing.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Any shift toward tighter policy would raise local financing costs for TLD's Taiwan entity and for customers financing GSE purchases; a stable rate path keeps current conditions benign.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Finance team to model a 25-50bps upside rate scenario for Taiwan customer financing and monitor subsidy policy announcements over the next quarter.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.taipeitimes.com/News/biz/archives/2026/10/29/2003866788" target="_blank" rel="noopener">Taiwan inflation could rise if energy subsidies end: Central bank2026-10-29Taiwan’s inflation remains under control, but consumer prices could face re</a><span class="source-name"> — Taipei Times — Business</span></div>
+  </div>
+</div>
+<details style="margin-top:12px;">
+  <summary style="font-size:12px;color:#94a3b8;cursor:pointer;padding:8px 4px;
+                  user-select:none;list-style:none;">
+    <span style="font-size:10px;background:#f1f5f9;border:1px solid #e2e8f0;
+                 border-radius:20px;padding:2px 8px;color:#64748b;font-weight:600;">
+      + 2 background items
+    </span>
+    <span style="color:#94a3b8;margin-left:8px;">— no immediate action, click to expand</span>
+  </summary>
+  <ul style="list-style:none;padding:12px 16px;margin-top:8px;
+             background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;">
+    <li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.scmp.com/plus/news/china/diplomacy/article/3372579/eu-officials-push-yuan-appreciation-beijing-visits" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">EU presses Beijing on yuan appreciation; indirect read-across to APAC FX</a> <span style="color:#94a3b8;">[Regional]</span> <span style="color:#94a3b8;">— South China Morning Post — Economy (HK)</span></li><li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.scmp.com/economy/china-economy/article/3372521/ahead-european-talks-beijing-wary-forced-appreciation-currency-analysts" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">Beijing resists forced yuan appreciation ahead of EU trade talks</a> <span style="color:#94a3b8;">[Regional]</span> <span style="color:#94a3b8;">— South China Morning Post — Economy (HK)</span></li>
+  </ul>
+</details>
+
+  <hr class="section-divider">
+
+  <div class="section-header"><h2>To watch this week</h2></div><div class="watch-panel"><div class="watch-panel-label">Key indicators &amp; thresholds</div><ol><li>NT dollar 30-day move versus EUR and USD — flag CRITICAL if it exceeds 3%.</li><li>Taiwan energy subsidy policy decision — any withdrawal that lifts CPI and triggers a rate move above 50bps is CRITICAL.</li><li>Spillover of EU-China yuan revaluation pressure into THB, PHP, KRW, and JPY — flag any 3% 30-day move as CRITICAL.</li></ol></div>
+
+  <div class="risk-panel"><div class="risk-panel-label">Main risk</div><div class="risk-panel-text">A sharper NT dollar depreciation driven by equity outflows could raise local GSE financing costs and dampen Taiwan customer demand for EUR/USD-denominated equipment.</div></div>
+
+  <div class="opp-panel"><div class="opp-panel-label">Main opportunity</div><div class="opp-panel-text">EU-China currency and trade friction reinforces China+1 diversification, strengthening TLD's non-China regional sourcing and customer positioning across ASEAN and India.</div></div>
+
+  <div class="sources-panel">
+    <div class="sources-panel-label">Monitored sources (scraped + Tavily)</div>
+    <ul>
+      <li>Nikkei Asia</li><li>Reuters Asia Pacific</li><li>Bloomberg Asia</li><li>Financial Times — Asia-Pacific</li><li>Channel News Asia — Business</li><li>The Business Times (Singapore)</li><li>VnExpress International</li><li>Bangkok Post — Business</li><li>The Jakarta Post — Business</li><li>Inquirer Business (Philippines)</li><li>The Economic Times — India</li><li>The Korea Herald — Business</li><li>Taipei Times — Business</li><li>South China Morning Post — Economy (HK)</li><li>Australian Financial Review — Economy</li><li>RNZ Pacific</li><li>Trading Economics — Asia</li>
+      <li>Tavily Search (country-tiered queries, primary + secondary + Oceania)</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  APAC Economic Watch (ex-Mainland China) · TLD Group / Alvest · Powered by DeepSeek + Tavily · October 29, 2026
+</div>
+
+</div>
+</body>
+</html>

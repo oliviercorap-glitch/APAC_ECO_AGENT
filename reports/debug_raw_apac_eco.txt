@@ -1,130 +1,58 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
-IMPACT: CRITICAL
+IMPACT: WATCH
 COUNTRY: Taiwan
 INDICATOR: FX
-HEADLINE: ALERT: Taiwan dollar slides sharply on foreign institutional fund outflows
-READING: Taiwan's central bank attributes the sharp New Taiwan dollar decline to net fund outflows by foreign institutional investors, a major driver of the currency's recent weakness. This reflects portfolio reallocation pressure rather than trade fundamentals, and the central bank is publicly framing the move to manage expectations.
-SUPPLY_CHAIN_IMPACT: A weaker TWD improves the cost competitiveness of Taiwan-based component and precision-parts suppliers, modestly lowering USD/EUR-denominated sourcing costs for TLD's regional supply chain where Taiwan inputs are used.
-FINANCE_FX_IMPACT: TWD depreciation versus EUR/USD creates translation gains on TLD Taiwan entity costs reported in EUR but raises the local-currency cost of any EUR/USD-denominated intercompany funding or equipment imports into Taiwan. Customer financing in TWD becomes relatively cheaper in hard-currency terms.
-ACTION: Treasury to quantify 30-day TWD move versus EUR/USD and confirm whether the 3% threshold is breached; review any TWD-denominated intercompany balances for revaluation impact within 48 hours.
+HEADLINE: NT dollar slides on equity outflows; central bank calls reserves adequate
+READING: The NT dollar has weakened in tandem with stock market outflows, prompting the central bank governor to publicly reject claims of a cash shortage and affirm reserve adequacy. The move appears driven by portfolio/equity capital flows rather than fundamentals, but the official pushback signals sensitivity to depreciation pressure. No specific percentage move was disclosed in the excerpt, so the 3% threshold cannot be confirmed as breached.
+SUPPLY_CHAIN_IMPACT: A weaker NT dollar modestly improves the cost competitiveness of Taiwan-based component and electronics suppliers feeding TLD's regional sourcing, but Taiwan is not a primary GSE manufacturing base for TLD, so direct supply chain impact is limited.
+FINANCE_FX_IMPACT: Depreciation raises the NT-dollar cost of EUR/USD-denominated GSE purchases and leases for Taiwan customers, potentially softening local demand for imported equipment; TLD's Taiwan entity results translate more favorably into EUR if revenue is NT-dollar denominated.
+ACTION: Regional treasury to confirm the 30-day NT dollar move versus EUR and USD and flag if it exceeds 3%; monitor equity outflow data weekly for acceleration.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 2
 IMPACT: WATCH
-COUNTRY: Japan
-INDICATOR: REFORM
-HEADLINE: Japan tightens FDI screening regime under amended FX and Foreign Trade Act
-READING: Amendments promulgated 5 June 2026 further enhance Japan's foreign direct investment screening regime, expanding review scope and raising penalties (up to three times the value of the subject matter where it exceeds one million yen). This continues a multi-year trend of tighter inbound investment scrutiny in sensitive sectors.
-SUPPLY_CHAIN_IMPACT: Any TLD expansion of Japanese manufacturing, JV, or sourcing footprint could face longer pre-clearance timelines and sector-specific review; existing operations are unaffected but new incorporations or acquisitions require early screening assessment.
-FINANCE_FX_IMPACT: No direct FX impact, but deal-timing risk rises for any Japan-based M&A or capital injection, potentially delaying intercompany funding deployment and increasing advisory costs.
-ACTION: Legal and treasury to map whether TLD's Japanese activities fall within screened sectors and build screening lead-time into any 2027 Japan investment planning this week.
+COUNTRY: Taiwan
+INDICATOR: MONETARY
+HEADLINE: Taiwan central bank flags upside inflation risk if energy subsidies end
+READING: The central bank states inflation remains under control but warns consumer prices could re-accelerate if energy subsidies are withdrawn. This creates a two-sided policy risk: subsidy removal would lift CPI and could force a tightening bias, while continued subsidies keep rates stable. No rate decision or bps figure was disclosed.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact; higher energy costs would feed indirectly into Taiwan supplier operating costs and pricing.
+FINANCE_FX_IMPACT: Any shift toward tighter policy would raise local financing costs for TLD's Taiwan entity and for customers financing GSE purchases; a stable rate path keeps current conditions benign.
+ACTION: Finance team to model a 25-50bps upside rate scenario for Taiwan customer financing and monitor subsidy policy announcements over the next quarter.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 3
-IMPACT: IMPORTANT
-COUNTRY: India
-INDICATOR: FDI
-HEADLINE: India net FDI recovered to USD 6.95bn FY2025-26 but remains far below peak
-READING: Net FDI fell from USD 27.99bn in FY2022-23 to USD 10.13bn (FY2023-24) and USD 0.96bn (FY2024-25), recovering only to USD 6.95bn in FY2025-26, while gross inflows continued to grow. The gap signals heavy repatriation and outflows offsetting new investment, and Q1 FY2026-27 equity inflow data shows continued modest momentum.
-SUPPLY_CHAIN_IMPACT: Weak net FDI signals cautious foreign capital commitment to Indian manufacturing despite China+1 rhetoric, tempering the pace of new supplier and customer base formation for TLD in India.
-FINANCE_FX_IMPACT: Persistent net FDI weakness is a structural INR vulnerability, raising hedging costs and country risk premium relevant to any INR-denominated customer financing or intercompany lending.
-ACTION: Country finance lead to monitor INR and RBI response; factor a conservative INR assumption into any India customer financing proposals this quarter.
+IMPACT: INFO
+COUNTRY: Regional
+INDICATOR: FX
+HEADLINE: EU presses Beijing on yuan appreciation; indirect read-across to APAC FX
+READING: EU officials are pushing for yuan appreciation during Beijing visits, with analysts noting Beijing is wary of forced revaluation. This is a Mainland China currency story covered by the separate brief, but it carries read-across for APAC ex-China: a stronger yuan would ease competitive pressure on other regional exporters and could shift relative FX dynamics across Southeast Asia and North Asia. No quantitative data was available in the excerpt.
+SUPPLY_CHAIN_IMPACT: A stronger yuan would modestly erode Mainland China's export cost advantage, reinforcing China+1 diversification incentives toward Vietnam, India, and Indonesia — a potential tailwind for TLD's non-China regional sourcing footprint.
+FINANCE_FX_IMPACT: Indirect only; yuan revaluation pressure could trigger competitive devaluation responses among APAC ex-China currencies, affecting TLD entity translation exposure. No direct financing impact.
+ACTION: Treasury to monitor whether yuan revaluation pressure spills into competitive FX moves among THB, PHP, KRW, and JPY over the next 30 days; no immediate action.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 4
-IMPACT: WATCH
-COUNTRY: Indonesia
-INDICATOR: FX
-HEADLINE: Rupiah traded volatile Rp15,300–16,750 range against USD in 2026
-READING: The 2026 Indonesia Investment Climate Statement documents significant IDR volatility with a roughly 9% trading band versus the dollar, while the government actively courts FDI. The wide range reflects external financing sensitivity and commodity-cycle exposure.
-SUPPLY_CHAIN_IMPACT: IDR volatility raises landed-cost uncertainty for any Indonesia-sourced components or local operating expenses, complicating pricing and budgeting for TLD's Indonesian commercial activity.
-FINANCE_FX_IMPACT: A ~9% intra-year band elevates hedging costs and translation risk on TLD Indonesia entity results; customer financing in IDR carries elevated credit and FX mismatch risk.
-ACTION: Treasury to review IDR hedging coverage ratio and set a formal band-trigger for re-hedging; commercial team to price IDR contracts with FX adjustment clauses.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 5
-IMPACT: CRITICAL
-COUNTRY: Thailand
-INDICATOR: PMI
-HEADLINE: BREACH: Thailand Manufacturing PMI rises to 54.3, highest in recent series
-READING: Thailand's S&P Global Manufacturing PMI climbed to 54.3 in September 2026 from 53.8 in August, the highest reading since the series began its current expansion run. The reading is well above the 52 expansion threshold, signaling robust industrial momentum and order growth.
-SUPPLY_CHAIN_IMPACT: Strong Thai manufacturing expansion supports supplier capacity and reliability for TLD's regional sourcing, and signals rising customer capex appetite among Thai industrial and logistics operators.
-FINANCE_FX_IMPACT: Robust activity supports THB stability and improves credit quality of Thai customers, easing lease-approval and financing conditions for TLD Thailand.
-ACTION: Commercial finance to review Thai customer credit limits upward and assess incremental leasing capacity for Thai industrial clients within one week.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 6
-IMPACT: WATCH
-COUNTRY: Vietnam
-INDICATOR: PMI
-HEADLINE: Vietnam PMI eases to 51.9 from 53.3, still above expansion threshold
-READING: Vietnam's Manufacturing PMI fell to 51.9 in September from 53.3 in August, indicating slower production and new order growth though still comfortably in expansion territory above 52. The deceleration suggests momentum cooling after a strong mid-year run.
-SUPPLY_CHAIN_IMPACT: Continued expansion supports Vietnam as a viable China+1 sourcing and manufacturing base, but the slowing pace warrants monitoring of supplier lead times and order books.
-FINANCE_FX_IMPACT: Still-expansionary PMI supports VND stability and customer credit quality; no immediate financing cost impact.
-ACTION: Supply chain and country finance to monitor October PMI print; flag if it falls below 52 for a second consecutive month.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 7
 IMPACT: INFO
-COUNTRY: Malaysia
-INDICATOR: PMI
-HEADLINE: Malaysia PMI at 50.2 in January, third straight month of mild expansion
-READING: Malaysia's Manufacturing PMI inched up to 50.2 in January from 50.1 in December, marking a third consecutive month of expansion supported by rising orders and stronger business confidence, though hiring remained subdued. The reading sits in the neutral 48–52 band, indicating modest rather than robust growth.
-SUPPLY_CHAIN_IMPACT: Mild expansion supports stable Malaysian supplier capacity without signaling a step-change in sourcing opportunity.
-FINANCE_FX_IMPACT: Neutral PMI implies stable MYR conditions and no material change to Malaysian customer credit quality.
-ACTION: No immediate action; retain Malaysia in routine monthly PMI monitoring.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 8
-IMPACT: WATCH
 COUNTRY: Regional
 INDICATOR: TRADE
-HEADLINE: RCEP and CPTPP members open dialogue on trade bloc convergence
-READING: ASEAN Secretary-General participated in a Dialogue Between RCEP and CPTPP members on 22 May 2026 at the 32nd APEC Ministers Responsible for Trade meeting, signaling momentum toward greater interoperability between the two mega-regional trade frameworks. Convergence would ease rules-of-origin and customs complexity across overlapping member economies.
-SUPPLY_CHAIN_IMPACT: Potential simplification of cross-border component flows and customs costs across TLD's Asia-Pacific sourcing and distribution network if RCEP-CPTPP alignment advances.
-FINANCE_FX_IMPACT: No direct FX impact; longer-term reduction in trade friction could lower landed costs and improve regional margin.
-ACTION: Trade compliance lead to track concrete RCEP-CPTPP outcomes and assess rules-of-origin optimization opportunities for TLD's regional flows over the next two quarters.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 9
-IMPACT: INFO
-COUNTRY: Sri Lanka
-INDICATOR: MONETARY
-HEADLINE: Sri Lanka central bank intervenes to curb FX volatility, rebuild reserves
-READING: The Central Bank of Sri Lanka intervened in the domestic FX market during H1 2026 to curtail undue exchange rate volatility while accumulating reserves at opportune times. The stance reflects a stabilization phase following prior external stress.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact given TLD's limited Sri Lankan footprint.
-FINANCE_FX_IMPACT: Reserve rebuilding supports LKR stability and reduces country risk premium, marginally improving conditions for any Sri Lankan customer financing.
-ACTION: No immediate action; retain Sri Lanka in quarterly country-risk review.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 10
-IMPACT: INFO
-COUNTRY: Bhutan
-INDICATOR: FDI
-HEADLINE: Bhutan hosts first Invest Bhutan Summit, courting 71 foreign investors
-READING: The February 2026 Invest Bhutan Summit drew over 200 delegates and 71 foreign investors from 12 countries, marking the country's first major FDI attraction push. The scale remains small relative to regional peers.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact; Bhutan is not a material sourcing or manufacturing location for TLD.
-FINANCE_FX_IMPACT: No material FX or financing impact for TLD's regional entities.
-ACTION: No action required; note as background context only.
+HEADLINE: Beijing resists forced yuan appreciation ahead of EU trade talks
+READING: Analysts report Beijing is wary of externally imposed currency appreciation as EU talks approach, signaling potential trade friction between the EU and Mainland China. This is primarily a China-EU trade signal (separate brief scope) but has secondary implications for APAC ex-China trade flows and EU-linked supply chains. No specific tariff or agreement terms were disclosed.
+SUPPLY_CHAIN_IMPACT: EU-China trade tension reinforces diversification of European-linked supply chains into ASEAN and India, a structural positive for TLD's non-China regional sourcing and customer base.
+FINANCE_FX_IMPACT: No direct FX or financing impact on TLD's APAC ex-China entities; watch for secondary volatility in regional currencies if EU-China talks escalate.
+ACTION: No action required; regional finance to note EU-China trade posture as background context for 2027 sourcing planning.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: The APAC ex-China picture is broadly expansionary but uneven: Thailand's manufacturing PMI breached the 52 threshold at 54.3 (highest in series), Vietnam eased to 51.9 but stayed expansionary, and Malaysia held a mild 50.2. Currency stress is the dominant risk — Taiwan's dollar fell sharply on foreign institutional outflows (a likely >3% move requiring 48-hour verification), Indonesia's rupiah traded a wide Rp15,300–16,750 band, and India's net FDI remains structurally weak at USD 6.95bn despite recovery. Regulatory tightening in Japan's FDI screening regime adds deal-timing risk, while RCEP-CPTPP dialogue offers a medium-term trade-friction tailwind. Net impact on TLD APAC is modestly positive on demand (Thai and Vietnamese industrial strength) but negative on FX translation and hedging costs. Priority actions are TWD exposure verification, IDR hedging review, and Japan screening assessment.
-COMPETITIVENESS_OUTLOOK: Regional manufacturing competitiveness is improving, led by Thailand's strong expansion and Vietnam's continued growth, supporting supplier reliability and customer capex appetite. Currency weakness in Taiwan and Indonesia lowers local cost bases in hard-currency terms but raises imported-equipment costs, creating a mixed but net-favorable cost environment for the next 30–90 days.
-FINANCING_OUTLOOK: Financing conditions are stable to slightly tighter: FX volatility in Taiwan, Indonesia, and India raises hedging and country-risk premia, while strong Thai activity supports customer credit quality there. Expect elevated hedging costs and more conservative INR/IDR lending terms over the next 90–180 days absent currency stabilization.
-WATCH_1: Taiwan dollar 30-day move versus EUR/USD — confirm whether the 3% CRITICAL threshold is breached and monitor central bank intervention.
-WATCH_2: Vietnam Manufacturing PMI — flag if it falls below 52 for a second consecutive month (currently 51.9).
-WATCH_3: India net FDI and INR — monitor for further net-outflow deterioration exceeding 15% YoY and RBI response.
-MAIN_RISK: Synchronized EM Asia currency depreciation (TWD, IDR, INR) raising hedging costs and translation volatility on TLD's regional EUR-reported results.
-MAIN_OPPORTUNITY: Strong Thai and Vietnamese manufacturing expansion creating rising industrial customer capex and leasing demand for TLD's GSE fleet.
+EXECUTIVE_SUMMARY: Today's APAC ex-China flow is thin and dominated by Taiwan FX and inflation commentary plus Mainland China currency diplomacy with only indirect read-across to the region. Taiwan's NT dollar is softening on equity outflows, though the central bank insists reserves are adequate and no quantified move was disclosed, so no FX threshold is confirmed breached. Taiwan inflation remains contained but carries upside risk if energy subsidies lapse, a potential tightening trigger. The EU-China yuan appreciation push is out of primary scope but reinforces China+1 diversification incentives benefiting TLD's ASEAN and India footprint. No CRITICAL thresholds were breached today. Priority is confirming the actual NT dollar 30-day move and monitoring Taiwan subsidy policy.
+COMPETITIVENESS_OUTLOOK: Regional cost-base outlook is stable over the next 30-90 days; a softer NT dollar marginally improves Taiwan supplier competitiveness while broader APAC ex-China currencies show no confirmed stress. China+1 structural momentum continues to favor Vietnam, India, and Indonesia as sourcing and customer markets.
+FINANCING_OUTLOOK: Regional financing conditions remain benign with no rate moves reported today; Taiwan carries a modest upside rate risk if energy subsidies are withdrawn. Customer financing for GSE purchases across APAC ex-China is expected to stay stable over 90-180 days absent external shocks.
+WATCH_1: NT dollar 30-day move versus EUR and USD — flag CRITICAL if it exceeds 3%.
+WATCH_2: Taiwan energy subsidy policy decision — any withdrawal that lifts CPI and triggers a rate move above 50bps is CRITICAL.
+WATCH_3: Spillover of EU-China yuan revaluation pressure into THB, PHP, KRW, and JPY — flag any 3% 30-day move as CRITICAL.
+MAIN_RISK: A sharper NT dollar depreciation driven by equity outflows could raise local GSE financing costs and dampen Taiwan customer demand for EUR/USD-denominated equipment.
+MAIN_OPPORTUNITY: EU-China currency and trade friction reinforces China+1 diversification, strengthening TLD's non-China regional sourcing and customer positioning across ASEAN and India.
 ===SUMMARY_END===
