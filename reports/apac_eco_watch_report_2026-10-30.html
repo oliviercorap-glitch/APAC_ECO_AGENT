@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APAC Economic Watch (ex-China) — October 30, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f172a;--ink-2:#334155;--ink-3:#64748b;--ink-4:#94a3b8;
+  --surface:#fff;--surface-1:#f8fafc;--border:#e2e8f0;
+  --radius:8px;--radius-lg:12px;
+}
+body{font-family:'Inter',-apple-system,sans-serif;background:#f0f2f5;
+      color:var(--ink);line-height:1.6;padding:32px 16px 64px}
+.wrapper{max-width:960px;margin:0 auto}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);border-radius:var(--radius-lg) var(--radius-lg) 0 0;padding:28px 36px 24px}
+.masthead-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;
+                   text-transform:uppercase;color:#64748b;margin-bottom:8px}
+.masthead-title{font-size:22px;font-weight:600;letter-spacing:-.02em;color:#fff;margin-bottom:4px}
+.masthead-subtitle{font-size:13px;color:#475569;margin-bottom:12px}
+.masthead-meta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.meta-item{font-size:13px;color:#94a3b8;display:flex;align-items:center;gap:6px}
+.meta-item strong{color:#e2e8f0;font-weight:500}
+.masthead-counters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;
+                    padding-top:16px;border-top:1px solid #1e293b}
+.counter-pill{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;letter-spacing:.02em}
+
+/* CARD BODY */
+.card-body{background:var(--surface);border:1px solid var(--border);border-top:none;
+            border-radius:0 0 var(--radius-lg) var(--radius-lg);padding:36px}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:20px;
+                 padding-bottom:12px;border-bottom:1px solid var(--border)}
+.section-header h2{font-size:13px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:var(--ink-3)}
+.section-divider{margin:36px 0;border:none;border-top:1px solid var(--border)}
+
+/* EXEC SUMMARY */
+.exec-panel{background:var(--ink);border-radius:var(--radius-lg);padding:24px 28px;
+             margin-bottom:24px;color:#e2e8f0;font-size:15px;line-height:1.75}
+.exec-panel-label{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;
+                   text-transform:uppercase;color:#475569;margin-bottom:10px}
+.exec-panel p{margin:0}
+
+/* OUTLOOK PANELS */
+.outlook-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.outlook-card{border-radius:var(--radius);padding:16px 18px;border:1px solid}
+.outlook-card.margins{background:#f0fdf4;border-color:#bbf7d0}
+.outlook-card.demand{background:#eff6ff;border-color:#bfdbfe}
+.outlook-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;
+                margin-bottom:8px}
+.outlook-card.margins .outlook-label{color:#166534}
+.outlook-card.demand .outlook-label{color:#1e40af}
+.outlook-text{font-size:13px;line-height:1.6}
+.outlook-card.margins .outlook-text{color:#14532d}
+.outlook-card.demand .outlook-text{color:#1e3a8a}
+.outlook-text p{margin:0}
+
+/* SIGNAL CARDS */
+.signal-card{border:1px solid var(--border);border-radius:var(--radius-lg);
+              margin-bottom:16px;overflow:hidden;transition:box-shadow .15s}
+.signal-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.signal-card-header{padding:14px 20px;background:var(--surface-1);
+                     display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.signal-badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;
+               white-space:nowrap;letter-spacing:.03em;margin-top:2px;flex-shrink:0}
+.indicator-tag{font-size:11px;font-weight:500;color:var(--ink-3);
+                background:#f1f5f9;padding:3px 8px;border-radius:6px;
+                white-space:nowrap;margin-top:2px;flex-shrink:0}
+.country-tag{font-size:11px;font-weight:600;color:#1e40af;
+             background:#eff6ff;padding:3px 8px;border-radius:6px;
+             white-space:nowrap;margin-top:2px;flex-shrink:0}
+.signal-headline{font-size:15px;font-weight:600;color:var(--ink);line-height:1.4;flex:1}
+.signal-headline p{margin:0}
+.signal-body{padding:20px;display:grid;gap:14px}
+.signal-section-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                        letter-spacing:.1em;color:var(--ink-4);margin-bottom:4px}
+.signal-section-text{font-size:14px;color:var(--ink-2);line-height:1.65}
+.signal-section-text p{margin:0}
+.signal-action .signal-section-text{color:var(--ink);font-weight:500}
+.signal-source{padding-top:10px;border-top:1px dashed var(--border);font-size:12px;
+                color:var(--ink-4);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.source-label{font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+               font-size:10px;color:var(--ink-4);margin-right:4px}
+.signal-source a{color:#2563eb;text-decoration:none;font-weight:500}
+.signal-source a:hover{text-decoration:underline}
+.source-name{color:var(--ink-4)}
+
+/* WATCH / RISK / OPP */
+.watch-panel{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-lg);
+              padding:18px 22px;margin-bottom:12px}
+.watch-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:#92400e;margin-bottom:10px}
+.watch-panel ol{padding-left:20px;display:grid;gap:6px}
+.watch-panel li{font-size:14px;color:#78350f;line-height:1.5}
+.watch-panel li p{margin:0}
+.risk-panel{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius-lg);
+             padding:16px 22px;margin-bottom:12px}
+.risk-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                   letter-spacing:.08em;color:#991b1b;margin-bottom:6px}
+.risk-panel-text{font-size:14px;color:#7f1d1d;font-weight:500;line-height:1.6}
+.risk-panel-text p{margin:0}
+.opp-panel{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-lg);
+            padding:16px 22px}
+.opp-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                  letter-spacing:.08em;color:#166534;margin-bottom:6px}
+.opp-panel-text{font-size:14px;color:#14532d;font-weight:500;line-height:1.6}
+.opp-panel-text p{margin:0}
+
+/* SOURCES */
+.sources-panel{background:var(--surface-1);border:1px solid var(--border);
+                border-radius:var(--radius);padding:14px 18px;margin-top:32px}
+.sources-panel-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                       letter-spacing:.1em;color:var(--ink-4);margin-bottom:8px}
+.sources-panel ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 0;
+                   column-gap:24px;columns:2}
+.sources-panel li{font-size:12px;color:var(--ink-3);break-inside:avoid}
+.sources-panel li::before{content:"·";margin-right:6px;color:var(--ink-4)}
+
+/* FOOTER */
+.page-footer{text-align:center;font-size:11px;color:var(--ink-4);margin-top:24px;
+              font-family:'IBM Plex Mono',monospace;letter-spacing:.04em}
+
+@media(max-width:640px){
+  body{padding:12px 8px 48px}
+  .masthead,.card-body{padding:20px 16px}
+  .outlook-grid{grid-template-columns:1fr}
+  .sources-panel ul{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<div class="masthead">
+  <div class="masthead-eyebrow">TLD Group · Alvest · CFO APAC Intelligence</div>
+  <div class="masthead-title">APAC Economic Watch (ex-Mainland China)</div>
+  <div class="masthead-subtitle">Manufacturing PMI · FDI &amp; supply chain · FX &amp; financing · Trade &amp; reform · Compliance</div>
+  <div class="masthead-meta">
+    <div class="meta-item"><span>Date</span><strong>October 30, 2026</strong></div>
+    <div class="meta-item"><span>Generated</span><strong>11:40</strong></div>
+    <div class="meta-item"><span>Articles analyzed</span><strong>4</strong></div>
+    <div class="meta-item"><span>Signals</span><strong>3</strong></div>
+  </div>
+  <div class="masthead-counters"><span class="counter-pill" style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">3 Watch</span></div>
+</div>
+
+<div class="card-body">
+
+  
+
+  <div class="exec-panel"><div class="exec-panel-label">Executive summary</div>Today's APAC ex-China flow is thin and dominated by FX policy signals rather than hard macro data. Thailand's September factory output grew only 2.05% y/y, below forecast, pointing to a soft Thai industrial recovery with rising input costs. The three China-focused articles carry no direct Mainland China mandate for this brief but matter indirectly: coordinated EU, ECB and Eurogroup pressure for yuan appreciation, met by Beijing resistance, implies elevated Asian FX volatility and potential China+1 sourcing acceleration. No threshold breaches were triggered today — no PMI, rate, FDI or 3% FX move was reported. Net impact on TLD APAC operations is neutral-to-marginally-negative near term, with FX translation and hedging complexity the main watch item. Priority action is treasury scenario-testing of yuan-linked FX exposure and continued monitoring of Thai customer capex appetite.</div>
+
+  <div class="outlook-grid">
+    <div class="outlook-card margins">
+      <div class="outlook-label">🌏 Regional competitiveness outlook (30-90 days)</div>
+      <div class="outlook-text">Regional cost base is broadly stable over the next 30-90 days, with soft Thai industrial output and cheap China-sourced components tempering any near-term China+1 sourcing shift. A firmer yuan would gradually improve the relative competitiveness of non-China Southeast Asian manufacturing, a mild positive for TLD's regional footprint.</div>
+    </div>
+    <div class="outlook-card demand">
+      <div class="outlook-label">🏦 Financing / credit outlook (90-180 days)</div>
+      <div class="outlook-text">Regional financing conditions remain accommodative, with Thailand's soft data supporting a dovish Bank of Thailand bias and no sign of rate stress across covered markets. The main risk to the 90-180 day outlook is FX volatility around EU-China currency diplomacy rather than credit or rate tightening.</div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Signals</h2></div>
+  
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">📌 OTHER</span>
+    <span class="country-tag">Thailand</span>
+    <h3 class="signal-headline">Thai factory output +2.05% y/y in September, undershooting forecasts</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Thailand's manufacturing production index rose 2.05% y/y in September, below consensus expectations, with the source attributing part of the cost pressure to Middle East tensions raising input costs. The sub-forecast print signals a soft, uneven industrial recovery rather than a broad acceleration in Thai manufacturing activity.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Thailand is a secondary-tier sourcing and customer market for TLD; modest output growth with rising input costs suggests Thai industrial customers may defer capex, tempering near-term equipment and component demand rather than disrupting TLD's supply chain.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Soft industrial data reinforces a dovish bias for the Bank of Thailand, keeping THB financing conditions relatively accommodative for TLD's Thai entity and local customers; watch THB for gradual depreciation pressure if export momentum fades.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance team to monitor Thai manufacturing momentum and Bank of Thailand policy stance over the next 30 days; no immediate action, but factor softer Thai customer capex appetite into Q4 leasing pipeline assumptions.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.businesstimes.com.sg/international/asean/thailands-september-factory-output-rises-2-05-yy-lower-forecast" target="_blank" rel="noopener">Thailand’s September factory output rises 2.05% y/y, lower than forecast</a><span class="source-name"> — The Business Times (Singapore)</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">Regional</span>
+    <h3 class="signal-headline">EU, ECB and Eurogroup coordinated push for yuan appreciation in Beijing</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The EU, ECB and Eurogroup are lining up coordinated visits to Beijing to press for yuan appreciation, reflecting European concern over China's external surplus and competitive currency stance. This is a policy-pressure signal with potential spillover into broader Asian FX dynamics rather than a confirmed move.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">A stronger yuan would raise the cost of China-sourced components and equipment, potentially accelerating China+1 sourcing shifts into Vietnam, Thailand, India and Indonesia — a structural tailwind for TLD's non-China regional supply chain footprint.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Any meaningful yuan appreciation would feed through to regional peer currencies and EUR/Asia crosses, affecting translation of TLD's APAC entity results into EUR; a firmer Asian FX bloc would modestly raise the EUR cost base of regional operations.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury to scenario-test a 3-5% yuan appreciation against TLD's APAC EUR translation exposure and China-linked sourcing costs over the next 60 days; no immediate hedging action until a move materializes.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.scmp.com/plus/news/china/diplomacy/article/3372579/eu-officials-push-yuan-appreciation-beijing-visits" target="_blank" rel="noopener">EU officials to push yuan appreciation in Beijing visitsThe EU, ECB and Eurogroup are lining up coordinated trips to the Chinese capital as European l</a><span class="source-name"> — South China Morning Post — Economy (HK)</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">Regional</span>
+    <h3 class="signal-headline">Beijing wary of forced yuan appreciation ahead of European talks</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Analysts report Beijing is resisting externally imposed yuan appreciation, with Western economies long accusing China of currency manipulation. The standoff implies elevated two-way FX volatility risk in Asian crosses around the EU-China dialogue rather than a clean directional move.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Persistent yuan weakness keeps China-sourced components cheap, marginally slowing the China+1 diversification incentive for TLD's regional sourcing and sustaining competitive pressure on non-China manufacturers in Southeast Asia.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">A managed, resistant yuan path implies continued Asian currency divergence, raising hedging complexity for TLD's APAC intercompany flows and EUR-reported results; regional entities should expect FX noise rather than a trend.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury to keep existing APAC FX hedges in place and avoid adding directional yuan exposure until the EU-China talks conclude; review hedge ratios within 30 days.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.scmp.com/economy/china-economy/article/3372521/ahead-european-talks-beijing-wary-forced-appreciation-currency-analysts" target="_blank" rel="noopener">Ahead of European talks, Beijing wary of forced yuan appreciation: analystsWestern economies have long accused China of using currency manipulation to</a><span class="source-name"> — South China Morning Post — Economy (HK)</span></div>
+  </div>
+</div>
+
+  <hr class="section-divider">
+
+  <div class="section-header"><h2>To watch this week</h2></div><div class="watch-panel"><div class="watch-panel-label">Key indicators &amp; thresholds</div><ol><li>EUR/CNY and USD/CNY moves around the EU-China talks — flag any 30-day move exceeding 3% as CRITICAL.</li><li>Thailand manufacturing production and Bank of Thailand policy rate — flag any single decision move above 50bps.</li><li>Asian FX crosses (THB, SGD, KRW, JPY) versus EUR — flag any 30-day move above 3% for treasury hedging review.</li></ol></div>
+
+  <div class="risk-panel"><div class="risk-panel-label">Main risk</div><div class="risk-panel-text">Escalating EU-China currency tension spilling into broad Asian FX volatility, raising translation and hedging costs for TLD's APAC entities.</div></div>
+
+  <div class="opp-panel"><div class="opp-panel-label">Main opportunity</div><div class="opp-panel-text">A sustained yuan appreciation would accelerate China+1 sourcing into Southeast Asia, expanding TLD's non-China supplier and customer base.</div></div>
+
+  <div class="sources-panel">
+    <div class="sources-panel-label">Monitored sources (scraped + Tavily)</div>
+    <ul>
+      <li>Nikkei Asia</li><li>Reuters Asia Pacific</li><li>Bloomberg Asia</li><li>Financial Times — Asia-Pacific</li><li>Channel News Asia — Business</li><li>The Business Times (Singapore)</li><li>VnExpress International</li><li>Bangkok Post — Business</li><li>The Jakarta Post — Business</li><li>Inquirer Business (Philippines)</li><li>The Economic Times — India</li><li>The Korea Herald — Business</li><li>Taipei Times — Business</li><li>South China Morning Post — Economy (HK)</li><li>Australian Financial Review — Economy</li><li>RNZ Pacific</li><li>Trading Economics — Asia</li>
+      <li>Tavily Search (country-tiered queries, primary + secondary + Oceania)</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  APAC Economic Watch (ex-Mainland China) · TLD Group / Alvest · Powered by DeepSeek + Tavily · October 30, 2026
+</div>
+
+</div>
+</body>
+</html>

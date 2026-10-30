@@ -1,58 +1,46 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
 IMPACT: WATCH
-COUNTRY: Taiwan
-INDICATOR: FX
-HEADLINE: NT dollar slides on equity outflows; central bank calls reserves adequate
-READING: The NT dollar has weakened in tandem with stock market outflows, prompting the central bank governor to publicly reject claims of a cash shortage and affirm reserve adequacy. The move appears driven by portfolio/equity capital flows rather than fundamentals, but the official pushback signals sensitivity to depreciation pressure. No specific percentage move was disclosed in the excerpt, so the 3% threshold cannot be confirmed as breached.
-SUPPLY_CHAIN_IMPACT: A weaker NT dollar modestly improves the cost competitiveness of Taiwan-based component and electronics suppliers feeding TLD's regional sourcing, but Taiwan is not a primary GSE manufacturing base for TLD, so direct supply chain impact is limited.
-FINANCE_FX_IMPACT: Depreciation raises the NT-dollar cost of EUR/USD-denominated GSE purchases and leases for Taiwan customers, potentially softening local demand for imported equipment; TLD's Taiwan entity results translate more favorably into EUR if revenue is NT-dollar denominated.
-ACTION: Regional treasury to confirm the 30-day NT dollar move versus EUR and USD and flag if it exceeds 3%; monitor equity outflow data weekly for acceleration.
+COUNTRY: Thailand
+INDICATOR: OTHER
+HEADLINE: Thai factory output +2.05% y/y in September, undershooting forecasts
+READING: Thailand's manufacturing production index rose 2.05% y/y in September, below consensus expectations, with the source attributing part of the cost pressure to Middle East tensions raising input costs. The sub-forecast print signals a soft, uneven industrial recovery rather than a broad acceleration in Thai manufacturing activity.
+SUPPLY_CHAIN_IMPACT: Thailand is a secondary-tier sourcing and customer market for TLD; modest output growth with rising input costs suggests Thai industrial customers may defer capex, tempering near-term equipment and component demand rather than disrupting TLD's supply chain.
+FINANCE_FX_IMPACT: Soft industrial data reinforces a dovish bias for the Bank of Thailand, keeping THB financing conditions relatively accommodative for TLD's Thai entity and local customers; watch THB for gradual depreciation pressure if export momentum fades.
+ACTION: Regional finance team to monitor Thai manufacturing momentum and Bank of Thailand policy stance over the next 30 days; no immediate action, but factor softer Thai customer capex appetite into Q4 leasing pipeline assumptions.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 2
 IMPACT: WATCH
-COUNTRY: Taiwan
-INDICATOR: MONETARY
-HEADLINE: Taiwan central bank flags upside inflation risk if energy subsidies end
-READING: The central bank states inflation remains under control but warns consumer prices could re-accelerate if energy subsidies are withdrawn. This creates a two-sided policy risk: subsidy removal would lift CPI and could force a tightening bias, while continued subsidies keep rates stable. No rate decision or bps figure was disclosed.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact; higher energy costs would feed indirectly into Taiwan supplier operating costs and pricing.
-FINANCE_FX_IMPACT: Any shift toward tighter policy would raise local financing costs for TLD's Taiwan entity and for customers financing GSE purchases; a stable rate path keeps current conditions benign.
-ACTION: Finance team to model a 25-50bps upside rate scenario for Taiwan customer financing and monitor subsidy policy announcements over the next quarter.
+COUNTRY: Regional
+INDICATOR: FX
+HEADLINE: EU, ECB and Eurogroup coordinated push for yuan appreciation in Beijing
+READING: The EU, ECB and Eurogroup are lining up coordinated visits to Beijing to press for yuan appreciation, reflecting European concern over China's external surplus and competitive currency stance. This is a policy-pressure signal with potential spillover into broader Asian FX dynamics rather than a confirmed move.
+SUPPLY_CHAIN_IMPACT: A stronger yuan would raise the cost of China-sourced components and equipment, potentially accelerating China+1 sourcing shifts into Vietnam, Thailand, India and Indonesia — a structural tailwind for TLD's non-China regional supply chain footprint.
+FINANCE_FX_IMPACT: Any meaningful yuan appreciation would feed through to regional peer currencies and EUR/Asia crosses, affecting translation of TLD's APAC entity results into EUR; a firmer Asian FX bloc would modestly raise the EUR cost base of regional operations.
+ACTION: Treasury to scenario-test a 3-5% yuan appreciation against TLD's APAC EUR translation exposure and China-linked sourcing costs over the next 60 days; no immediate hedging action until a move materializes.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 3
-IMPACT: INFO
+IMPACT: WATCH
 COUNTRY: Regional
 INDICATOR: FX
-HEADLINE: EU presses Beijing on yuan appreciation; indirect read-across to APAC FX
-READING: EU officials are pushing for yuan appreciation during Beijing visits, with analysts noting Beijing is wary of forced revaluation. This is a Mainland China currency story covered by the separate brief, but it carries read-across for APAC ex-China: a stronger yuan would ease competitive pressure on other regional exporters and could shift relative FX dynamics across Southeast Asia and North Asia. No quantitative data was available in the excerpt.
-SUPPLY_CHAIN_IMPACT: A stronger yuan would modestly erode Mainland China's export cost advantage, reinforcing China+1 diversification incentives toward Vietnam, India, and Indonesia — a potential tailwind for TLD's non-China regional sourcing footprint.
-FINANCE_FX_IMPACT: Indirect only; yuan revaluation pressure could trigger competitive devaluation responses among APAC ex-China currencies, affecting TLD entity translation exposure. No direct financing impact.
-ACTION: Treasury to monitor whether yuan revaluation pressure spills into competitive FX moves among THB, PHP, KRW, and JPY over the next 30 days; no immediate action.
-===SIGNAL_END===
-
-===SIGNAL_START===
-SIGNAL_ID: 4
-IMPACT: INFO
-COUNTRY: Regional
-INDICATOR: TRADE
-HEADLINE: Beijing resists forced yuan appreciation ahead of EU trade talks
-READING: Analysts report Beijing is wary of externally imposed currency appreciation as EU talks approach, signaling potential trade friction between the EU and Mainland China. This is primarily a China-EU trade signal (separate brief scope) but has secondary implications for APAC ex-China trade flows and EU-linked supply chains. No specific tariff or agreement terms were disclosed.
-SUPPLY_CHAIN_IMPACT: EU-China trade tension reinforces diversification of European-linked supply chains into ASEAN and India, a structural positive for TLD's non-China regional sourcing and customer base.
-FINANCE_FX_IMPACT: No direct FX or financing impact on TLD's APAC ex-China entities; watch for secondary volatility in regional currencies if EU-China talks escalate.
-ACTION: No action required; regional finance to note EU-China trade posture as background context for 2027 sourcing planning.
+HEADLINE: Beijing wary of forced yuan appreciation ahead of European talks
+READING: Analysts report Beijing is resisting externally imposed yuan appreciation, with Western economies long accusing China of currency manipulation. The standoff implies elevated two-way FX volatility risk in Asian crosses around the EU-China dialogue rather than a clean directional move.
+SUPPLY_CHAIN_IMPACT: Persistent yuan weakness keeps China-sourced components cheap, marginally slowing the China+1 diversification incentive for TLD's regional sourcing and sustaining competitive pressure on non-China manufacturers in Southeast Asia.
+FINANCE_FX_IMPACT: A managed, resistant yuan path implies continued Asian currency divergence, raising hedging complexity for TLD's APAC intercompany flows and EUR-reported results; regional entities should expect FX noise rather than a trend.
+ACTION: Treasury to keep existing APAC FX hedges in place and avoid adding directional yuan exposure until the EU-China talks conclude; review hedge ratios within 30 days.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: Today's APAC ex-China flow is thin and dominated by Taiwan FX and inflation commentary plus Mainland China currency diplomacy with only indirect read-across to the region. Taiwan's NT dollar is softening on equity outflows, though the central bank insists reserves are adequate and no quantified move was disclosed, so no FX threshold is confirmed breached. Taiwan inflation remains contained but carries upside risk if energy subsidies lapse, a potential tightening trigger. The EU-China yuan appreciation push is out of primary scope but reinforces China+1 diversification incentives benefiting TLD's ASEAN and India footprint. No CRITICAL thresholds were breached today. Priority is confirming the actual NT dollar 30-day move and monitoring Taiwan subsidy policy.
-COMPETITIVENESS_OUTLOOK: Regional cost-base outlook is stable over the next 30-90 days; a softer NT dollar marginally improves Taiwan supplier competitiveness while broader APAC ex-China currencies show no confirmed stress. China+1 structural momentum continues to favor Vietnam, India, and Indonesia as sourcing and customer markets.
-FINANCING_OUTLOOK: Regional financing conditions remain benign with no rate moves reported today; Taiwan carries a modest upside rate risk if energy subsidies are withdrawn. Customer financing for GSE purchases across APAC ex-China is expected to stay stable over 90-180 days absent external shocks.
-WATCH_1: NT dollar 30-day move versus EUR and USD — flag CRITICAL if it exceeds 3%.
-WATCH_2: Taiwan energy subsidy policy decision — any withdrawal that lifts CPI and triggers a rate move above 50bps is CRITICAL.
-WATCH_3: Spillover of EU-China yuan revaluation pressure into THB, PHP, KRW, and JPY — flag any 3% 30-day move as CRITICAL.
-MAIN_RISK: A sharper NT dollar depreciation driven by equity outflows could raise local GSE financing costs and dampen Taiwan customer demand for EUR/USD-denominated equipment.
-MAIN_OPPORTUNITY: EU-China currency and trade friction reinforces China+1 diversification, strengthening TLD's non-China regional sourcing and customer positioning across ASEAN and India.
+EXECUTIVE_SUMMARY: Today's APAC ex-China flow is thin and dominated by FX policy signals rather than hard macro data. Thailand's September factory output grew only 2.05% y/y, below forecast, pointing to a soft Thai industrial recovery with rising input costs. The three China-focused articles carry no direct Mainland China mandate for this brief but matter indirectly: coordinated EU, ECB and Eurogroup pressure for yuan appreciation, met by Beijing resistance, implies elevated Asian FX volatility and potential China+1 sourcing acceleration. No threshold breaches were triggered today — no PMI, rate, FDI or 3% FX move was reported. Net impact on TLD APAC operations is neutral-to-marginally-negative near term, with FX translation and hedging complexity the main watch item. Priority action is treasury scenario-testing of yuan-linked FX exposure and continued monitoring of Thai customer capex appetite.
+COMPETITIVENESS_OUTLOOK: Regional cost base is broadly stable over the next 30-90 days, with soft Thai industrial output and cheap China-sourced components tempering any near-term China+1 sourcing shift. A firmer yuan would gradually improve the relative competitiveness of non-China Southeast Asian manufacturing, a mild positive for TLD's regional footprint.
+FINANCING_OUTLOOK: Regional financing conditions remain accommodative, with Thailand's soft data supporting a dovish Bank of Thailand bias and no sign of rate stress across covered markets. The main risk to the 90-180 day outlook is FX volatility around EU-China currency diplomacy rather than credit or rate tightening.
+WATCH_1: EUR/CNY and USD/CNY moves around the EU-China talks — flag any 30-day move exceeding 3% as CRITICAL.
+WATCH_2: Thailand manufacturing production and Bank of Thailand policy rate — flag any single decision move above 50bps.
+WATCH_3: Asian FX crosses (THB, SGD, KRW, JPY) versus EUR — flag any 30-day move above 3% for treasury hedging review.
+MAIN_RISK: Escalating EU-China currency tension spilling into broad Asian FX volatility, raising translation and hedging costs for TLD's APAC entities.
+MAIN_OPPORTUNITY: A sustained yuan appreciation would accelerate China+1 sourcing into Southeast Asia, expanding TLD's non-China supplier and customer base.
 ===SUMMARY_END===
