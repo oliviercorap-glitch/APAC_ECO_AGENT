@@ -1,34 +1,142 @@
 ===SIGNAL_START===
 SIGNAL_ID: 1
-IMPACT: CRITICAL
-COUNTRY: Taiwan
-INDICATOR: GDP
-HEADLINE: ALERT: Taiwan Q3 GDP surges 14.36% YoY, fastest in 48 years
-READING: Taiwan's economy expanded an estimated 14.36% year-on-year in Q3 2026, the strongest reading in 48 years, driven overwhelmingly by the AI/semiconductor export cycle and associated capex. This is a major threshold breach well beyond normal trend growth and signals an economy running at exceptional capacity with tight labour markets and rising price pressures.
-SUPPLY_CHAIN_IMPACT: Taiwan is a critical node in TLD's electronics, avionics, and component sourcing outside Mainland China; an economy at 14% growth implies tight supplier capacity, longer lead times, and upward price pressure on electronic components and precision parts. TLD should expect firmer supplier pricing and possible allocation constraints on Taiwan-sourced inputs over the next two quarters.
-FINANCE_FX_IMPACT: Exceptional growth typically supports TWD strength, which raises the local cost base for TLD's Taiwan entity and any TWD-denominated supplier payments when translated to EUR. Conversely, a strong TWD and buoyant domestic economy improve local customer credit quality and financing appetite for capital equipment.
-ACTION: CFO APAC to stress-test Taiwan supplier pricing and lead times within 48 hours and review TWD exposure hedging given likely currency appreciation pressure.
+IMPACT: IMPORTANT
+COUNTRY: India
+INDICATOR: PMI
+HEADLINE: India manufacturing PMI hits seven-month high in September, firmly in expansion
+READING: India's private-sector manufacturing activity rose to a seven-month high in September 2026, with the index remaining above the 50 expansion mark as new orders, output and hiring all picked up. The broad-based improvement signals resilient industrial momentum and strengthening domestic capex appetite.
+SUPPLY_CHAIN_IMPACT: Strengthening Indian manufacturing supports China+1 diversification, expanding the pool of potential local suppliers and industrial customers for TLD's regional footprint. Rising output and hiring imply growing industrial capex appetite that could translate into GSE-adjacent equipment demand.
+FINANCE_FX_IMPACT: A firm industrial cycle supports INR stability and reduces near-term translation risk on TLD's India entity results reported in EUR. Healthier customer balance sheets improve credit quality for any INR-denominated lease or purchase financing.
+ACTION: Regional finance team to refresh India customer credit exposure and pipeline assumptions this week, and confirm INR hedging ratios remain adequate given the supportive industrial backdrop.
 ===SIGNAL_END===
 
 ===SIGNAL_START===
 SIGNAL_ID: 2
-IMPACT: IMPORTANT
-COUNTRY: Taiwan
+IMPACT: CRITICAL
+COUNTRY: Indonesia
+INDICATOR: PMI
+HEADLINE: ALERT — Indonesia manufacturing PMI jumps to 52.4, first breach above 52 in 3+ months
+READING: Indonesia's S&P Global Manufacturing PMI rose to 52.4 in September 2026 from 49.8 in August, a 5.22% month-on-month jump that surprised sharply to the upside versus the 51.9 consensus. This marks a decisive swing from August contraction (49.8) back into firm expansion, driven by recovering output and new orders.
+SUPPLY_CHAIN_IMPACT: The return to expansion restores confidence in Indonesian industrial demand and supplier reliability after an August dip, supporting China+1 sourcing diversification into Indonesia. Improved manufacturing momentum reduces the risk of supplier disruption and supports local customer capex appetite.
+FINANCE_FX_IMPACT: Stronger activity supports the Rupiah and reduces country-risk premium pressure, easing financing conditions for TLD's Indonesian entity and customers. Watch for any offsetting IDR volatility given global uncertainty flagged by Bank Indonesia.
+ACTION: CFO APAC to treat Indonesia as a re-accelerating market — review Q4 pipeline and IDR exposure within 48 hours, and confirm local financing lines are sized for renewed demand.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 3
+IMPACT: WATCH
+COUNTRY: Indonesia
 INDICATOR: MONETARY
-HEADLINE: Taiwan central bank board flags rising inflation, split on response
-READING: Central bank board members expressed concern about rising inflation but differed on whether further tightening is warranted, indicating a live policy debate. With GDP running at 14.36% YoY, demand-pull and wage pressures are building, raising the probability of a rate hike or macroprudential tightening in coming meetings.
-SUPPLY_CHAIN_IMPACT: No direct supply chain impact, though tighter policy could cool domestic capex appetite among Taiwan industrial customers over time.
-FINANCE_FX_IMPACT: Any policy rate move above 50bps would raise financing costs for TLD's Taiwan entity and for local customers financing GSE purchases or leases; a hawkish tilt would also support further TWD appreciation, adding to EUR translation and cost-base pressure.
-ACTION: Regional finance team to monitor the next Taiwan CBC decision date and model a 25-50bps hike scenario on Taiwan entity funding costs this week.
+HEADLINE: Bank Indonesia holds BI-Rate at 4.75%, prioritizes Rupiah stability
+READING: Bank Indonesia kept its policy rate at 4.75%, balancing support for growth against exchange-rate stability amid rising global uncertainty. The Rupiah stood at Rp16,945 per USD on 20 January 2026, depreciating 1.53% point-to-point versus end-December 2025, with foreign capital outflows noted.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact; stable rates support predictable local operating costs for TLD's Indonesian footprint.
+FINANCE_FX_IMPACT: A hold at 4.75% keeps IDR financing costs stable for TLD's Indonesian entity and customers, but the 1.53% YTD Rupiah depreciation creates modest translation drag on EUR-reported results. Continued capital outflows warrant monitoring of IDR hedging.
+ACTION: Treasury to monitor IDR moves against the 3% in-30-days threshold and maintain current hedge ratios; no immediate action beyond routine review.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 4
+IMPACT: WATCH
+COUNTRY: Thailand
+INDICATOR: FX
+HEADLINE: Thai baht strength prompts central bank FX inflow checks and gold scrutiny
+READING: Thailand's central bank is tightening checks on foreign-exchange inflows and scrutinizing gold-related transactions to restrain excessive baht strength in early 2026. OCBC strategists note a drop in gold prices or weak growth momentum could reverse the currency.
+SUPPLY_CHAIN_IMPACT: A strong baht raises Thailand's relative manufacturing cost base, marginally eroding its competitiveness versus regional peers for TLD's Thai sourcing and operations.
+FINANCE_FX_IMPACT: Baht strength creates translation headwind on EUR-reported Thai entity results and raises the local cost base, while regulatory FX-inflow checks add administrative friction to cross-border treasury flows. Monitor for any capital-flow restriction escalation.
+ACTION: Treasury to quantify THB translation impact on Thai entity P&L this week and assess whether FX-inflow scrutiny affects repatriation timing; flag any move toward capital controls immediately.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 5
+IMPACT: IMPORTANT
+COUNTRY: Philippines
+INDICATOR: FDI
+HEADLINE: Philippines FDI falls in H1 2026; BSP executes jumbo policy move
+READING: Foreign direct investment into the Philippines declined in the first half of 2026, a negative signal on external confidence, while the BSP executed a jumbo policy action and Toyota is lobbying for policy support to boost local automotive manufacturing. The FDI downturn points to weakening investment sentiment.
+SUPPLY_CHAIN_IMPACT: Falling FDI reduces the pipeline of new industrial capacity and China+1 relocation into the Philippines, limiting new customer-base expansion opportunities for TLD. Automotive manufacturing policy support could, if delivered, revive industrial capex.
+FINANCE_FX_IMPACT: Weaker FDI pressures the PHP and raises country-risk perception, potentially widening financing spreads for TLD's Philippine entity and customers. The BSP's jumbo move signals active monetary management; confirm direction and magnitude for cost-of-funds impact.
+ACTION: Regional finance to verify the exact BSP rate decision and quantify PHP exposure and customer financing spreads this week; reassess Philippine growth assumptions in the Q4 forecast.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 6
+IMPACT: WATCH
+COUNTRY: Hong Kong
+INDICATOR: FX
+HEADLINE: HKMA comments on recent Hong Kong dollar trends
+READING: HKMA chief executive Eddie Yue published commentary on recent HKD trends in October 2026, signaling active monitoring of the currency within its peg band. The intervention-zone dynamics warrant attention for HKD-linked treasury operations.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact.
+FINANCE_FX_IMPACT: HKD peg stability underpins TLD's Hong Kong entity cost base and intercompany funding predictability; any peg-band pressure could affect HKD funding costs and USD-linked exposure. Monitor HKMA commentary for signals of rate or liquidity shifts.
+ACTION: Treasury to review HKD liquidity and intercompany funding assumptions this week in light of HKMA guidance; no immediate hedging change unless peg-band pressure escalates.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 7
+IMPACT: INFO
+COUNTRY: Taiwan
+INDICATOR: FDI
+HEADLINE: Taiwan FDI USD 11.0bn in 2025, down 1.2% YoY
+READING: UNCTAD data show FDI flows to Taiwan reached USD 11.0 billion in 2025, down 1.2% year-on-year, with inward FDI stock at roughly USD 163.2 billion. The modest decline is within normal variation and does not breach the 15% threshold.
+SUPPLY_CHAIN_IMPACT: Stable FDI supports continuity of Taiwan's advanced manufacturing supply chain relevant to component sourcing, with no material diversification signal.
+FINANCE_FX_IMPACT: The small FDI decline is immaterial to TWD stability and country-risk premium; no meaningful impact on TLD financing conditions.
+ACTION: No action required; retain as background context for regional FDI monitoring.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 8
+IMPACT: INFO
+COUNTRY: Bhutan
+INDICATOR: FDI
+HEADLINE: Bhutan reports sharp rise in FDI commitments to USD 3.7bn by October 2026
+READING: Bhutan secured FDI commitments of Nu 329.16 billion (about USD 3.7 billion) as of 7 October 2026, split between Nu 229.16 billion in licensed projects and Nu 100 billion under in-principle approval. This represents a sharp rise in committed investment for a small frontier market.
+SUPPLY_CHAIN_IMPACT: Bhutan is outside TLD's core commercial footprint; the FDI surge is not material to regional sourcing or manufacturing.
+FINANCE_FX_IMPACT: Immaterial to TLD's regional financing or FX exposure given Bhutan's small market size and limited convertibility.
+ACTION: No action; monitor only as frontier-market context.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 9
+IMPACT: INFO
+COUNTRY: Myanmar
+INDICATOR: OTHER
+HEADLINE: Myanmar recovery hinges on stability, investment and export strength
+READING: Myanmar's 2026 economic overview cites rising cost of living, healthcare and education gaps, and regional income inequality, with GDP per capita below Thailand and Malaysia and comparable to Cambodia and Laos. Recovery depends on stability, investment and export strength.
+SUPPLY_CHAIN_IMPACT: Myanmar remains a high-risk, low-development market with limited relevance to TLD's regional supply chain; no sourcing or manufacturing implication.
+FINANCE_FX_IMPACT: Elevated country risk and limited convertibility make Myanmar unattractive for TLD financing exposure; no change to current posture.
+ACTION: No action; maintain existing risk-avoidance stance on Myanmar exposure.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 10
+IMPACT: WATCH
+COUNTRY: New Zealand
+INDICATOR: MONETARY
+HEADLINE: RBNZ holds OCR at 2.25%, signals possible future hike
+READING: The Reserve Bank of New Zealand kept the Official Cash Rate at 2.25% in February 2026, stating policy is likely to remain accommodative for some time while flagging building inflation risks and a possible hike. The dovish hold disappointed markets.
+SUPPLY_CHAIN_IMPACT: No direct supply chain impact; accommodative policy supports general business investment conditions in New Zealand.
+FINANCE_FX_IMPACT: A 2.25% OCR keeps NZD financing costs low for TLD's Oceania customers, a demand tailwind, but the hawkish tilt signals potential future tightening that could raise cost of funds. Monitor NZD for rate-differential-driven moves.
+ACTION: Treasury to model a possible RBNZ hike scenario for Oceania customer financing costs over the next 90-180 days; no immediate action.
+===SIGNAL_END===
+
+===SIGNAL_START===
+SIGNAL_ID: 11
+IMPACT: INFO
+COUNTRY: Regional
+INDICATOR: TRADE
+HEADLINE: EU and Chinese firms seek cooperation to offset rising US tariffs
+READING: Some EU and Chinese firms are exploring closer ties to offset rising American tariffs even as broader geopolitical tensions simmer. The article content was inaccessible beyond the headline, limiting quantification.
+SUPPLY_CHAIN_IMPACT: Potential reconfiguration of EU-China trade linkages could indirectly affect TLD's cross-border component flows and sourcing routes, but no specific data is available to assess impact.
+FINANCE_FX_IMPACT: No quantifiable FX or financing impact from available content; monitor for tariff-driven shifts in regional trade and currency flows.
+ACTION: No action on current information; re-scan source for substantive detail before drawing conclusions.
 ===SIGNAL_END===
 
 ===SUMMARY_START===
-EXECUTIVE_SUMMARY: Taiwan delivered the standout macro signal this period, with Q3 GDP growth of 14.36% YoY — the fastest in 48 years — driven by the AI and semiconductor export cycle, alongside central bank board concern over rising inflation and a split on the policy response. This combination points to an economy at full capacity with building price pressures and a rising probability of further monetary tightening. For TLD APAC, the net effect is a firmer TWD, upward pressure on Taiwan-sourced component pricing and lead times, and higher local financing costs if rates rise. No other covered markets generated signals today. Priority actions are supplier pricing and lead-time stress-testing in Taiwan and a TWD hedging and rate-hike scenario review.
-COMPETITIVENESS_OUTLOOK: Taiwan's cost base is likely to firm over the next 30-90 days on tight capacity, wage pressure, and currency strength, modestly eroding its relative manufacturing competitiveness versus lower-cost Southeast Asian alternatives. The broader regional cost picture outside Taiwan is unchanged by today's signals.
-FINANCING_OUTLOOK: Taiwan local financing conditions are likely to tighten modestly over the next 90-180 days if the central bank moves on inflation, with a 25-50bps hike plausible; regional credit conditions elsewhere are stable pending new data.
-WATCH_1: Taiwan central bank policy rate decision — flag CRITICAL if a single move exceeds 50bps.
-WATCH_2: TWD movement versus EUR and USD — flag CRITICAL if it exceeds 3% in 30 days.
-WATCH_3: Taiwan CPI and wage data — flag IMPORTANT if inflation accelerates above the central bank's comfort band.
-MAIN_RISK: A sharp TWD appreciation combined with Taiwan rate hikes would simultaneously raise TLD's Taiwan cost base and local customer financing costs.
-MAIN_OPPORTUNITY: Taiwan's booming industrial economy and strong customer credit quality offer a window to expand GSE leasing and financing penetration with well-capitalized local customers.
+EXECUTIVE_SUMMARY: The APAC ex-China picture is broadly constructive, led by a sharp Indonesian manufacturing rebound to 52.4 (from 49.8, a 5.22% jump) that breaches the 52 expansion threshold, and India's manufacturing PMI at a seven-month high above 50. Bank Indonesia held rates at 4.75% with the Rupiah down 1.53% YTD, while Thailand manages baht strength through FX-inflow checks and New Zealand holds its OCR at 2.25% with a hawkish tilt. The Philippines is the soft spot, with H1 2026 FDI declining and a jumbo BSP policy move, while Taiwan FDI slipped a modest 1.2% YoY and frontier markets Bhutan and Myanmar remain immaterial. Net impact on TLD APAC is mildly positive on demand and stable on financing, with the priority being the Indonesian re-acceleration and Philippine FDI weakness. Priority actions are the 48-hour Indonesia pipeline and IDR review and this week's verification of the BSP decision and PHP exposure.
+COMPETITIVENESS_OUTLOOK: Regional manufacturing competitiveness is improving, with Indonesia and India in firm expansion supporting China+1 diversification, though Thai baht strength modestly erodes Thailand's relative cost position. The net cost-base outlook for TLD's APAC footprint is stable to favorable over the next 30-90 days.
+FINANCING_OUTLOOK: Regional financing conditions are broadly accommodative, with Indonesia and New Zealand holding low rates and India's industrial strength supporting credit quality, though Philippine FDI weakness and possible RBNZ tightening pose modest upside risk to cost of funds over 90-180 days. IDR and THB FX management will be the main treasury focus.
+WATCH_1: Indonesia manufacturing PMI — confirm it holds above 52 in the next print (Nov 1 release showed 52.4 prior); a drop below 50 would reverse the expansion signal.
+WATCH_2: Thai baht and IDR moves versus USD/EUR — flag any move exceeding 3% in 30 days, and watch for escalation of Thai FX-inflow restrictions toward capital controls.
+WATCH_3: Philippines FDI and BSP policy rate — confirm the jumbo BSP move magnitude (any single move above 50bps is a threshold breach) and track H2 FDI for a swing beyond 15% YoY.
+MAIN_RISK: A reversal of Indonesia's manufacturing rebound combined with Philippine FDI weakness and baht-driven FX friction could compress regional demand and complicate EUR-reported results.
+MAIN_OPPORTUNITY: Indonesia's return to firm manufacturing expansion and India's seven-month PMI high offer a re-accelerating demand and China+1 sourcing opportunity for TLD's regional footprint.
 ===SUMMARY_END===
