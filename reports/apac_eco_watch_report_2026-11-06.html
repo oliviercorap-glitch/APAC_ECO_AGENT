@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APAC Economic Watch (ex-China) — November 06, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f172a;--ink-2:#334155;--ink-3:#64748b;--ink-4:#94a3b8;
+  --surface:#fff;--surface-1:#f8fafc;--border:#e2e8f0;
+  --radius:8px;--radius-lg:12px;
+}
+body{font-family:'Inter',-apple-system,sans-serif;background:#f0f2f5;
+      color:var(--ink);line-height:1.6;padding:32px 16px 64px}
+.wrapper{max-width:960px;margin:0 auto}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);border-radius:var(--radius-lg) var(--radius-lg) 0 0;padding:28px 36px 24px}
+.masthead-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;
+                   text-transform:uppercase;color:#64748b;margin-bottom:8px}
+.masthead-title{font-size:22px;font-weight:600;letter-spacing:-.02em;color:#fff;margin-bottom:4px}
+.masthead-subtitle{font-size:13px;color:#475569;margin-bottom:12px}
+.masthead-meta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.meta-item{font-size:13px;color:#94a3b8;display:flex;align-items:center;gap:6px}
+.meta-item strong{color:#e2e8f0;font-weight:500}
+.masthead-counters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;
+                    padding-top:16px;border-top:1px solid #1e293b}
+.counter-pill{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;letter-spacing:.02em}
+
+/* CARD BODY */
+.card-body{background:var(--surface);border:1px solid var(--border);border-top:none;
+            border-radius:0 0 var(--radius-lg) var(--radius-lg);padding:36px}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:20px;
+                 padding-bottom:12px;border-bottom:1px solid var(--border)}
+.section-header h2{font-size:13px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:var(--ink-3)}
+.section-divider{margin:36px 0;border:none;border-top:1px solid var(--border)}
+
+/* EXEC SUMMARY */
+.exec-panel{background:var(--ink);border-radius:var(--radius-lg);padding:24px 28px;
+             margin-bottom:24px;color:#e2e8f0;font-size:15px;line-height:1.75}
+.exec-panel-label{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;
+                   text-transform:uppercase;color:#475569;margin-bottom:10px}
+.exec-panel p{margin:0}
+
+/* OUTLOOK PANELS */
+.outlook-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.outlook-card{border-radius:var(--radius);padding:16px 18px;border:1px solid}
+.outlook-card.margins{background:#f0fdf4;border-color:#bbf7d0}
+.outlook-card.demand{background:#eff6ff;border-color:#bfdbfe}
+.outlook-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;
+                margin-bottom:8px}
+.outlook-card.margins .outlook-label{color:#166534}
+.outlook-card.demand .outlook-label{color:#1e40af}
+.outlook-text{font-size:13px;line-height:1.6}
+.outlook-card.margins .outlook-text{color:#14532d}
+.outlook-card.demand .outlook-text{color:#1e3a8a}
+.outlook-text p{margin:0}
+
+/* SIGNAL CARDS */
+.signal-card{border:1px solid var(--border);border-radius:var(--radius-lg);
+              margin-bottom:16px;overflow:hidden;transition:box-shadow .15s}
+.signal-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.signal-card-header{padding:14px 20px;background:var(--surface-1);
+                     display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.signal-badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;
+               white-space:nowrap;letter-spacing:.03em;margin-top:2px;flex-shrink:0}
+.indicator-tag{font-size:11px;font-weight:500;color:var(--ink-3);
+                background:#f1f5f9;padding:3px 8px;border-radius:6px;
+                white-space:nowrap;margin-top:2px;flex-shrink:0}
+.country-tag{font-size:11px;font-weight:600;color:#1e40af;
+             background:#eff6ff;padding:3px 8px;border-radius:6px;
+             white-space:nowrap;margin-top:2px;flex-shrink:0}
+.signal-headline{font-size:15px;font-weight:600;color:var(--ink);line-height:1.4;flex:1}
+.signal-headline p{margin:0}
+.signal-body{padding:20px;display:grid;gap:14px}
+.signal-section-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                        letter-spacing:.1em;color:var(--ink-4);margin-bottom:4px}
+.signal-section-text{font-size:14px;color:var(--ink-2);line-height:1.65}
+.signal-section-text p{margin:0}
+.signal-action .signal-section-text{color:var(--ink);font-weight:500}
+.signal-source{padding-top:10px;border-top:1px dashed var(--border);font-size:12px;
+                color:var(--ink-4);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.source-label{font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+               font-size:10px;color:var(--ink-4);margin-right:4px}
+.signal-source a{color:#2563eb;text-decoration:none;font-weight:500}
+.signal-source a:hover{text-decoration:underline}
+.source-name{color:var(--ink-4)}
+
+/* WATCH / RISK / OPP */
+.watch-panel{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-lg);
+              padding:18px 22px;margin-bottom:12px}
+.watch-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:#92400e;margin-bottom:10px}
+.watch-panel ol{padding-left:20px;display:grid;gap:6px}
+.watch-panel li{font-size:14px;color:#78350f;line-height:1.5}
+.watch-panel li p{margin:0}
+.risk-panel{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius-lg);
+             padding:16px 22px;margin-bottom:12px}
+.risk-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                   letter-spacing:.08em;color:#991b1b;margin-bottom:6px}
+.risk-panel-text{font-size:14px;color:#7f1d1d;font-weight:500;line-height:1.6}
+.risk-panel-text p{margin:0}
+.opp-panel{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-lg);
+            padding:16px 22px}
+.opp-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                  letter-spacing:.08em;color:#166534;margin-bottom:6px}
+.opp-panel-text{font-size:14px;color:#14532d;font-weight:500;line-height:1.6}
+.opp-panel-text p{margin:0}
+
+/* SOURCES */
+.sources-panel{background:var(--surface-1);border:1px solid var(--border);
+                border-radius:var(--radius);padding:14px 18px;margin-top:32px}
+.sources-panel-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                       letter-spacing:.1em;color:var(--ink-4);margin-bottom:8px}
+.sources-panel ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 0;
+                   column-gap:24px;columns:2}
+.sources-panel li{font-size:12px;color:var(--ink-3);break-inside:avoid}
+.sources-panel li::before{content:"·";margin-right:6px;color:var(--ink-4)}
+
+/* FOOTER */
+.page-footer{text-align:center;font-size:11px;color:var(--ink-4);margin-top:24px;
+              font-family:'IBM Plex Mono',monospace;letter-spacing:.04em}
+
+@media(max-width:640px){
+  body{padding:12px 8px 48px}
+  .masthead,.card-body{padding:20px 16px}
+  .outlook-grid{grid-template-columns:1fr}
+  .sources-panel ul{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<div class="masthead">
+  <div class="masthead-eyebrow">TLD Group · Alvest · CFO APAC Intelligence</div>
+  <div class="masthead-title">APAC Economic Watch (ex-Mainland China)</div>
+  <div class="masthead-subtitle">Manufacturing PMI · FDI &amp; supply chain · FX &amp; financing · Trade &amp; reform · Compliance</div>
+  <div class="masthead-meta">
+    <div class="meta-item"><span>Date</span><strong>November 06, 2026</strong></div>
+    <div class="meta-item"><span>Generated</span><strong>13:16</strong></div>
+    <div class="meta-item"><span>Articles analyzed</span><strong>20</strong></div>
+    <div class="meta-item"><span>Signals</span><strong>15</strong></div>
+  </div>
+  <div class="masthead-counters"><span class="counter-pill" style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">4 Critical</span><span class="counter-pill" style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">3 Important</span><span class="counter-pill" style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">5 Watch</span><span class="counter-pill" style="background:#f9fafb;color:#374151;border:1px solid #e5e7eb;">3 Info</span></div>
+</div>
+
+<div class="card-body">
+
+  
+
+  <div class="exec-panel"><div class="exec-panel-label">Executive summary</div>APAC ex-China manufacturing is broadly expansionary, with Japan at 54.9, India at 56.20, Indonesia at 54.0, and Vietnam at 52.3 all above the 52 threshold, while the Philippines at 49.1 is the clear laggard in contraction territory. Monetary policy is mixed: South Korea holds at 3.00%, Australia holds with inflation above 3% through 2026, and New Zealand signals future hikes at 2.25%. Currency pressure is a theme, with the Indian rupee weakening on outflows and a dovish RBI, and Indonesia's high FX debt (~30% of GDP) a structural vulnerability. The China+1 diversification trend is accelerating among EU firms, expanding TLD's sourcing and customer opportunities across Southeast and South Asia. Priority actions are the Philippines contraction review, Indonesia and Japan threshold-breach confirmations, and INR/IDR hedging.</div>
+
+  <div class="outlook-grid">
+    <div class="outlook-card margins">
+      <div class="outlook-label">🌏 Regional competitiveness outlook (30-90 days)</div>
+      <div class="outlook-text">Regional manufacturing competitiveness is strengthening across Japan, India, Indonesia, and Vietnam, supporting supplier availability and customer capex appetite for the next 30-90 days. The Philippines stands out as a weakening market requiring tighter credit management. Currency divergence, with INR and IDR soft and TWD resilient, will shift relative cost bases within the region.</div>
+    </div>
+    <div class="outlook-card demand">
+      <div class="outlook-label">🏦 Financing / credit outlook (90-180 days)</div>
+      <div class="outlook-text">Financing conditions are bifurcated: Korea and Australia hold at elevated rates keeping local borrowing costs high, while New Zealand signals a possible hiking turn. India's dovish RBI lowers domestic rates but rupee weakness offsets the benefit. Expect higher-for-longer costs in Oceania and currency-driven risk premium pressure in India and Indonesia over 90-180 days.</div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Signals</h2></div>
+  
+<div class="signal-card impact-critical">
+  <div class="signal-card-header" style="border-left:4px solid #dc2626;">
+    <span class="signal-badge"
+          style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">
+      Critical
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Japan</span>
+    <h3 class="signal-headline">ALERT: Japan manufacturing PMI 54.9, first breach above 52 in 3+ months</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Japan's manufacturing PMI jumped to 54.9 from 51.6 the prior month, well above the 51.8 consensus, with firms raising production to meet rising demand despite global supply chain disruption. A separate October print showed 53.3 versus a 54.1 prior, confirming manufacturing firmly in expansion while services slow.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Strong Japanese industrial output signals healthy supplier and component availability from Japan and supports TLD's regional sourcing of high-spec parts and machinery. Sustained expansion also lifts capex appetite among Japanese industrial customers, a positive for GSE-adjacent equipment demand.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Robust manufacturing supports the yen and reduces translation risk on TLD's Japan entity results reported in EUR. Higher activity may accompany BoJ normalization expectations, raising local financing costs modestly.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to confirm Japan entity's FY forecast assumes sustained manufacturing expansion and review JPY hedging bands within 48 hours given the threshold breach.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://custommapposter.com/article/japan-s-economy-manufacturing-booms-services-slows-down-pmi-analysis/12613" target="_blank" rel="noopener">Japan's Economy: Manufacturing Booms, Services Slows Down | PMI Analysis (2026)</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">South Korea</span>
+    <h3 class="signal-headline">Bank of Korea holds policy rate at 3.00% for October</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Bank of Korea kept its policy rate unchanged at 3.00% on 22 October 2026, matching forecast and prior level. The hold reflects a steady-as-she-goes stance with no move beyond the 50bps threshold.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact; stable Korean rates support predictable financing for Korean suppliers and customers.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">A stable 3.00% rate keeps KRW financing costs for TLD's Korea entity and Korean customers unchanged, with no incremental pressure on lease pricing. No FX threshold implication from the decision itself.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to maintain current KRW funding assumptions; monitor for any shift at the next BoK meeting.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://au.finance.yahoo.com/news/rba-holds-interest-rate-as-michele-bullock-addresses-blip-that-stunned-australia-221031881.html" target="_blank" rel="noopener">RBA holds interest rate as Michele Bullock addresses 'blip' that stunned Australia</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-critical">
+  <div class="signal-card-header" style="border-left:4px solid #dc2626;">
+    <span class="signal-badge"
+          style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">
+      Critical
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">ALERT: India manufacturing PMI 56.20, firmly above 52 expansion threshold</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">India's manufacturing PMI came in at 56.20 for October versus 55.90 prior and 56.70 forecast, sustaining strong expansion. The reading confirms robust industrial momentum and demand in one of APAC's fastest-growing economies.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Strong Indian manufacturing supports China+1 diversification, expanding the pool of Indian component suppliers and industrial customers for TLD. Rising output may increase local sourcing options and reduce reliance on single-country supply chains.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Robust activity supports the rupee's medium-term fundamentals and customer capex appetite, improving lease origination prospects. Financing demand for equipment purchases in India is likely to stay firm.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to review India growth assumptions and customer pipeline this week, given sustained PMI above 52.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://au.finance.yahoo.com/news/rba-holds-interest-rate-as-michele-bullock-addresses-blip-that-stunned-australia-221031881.html" target="_blank" rel="noopener">RBA holds interest rate as Michele Bullock addresses 'blip' that stunned Australia</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">Rupee weakens on foreign fund outflows and dovish RBI policy</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Indian rupee has softened amid foreign portfolio outflows and a dovish RBI stance, with oil price rebounds adding pressure. The combination of capital outflows and easier policy weighs on the currency.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">A weaker rupee lowers USD/EUR-denominated import costs for Indian customers, potentially easing equipment affordability but also signaling external financing stress.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Rupee depreciation raises translation and transaction exposure on TLD's India entity results and increases local-currency financing costs for customers. A dovish RBI lowers domestic borrowing costs but currency weakness offsets the benefit.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury to quantify INR exposure and review hedging on India receivables within the week; monitor for a 3% move versus USD.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://in.investing.com/analysis/rupee-weakened-due-to-foreign-fund-outflows-and-a-dovish-rbi-policy-200633043" target="_blank" rel="noopener">Rupee Weakened Due to Foreign Fund Outflows and a Dovish RBI Policy</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-critical">
+  <div class="signal-card-header" style="border-left:4px solid #dc2626;">
+    <span class="signal-badge"
+          style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">
+      Critical
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Indonesia</span>
+    <h3 class="signal-headline">ALERT: Indonesia manufacturing PMI 54.0, highest since March 2024</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Indonesia's manufacturing PMI rose from 52.4 in September to 54.0 in October 2026, its highest since March 2024, helped by government-related projects. Durability of domestic and external demand remains a key question.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Expanding Indonesian manufacturing supports China+1 diversification and opens new supplier and customer opportunities for TLD in Southeast Asia. Government project support suggests public-sector capex appetite that could benefit equipment demand.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Stronger activity supports the rupiah and local customer creditworthiness, improving lease origination conditions. Watch for any rupiah volatility given Indonesia's high foreign-currency debt load.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to assess Indonesia customer pipeline and confirm FX hedging on IDR exposure within 48 hours given the threshold breach.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://samuel.co.id/wp-content/uploads/2026/11/PMI-2-November-26.pdf" target="_blank" rel="noopener">PowerPoint Presentation</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">Indonesia</span>
+    <h3 class="signal-headline">Rupiah vulnerability tied to ~30% of GDP foreign-currency borrowing</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Indonesia carries one of the region's highest foreign-currency borrowing levels at roughly 30% of GDP, making a weaker rupiah costly for debt servicing. Historical Bank Indonesia rate hikes to defend the currency illustrate the sensitivity.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact; currency stress could raise local supplier costs for imported components.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">High FX debt means rupiah depreciation raises sovereign and corporate risk premiums, affecting TLD's Indonesia entity funding and customer financing costs. Any BI defensive rate hike would lift local borrowing costs.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury to monitor IDR and BI policy for any defensive hike; stress-test Indonesia entity exposure to a 5% rupiah depreciation.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.cnbc.com/2018/05/30/bank-indonesia-hikes-interest-rates-to-save-rupiah.html" target="_blank" rel="noopener">Bank Indonesia hikes interest rates to save rupiah</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Vietnam</span>
+    <h3 class="signal-headline">Vietnam manufacturing PMI 52.3, back above 52 expansion threshold</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Vietnam's manufacturing PMI rose to 52.3 in October from 51.9 prior, beating the 51.9 forecast and crossing back above the 52 expansion line. The improvement signals recovering industrial momentum after a softer September.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Renewed expansion supports Vietnam's role as a China+1 manufacturing hub, strengthening supplier availability and customer base for TLD's regional sourcing. Rising output may increase demand for industrial equipment and logistics support.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Stronger activity supports the dong and local customer credit quality, improving lease origination conditions. No immediate FX threshold implication.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to update Vietnam growth assumptions and monitor for sustained PMI above 52 next month.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://au.finance.yahoo.com/news/rba-holds-interest-rate-as-michele-bullock-addresses-blip-that-stunned-australia-221031881.html" target="_blank" rel="noopener">RBA holds interest rate as Michele Bullock addresses 'blip' that stunned Australia</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-critical">
+  <div class="signal-card-header" style="border-left:4px solid #dc2626;">
+    <span class="signal-badge"
+          style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">
+      Critical
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Philippines</span>
+    <h3 class="signal-headline">ALERT: Philippines manufacturing PMI 49.1, below 48-52 band, contraction risk</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Philippines manufacturing PMI fell to 49.1 in October from 49.6 prior and far below the 54.9 reading two months earlier, signaling a sharp deceleration. The sub-50 reading points to contracting industrial activity.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Contraction in Philippine manufacturing weakens local supplier and customer capex appetite, reducing equipment demand prospects. TLD should expect softer order flow from Philippine industrial customers.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Weaker activity pressures the peso and local customer creditworthiness, raising lease default risk and financing costs. Treasury should review Philippine receivables exposure.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to review Philippines customer exposure and credit terms within 48 hours given the threshold breach below 50.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://custommapposter.com/article/japan-s-economy-manufacturing-booms-services-slows-down-pmi-analysis/12613" target="_blank" rel="noopener">Japan's Economy: Manufacturing Booms, Services Slows Down | PMI Analysis (2026)</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">Taiwan</span>
+    <h3 class="signal-headline">Taiwan dollar resilient on export surge and strategic capital flows</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Taiwan dollar has shown resilience supported by strong export performance and strategic capital inflows. TSMC revenue growth of roughly 21% in New Taiwan dollars for 2026 underpins the export-driven currency strength.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Strong Taiwanese export and semiconductor momentum supports regional component availability and supplier health. No direct GSE supply chain impact.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">TWD resilience reduces translation risk on TLD's Taiwan entity results and lowers imported equipment costs for Taiwanese customers. A stronger TWD modestly raises TLD's local cost base.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury to monitor TWD versus USD for any 3% move; no immediate action required.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://cryptorank.io/news/feed/e9eb0-usd-twd-taiwan-dollar-export-surge" target="_blank" rel="noopener">USD/TWD Resilience: How Taiwan’s Export Surge and Strategic Flows Fortify the Taiwan Dollar | Forex News Foreign exchange | CryptoRank.io</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">Australia</span>
+    <h3 class="signal-headline">RBA holds rates as inflation stays above 3% through 2026</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The RBA held its policy rate, noting underlying inflation is expected above the 2-3% target until the second half of 2026 and headline inflation above 3% for much of the year. The hold reflects persistent inflation driven by strong September data.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact; elevated Australian rates keep local financing costs high for suppliers and customers.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">A prolonged hold at elevated rates keeps AUD financing costs for TLD's Australia entity and customers high, sustaining pressure on lease pricing. Persistent inflation may delay any easing, extending the higher-for-longer cost environment.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to maintain elevated AUD funding cost assumptions and monitor RBA guidance for the timing of any cut.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://au.finance.yahoo.com/news/rba-holds-interest-rate-as-michele-bullock-addresses-blip-that-stunned-australia-221031881.html" target="_blank" rel="noopener">RBA holds interest rate as Michele Bullock addresses 'blip' that stunned Australia</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">New Zealand</span>
+    <h3 class="signal-headline">RBNZ holds at 2.25%, signals future hikes on inflation risk</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Reserve Bank of New Zealand held rates at 2.25% but flagged future hikes on inflation risks, including oil-driven price pressure. The hawkish hold signals a possible turning point in the easing cycle.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact; a potential hiking path would raise local financing costs for suppliers and customers.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">A shift toward hikes would raise NZD financing costs for TLD's New Zealand exposure and customers, reversing the cheaper-financing tailwind. Watch for any move exceeding 50bps.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury to monitor RBNZ guidance for the first hike signal and adjust NZD funding assumptions accordingly.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://in.investing.com/economic-calendar/rbnz-interest-rate-decision-167" target="_blank" rel="noopener">New Zealand Interest Rate Decision</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">🔗 SUPPLY_CHAIN</span>
+    <span class="country-tag">Regional</span>
+    <h3 class="signal-headline">EU firms in China accelerating supply chain diversification</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">A report finds EU firms operating in China are accelerating supply chain diversification, shifting production and sourcing toward alternative Asian markets. This reinforces the China+1 trend across the region.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Accelerating diversification creates new sourcing and customer opportunities for TLD across Vietnam, India, Indonesia, and other China+1 destinations, but adds complexity to regional supply chain planning. TLD should map emerging supplier clusters in these markets.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Diversification shifts capex and financing demand toward Southeast and South Asia, expanding TLD's lease origination footprint. Treasury should align regional funding capacity with the shifting geographic mix.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to commission a China+1 supplier and customer mapping exercise for TLD's APAC footprint this week.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://custommapposter.com/article/japan-s-economy-manufacturing-booms-services-slows-down-pmi-analysis/12613" target="_blank" rel="noopener">Japan's Economy: Manufacturing Booms, Services Slows Down | PMI Analysis (2026)</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<details style="margin-top:12px;">
+  <summary style="font-size:12px;color:#94a3b8;cursor:pointer;padding:8px 4px;
+                  user-select:none;list-style:none;">
+    <span style="font-size:10px;background:#f1f5f9;border:1px solid #e2e8f0;
+                 border-radius:20px;padding:2px 8px;color:#64748b;font-weight:600;">
+      + 3 background items
+    </span>
+    <span style="color:#94a3b8;margin-left:8px;">— no immediate action, click to expand</span>
+  </summary>
+  <ul style="list-style:none;padding:12px 16px;margin-top:8px;
+             background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;">
+    <li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.scmp.com/economy/article/3373539/frances-fiscal-dilemma-intensifies-protest-turnout-swells-amid-government-paralysis" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">France fiscal dilemma intensifies after credit outlook downgrade</a> <span style="color:#94a3b8;">[France]</span> <span style="color:#94a3b8;">— South China Morning Post — Economy (HK)</span></li><li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://nitipartners.com/foreign-direct-investment-in-nepal-2026" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">Nepal FDI framework aims to attract foreign capital amid structural constraints</a> <span style="color:#94a3b8;">[Nepal]</span> <span style="color:#94a3b8;">— Tavily Search</span></li><li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.cnbc.com/2022/09/22/asia-markets-fed-hike-bank-of-japan-interest-rates-currencies.html" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">Asian central banks tightening to limit currency depreciation vs strong USD</a> <span style="color:#94a3b8;">[Regional]</span> <span style="color:#94a3b8;">— Tavily Search</span></li>
+  </ul>
+</details>
+
+  <hr class="section-divider">
+
+  <div class="section-header"><h2>To watch this week</h2></div><div class="watch-panel"><div class="watch-panel-label">Key indicators &amp; thresholds</div><ol><li>Philippines manufacturing PMI — monitor for a further decline below 49.1 or any recovery above 50.</li><li>Indian rupee versus USD — flag any 3% move in 30 days given outflows and dovish RBI.</li><li>Indonesia rupiah and BI policy — watch for any defensive rate hike exceeding 50bps.</li></ol></div>
+
+  <div class="risk-panel"><div class="risk-panel-label">Main risk</div><div class="risk-panel-text">A synchronized EM currency depreciation (INR, IDR, PHP) raising TLD's translation losses and customer financing stress across South and Southeast Asia.</div></div>
+
+  <div class="opp-panel"><div class="opp-panel-label">Main opportunity</div><div class="opp-panel-text">Accelerating China+1 diversification into India, Indonesia, and Vietnam expands TLD's regional supplier base and lease origination pipeline.</div></div>
+
+  <div class="sources-panel">
+    <div class="sources-panel-label">Monitored sources (scraped + Tavily)</div>
+    <ul>
+      <li>Nikkei Asia</li><li>Reuters Asia Pacific</li><li>Bloomberg Asia</li><li>Financial Times — Asia-Pacific</li><li>Channel News Asia — Business</li><li>The Business Times (Singapore)</li><li>VnExpress International</li><li>Bangkok Post — Business</li><li>The Jakarta Post — Business</li><li>Inquirer Business (Philippines)</li><li>The Economic Times — India</li><li>The Korea Herald — Business</li><li>Taipei Times — Business</li><li>South China Morning Post — Economy (HK)</li><li>Australian Financial Review — Economy</li><li>RNZ Pacific</li><li>Trading Economics — Asia</li>
+      <li>Tavily Search (country-tiered queries, primary + secondary + Oceania)</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  APAC Economic Watch (ex-Mainland China) · TLD Group / Alvest · Powered by DeepSeek + Tavily · November 06, 2026
+</div>
+
+</div>
+</body>
+</html>
