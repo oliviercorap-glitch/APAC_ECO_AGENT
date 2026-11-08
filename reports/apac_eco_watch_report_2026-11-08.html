@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APAC Economic Watch (ex-China) — November 08, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f172a;--ink-2:#334155;--ink-3:#64748b;--ink-4:#94a3b8;
+  --surface:#fff;--surface-1:#f8fafc;--border:#e2e8f0;
+  --radius:8px;--radius-lg:12px;
+}
+body{font-family:'Inter',-apple-system,sans-serif;background:#f0f2f5;
+      color:var(--ink);line-height:1.6;padding:32px 16px 64px}
+.wrapper{max-width:960px;margin:0 auto}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);border-radius:var(--radius-lg) var(--radius-lg) 0 0;padding:28px 36px 24px}
+.masthead-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;
+                   text-transform:uppercase;color:#64748b;margin-bottom:8px}
+.masthead-title{font-size:22px;font-weight:600;letter-spacing:-.02em;color:#fff;margin-bottom:4px}
+.masthead-subtitle{font-size:13px;color:#475569;margin-bottom:12px}
+.masthead-meta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.meta-item{font-size:13px;color:#94a3b8;display:flex;align-items:center;gap:6px}
+.meta-item strong{color:#e2e8f0;font-weight:500}
+.masthead-counters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;
+                    padding-top:16px;border-top:1px solid #1e293b}
+.counter-pill{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;letter-spacing:.02em}
+
+/* CARD BODY */
+.card-body{background:var(--surface);border:1px solid var(--border);border-top:none;
+            border-radius:0 0 var(--radius-lg) var(--radius-lg);padding:36px}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:20px;
+                 padding-bottom:12px;border-bottom:1px solid var(--border)}
+.section-header h2{font-size:13px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:var(--ink-3)}
+.section-divider{margin:36px 0;border:none;border-top:1px solid var(--border)}
+
+/* EXEC SUMMARY */
+.exec-panel{background:var(--ink);border-radius:var(--radius-lg);padding:24px 28px;
+             margin-bottom:24px;color:#e2e8f0;font-size:15px;line-height:1.75}
+.exec-panel-label{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;
+                   text-transform:uppercase;color:#475569;margin-bottom:10px}
+.exec-panel p{margin:0}
+
+/* OUTLOOK PANELS */
+.outlook-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.outlook-card{border-radius:var(--radius);padding:16px 18px;border:1px solid}
+.outlook-card.margins{background:#f0fdf4;border-color:#bbf7d0}
+.outlook-card.demand{background:#eff6ff;border-color:#bfdbfe}
+.outlook-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;
+                margin-bottom:8px}
+.outlook-card.margins .outlook-label{color:#166534}
+.outlook-card.demand .outlook-label{color:#1e40af}
+.outlook-text{font-size:13px;line-height:1.6}
+.outlook-card.margins .outlook-text{color:#14532d}
+.outlook-card.demand .outlook-text{color:#1e3a8a}
+.outlook-text p{margin:0}
+
+/* SIGNAL CARDS */
+.signal-card{border:1px solid var(--border);border-radius:var(--radius-lg);
+              margin-bottom:16px;overflow:hidden;transition:box-shadow .15s}
+.signal-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.signal-card-header{padding:14px 20px;background:var(--surface-1);
+                     display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.signal-badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;
+               white-space:nowrap;letter-spacing:.03em;margin-top:2px;flex-shrink:0}
+.indicator-tag{font-size:11px;font-weight:500;color:var(--ink-3);
+                background:#f1f5f9;padding:3px 8px;border-radius:6px;
+                white-space:nowrap;margin-top:2px;flex-shrink:0}
+.country-tag{font-size:11px;font-weight:600;color:#1e40af;
+             background:#eff6ff;padding:3px 8px;border-radius:6px;
+             white-space:nowrap;margin-top:2px;flex-shrink:0}
+.signal-headline{font-size:15px;font-weight:600;color:var(--ink);line-height:1.4;flex:1}
+.signal-headline p{margin:0}
+.signal-body{padding:20px;display:grid;gap:14px}
+.signal-section-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                        letter-spacing:.1em;color:var(--ink-4);margin-bottom:4px}
+.signal-section-text{font-size:14px;color:var(--ink-2);line-height:1.65}
+.signal-section-text p{margin:0}
+.signal-action .signal-section-text{color:var(--ink);font-weight:500}
+.signal-source{padding-top:10px;border-top:1px dashed var(--border);font-size:12px;
+                color:var(--ink-4);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.source-label{font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+               font-size:10px;color:var(--ink-4);margin-right:4px}
+.signal-source a{color:#2563eb;text-decoration:none;font-weight:500}
+.signal-source a:hover{text-decoration:underline}
+.source-name{color:var(--ink-4)}
+
+/* WATCH / RISK / OPP */
+.watch-panel{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-lg);
+              padding:18px 22px;margin-bottom:12px}
+.watch-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:#92400e;margin-bottom:10px}
+.watch-panel ol{padding-left:20px;display:grid;gap:6px}
+.watch-panel li{font-size:14px;color:#78350f;line-height:1.5}
+.watch-panel li p{margin:0}
+.risk-panel{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius-lg);
+             padding:16px 22px;margin-bottom:12px}
+.risk-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                   letter-spacing:.08em;color:#991b1b;margin-bottom:6px}
+.risk-panel-text{font-size:14px;color:#7f1d1d;font-weight:500;line-height:1.6}
+.risk-panel-text p{margin:0}
+.opp-panel{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-lg);
+            padding:16px 22px}
+.opp-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                  letter-spacing:.08em;color:#166534;margin-bottom:6px}
+.opp-panel-text{font-size:14px;color:#14532d;font-weight:500;line-height:1.6}
+.opp-panel-text p{margin:0}
+
+/* SOURCES */
+.sources-panel{background:var(--surface-1);border:1px solid var(--border);
+                border-radius:var(--radius);padding:14px 18px;margin-top:32px}
+.sources-panel-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                       letter-spacing:.1em;color:var(--ink-4);margin-bottom:8px}
+.sources-panel ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 0;
+                   column-gap:24px;columns:2}
+.sources-panel li{font-size:12px;color:var(--ink-3);break-inside:avoid}
+.sources-panel li::before{content:"·";margin-right:6px;color:var(--ink-4)}
+
+/* FOOTER */
+.page-footer{text-align:center;font-size:11px;color:var(--ink-4);margin-top:24px;
+              font-family:'IBM Plex Mono',monospace;letter-spacing:.04em}
+
+@media(max-width:640px){
+  body{padding:12px 8px 48px}
+  .masthead,.card-body{padding:20px 16px}
+  .outlook-grid{grid-template-columns:1fr}
+  .sources-panel ul{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<div class="masthead">
+  <div class="masthead-eyebrow">TLD Group · Alvest · CFO APAC Intelligence</div>
+  <div class="masthead-title">APAC Economic Watch (ex-Mainland China)</div>
+  <div class="masthead-subtitle">Manufacturing PMI · FDI &amp; supply chain · FX &amp; financing · Trade &amp; reform · Compliance</div>
+  <div class="masthead-meta">
+    <div class="meta-item"><span>Date</span><strong>November 08, 2026</strong></div>
+    <div class="meta-item"><span>Generated</span><strong>12:14</strong></div>
+    <div class="meta-item"><span>Articles analyzed</span><strong>8</strong></div>
+    <div class="meta-item"><span>Signals</span><strong>8</strong></div>
+  </div>
+  <div class="masthead-counters"><span class="counter-pill" style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">1 Critical</span><span class="counter-pill" style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">4 Important</span><span class="counter-pill" style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">1 Watch</span><span class="counter-pill" style="background:#f9fafb;color:#374151;border:1px solid #e5e7eb;">2 Info</span></div>
+</div>
+
+<div class="card-body">
+
+  
+
+  <div class="exec-panel"><div class="exec-panel-label">Executive summary</div>The APAC ex-China picture is broadly constructive on industrial activity, with Japan manufacturing PMI at 53.3 and India at 56.2, both comfortably above the 52 expansion threshold, and India posting 7.8% Q1 GDP growth with 11.9% investment growth and 12% export growth. Indonesia's strong GDP on an improved trade balance reinforces regional external stability. The key offset is the Indian rupee's slide to a record low on dollar buying and foreign outflows, which is the single CRITICAL signal today and directly raises translation and customer credit risk for TLD's Indian exposure. US-China trade tension ahead of Apec adds policy uncertainty and supports USD strength, compounding EM currency pressure. Priority actions are the 48-hour INR hedge and receivables review, confirmation of Indonesian IDR exposure, and monitoring of the Apec outcome for tariff and FX implications.</div>
+
+  <div class="outlook-grid">
+    <div class="outlook-card margins">
+      <div class="outlook-label">🌏 Regional competitiveness outlook (30-90 days)</div>
+      <div class="outlook-text">Regional manufacturing competitiveness remains solid, with India and Japan expanding and India's investment and export growth supporting capex appetite, while a record-low INR temporarily improves India's export cost competitiveness but raises imported-content costs for TLD's local operations. Indonesia's improved trade balance supports rupiah stability and its China+1 positioning. Net regional cost base is stable to slightly pressured by USD strength over the next 30-90 days.</div>
+    </div>
+    <div class="outlook-card demand">
+      <div class="outlook-label">🏦 Financing / credit outlook (90-180 days)</div>
+      <div class="outlook-text">Regional financing conditions are stable but USD strength and Indian capital outflows are tightening EM currency liquidity, raising hedging costs and the credit risk premium on INR-denominated customer receivables. India's strong growth supports medium-term customer creditworthiness, but near-term affordability of EUR/USD-linked leases in India is deteriorating. Expect elevated FX hedging costs across APAC EM over the next 90-180 days absent a US-China trade de-escalation.</div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Signals</h2></div>
+  
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">📈 GDP</span>
+    <span class="country-tag">Indonesia</span>
+    <h3 class="signal-headline">Indonesia GDP strong on improved trade balance, external position firming</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Jakarta Post reports Indonesia posted strong GDP growth supported by a better trade balance, indicating resilient domestic demand and a strengthening external position. The improved trade surplus reduces currency stability risk for the rupiah and supports the sovereign risk premium. Detail is thin in the excerpt but the direction is unambiguously positive for macro stability.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">A stronger Indonesian external position and growth backdrop support industrial capex appetite among TLD's Indonesian customer base and suppliers, reinforcing Indonesia's role as a China+1 manufacturing relocation destination. No immediate sourcing disruption expected.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Improved trade balance reduces IDR depreciation pressure, lowering translation risk on TLD's Indonesian entity results reported in EUR and supporting local customer financing capacity. Sovereign risk premium compression could modestly lower intercompany funding spreads.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to confirm Indonesian entity's IDR net exposure and update the FX sensitivity model within one week; treasury to note improved IDR stability in the next intercompany funding review.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.thejakartapost.com/business/2026/11/05/ri-posts-strong-gdp-growth-on-better-trade-balance" target="_blank" rel="noopener">RI posts strong GDP growth on better trade balance</a><span class="source-name"> — The Jakarta Post — Business</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🌐 TRADE</span>
+    <span class="country-tag">Regional</span>
+    <h3 class="signal-headline">US-China sanctions tension ahead of Apec raises cross-border trade uncertainty</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">China's Ministry of Commerce expressed "serious concern" and "firm opposition" to US sanctions ahead of the Xi-Trump Apec meeting, signalling elevated trade-policy volatility between the two largest economies. Although Mainland China is out of scope, spillover into regional supply chain routing, tariff expectations, and risk sentiment across APAC is material.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Escalating US-China friction typically accelerates China+1 relocation into Vietnam, Indonesia, and India, which could expand TLD's regional customer base and sourcing options, but also raises customs and tariff complexity on any cross-border component flows routed through the region.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Trade-policy uncertainty tends to support USD and safe-haven flows, adding depreciation pressure on APAC EM currencies and widening hedging costs for TLD regional entities. No direct rate impact yet.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to monitor Apec outcome and any new tariff or export-control announcements; hold regional FX hedge ratios at current levels pending clarity, review within one week.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.scmp.com/economy/policy/article/3373632/china-airs-serious-concern-over-us-sanctions-ahead-xi-trump-apec-meeting-shenzhen" target="_blank" rel="noopener">China airs ‘serious concern’ over US sanctions ahead of Xi, Trump Apec meetingChina’s Ministry of Commerce said on Saturday it ‘firmly opposes’ the la</a><span class="source-name"> — South China Morning Post — Economy (HK)</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Japan</span>
+    <h3 class="signal-headline">Japan manufacturing PMI 53.3 in October, above 52 expansion threshold</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Japan's October manufacturing PMI printed at 53.3, down from 54.1 previously but comfortably above the 52 expansion threshold, with the November forecast also at 53.3. The reading signals continued industrial expansion in Japan despite a modest sequential slowdown.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Sustained Japanese manufacturing expansion supports supplier reliability and component availability for TLD's regional supply chain, and signals healthy industrial capex appetite among Japanese customers and partners. No sourcing disruption indicated.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Solid Japanese industrial activity supports JPY stability and reduces translation volatility on TLD's Japanese entity results reported in EUR; no rate implication from this data point alone.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to note Japan as a stable, expanding market in the next forecast cycle; no urgent action required, monitor November print due 23 November.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.investing.com/economic-calendar/manufacturing---services-pmi-2273" target="_blank" rel="noopener">India Manufacturing &amp; Services PMI</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">India manufacturing PMI 56.2 in October, firmly above 52 expansion threshold</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">India's October manufacturing PMI came in at 56.2 versus a 56.7 forecast and 55.9 previous, remaining well above the 52 expansion threshold for a sustained period. The reading confirms robust Indian industrial momentum and strong capex appetite.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Strong Indian manufacturing expansion reinforces India's growing role as a China+1 sourcing and manufacturing destination, supporting potential new supplier relationships and customer-base expansion for TLD in South Asia.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Robust industrial activity supports INR fundamentals over the medium term, though near-term depreciation pressure persists (see Signal 7); customer financing demand for capex is likely to remain strong.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to factor India's expansion into the South Asia growth forecast and assess incremental customer financing capacity within two weeks.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.investing.com/economic-calendar/manufacturing---services-pmi-2273" target="_blank" rel="noopener">India Manufacturing &amp; Services PMI</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">📈 GDP</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">India Q1 FY2026-27 GDP accelerates to 7.8%, investment up 11.9%</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">India's real GDP growth accelerated to 7.8% in Q1 FY2026-27 with real GVA up 8.2%, investments rising 11.9%, household consumption up 7.1%, and exports up 12.0%. July industrial production rose 6.7%, confirming momentum carried into the quarter.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Double-digit investment growth and 12% export growth signal strong industrial capex appetite in India, supporting demand for TLD equipment and reinforcing India's China+1 manufacturing role. No supply chain constraint indicated.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Strong growth supports medium-term INR fundamentals and local customer creditworthiness, improving the risk profile of INR-denominated lease and purchase financing for TLD's Indian customers.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to review India growth assumptions in the regional forecast and consider expanding customer financing capacity in India within 30 days.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.pib.gov.in/FactsheetDetails.aspx?Id=150991&reg=48&lang=2" target="_blank" rel="noopener">Factsheet Details:Factsheet Details | PIB</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-critical">
+  <div class="signal-card-header" style="border-left:4px solid #dc2626;">
+    <span class="signal-badge"
+          style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">
+      Critical
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">ALERT: Rupee slips to record low on dollar buying and foreign outflows</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Indian rupee has slipped to a record bottom driven by persistent dollar buying and foreign portfolio outflows as of early November 2026. The move reflects capital outflow pressure and USD strength, raising currency stability risk for INR-denominated exposures.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">A record-low INR raises the local-currency cost of any EUR or USD-denominated imported components or equipment into India, increasing landed cost for TLD's Indian operations and customers. No direct sourcing disruption but margin pressure on imported content.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Record INR lows increase translation losses on TLD's Indian entity results reported in EUR and raise hedging costs; local customer financing affordability for EUR/USD-linked leases deteriorates, raising credit risk on INR-denominated receivables.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to review INR hedge coverage and net monetary position within 48 hours, and stress-test Indian customer receivables for a further 3-5% INR depreciation.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://in.investing.com/analysis/rupee-slips-to-record-bottom-with-dollar-buying-and-foreign-outflows-weighing-200633229" target="_blank" rel="noopener">Rupee Slips to Record Bottom With Dollar Buying and Foreign Outflows Weighing</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<details style="margin-top:12px;">
+  <summary style="font-size:12px;color:#94a3b8;cursor:pointer;padding:8px 4px;
+                  user-select:none;list-style:none;">
+    <span style="font-size:10px;background:#f1f5f9;border:1px solid #e2e8f0;
+                 border-radius:20px;padding:2px 8px;color:#64748b;font-weight:600;">
+      + 2 background items
+    </span>
+    <span style="color:#94a3b8;margin-left:8px;">— no immediate action, click to expand</span>
+  </summary>
+  <ul style="list-style:none;padding:12px 16px;margin-top:8px;
+             background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;">
+    <li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.scmp.com/economy/china-economy/article/3373595/after-midterms-upheaval-us-ag-exporters-call-stability-china-trade" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">US ag exporters push for faster China trade deal after midterms</a> <span style="color:#94a3b8;">[Regional]</span> <span style="color:#94a3b8;">— South China Morning Post — Economy (HK)</span></li><li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-5-september-2026-ism-manufacturing-pmi-report-302894520.html" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">US ISM manufacturing PMI 54.5% in September, export orders near neutral</a> <span style="color:#94a3b8;">[Regional]</span> <span style="color:#94a3b8;">— Tavily Search</span></li>
+  </ul>
+</details>
+
+  <hr class="section-divider">
+
+  <div class="section-header"><h2>To watch this week</h2></div><div class="watch-panel"><div class="watch-panel-label">Key indicators &amp; thresholds</div><ol><li>INR/USD — flag CRITICAL if depreciation exceeds a further 3% within 30 days from the record low.</li><li>India manufacturing PMI — flag if it falls below 52 (November print due 23 November; October was 56.2).</li><li>Japan manufacturing PMI — flag if it drops below 52 (November print due 23 November; October was 53.3).</li></ol></div>
+
+  <div class="risk-panel"><div class="risk-panel-label">Main risk</div><div class="risk-panel-text">A record-low Indian rupee combined with USD strength and foreign outflows could drive further INR depreciation, raising translation losses and customer credit risk on TLD's Indian receivables.</div></div>
+
+  <div class="opp-panel"><div class="opp-panel-label">Main opportunity</div><div class="opp-panel-text">Strong Indian investment growth of 11.9% and manufacturing expansion at 56.2 PMI present a clear window to expand customer financing and equipment placement in India's capex cycle.</div></div>
+
+  <div class="sources-panel">
+    <div class="sources-panel-label">Monitored sources (scraped + Tavily)</div>
+    <ul>
+      <li>Nikkei Asia</li><li>Reuters Asia Pacific</li><li>Bloomberg Asia</li><li>Financial Times — Asia-Pacific</li><li>Channel News Asia — Business</li><li>The Business Times (Singapore)</li><li>VnExpress International</li><li>Bangkok Post — Business</li><li>The Jakarta Post — Business</li><li>Inquirer Business (Philippines)</li><li>The Economic Times — India</li><li>The Korea Herald — Business</li><li>Taipei Times — Business</li><li>South China Morning Post — Economy (HK)</li><li>Australian Financial Review — Economy</li><li>RNZ Pacific</li><li>Trading Economics — Asia</li>
+      <li>Tavily Search (country-tiered queries, primary + secondary + Oceania)</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  APAC Economic Watch (ex-Mainland China) · TLD Group / Alvest · Powered by DeepSeek + Tavily · November 08, 2026
+</div>
+
+</div>
+</body>
+</html>
