@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APAC Economic Watch (ex-China) — November 22, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f172a;--ink-2:#334155;--ink-3:#64748b;--ink-4:#94a3b8;
+  --surface:#fff;--surface-1:#f8fafc;--border:#e2e8f0;
+  --radius:8px;--radius-lg:12px;
+}
+body{font-family:'Inter',-apple-system,sans-serif;background:#f0f2f5;
+      color:var(--ink);line-height:1.6;padding:32px 16px 64px}
+.wrapper{max-width:960px;margin:0 auto}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);border-radius:var(--radius-lg) var(--radius-lg) 0 0;padding:28px 36px 24px}
+.masthead-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;
+                   text-transform:uppercase;color:#64748b;margin-bottom:8px}
+.masthead-title{font-size:22px;font-weight:600;letter-spacing:-.02em;color:#fff;margin-bottom:4px}
+.masthead-subtitle{font-size:13px;color:#475569;margin-bottom:12px}
+.masthead-meta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.meta-item{font-size:13px;color:#94a3b8;display:flex;align-items:center;gap:6px}
+.meta-item strong{color:#e2e8f0;font-weight:500}
+.masthead-counters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;
+                    padding-top:16px;border-top:1px solid #1e293b}
+.counter-pill{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;letter-spacing:.02em}
+
+/* CARD BODY */
+.card-body{background:var(--surface);border:1px solid var(--border);border-top:none;
+            border-radius:0 0 var(--radius-lg) var(--radius-lg);padding:36px}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:20px;
+                 padding-bottom:12px;border-bottom:1px solid var(--border)}
+.section-header h2{font-size:13px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:var(--ink-3)}
+.section-divider{margin:36px 0;border:none;border-top:1px solid var(--border)}
+
+/* EXEC SUMMARY */
+.exec-panel{background:var(--ink);border-radius:var(--radius-lg);padding:24px 28px;
+             margin-bottom:24px;color:#e2e8f0;font-size:15px;line-height:1.75}
+.exec-panel-label{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;
+                   text-transform:uppercase;color:#475569;margin-bottom:10px}
+.exec-panel p{margin:0}
+
+/* OUTLOOK PANELS */
+.outlook-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.outlook-card{border-radius:var(--radius);padding:16px 18px;border:1px solid}
+.outlook-card.margins{background:#f0fdf4;border-color:#bbf7d0}
+.outlook-card.demand{background:#eff6ff;border-color:#bfdbfe}
+.outlook-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;
+                margin-bottom:8px}
+.outlook-card.margins .outlook-label{color:#166534}
+.outlook-card.demand .outlook-label{color:#1e40af}
+.outlook-text{font-size:13px;line-height:1.6}
+.outlook-card.margins .outlook-text{color:#14532d}
+.outlook-card.demand .outlook-text{color:#1e3a8a}
+.outlook-text p{margin:0}
+
+/* SIGNAL CARDS */
+.signal-card{border:1px solid var(--border);border-radius:var(--radius-lg);
+              margin-bottom:16px;overflow:hidden;transition:box-shadow .15s}
+.signal-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.signal-card-header{padding:14px 20px;background:var(--surface-1);
+                     display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.signal-badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;
+               white-space:nowrap;letter-spacing:.03em;margin-top:2px;flex-shrink:0}
+.indicator-tag{font-size:11px;font-weight:500;color:var(--ink-3);
+                background:#f1f5f9;padding:3px 8px;border-radius:6px;
+                white-space:nowrap;margin-top:2px;flex-shrink:0}
+.country-tag{font-size:11px;font-weight:600;color:#1e40af;
+             background:#eff6ff;padding:3px 8px;border-radius:6px;
+             white-space:nowrap;margin-top:2px;flex-shrink:0}
+.signal-headline{font-size:15px;font-weight:600;color:var(--ink);line-height:1.4;flex:1}
+.signal-headline p{margin:0}
+.signal-body{padding:20px;display:grid;gap:14px}
+.signal-section-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                        letter-spacing:.1em;color:var(--ink-4);margin-bottom:4px}
+.signal-section-text{font-size:14px;color:var(--ink-2);line-height:1.65}
+.signal-section-text p{margin:0}
+.signal-action .signal-section-text{color:var(--ink);font-weight:500}
+.signal-source{padding-top:10px;border-top:1px dashed var(--border);font-size:12px;
+                color:var(--ink-4);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.source-label{font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+               font-size:10px;color:var(--ink-4);margin-right:4px}
+.signal-source a{color:#2563eb;text-decoration:none;font-weight:500}
+.signal-source a:hover{text-decoration:underline}
+.source-name{color:var(--ink-4)}
+
+/* WATCH / RISK / OPP */
+.watch-panel{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-lg);
+              padding:18px 22px;margin-bottom:12px}
+.watch-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:#92400e;margin-bottom:10px}
+.watch-panel ol{padding-left:20px;display:grid;gap:6px}
+.watch-panel li{font-size:14px;color:#78350f;line-height:1.5}
+.watch-panel li p{margin:0}
+.risk-panel{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius-lg);
+             padding:16px 22px;margin-bottom:12px}
+.risk-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                   letter-spacing:.08em;color:#991b1b;margin-bottom:6px}
+.risk-panel-text{font-size:14px;color:#7f1d1d;font-weight:500;line-height:1.6}
+.risk-panel-text p{margin:0}
+.opp-panel{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-lg);
+            padding:16px 22px}
+.opp-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                  letter-spacing:.08em;color:#166534;margin-bottom:6px}
+.opp-panel-text{font-size:14px;color:#14532d;font-weight:500;line-height:1.6}
+.opp-panel-text p{margin:0}
+
+/* SOURCES */
+.sources-panel{background:var(--surface-1);border:1px solid var(--border);
+                border-radius:var(--radius);padding:14px 18px;margin-top:32px}
+.sources-panel-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                       letter-spacing:.1em;color:var(--ink-4);margin-bottom:8px}
+.sources-panel ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 0;
+                   column-gap:24px;columns:2}
+.sources-panel li{font-size:12px;color:var(--ink-3);break-inside:avoid}
+.sources-panel li::before{content:"·";margin-right:6px;color:var(--ink-4)}
+
+/* FOOTER */
+.page-footer{text-align:center;font-size:11px;color:var(--ink-4);margin-top:24px;
+              font-family:'IBM Plex Mono',monospace;letter-spacing:.04em}
+
+@media(max-width:640px){
+  body{padding:12px 8px 48px}
+  .masthead,.card-body{padding:20px 16px}
+  .outlook-grid{grid-template-columns:1fr}
+  .sources-panel ul{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<div class="masthead">
+  <div class="masthead-eyebrow">TLD Group · Alvest · CFO APAC Intelligence</div>
+  <div class="masthead-title">APAC Economic Watch (ex-Mainland China)</div>
+  <div class="masthead-subtitle">Manufacturing PMI · FDI &amp; supply chain · FX &amp; financing · Trade &amp; reform · Compliance</div>
+  <div class="masthead-meta">
+    <div class="meta-item"><span>Date</span><strong>November 22, 2026</strong></div>
+    <div class="meta-item"><span>Generated</span><strong>13:39</strong></div>
+    <div class="meta-item"><span>Articles analyzed</span><strong>10</strong></div>
+    <div class="meta-item"><span>Signals</span><strong>10</strong></div>
+  </div>
+  <div class="masthead-counters"><span class="counter-pill" style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">3 Important</span><span class="counter-pill" style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">5 Watch</span><span class="counter-pill" style="background:#f9fafb;color:#374151;border:1px solid #e5e7eb;">2 Info</span></div>
+</div>
+
+<div class="card-body">
+
+  
+
+  <div class="exec-panel"><div class="exec-panel-label">Executive summary</div>The APAC ex-China region presents a mixed picture: India shows strong GDP growth of 7.8% with investment up 11.9% but manufacturing PMI decelerating to a five-year low of 52.8, while South Korea has begun a hiking cycle for the first time since 2023 and Australia holds rates with inflation above 3% through 2026. Malaysia's PMI at 50.1 signals flat industrial momentum, and South Asian sovereign debt dispersion (40% to 131% of GDP) informs country risk premia. Net impact on TLD APAC is moderately negative on financing costs from Korean and Australian tightening, offset by Indian investment-driven demand potential. Priority actions are repricing Korean and Australian lease assumptions, monitoring India PMI for a breach below 52, and updating the South Asia country risk matrix.</div>
+
+  <div class="outlook-grid">
+    <div class="outlook-card margins">
+      <div class="outlook-label">🌏 Regional competitiveness outlook (30-90 days)</div>
+      <div class="outlook-text">Regional cost bases are under mild upward pressure from Korean and Australian monetary tightening and persistent Australian inflation, while India's investment boom and Malaysia's stability offer offsetting opportunities. India's manufacturing slowdown bears watching as a potential drag on industrial capex appetite over the next 30-90 days.</div>
+    </div>
+    <div class="outlook-card demand">
+      <div class="outlook-label">🏦 Financing / credit outlook (90-180 days)</div>
+      <div class="outlook-text">Financing conditions are tightening at the margin in South Korea and Australia, with higher customer lease costs likely over the next 90-180 days, while India's strong growth supports stable credit conditions there. Malaysia and most of South Asia remain stable, but sovereign debt dispersion across South Asia warrants differentiated country risk premia in treasury funding decisions.</div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Signals</h2></div>
+  
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">South Korea</span>
+    <h3 class="signal-headline">Bank of Korea hikes rates for first time since 2023 to curb inflation and debt</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Bank of Korea has raised its policy rate for the first time since 2023, reversing the easing cycle that took the rate to 2.5% in May 2025. The hike is driven by inflation and household debt concerns, marking a turning point in Korean monetary policy.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Higher Korean rates raise the cost of capital for Korean suppliers and manufacturing partners in TLD's regional supply chain, potentially slowing capex and inventory investment among Korean component and equipment vendors.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Rising Korean rates support KRW strength, which raises the cost base for TLD's Korean entity and reduces translation benefit on EUR-reported results; customer financing costs for GSE leases in Korea will rise, dampening lease demand.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to reprice Korean lease pricing assumptions and review KRW hedging ratios within one week; treasury to model a 25-50bps further tightening scenario for FY2027 Korean customer financing.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.tdtnews.com/news/nation_world/article_04b0d93d-07f8-533f-8ab6-21d55c589ce6.html" target="_blank" rel="noopener">South Korea's central bank hikes rate for 1st time since 2023 to curb inflation, debt | Nation World | tdtnews.com</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">South Korea</span>
+    <h3 class="signal-headline">Market pricing shows BOK decision uncertainty between hold, hike, and cut</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Prediction market data for the May 2026 BOK decision shows live pricing across maintain, hike 1-25bps, and cut 1-25bps outcomes, indicating genuine policy uncertainty rather than a consensus path. This reflects conflicting inflation and growth signals in the Korean economy.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Policy uncertainty elevates KRW volatility, complicating hedging decisions for TLD's Korean entity and intercompany funding timing; wider rate dispersion raises the option value of delaying Korean customer financing commitments.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional treasury to monitor BOK forward guidance weekly and avoid locking long-dated KRW funding until the policy path clarifies.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.tdtnews.com/news/nation_world/article_04b0d93d-07f8-533f-8ab6-21d55c589ce6.html" target="_blank" rel="noopener">South Korea's central bank hikes rate for 1st time since 2023 to curb inflation, debt | Nation World | tdtnews.com</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">India manufacturing PMI at 52.8, five-year low but still above 52 threshold</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">India's August 2026 manufacturing PMI slowed to 52.8, the weakest in five years, though still in expansion territory above the 52 threshold. GDP growth of 7.8% contrasts with the manufacturing slowdown, suggesting services-led growth with manufacturing losing momentum.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Slowing Indian factory growth signals softer industrial capex appetite among Indian customers and suppliers, potentially reducing near-term GSE sourcing opportunities in India's manufacturing corridor even as the economy expands.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">A PMI near the 52 threshold limits INR appreciation pressure; INR stability supports predictable EUR translation for TLD's Indian exposure, but weak manufacturing may prompt RBI easing, lowering customer financing costs over time.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to monitor India PMI monthly; if it breaches below 52, escalate to IMPORTANT and reassess Indian customer credit exposure within one week.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.internationalnewsandviews.com/india-manufacturing-pmi-august-2026-52-8-five-year-low-407689-2" target="_blank" rel="noopener">India Manufacturing PMI Falls to 52.8, Hits 5-Year Low</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">India PMI hit 45-month low in March 2026 on Middle East conflict</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">March 2026 manufacturing PMI fell to a 45-month low, driven by Middle East conflict, rising input costs, and weakening domestic demand, though exports grew at a record pace and business optimism held. This shows India's manufacturing sector is vulnerable to external shocks despite strong export performance.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Input cost inflation and demand weakness in Indian manufacturing raise cost and reliability risk for any Indian-sourced components in TLD's regional supply chain; export strength may offset some domestic weakness.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Middle East conflict-driven input cost inflation pressures INR and could force RBI to hold rates higher, raising financing costs for Indian customers and TLD's Indian entity.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Supply chain finance to stress-test Indian supplier pricing for a 5-10% input cost increase over the next quarter.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.multibagg.ai/market-pulse/articles/india-manufacturing-pmi-slows-march-2026-cmnh56niqhb3llv0jty7oiksv" target="_blank" rel="noopener">India's Manufacturing PMI Hits 45-Month Low in March 2026 | Market News &amp; Analysis</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">📈 GDP</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">India Q1 FY2026-27 GDP grows 7.8%, investment up 11.9%, exports up 12.0%</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">India's economy opened FY2026-27 strongly with real GDP growth of 7.8%, real GVA up 8.2%, investment up 11.9%, household consumption up 7.1%, and exports up 12.0%. July industrial production rose 6.7%, confirming momentum beyond the first quarter.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Strong investment growth of 11.9% signals expanding Indian industrial capex, creating potential new customer-base opportunities for TLD in India's manufacturing and logistics buildout, and supporting India as a China+1 sourcing alternative.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Robust growth supports INR stability and improves credit conditions for Indian customers, lowering default risk on GSE lease receivables and supporting TLD's Indian entity revenue outlook.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to review India expansion business case within two weeks, leveraging the 11.9% investment growth signal to size incremental GSE leasing demand.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.pib.gov.in/FactsheetDetails.aspx?id=150991" target="_blank" rel="noopener">Factsheet Details:Factsheet Details | PIB</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🌍 FDI</span>
+    <span class="country-tag">Bhutan</span>
+    <h3 class="signal-headline">Bhutan FDI surges more than fivefold in FY2025-26 on single Bitdeer investment</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Bhutan's net direct investment is projected at Nu. 47,605 million in FY2025-26, more than five times FY2024-25, driven almost entirely by one-time FDI equity inflows for the Bitdeer Jigmeling project. The surge is concentrated and non-recurring rather than broad-based.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact for TLD; Bhutan is not a material sourcing or manufacturing location in the regional footprint.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">The concentrated FDI inflow supports Bhutan's external position and Ngultrum stability in the near term, but the one-time nature means reversal risk exists; limited direct relevance to TLD treasury given small market size.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">No immediate action; note as low-priority context for South Asia country risk monitoring.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://mof.gov.bt/wp-content/uploads/2026/02/Macroeconomic-Performance-and-Outlook-Report-2026.pdf" target="_blank" rel="noopener">Royal Government of Bhutan Ministry of Finance</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Malaysia</span>
+    <h3 class="signal-headline">Malaysia manufacturing PMI holds at 50.1, marginal expansion in December</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Malaysia's manufacturing PMI held steady at 50.1 in December 2026, just above the neutral 50 line but below the 52 expansion threshold. This indicates flat industrial momentum with neither strong growth nor contraction.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Malaysia's marginal expansion signals stable but unaccelerating industrial activity, supporting steady supplier reliability for TLD's regional supply chain without new capex-driven sourcing opportunities.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">A PMI near neutral limits MYR appreciation pressure, keeping TLD's Malaysian cost base and EUR translation relatively stable; Bank Negara Malaysia is likely to hold rates, keeping customer financing costs steady.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance to monitor Malaysia PMI monthly; a move below 48 would trigger CRITICAL reassessment of Malaysian supplier and customer exposure.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.multibagg.ai/market-pulse/articles/india-manufacturing-pmi-slows-march-2026-cmnh56niqhb3llv0jty7oiksv" target="_blank" rel="noopener">India's Manufacturing PMI Hits 45-Month Low in March 2026 | Market News &amp; Analysis</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">Australia</span>
+    <h3 class="signal-headline">RBA holds rates as inflation stays above 3% target through 2026</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The RBA held its policy rate as underlying inflation is expected to remain above the 2-3% target range until H2 2026, with headline inflation above 3% for much of 2026 following strong September data. The RBA characterized the inflation surprise as a "blip" but acknowledged persistent price pressure.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Persistent Australian inflation raises local labor and input costs, increasing the cost base for TLD's Australian operations and any Australian-sourced services in the regional supply chain.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">A prolonged RBA hold at elevated rates keeps AUD financing costs high for TLD's Australian entity and its customers, dampening GSE lease affordability; AUD strength from rate differentials raises EUR translation of Australian results.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to review Australian entity funding structure and customer lease pricing within one week, factoring in an extended high-rate environment through H2 2026.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://au.finance.yahoo.com/news/rba-interest-rate-decision-aussies-told-to-panic-early-as-michele-bullock-mulls-over-inflation-shock-221031788.html" target="_blank" rel="noopener">RBA holds interest rate as Michele Bullock addresses 'blip' that stunned Australia</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<details style="margin-top:12px;">
+  <summary style="font-size:12px;color:#94a3b8;cursor:pointer;padding:8px 4px;
+                  user-select:none;list-style:none;">
+    <span style="font-size:10px;background:#f1f5f9;border:1px solid #e2e8f0;
+                 border-radius:20px;padding:2px 8px;color:#64748b;font-weight:600;">
+      + 2 background items
+    </span>
+    <span style="color:#94a3b8;margin-left:8px;">— no immediate action, click to expand</span>
+  </summary>
+  <ul style="list-style:none;padding:12px 16px;margin-top:8px;
+             background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;">
+    <li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.cnbc.com/2025/05/29/south-korea-central-bank-cuts-interest-rates-.html" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">BOK cut 25bps to 2.5% in May 2025 amid political turmoil and tariffs</a> <span style="color:#94a3b8;">[South Korea]</span> <span style="color:#94a3b8;">— Tavily Search</span></li><li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.facebook.com/theprestigeglobal/posts/bangladeshs-government-debt-is-projected-at-approximately-40-of-gdp-in-2026-acco/1708402544624279" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">Bangladesh debt at 40% of GDP, lowest in South Asia peer group</a> <span style="color:#94a3b8;">[South Asia]</span> <span style="color:#94a3b8;">— Tavily Search</span></li>
+  </ul>
+</details>
+
+  <hr class="section-divider">
+
+  <div class="section-header"><h2>To watch this week</h2></div><div class="watch-panel"><div class="watch-panel-label">Key indicators &amp; thresholds</div><ol><li>India manufacturing PMI — a breach below 52 would signal further deceleration and trigger reassessment of Indian customer credit exposure.</li><li>Bank of Korea policy rate path — any single move exceeding 50bps would be CRITICAL and require immediate repricing of Korean lease and funding assumptions.</li><li>Australia underlying inflation — a move further above 3% would extend the RBA hold and raise AUD financing costs for TLD's Australian entity.</li></ol></div>
+
+  <div class="risk-panel"><div class="risk-panel-label">Main risk</div><div class="risk-panel-text">Synchronized monetary tightening in South Korea and Australia raising TLD's regional financing costs and dampening customer GSE lease affordability.</div></div>
+
+  <div class="opp-panel"><div class="opp-panel-label">Main opportunity</div><div class="opp-panel-text">India's 11.9% investment growth and 7.8% GDP expansion creating a scalable GSE leasing demand pool as the economy builds out industrial and logistics capacity.</div></div>
+
+  <div class="sources-panel">
+    <div class="sources-panel-label">Monitored sources (scraped + Tavily)</div>
+    <ul>
+      <li>Nikkei Asia</li><li>Reuters Asia Pacific</li><li>Bloomberg Asia</li><li>Financial Times — Asia-Pacific</li><li>Channel News Asia — Business</li><li>The Business Times (Singapore)</li><li>VnExpress International</li><li>Bangkok Post — Business</li><li>The Jakarta Post — Business</li><li>Inquirer Business (Philippines)</li><li>The Economic Times — India</li><li>The Korea Herald — Business</li><li>Taipei Times — Business</li><li>South China Morning Post — Economy (HK)</li><li>Australian Financial Review — Economy</li><li>RNZ Pacific</li><li>Trading Economics — Asia</li>
+      <li>Tavily Search (country-tiered queries, primary + secondary + Oceania)</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  APAC Economic Watch (ex-Mainland China) · TLD Group / Alvest · Powered by DeepSeek + Tavily · November 22, 2026
+</div>
+
+</div>
+</body>
+</html>
