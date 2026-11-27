@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APAC Economic Watch (ex-China) — November 27, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f172a;--ink-2:#334155;--ink-3:#64748b;--ink-4:#94a3b8;
+  --surface:#fff;--surface-1:#f8fafc;--border:#e2e8f0;
+  --radius:8px;--radius-lg:12px;
+}
+body{font-family:'Inter',-apple-system,sans-serif;background:#f0f2f5;
+      color:var(--ink);line-height:1.6;padding:32px 16px 64px}
+.wrapper{max-width:960px;margin:0 auto}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);border-radius:var(--radius-lg) var(--radius-lg) 0 0;padding:28px 36px 24px}
+.masthead-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;
+                   text-transform:uppercase;color:#64748b;margin-bottom:8px}
+.masthead-title{font-size:22px;font-weight:600;letter-spacing:-.02em;color:#fff;margin-bottom:4px}
+.masthead-subtitle{font-size:13px;color:#475569;margin-bottom:12px}
+.masthead-meta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.meta-item{font-size:13px;color:#94a3b8;display:flex;align-items:center;gap:6px}
+.meta-item strong{color:#e2e8f0;font-weight:500}
+.masthead-counters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;
+                    padding-top:16px;border-top:1px solid #1e293b}
+.counter-pill{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;letter-spacing:.02em}
+
+/* CARD BODY */
+.card-body{background:var(--surface);border:1px solid var(--border);border-top:none;
+            border-radius:0 0 var(--radius-lg) var(--radius-lg);padding:36px}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:20px;
+                 padding-bottom:12px;border-bottom:1px solid var(--border)}
+.section-header h2{font-size:13px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:var(--ink-3)}
+.section-divider{margin:36px 0;border:none;border-top:1px solid var(--border)}
+
+/* EXEC SUMMARY */
+.exec-panel{background:var(--ink);border-radius:var(--radius-lg);padding:24px 28px;
+             margin-bottom:24px;color:#e2e8f0;font-size:15px;line-height:1.75}
+.exec-panel-label{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;
+                   text-transform:uppercase;color:#475569;margin-bottom:10px}
+.exec-panel p{margin:0}
+
+/* OUTLOOK PANELS */
+.outlook-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.outlook-card{border-radius:var(--radius);padding:16px 18px;border:1px solid}
+.outlook-card.margins{background:#f0fdf4;border-color:#bbf7d0}
+.outlook-card.demand{background:#eff6ff;border-color:#bfdbfe}
+.outlook-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;
+                margin-bottom:8px}
+.outlook-card.margins .outlook-label{color:#166534}
+.outlook-card.demand .outlook-label{color:#1e40af}
+.outlook-text{font-size:13px;line-height:1.6}
+.outlook-card.margins .outlook-text{color:#14532d}
+.outlook-card.demand .outlook-text{color:#1e3a8a}
+.outlook-text p{margin:0}
+
+/* SIGNAL CARDS */
+.signal-card{border:1px solid var(--border);border-radius:var(--radius-lg);
+              margin-bottom:16px;overflow:hidden;transition:box-shadow .15s}
+.signal-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.signal-card-header{padding:14px 20px;background:var(--surface-1);
+                     display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.signal-badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;
+               white-space:nowrap;letter-spacing:.03em;margin-top:2px;flex-shrink:0}
+.indicator-tag{font-size:11px;font-weight:500;color:var(--ink-3);
+                background:#f1f5f9;padding:3px 8px;border-radius:6px;
+                white-space:nowrap;margin-top:2px;flex-shrink:0}
+.country-tag{font-size:11px;font-weight:600;color:#1e40af;
+             background:#eff6ff;padding:3px 8px;border-radius:6px;
+             white-space:nowrap;margin-top:2px;flex-shrink:0}
+.signal-headline{font-size:15px;font-weight:600;color:var(--ink);line-height:1.4;flex:1}
+.signal-headline p{margin:0}
+.signal-body{padding:20px;display:grid;gap:14px}
+.signal-section-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                        letter-spacing:.1em;color:var(--ink-4);margin-bottom:4px}
+.signal-section-text{font-size:14px;color:var(--ink-2);line-height:1.65}
+.signal-section-text p{margin:0}
+.signal-action .signal-section-text{color:var(--ink);font-weight:500}
+.signal-source{padding-top:10px;border-top:1px dashed var(--border);font-size:12px;
+                color:var(--ink-4);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.source-label{font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+               font-size:10px;color:var(--ink-4);margin-right:4px}
+.signal-source a{color:#2563eb;text-decoration:none;font-weight:500}
+.signal-source a:hover{text-decoration:underline}
+.source-name{color:var(--ink-4)}
+
+/* WATCH / RISK / OPP */
+.watch-panel{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-lg);
+              padding:18px 22px;margin-bottom:12px}
+.watch-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                    letter-spacing:.08em;color:#92400e;margin-bottom:10px}
+.watch-panel ol{padding-left:20px;display:grid;gap:6px}
+.watch-panel li{font-size:14px;color:#78350f;line-height:1.5}
+.watch-panel li p{margin:0}
+.risk-panel{background:#fef2f2;border:1px solid #fecaca;border-radius:var(--radius-lg);
+             padding:16px 22px;margin-bottom:12px}
+.risk-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                   letter-spacing:.08em;color:#991b1b;margin-bottom:6px}
+.risk-panel-text{font-size:14px;color:#7f1d1d;font-weight:500;line-height:1.6}
+.risk-panel-text p{margin:0}
+.opp-panel{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-lg);
+            padding:16px 22px}
+.opp-panel-label{font-size:11px;font-weight:600;text-transform:uppercase;
+                  letter-spacing:.08em;color:#166534;margin-bottom:6px}
+.opp-panel-text{font-size:14px;color:#14532d;font-weight:500;line-height:1.6}
+.opp-panel-text p{margin:0}
+
+/* SOURCES */
+.sources-panel{background:var(--surface-1);border:1px solid var(--border);
+                border-radius:var(--radius);padding:14px 18px;margin-top:32px}
+.sources-panel-label{font-size:10px;font-weight:600;text-transform:uppercase;
+                       letter-spacing:.1em;color:var(--ink-4);margin-bottom:8px}
+.sources-panel ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 0;
+                   column-gap:24px;columns:2}
+.sources-panel li{font-size:12px;color:var(--ink-3);break-inside:avoid}
+.sources-panel li::before{content:"·";margin-right:6px;color:var(--ink-4)}
+
+/* FOOTER */
+.page-footer{text-align:center;font-size:11px;color:var(--ink-4);margin-top:24px;
+              font-family:'IBM Plex Mono',monospace;letter-spacing:.04em}
+
+@media(max-width:640px){
+  body{padding:12px 8px 48px}
+  .masthead,.card-body{padding:20px 16px}
+  .outlook-grid{grid-template-columns:1fr}
+  .sources-panel ul{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<div class="masthead">
+  <div class="masthead-eyebrow">TLD Group · Alvest · CFO APAC Intelligence</div>
+  <div class="masthead-title">APAC Economic Watch (ex-Mainland China)</div>
+  <div class="masthead-subtitle">Manufacturing PMI · FDI &amp; supply chain · FX &amp; financing · Trade &amp; reform · Compliance</div>
+  <div class="masthead-meta">
+    <div class="meta-item"><span>Date</span><strong>November 27, 2026</strong></div>
+    <div class="meta-item"><span>Generated</span><strong>15:38</strong></div>
+    <div class="meta-item"><span>Articles analyzed</span><strong>14</strong></div>
+    <div class="meta-item"><span>Signals</span><strong>12</strong></div>
+  </div>
+  <div class="masthead-counters"><span class="counter-pill" style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">2 Critical</span><span class="counter-pill" style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">5 Important</span><span class="counter-pill" style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">4 Watch</span><span class="counter-pill" style="background:#f9fafb;color:#374151;border:1px solid #e5e7eb;">1 Info</span></div>
+</div>
+
+<div class="card-body">
+
+  
+
+  <div class="exec-panel"><div class="exec-panel-label">Executive summary</div>The APAC ex-China picture is bifurcated: Japan (PMI 53.7) and Indonesia (PMI 52.4 to 54, GDP 5.47%, lending +12.7%) are expanding firmly, while South Korea's manufacturing growth is easing and the Bank of Korea has hiked to 3.25%, a move above the 50bps threshold that raises financing costs for TLD's Korean entity and customers. The Philippines is the clear weak spot, with H1 2026 net FDI inflows down 17.8% YoY to $3.382 billion, breaching the 15% threshold and pointing to tighter local credit and peso downside. India's liberalized ECB rules offer TLD a cheaper funding channel into its Indian operations, and Vietnam's China+1 momentum sustains sourcing and customer opportunities. A fresh US tariff blitz is fragmenting the regional trade landscape and forcing bilateral deal-making, adding country-specific tariff and FX risk. Priority actions are the Korean lease repricing and Philippine funding stress-test, both within 48 hours.</div>
+
+  <div class="outlook-grid">
+    <div class="outlook-card margins">
+      <div class="outlook-label">🌏 Regional competitiveness outlook (30-90 days)</div>
+      <div class="outlook-text">Regional cost-base outlook is mixed but net neutral-to-positive over the next 30-90 days, with strong Japanese and Indonesian industrial activity and Vietnam's China+1 inflows offsetting softer Korean momentum and Philippine weakness. Tariff fragmentation will raise customs and compliance complexity across the footprint, favoring markets with concluded bilateral deals.</div>
+    </div>
+    <div class="outlook-card demand">
+      <div class="outlook-label">🏦 Financing / credit outlook (90-180 days)</div>
+      <div class="outlook-text">Regional financing conditions are tightening at the margin over the next 90-180 days, led by Korea's 3.25% policy rate and reduced Philippine foreign funding, while Indonesia holds steady at 5.75% and India's ECB liberalization lowers group funding costs into India. Expect higher customer financing costs in Korea and the Philippines and stable-to-improving conditions in Indonesia and India.</div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2>Signals</h2></div>
+  
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">🌐 TRADE</span>
+    <span class="country-tag">Regional</span>
+    <h3 class="signal-headline">Fresh US tariff blitz forces Asian nations into accelerated bilateral trade negotiations</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">A new round of US tariff measures is pushing Asian economies to fast-track trade deals with Washington, with middle and smaller powers such as Singapore seen as having limited negotiating leverage compared with China. The dynamic points to a more fragmented, deal-by-deal tariff landscape across TLD's APAC footprint rather than a rules-based multilateral regime.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Tariff uncertainty raises the risk of cost and customs disruption on any cross-border component or equipment flows routed through or sourced from affected Asian markets, and may accelerate China+1 relocation decisions into Vietnam, Indonesia, and India. TLD should expect country-specific tariff treatment rather than uniform regional rules.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Bilateral deal outcomes will drive idiosyncratic FX and country-risk repricing across the region, complicating treasury's exposure management and intercompany pricing. Markets with weak leverage may face sharper currency volatility and higher hedging costs.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to commission a country-by-country tariff exposure map for TLD's APAC entities and cross-border flows within two weeks, and flag any market where a bilateral deal is imminent.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.businesstimes.com.sg/international/middle-and-smaller-powers-have-limited-leverage-against-trumps-tariffs-expert" target="_blank" rel="noopener">Middle and smaller powers have ‘limited leverage’ against Trump’s tariffs: Expert</a><span class="source-name"> — The Business Times (Singapore)</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Japan</span>
+    <h3 class="signal-headline">Japan manufacturing PMI 53.7 in November, holding firmly above 52 expansion threshold</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Japan's manufacturing PMI rose to 53.7 in November from 53.3 prior and beat the 53.5 forecast, confirming sustained industrial expansion. The reading sits comfortably above the 52 threshold that signals healthy expansionary momentum.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Strong Japanese industrial activity supports supplier reliability and capex appetite among Japanese manufacturing customers and partners in TLD's regional supply chain. No adverse sourcing impact expected.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Firm activity supports the yen outlook and reduces downside risk on TLD's Japan entity results translated into EUR. Customer financing conditions in Japan remain stable.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">No immediate action; retain Japan in the standard monitoring cycle and reassess if PMI falls back below 52.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2823126.aspx" target="_blank" rel="noopener">Prompt Manufacturing Index (PMI) - BI Quarter III 2026 Manufacturing Industry Performance Increasing</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">South Korea</span>
+    <h3 class="signal-headline">South Korea manufacturing PMI growth eases; employment falls for first time in four months</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">South Korea's manufacturing sector stayed in expansion in October 2026 but at a markedly softer pace, with output growth the weakest of the year, easing new orders, and the first employment decline in four months. Material shortages are also causing further supplier delays.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Material shortages and supplier delays in South Korea could ripple into TLD's regional component sourcing and lengthen lead times. Weakening new orders suggest softer Korean customer capex appetite ahead.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Slowing momentum may soften the won and weigh on Korean customer financing capacity, though the concurrent rate hike (see Signal 4) tightens conditions further.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance team to monitor Korean supplier lead times and customer payment behaviour weekly; escalate if PMI slips toward 50.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.pmi.spglobal.com/Public/Home/PressRelease/fbc6377f33554eeca9c3863f1475c0f4" target="_blank" rel="noopener">S&amp;P Global South Korea Manufacturing PMI</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-critical">
+  <div class="signal-card-header" style="border-left:4px solid #dc2626;">
+    <span class="signal-badge"
+          style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">
+      Critical
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">South Korea</span>
+    <h3 class="signal-headline">ALERT — Bank of Korea hikes policy rate to 3.25%, a move exceeding the 50bps threshold</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">The Bank of Korea raised its benchmark rate to 3.25% at its final 2026 policy meeting, a tightening step that breaches the 50bps single-decision threshold. The hike reflects persistent inflation pressure despite softening manufacturing momentum.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact, though higher rates raise the cost of working capital and inventory financing across Korean operations.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Higher Korean rates directly increase financing costs for TLD's Korean entity and for customers financing GSE leases or purchases in won, compressing lease economics and potentially slowing deal conversion. The rate differential may support the won, partially offsetting translation risk on EUR-reported results.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to reprice Korean lease and financing assumptions within 48 hours and review any won-denominated customer financing pipelines for margin impact.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.facebook.com/arirangtvnews/videos/s-koreas-central-bank-hikes-interest-rate-to-325-at-final-policy-meeting-of-2026/1465451828358813" target="_blank" rel="noopener">Arirang News on Facebook: "S. Korea's central bank hikes interest rate to 3.25% at final policy meeting of 2026"</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">🔧 REFORM</span>
+    <span class="country-tag">India</span>
+    <h3 class="signal-headline">RBI liberalizes external commercial borrowing rules for foreign direct lending to Indian entities</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">India's investment climate report notes the RBI significantly liberalized rules for external commercial borrowing (ECB) direct lending to Indian entities by foreign institutions, effective February 16. The environment otherwise balances FDI openness with economic nationalism.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Easier ECB access supports India's role as a China+1 manufacturing destination, potentially expanding TLD's Indian customer base and local sourcing options. No adverse supply chain effect.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Liberalized ECB rules give TLD a cheaper, more flexible channel to fund its Indian operations and customer financing directly from group treasury rather than local borrowing, reducing cost and FX friction.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury to assess structuring intercompany or direct ECB lending into the Indian entity under the new rules within 30 days, coordinating with local tax and legal advisors.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.state.gov/reports/2026-investment-climate-statements/india" target="_blank" rel="noopener">India - United States Department of State</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">📊 PMI</span>
+    <span class="country-tag">Indonesia</span>
+    <h3 class="signal-headline">Indonesia manufacturing PMI rebounds to 52.4 in September and 54 in October, breaching 52 threshold</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Indonesia's S&amp;P Global manufacturing PMI jumped to 52.4 in September from 49.8 in August, then reached 54 in October 2026, driven by export growth. Bank Indonesia's own PMI-BI rose to 52.28% in Q3 from 51.43%, confirming broad-based expansion.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Expanding Indonesian manufacturing strengthens the case for Indonesia as a China+1 sourcing and customer market, with rising export-driven industrial activity supporting capex appetite. TLD should evaluate local supplier and customer expansion.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Strong activity and 12.7% bank lending growth (investment loans up 19.3%) signal healthy credit demand and improving customer financing capacity in rupiah.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance team to review Indonesian customer pipeline and local lending partnerships within two weeks to capture expansion-driven demand.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://business-indonesia.org/news/indonesia-s-manufacturing-pmi-rebounds-to-52-4-in-september-supported-by-export-growth" target="_blank" rel="noopener">Indonesia’s Manufacturing PMI Rebounds to 52.4 in September, Supported by Export Growth</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-important">
+  <div class="signal-card-header" style="border-left:4px solid #d97706;">
+    <span class="signal-badge"
+          style="background:#fffbeb;color:#92400e;border:1px solid #fde68a;">
+      Important
+    </span>
+    <span class="indicator-tag">📈 GDP</span>
+    <span class="country-tag">Indonesia</span>
+    <h3 class="signal-headline">Indonesia Q3 2026 GDP grows 5.47% with inflation at 3.23% and lending up 12.7%</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Indonesia's economy expanded 5.47% in Q3 2026, with inflation contained at 3.23% and bank lending up 12.7%, while the government targets an ambitious 8% growth path via stimulus. Real and monetary indicators remain in expansion.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Robust, low-inflation growth supports a stable operating environment for TLD's Indonesian footprint and supplier base, with investment loan growth of 19.3% pointing to rising industrial capex.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Contained inflation and strong credit growth create a supportive backdrop for rupiah financing and customer lease affordability, though the 8% target may invite looser policy and future rupiah pressure.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">No immediate action; incorporate Indonesia into the positive-growth cohort in the next regional forecast update.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://observerid.com/government-steps-up-stimulus-and-business-role-to-drive-8-economic-growth" target="_blank" rel="noopener">Indonesia Economy Grows 5.47% in Q3 2026, Targets 8% Growth</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🏦 MONETARY</span>
+    <span class="country-tag">Indonesia</span>
+    <h3 class="signal-headline">Bank Indonesia holds BI-Rate at 5.75% while expanding rupiah stability measures</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Bank Indonesia kept its benchmark at 5.75%, with the deposit facility at 4.75% and lending facility at 6.50%, while introducing new incentives to attract foreign portfolio inflows. The hold signals a bias toward rupiah stability over further easing.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">A steady 5.75% policy rate keeps rupiah financing costs elevated but predictable for TLD's Indonesian entity and customers, while inflow incentives should support the rupiah and reduce FX translation risk.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Monitor rupiah stability and any shift in BI's inflow incentives; no immediate action required.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://business-indonesia.org/news/bank-indonesia-holds-benchmark-rate-at-5-75-while-expanding-measures-to-support-rupiah-stability-and-economic-growth" target="_blank" rel="noopener">Bank Indonesia Holds Benchmark Rate at 5.75% While Expanding Measures to Support Rupiah Stability and Economic Growth</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-critical">
+  <div class="signal-card-header" style="border-left:4px solid #dc2626;">
+    <span class="signal-badge"
+          style="background:#fef2f2;color:#991b1b;border:1px solid #fecaca;">
+      Critical
+    </span>
+    <span class="indicator-tag">🌍 FDI</span>
+    <span class="country-tag">Philippines</span>
+    <h3 class="signal-headline">ALERT — Philippines H1 2026 net FDI inflows fall 17.8% YoY, breaching the 15% threshold</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">BSP data show net FDI inflows of $3.382 billion in H1 2026, down 17.8% from $4.116 billion a year earlier, driven by lower intercompany borrowings and lower reinvested earnings. The decline breaches the 15% YoY FDI swing threshold for a primary-tier country.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Weaker real FDI inflows signal reduced foreign industrial investment and a softer customer capex environment in the Philippines, limiting new sourcing or manufacturing footprint opportunities.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Lower intercompany borrowings point to reduced foreign funding availability, which may tighten local credit conditions and raise financing costs for TLD's Philippine entity and customers, with peso downside risk.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">CFO APAC to review Philippine entity funding plan and customer credit exposure within 48 hours, and stress-test peso depreciation scenarios on EUR-reported results.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://kelmer.com/philippines-foreign-investment-2026-why-pledges-and-real-inflows-diverge" target="_blank" rel="noopener">Philippines Foreign Investment 2026: Pledges vs Real Inflows</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">🔗 SUPPLY_CHAIN</span>
+    <span class="country-tag">Vietnam</span>
+    <h3 class="signal-headline">Vietnam cements China+1 hub role as Chinese investment grows rapidly</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">Vietnam continues to serve as a key destination for multinational China+1 supply chain diversification, while China remains its largest import source and overall trade partner as of 2025, with Chinese investment in Vietnam growing rapidly. Vietnam balances between the US and China without formal alignment.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">Continued China+1 relocation into Vietnam expands potential sourcing and customer opportunities for TLD, but growing Chinese investment concentration adds geopolitical and tariff-exposure complexity to the Vietnamese supply chain.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Sustained FDI inflows support the dong and local credit conditions, a mild positive for TLD's Vietnamese entity financing and customer base.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Regional finance team to map Vietnam-based China+1 customers and suppliers for potential expansion of TLD's commercial and sourcing footprint over the next quarter.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://www.belfercenter.org/research-analysis/balancing-without-allying-vietnams-middle-power-strategy-amid-us-china-rivalry" target="_blank" rel="noopener">Balancing Without Allying: Vietnam’s Middle-Power Strategy Amid U.S. - China Rivalry | The Belfer Center for Science and International Affairs</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<div class="signal-card impact-watch">
+  <div class="signal-card-header" style="border-left:4px solid #0369a1;">
+    <span class="signal-badge"
+          style="background:#f0f9ff;color:#0c4a6e;border:1px solid #bae6fd;">
+      Watch
+    </span>
+    <span class="indicator-tag">💱 FX</span>
+    <span class="country-tag">Hong Kong</span>
+    <h3 class="signal-headline">Debate over re-pegging the Hong Kong dollar raises tail risk to the USD peg</h3>
+  </div>
+  <div class="signal-body">
+    <div class="signal-section">
+      <div class="signal-section-label">Reading</div>
+      <div class="signal-section-text">An academic analysis argues that a Hong Kong dollar re-peg would be a sudden, surprise event akin to Switzerland's 2015 un-pegging, warning that anticipated moves could trigger speculative pressure that breaks the peg prematurely. The piece frames this as a looming challenge to US financial power.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Supply chain impact</div>
+      <div class="signal-section-text">No direct supply chain impact.</div>
+    </div>
+    
+    <div class="signal-section">
+      <div class="signal-section-label">Financing / FX impact</div>
+      <div class="signal-section-text">Any credible re-peg speculation would sharply raise HKD volatility and disrupt TLD's Hong Kong entity FX exposure, intercompany funding, and treasury hedging assumptions tied to the USD peg. The scenario is low-probability but high-impact for regional treasury.</div>
+    </div>
+    <div class="signal-section signal-action">
+      <div class="signal-section-label">Recommended action</div>
+      <div class="signal-section-text">Treasury to add an HKD peg-break scenario to the regional FX risk register and confirm contingency hedging capacity within 30 days; no immediate trading action.</div>
+    </div>
+    <div class="signal-source"><span class="source-label">Source</span><a href="https://twq.elliott.gwu.edu/files/2026/03/Sinclair_TWQ_49_1.pdf" target="_blank" rel="noopener">Re-pegging the Hong Kong Dollar: The Looming Challenge to US Financial Power</a><span class="source-name"> — Tavily Search</span></div>
+  </div>
+</div>
+<details style="margin-top:12px;">
+  <summary style="font-size:12px;color:#94a3b8;cursor:pointer;padding:8px 4px;
+                  user-select:none;list-style:none;">
+    <span style="font-size:10px;background:#f1f5f9;border:1px solid #e2e8f0;
+                 border-radius:20px;padding:2px 8px;color:#64748b;font-weight:600;">
+      + 1 background item
+    </span>
+    <span style="color:#94a3b8;margin-left:8px;">— no immediate action, click to expand</span>
+  </summary>
+  <ul style="list-style:none;padding:12px 16px;margin-top:8px;
+             background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;">
+    <li style="font-size:13px;color:#64748b;padding:3px 0;"><a href="https://www.scmp.com/economy/policy/article/3375920/could-eu-delisting-chinese-firm-pave-way-wider-sanctions-relief" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;">EU delisting of Chinese firm hints at possible wider sanctions relief</a> <span style="color:#94a3b8;">[Regional]</span> <span style="color:#94a3b8;">— South China Morning Post — Economy (HK)</span></li>
+  </ul>
+</details>
+
+  <hr class="section-divider">
+
+  <div class="section-header"><h2>To watch this week</h2></div><div class="watch-panel"><div class="watch-panel-label">Key indicators &amp; thresholds</div><ol><li>South Korea manufacturing PMI — escalate if it falls below 50, confirming a shift from easing growth to contraction.</li><li>Philippines net FDI inflows and peso — flag any further YoY decline beyond 15% or peso move greater than 3% vs USD in 30 days.</li><li>US bilateral tariff deal announcements with Asian economies — flag any concluded deal that changes tariff treatment on TLD's cross-border equipment or component flows.</li></ol></div>
+
+  <div class="risk-panel"><div class="risk-panel-label">Main risk</div><div class="risk-panel-text">Fragmented US tariff actions and tightening Korean and Philippine financing conditions could simultaneously raise TLD's regional cost base and compress customer lease affordability.</div></div>
+
+  <div class="opp-panel"><div class="opp-panel-label">Main opportunity</div><div class="opp-panel-text">India's liberalized ECB lending rules combined with Indonesia's and Vietnam's expansion offer TLD cheaper group funding and a growing China+1 customer and sourcing base.</div></div>
+
+  <div class="sources-panel">
+    <div class="sources-panel-label">Monitored sources (scraped + Tavily)</div>
+    <ul>
+      <li>Nikkei Asia</li><li>Reuters Asia Pacific</li><li>Bloomberg Asia</li><li>Financial Times — Asia-Pacific</li><li>Channel News Asia — Business</li><li>The Business Times (Singapore)</li><li>VnExpress International</li><li>Bangkok Post — Business</li><li>The Jakarta Post — Business</li><li>Inquirer Business (Philippines)</li><li>The Economic Times — India</li><li>The Korea Herald — Business</li><li>Taipei Times — Business</li><li>South China Morning Post — Economy (HK)</li><li>Australian Financial Review — Economy</li><li>RNZ Pacific</li><li>Trading Economics — Asia</li>
+      <li>Tavily Search (country-tiered queries, primary + secondary + Oceania)</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  APAC Economic Watch (ex-Mainland China) · TLD Group / Alvest · Powered by DeepSeek + Tavily · November 27, 2026
+</div>
+
+</div>
+</body>
+</html>
